@@ -19,7 +19,7 @@ const features = [
   {
     icon: '🔍',
     title: 'Semantic Search',
-    desc: 'Search across 2M+ study materials using AI. Find related content by meaning, not just keywords.',
+    desc: 'Search our massive study library using AI. Find related content by meaning, not just keywords.',
   },
   {
     icon: '📝',
@@ -71,7 +71,7 @@ export default function Home() {
 
           <p className="text-xl text-dark-400 max-w-2xl mx-auto mb-10">
             Upload any document. Get instant flashcards. Study with real spaced repetition.
-            Search across millions of study materials. No ads, no paywalls, ever.
+            AI-powered learning that actually works. No ads, no paywalls, ever.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
@@ -79,7 +79,7 @@ export default function Home() {
               Start Studying Free
             </Link>
             <Link href="/search" className="btn-secondary text-lg px-8 py-4 w-full sm:w-auto">
-              Search 2M+ Materials
+              Search Study Materials
             </Link>
           </div>
 

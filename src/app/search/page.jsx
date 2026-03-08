@@ -36,7 +36,7 @@ export default function SearchPage() {
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold text-white mb-2">Search Study Materials</h1>
         <p className="text-dark-400">
-          Semantic AI search across 2M+ study materials. Find content by meaning, not just keywords.
+          AI-powered semantic search. Find study content by meaning, not just keywords.
         </p>
       </div>
 
