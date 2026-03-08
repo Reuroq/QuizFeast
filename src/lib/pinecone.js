@@ -1,7 +1,11 @@
 import { Pinecone } from '@pinecone-database/pinecone';
 import OpenAI from 'openai';
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+let _openai;
+function getOpenAI() {
+  if (!_openai) _openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+  return _openai;
+}
 
 let pineconeIndex = null;
 
@@ -15,7 +19,7 @@ function getIndex() {
 
 export async function getEmbedding(text) {
   const truncated = text.length > 8000 ? text.slice(0, 8000) : text;
-  const response = await openai.embeddings.create({
+  const response = await getOpenAI().embeddings.create({
     model: 'text-embedding-3-small',
     input: truncated,
   });

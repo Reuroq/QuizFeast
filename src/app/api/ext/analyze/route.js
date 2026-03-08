@@ -3,7 +3,11 @@ import { searchPinecone, getEmbedding, upsertVectors } from '@/lib/pinecone';
 import OpenAI from 'openai';
 import crypto from 'crypto';
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+let _openai;
+function getOpenAI() {
+  if (!_openai) _openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+  return _openai;
+}
 
 export async function OPTIONS() {
   return new NextResponse(null, { status: 204 });
@@ -58,7 +62,7 @@ ${optionsText}
 Which option is most likely correct? Respond with ONLY a JSON object:
 {"answer": <number 1-${options.length}>, "confidence": "high"|"medium"|"low", "reason": "<brief reason>"}`;
 
-    const response = await openai.chat.completions.create({
+    const response = await getOpenAI().chat.completions.create({
       model: 'gpt-4o-mini',
       max_tokens: 200,
       messages: [{ role: 'user', content: prompt }],

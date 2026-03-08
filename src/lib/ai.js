@@ -1,9 +1,13 @@
 import OpenAI from 'openai';
 
-const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+let _openai;
+function getOpenAI() {
+  if (!_openai) _openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+  return _openai;
+}
 
 export async function generateQuestionsFromText(text, count = 10) {
-  const response = await openai.chat.completions.create({
+  const response = await getOpenAI().chat.completions.create({
     model: 'gpt-4o-mini',
     messages: [
       {
@@ -32,7 +36,7 @@ export async function generateQuestionsFromText(text, count = 10) {
 }
 
 export async function explainAnswer(question, correctAnswer, userAnswer) {
-  const response = await openai.chat.completions.create({
+  const response = await getOpenAI().chat.completions.create({
     model: 'gpt-4o-mini',
     messages: [
       {
@@ -52,7 +56,7 @@ export async function explainAnswer(question, correctAnswer, userAnswer) {
 }
 
 export async function smartCheckAnswer(question, correctAnswer, userAnswer) {
-  const response = await openai.chat.completions.create({
+  const response = await getOpenAI().chat.completions.create({
     model: 'gpt-4o-mini',
     messages: [
       {
@@ -72,7 +76,7 @@ export async function smartCheckAnswer(question, correctAnswer, userAnswer) {
 }
 
 export async function generateDistractors(question, correctAnswer, count = 3) {
-  const response = await openai.chat.completions.create({
+  const response = await getOpenAI().chat.completions.create({
     model: 'gpt-4o-mini',
     messages: [
       {
