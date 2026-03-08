@@ -18,11 +18,12 @@ export async function POST(request) {
     if (filename.endsWith('.txt')) {
       text = buffer.toString('utf-8');
     } else if (filename.endsWith('.docx')) {
-      const mammoth = (await import('mammoth')).default;
+      // Use mammoth for docx
+      const mammoth = require('mammoth');
       const result = await mammoth.extractRawText({ buffer });
       text = result.value;
     } else if (filename.endsWith('.pdf')) {
-      const pdfParse = (await import('pdf-parse')).default;
+      const pdfParse = require('pdf-parse');
       const data = await pdfParse(buffer);
       text = data.text;
     } else {
