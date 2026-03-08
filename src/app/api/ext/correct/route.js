@@ -107,11 +107,11 @@ CORRECT_ANSWER: the answer text (or "none" if not verified)`,
       metadata: {
         text: originalQuestion.slice(0, 500),
         answer: newAnswer,
-        previous_answer: flipped ? wrongAnswer : (existingMetadata.previous_answer || null),
+        previous_answer: flipped ? wrongAnswer : (existingMetadata.previous_answer || ''),
         wrong_votes: wrongVotes,
         suggested_answer: correctAnswer,
         source: flipped ? 'quizfeast_voted_correction' : (existingMetadata.source || 'quizfeast_extension'),
-        flipped: flipped,
+        flipped: String(flipped),
         last_vote: new Date().toISOString(),
       },
     }]);
