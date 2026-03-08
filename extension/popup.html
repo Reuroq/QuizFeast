@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      width: 320px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #1a1a2e;
+      color: #fff;
+    }
+
+    .header {
+      padding: 15px;
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      text-align: center;
+    }
+
+    .header h1 { font-size: 16px; font-weight: 600; }
+    .header p { font-size: 11px; opacity: 0.8; margin-top: 3px; }
+
+    .content { padding: 15px; }
+
+    .section { margin-bottom: 15px; }
+
+    .section-title {
+      font-size: 12px;
+      font-weight: 600;
+      color: #10b981;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-bottom: 8px;
+    }
+
+    .btn-primary { background: #10b981; color: white; }
+    .btn-primary:hover { background: #059669; }
+
+    .btn-success { background: #10b981; color: white; }
+    .btn-success:hover { background: #059669; }
+
+    .btn-danger { background: #ef4444; color: white; }
+    .btn-danger:hover { background: #dc2626; }
+
+    .btn-secondary { background: #2d2d44; color: #fff; }
+    .btn-secondary:hover { background: #3d3d5c; }
+
+    .input-group { margin-bottom: 10px; }
+
+    .input-group label {
+      display: block;
+      font-size: 12px;
+      color: #a0a0b0;
+      margin-bottom: 5px;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #3d3d5c;
+      border-radius: 6px;
+      background: #2d2d44;
+      color: #fff;
+      font-size: 13px;
+    }
+
+    .input-group input:focus {
+      outline: none;
+      border-color: #10b981;
+    }
+
+    .checkbox-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .checkbox-group input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+    }
+
+    .checkbox-group label {
+      font-size: 13px;
+      color: #a0a0b0;
+      cursor: pointer;
+    }
+
+    .status {
+      padding: 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .status-success { background: rgba(16, 185, 129, 0.2); color: #10b981; }
+    .status-error { background: rgba(239, 68, 68, 0.2); color: #ef4444; }
+    .status-info { background: rgba(102, 126, 234, 0.2); color: #667eea; }
+    .status-warning { background: rgba(245, 158, 11, 0.2); color: #f59e0b; }
+
+    .tabs {
+      display: flex;
+      border-bottom: 1px solid #3d3d5c;
+      margin-bottom: 15px;
+    }
+
+    .tab {
+      flex: 1;
+      padding: 10px;
+      text-align: center;
+      cursor: pointer;
+      font-size: 13px;
+      color: #a0a0b0;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+    }
+
+    .tab:hover { color: #fff; }
+    .tab.active { color: #10b981; border-bottom-color: #10b981; }
+
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    .note {
+      font-size: 11px;
+      color: #666;
+      margin-top: 5px;
+      padding: 8px;
+      background: #2d2d44;
+      border-radius: 4px;
+    }
+
+    .footer {
+      padding: 10px 15px;
+      border-top: 1px solid #3d3d5c;
+      text-align: center;
+      font-size: 10px;
+      color: #666;
+    }
+
+    .shortcut-badge {
+      display: inline-block;
+      padding: 2px 6px;
+      background: #2d2d44;
+      border-radius: 4px;
+      font-size: 11px;
+      color: #10b981;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>QuizFeast</h1>
+    <p>AI-powered quiz assistant</p>
+  </div>
+
+  <div class="content">
+    <div class="tabs">
+      <div class="tab active" data-tab="main">Main</div>
+      <div class="tab" data-tab="settings">Settings</div>
+    </div>
+
+    <!-- Main Tab -->
+    <div id="tab-main" class="tab-content active">
+      <div id="status" class="status status-info">Ready - Navigate to a quiz page</div>
+
+      <div class="section">
+        <button id="btn-scan" class="btn btn-secondary">Scan Current Page</button>
+        <button id="btn-answer" class="btn btn-primary">Answer Current Question</button>
+        <button id="btn-auto" class="btn btn-success">Start Full Auto Mode</button>
+      </div>
+
+      <div class="note">
+        <strong>Shortcut:</strong> Press <span class="shortcut-badge">Alt+S</span> to snap a screenshot and get an instant answer on any page.
+      </div>
+    </div>
+
+    <!-- Settings Tab -->
+    <div id="tab-settings" class="tab-content">
+      <div class="section">
+        <div class="section-title">Server</div>
+
+        <div class="input-group">
+          <label>QuizFeast Server URL</label>
+          <input type="text" id="server-url" placeholder="https://quizfeast.onrender.com">
+        </div>
+
+        <div class="note">
+          All AI processing happens on the QuizFeast server. No API keys needed.
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Behavior</div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="auto-submit" checked>
+          <label for="auto-submit">Auto-submit after selecting answer</label>
+        </div>
+
+        <div class="input-group">
+          <label>Delay between actions (ms)</label>
+          <input type="number" id="delay-ms" value="1000" min="500" max="5000">
+        </div>
+      </div>
+
+      <button id="btn-save" class="btn btn-primary">Save Settings</button>
+    </div>
+  </div>
+
+  <div class="footer">
+    Powered by QuizFeast | 2.2M+ cached answers
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

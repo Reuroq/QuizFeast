@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.env
+.env.local
+.env*.local
+quizfeast-extension.zip
+*.log
+.DS_Store
