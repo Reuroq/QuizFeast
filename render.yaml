@@ -3,7 +3,7 @@ services:
     name: quizfeast
     runtime: node
     buildCommand: npm install && npm run build
-    startCommand: npm start
+    startCommand: node .next/standalone/server.js
     envVars:
       - key: OPENAI_API_KEY
         sync: false
