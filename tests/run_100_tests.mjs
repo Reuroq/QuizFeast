@@ -63,7 +63,7 @@ async function pageTests() {
 
   await test(4, 'Landing page has comparison table', async () => {
     const r = await fetchPage('/');
-    assert(r.html.includes('Quizlet') || r.html.includes('comparison'), 'Missing comparison');
+    assert(r.html.includes('The Rest') || r.html.includes('comparison'), 'Missing comparison');
   });
 
   await test(5, 'Dashboard page loads (200)', async () => {

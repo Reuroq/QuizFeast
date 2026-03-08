@@ -100,7 +100,7 @@ export default function Dashboard() {
       {showImport && (
         <div className="card mb-6 animate-fade-in">
           <h3 className="text-sm font-semibold text-white mb-2">Import Study Set</h3>
-          <p className="text-xs text-dark-500 mb-3">Paste a QuizFeast JSON export, or a Quizlet-style tab/newline format</p>
+          <p className="text-xs text-dark-500 mb-3">Paste a QuizFeast JSON export, or a tab/newline format</p>
           <textarea
             className="input-field h-32 text-sm font-mono"
             value={importText}

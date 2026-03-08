@@ -9,7 +9,7 @@ const features = [
   {
     icon: '🎯',
     title: 'Smart Answer Checking',
-    desc: 'Unlike Quizlet\'s rigid matching, our AI understands synonyms, rephrasings, and equivalent answers. "Father Christmas" = "Santa Claus".',
+    desc: 'No more rigid matching. Our AI understands synonyms, rephrasings, and equivalent answers. "Father Christmas" = "Santa Claus".',
   },
   {
     icon: '📊',
@@ -35,13 +35,13 @@ const features = [
 
 const comparisons = [
   { feature: 'All study modes', us: true, them: 'Paywalled' },
-  { feature: 'AI question generation', us: true, them: '$35.99/yr' },
+  { feature: 'AI question generation', us: true, them: 'Paid' },
   { feature: 'Spaced repetition', us: true, them: false },
   { feature: 'Smart answer matching', us: true, them: false },
   { feature: 'Document upload', us: true, them: false },
-  { feature: 'AI explanations', us: true, them: '$35.99/yr' },
-  { feature: 'Ad-free', us: true, them: '$35.99/yr' },
-  { feature: 'Export your data', us: true, them: 'Removed' },
+  { feature: 'AI explanations', us: true, them: 'Paid' },
+  { feature: 'Ad-free', us: true, them: 'Paid' },
+  { feature: 'Export your data', us: true, them: false },
   { feature: 'Semantic search', us: true, them: false },
 ];
 
@@ -114,7 +114,7 @@ export default function Home() {
             <span className="gradient-text">tired of the BS</span>
           </h2>
           <p className="text-lg text-dark-400">
-            Quizlet put everything behind a paywall. We put everything in your hands.
+            Other apps put features behind paywalls. We put everything in your hands.
           </p>
         </div>
 
@@ -136,7 +136,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              QuizFeast vs Quizlet
+              QuizFeast vs The Rest
             </h2>
             <p className="text-dark-400">See what you&apos;re actually getting</p>
           </div>
@@ -145,7 +145,7 @@ export default function Home() {
             <div className="grid grid-cols-3 bg-dark-800 px-6 py-4 border-b border-dark-700">
               <div className="text-sm font-semibold text-dark-400">Feature</div>
               <div className="text-sm font-semibold text-brand-400 text-center">QuizFeast</div>
-              <div className="text-sm font-semibold text-dark-500 text-center">Quizlet</div>
+              <div className="text-sm font-semibold text-dark-500 text-center">Others</div>
             </div>
             {comparisons.map((row, i) => (
               <div key={i} className={`grid grid-cols-3 px-6 py-4 ${i % 2 === 0 ? 'bg-dark-900/50' : ''} border-b border-dark-800/50`}>
