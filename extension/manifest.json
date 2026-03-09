@@ -43,6 +43,14 @@
         "mac": "Alt+S"
       },
       "description": "Take snapshot and get answer"
+    },
+    "toggle-ghost": {
+      "suggested_key": {
+        "default": "Alt+G",
+        "windows": "Alt+G",
+        "mac": "Alt+G"
+      },
+      "description": "Toggle ghost mode"
     }
   }
 }

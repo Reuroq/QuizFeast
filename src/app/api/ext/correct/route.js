@@ -4,7 +4,7 @@ import { getEmbedding, upsertVectors } from '@/lib/pinecone';
 import { Pinecone } from '@pinecone-database/pinecone';
 import crypto from 'crypto';
 
-const VOTE_THRESHOLD = 3;
+const VOTE_THRESHOLD = 30;
 
 export async function OPTIONS() {
   return new NextResponse(null, { status: 204 });

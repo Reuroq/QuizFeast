@@ -243,9 +243,19 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 // Keyboard shortcut
 chrome.commands.onCommand.addListener(async (command) => {
+  if (command === 'toggle-ghost') {
+    const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+    if (!tab) return;
+    chrome.tabs.sendMessage(tab.id, { action: 'toggleGhost' });
+    return;
+  }
+
   if (command === 'take-snapshot') {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
     if (!tab) return;
+
+    // Show processing state immediately (ignore if content script not ready)
+    chrome.tabs.sendMessage(tab.id, { action: 'snapshotProcessing' }).catch(() => {});
 
     chrome.tabs.captureVisibleTab(tab.windowId, { format: 'png' }, async (imageData) => {
       if (chrome.runtime.lastError) {

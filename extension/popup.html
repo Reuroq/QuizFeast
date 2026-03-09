@@ -6,58 +6,211 @@
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
-      width: 320px;
+      width: 340px;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       background: #1a1a2e;
       color: #fff;
     }
 
+    /* ===== HEADER ===== */
     .header {
-      padding: 15px;
+      padding: 16px 18px;
       background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .header-logo {
+      width: 32px;
+      height: 32px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .header-logo svg {
+      width: 20px;
+      height: 20px;
+      fill: white;
+    }
+
+    .header-text h1 {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+
+    .header-text p {
+      font-size: 11px;
+      opacity: 0.8;
+      margin-top: 1px;
+    }
+
+    /* ===== TABS ===== */
+    .content { padding: 0; }
+
+    .tabs {
+      display: flex;
+      padding: 0 16px;
+      background: #16162b;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .tab {
+      flex: 1;
+      padding: 12px 0;
       text-align: center;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      color: #666;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
     }
 
-    .header h1 { font-size: 16px; font-weight: 600; }
-    .header p { font-size: 11px; opacity: 0.8; margin-top: 3px; }
-
-    .content { padding: 15px; }
-
-    .section { margin-bottom: 15px; }
-
-    .section-title {
-      font-size: 12px;
-      font-weight: 600;
-      color: #10b981;
-      margin-bottom: 8px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
+    .tab svg {
+      width: 14px;
+      height: 14px;
+      fill: currentColor;
     }
 
+    .tab:hover { color: #a0a0b0; }
+    .tab.active { color: #10b981; border-bottom-color: #10b981; }
+
+    .tab-content { display: none; padding: 16px; }
+    .tab-content.active { display: block; }
+
+    /* ===== BUTTONS ===== */
     .btn {
       width: 100%;
-      padding: 12px;
+      padding: 12px 14px;
       border: none;
-      border-radius: 8px;
+      border-radius: 10px;
       font-size: 13px;
       font-weight: 500;
       cursor: pointer;
       transition: all 0.2s;
       margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-family: inherit;
     }
 
-    .btn-primary { background: #10b981; color: white; }
-    .btn-primary:hover { background: #059669; }
+    .btn:hover { transform: translateY(-1px); }
+    .btn:active { transform: translateY(0); }
 
-    .btn-success { background: #10b981; color: white; }
-    .btn-success:hover { background: #059669; }
+    .btn svg {
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+    }
 
-    .btn-danger { background: #ef4444; color: white; }
-    .btn-danger:hover { background: #dc2626; }
+    .btn-primary {
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      color: white;
+      font-weight: 600;
+    }
+    .btn-primary:hover {
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    }
 
-    .btn-secondary { background: #2d2d44; color: #fff; }
+    .btn-success {
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      color: white;
+      font-weight: 600;
+    }
+    .btn-success:hover {
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    }
+
+    .btn-danger {
+      background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);
+      color: white;
+      font-weight: 600;
+    }
+    .btn-danger:hover {
+      box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+    }
+
+    .btn-secondary {
+      background: #2d2d44;
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
     .btn-secondary:hover { background: #3d3d5c; }
 
+    .btn-ghost {
+      background: rgba(99, 102, 241, 0.1);
+      color: #818cf8;
+      border: 1px solid rgba(99, 102, 241, 0.15);
+    }
+    .btn-ghost:hover {
+      background: rgba(99, 102, 241, 0.2);
+    }
+    .btn-ghost.active {
+      background: rgba(99, 102, 241, 0.25);
+      border-color: #818cf8;
+    }
+
+    /* ===== STATUS ===== */
+    .status {
+      padding: 10px 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .status svg {
+      width: 14px;
+      height: 14px;
+      fill: currentColor;
+      flex-shrink: 0;
+    }
+
+    .status-success { background: rgba(16, 185, 129, 0.15); color: #34d399; }
+    .status-error { background: rgba(239, 68, 68, 0.15); color: #f87171; }
+    .status-info { background: rgba(99, 102, 241, 0.15); color: #818cf8; }
+    .status-warning { background: rgba(245, 158, 11, 0.15); color: #fbbf24; }
+
+    /* Spinner */
+    .spinner {
+      width: 14px;
+      height: 14px;
+      border: 2px solid transparent;
+      border-top-color: currentColor;
+      border-right-color: currentColor;
+      border-radius: 50%;
+      animation: spin 0.6s linear infinite;
+      flex-shrink: 0;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ===== SECTIONS ===== */
+    .section { margin-bottom: 14px; }
+
+    .section-title {
+      font-size: 11px;
+      font-weight: 600;
+      color: #10b981;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* ===== INPUTS ===== */
     .input-group { margin-bottom: 10px; }
 
     .input-group label {
@@ -69,126 +222,191 @@
 
     .input-group input {
       width: 100%;
-      padding: 10px;
+      padding: 10px 12px;
       border: 1px solid #3d3d5c;
-      border-radius: 6px;
+      border-radius: 8px;
       background: #2d2d44;
       color: #fff;
       font-size: 13px;
+      font-family: inherit;
+      transition: border-color 0.2s;
     }
 
     .input-group input:focus {
       outline: none;
       border-color: #10b981;
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
     }
 
     .checkbox-group {
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 10px;
       margin-bottom: 10px;
+      padding: 10px 12px;
+      background: #2d2d44;
+      border-radius: 8px;
     }
 
     .checkbox-group input[type="checkbox"] {
       width: 18px;
       height: 18px;
       cursor: pointer;
+      accent-color: #10b981;
     }
 
     .checkbox-group label {
       font-size: 13px;
-      color: #a0a0b0;
+      color: #c0c0d0;
       cursor: pointer;
     }
 
-    .status {
-      padding: 10px;
-      border-radius: 6px;
-      font-size: 12px;
+    /* ===== SHORTCUT BADGE ===== */
+    .shortcut-card {
+      padding: 12px;
+      background: rgba(99, 102, 241, 0.1);
+      border: 1px solid rgba(99, 102, 241, 0.15);
+      border-radius: 10px;
       text-align: center;
-      margin-bottom: 10px;
+      margin-top: 12px;
     }
 
-    .status-success { background: rgba(16, 185, 129, 0.2); color: #10b981; }
-    .status-error { background: rgba(239, 68, 68, 0.2); color: #ef4444; }
-    .status-info { background: rgba(102, 126, 234, 0.2); color: #667eea; }
-    .status-warning { background: rgba(245, 158, 11, 0.2); color: #f59e0b; }
-
-    .tabs {
-      display: flex;
-      border-bottom: 1px solid #3d3d5c;
-      margin-bottom: 15px;
-    }
-
-    .tab {
-      flex: 1;
-      padding: 10px;
-      text-align: center;
-      cursor: pointer;
-      font-size: 13px;
-      color: #a0a0b0;
-      border-bottom: 2px solid transparent;
-      transition: all 0.2s;
-    }
-
-    .tab:hover { color: #fff; }
-    .tab.active { color: #10b981; border-bottom-color: #10b981; }
-
-    .tab-content { display: none; }
-    .tab-content.active { display: block; }
-
-    .note {
+    .shortcut-card .label {
       font-size: 11px;
-      color: #666;
-      margin-top: 5px;
-      padding: 8px;
-      background: #2d2d44;
-      border-radius: 4px;
-    }
-
-    .footer {
-      padding: 10px 15px;
-      border-top: 1px solid #3d3d5c;
-      text-align: center;
-      font-size: 10px;
-      color: #666;
+      color: #818cf8;
+      margin-bottom: 6px;
     }
 
     .shortcut-badge {
       display: inline-block;
-      padding: 2px 6px;
-      background: #2d2d44;
-      border-radius: 4px;
+      padding: 4px 10px;
+      background: rgba(99, 102, 241, 0.2);
+      border-radius: 6px;
+      font-size: 13px;
+      color: #a5b4fc;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    /* ===== NOTE ===== */
+    .note {
       font-size: 11px;
-      color: #10b981;
-      font-weight: 600;
+      color: #666;
+      margin-top: 8px;
+      padding: 10px 12px;
+      background: #2d2d44;
+      border-radius: 8px;
+      line-height: 1.5;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      padding: 10px 16px;
+      border-top: 1px solid rgba(255,255,255,0.05);
+      text-align: center;
+      font-size: 10px;
+      color: #444;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+    }
+
+    .footer svg {
+      width: 10px;
+      height: 10px;
+      fill: #444;
+    }
+
+    /* ===== BRAIN NEURON ANIMATION ===== */
+    .brain-icon .neuron {
+      opacity: 0.3;
+      animation: neuron-fire 2s ease-in-out infinite;
+    }
+    .brain-icon .neuron.n1 { animation-delay: 0s; }
+    .brain-icon .neuron.n2 { animation-delay: 0.3s; }
+    .brain-icon .neuron.n3 { animation-delay: 0.6s; }
+    .brain-icon .neuron.n4 { animation-delay: 0.9s; }
+    .brain-icon .neuron.n5 { animation-delay: 1.2s; }
+    .brain-icon .neuron.n6 { animation-delay: 0.15s; }
+
+    @keyframes neuron-fire {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 1; }
+    }
+
+    /* ===== DIVIDER ===== */
+    .divider {
+      height: 1px;
+      background: rgba(255,255,255,0.05);
+      margin: 12px 0;
     }
   </style>
 </head>
 <body>
   <div class="header">
-    <h1>QuizFeast</h1>
-    <p>AI-powered quiz assistant</p>
+    <div class="header-logo">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="brain-icon">
+        <path d="M12 2C9.5 2 7.5 3.2 6.3 5c-1.5.3-2.8 1.2-3.5 2.5C2.3 8.3 2 9.1 2 10c0 1.2.5 2.3 1.3 3.1-.2.6-.3 1.2-.3 1.9 0 2.2 1.3 4 3.2 4.8.5 1.8 2 3.2 4 3.2 1.1 0 1.8-.5 1.8-.5s.7.5 1.8.5c2 0 3.5-1.4 4-3.2 1.9-.8 3.2-2.6 3.2-4.8 0-.7-.1-1.3-.3-1.9.8-.8 1.3-1.9 1.3-3.1 0-.9-.3-1.7-.8-2.5-.7-1.3-2-2.2-3.5-2.5C16.5 3.2 14.5 2 12 2z" fill="white" opacity="0.9"/>
+        <path d="M12 4c0 2-1 3.5-1 5.5S12 13 12 15s-1 3.5-1 4.5" stroke="rgba(0,0,0,0.2)" stroke-width="0.8" fill="none"/>
+        <circle class="neuron n1" cx="6" cy="8" r="1.2" fill="#fbbf24"/>
+        <circle class="neuron n2" cx="14" cy="7" r="1" fill="#34d399"/>
+        <circle class="neuron n3" cx="10" cy="11" r="1.1" fill="#818cf8"/>
+        <circle class="neuron n4" cx="17" cy="10" r="0.9" fill="#f472b6"/>
+        <circle class="neuron n5" cx="7" cy="13" r="1" fill="#fbbf24"/>
+        <circle class="neuron n6" cx="13" cy="15" r="1.1" fill="#34d399"/>
+      </svg>
+    </div>
+    <div class="header-text">
+      <h1>QuizFeast</h1>
+      <p>AI-powered quiz assistant</p>
+    </div>
   </div>
 
   <div class="content">
     <div class="tabs">
-      <div class="tab active" data-tab="main">Main</div>
-      <div class="tab" data-tab="settings">Settings</div>
+      <div class="tab active" data-tab="main">
+        <svg viewBox="0 0 24 24"><path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"/></svg>
+        Main
+      </div>
+      <div class="tab" data-tab="settings">
+        <svg viewBox="0 0 24 24"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.07.62-.07.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
+        Settings
+      </div>
     </div>
 
     <!-- Main Tab -->
     <div id="tab-main" class="tab-content active">
-      <div id="status" class="status status-info">Ready - Navigate to a quiz page</div>
-
-      <div class="section">
-        <button id="btn-scan" class="btn btn-secondary">Scan Current Page</button>
-        <button id="btn-answer" class="btn btn-primary">Answer Current Question</button>
-        <button id="btn-auto" class="btn btn-success">Start Full Auto Mode</button>
+      <div id="status" class="status status-info">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+        Ready — Navigate to a quiz page
       </div>
 
-      <div class="note">
-        <strong>Shortcut:</strong> Press <span class="shortcut-badge">Alt+S</span> to snap a screenshot and get an instant answer on any page.
+      <div class="section">
+        <button id="btn-scan" class="btn btn-secondary">
+          <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+          Scan Current Page
+        </button>
+        <button id="btn-answer" class="btn btn-primary">
+          <svg viewBox="0 0 24 24"><path d="M12 2L9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2z"/></svg>
+          Answer Current Question
+        </button>
+        <button id="btn-auto" class="btn btn-success">
+          <svg viewBox="0 0 24 24"><path d="M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"/></svg>
+          Start Full Auto Mode
+        </button>
+
+        <div class="divider"></div>
+
+        <button id="btn-ghost" class="btn btn-ghost">
+          <svg viewBox="0 0 24 24"><path d="M12 2C7.58 2 4 5.58 4 10v10.5c0 .83.67 1.5 1.5 1.5s1.08-.39 1.35-.88l.65-1.12.65 1.12c.27.49.81.88 1.35.88s1.08-.39 1.35-.88L11.5 20l.65 1.12c.27.49.81.88 1.35.88s1.08-.39 1.35-.88l.65-1.12.65 1.12c.27.49.81.88 1.35.88s1.5-.67 1.5-1.5V10c0-4.42-3.58-8-8-8zm-2 11c-.83 0-1.5-.67-1.5-1.5S9.17 10 10 10s1.5.67 1.5 1.5S10.83 13 10 13zm4 0c-.83 0-1.5-.67-1.5-1.5S13.17 10 14 10s1.5.67 1.5 1.5S14.83 13 14 13z"/></svg>
+          Ghost Mode
+        </button>
+      </div>
+
+      <div class="shortcut-card">
+        <div class="label">Screenshot shortcut</div>
+        <span class="shortcut-badge">Alt + S</span>
       </div>
     </div>
 
@@ -221,11 +439,15 @@
         </div>
       </div>
 
-      <button id="btn-save" class="btn btn-primary">Save Settings</button>
+      <button id="btn-save" class="btn btn-primary">
+        <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/></svg>
+        Save Settings
+      </button>
     </div>
   </div>
 
   <div class="footer">
+    <svg viewBox="0 0 24 24" width="10" height="10"><path d="M12 2C9.5 2 7.5 3.2 6.3 5c-1.5.3-2.8 1.2-3.5 2.5C2.3 8.3 2 9.1 2 10c0 1.2.5 2.3 1.3 3.1-.2.6-.3 1.2-.3 1.9 0 2.2 1.3 4 3.2 4.8.5 1.8 2 3.2 4 3.2 1.1 0 1.8-.5 1.8-.5s.7.5 1.8.5c2 0 3.5-1.4 4-3.2 1.9-.8 3.2-2.6 3.2-4.8 0-.7-.1-1.3-.3-1.9.8-.8 1.3-1.9 1.3-3.1 0-.9-.3-1.7-.8-2.5-.7-1.3-2-2.2-3.5-2.5C16.5 3.2 14.5 2 12 2z" fill="#444"/></svg>
     Powered by QuizFeast
   </div>
 
