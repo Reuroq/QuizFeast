@@ -1,10 +1,16 @@
 import { NextResponse } from 'next/server';
-import Anthropic from '@anthropic-ai/sdk';
+import OpenAI from 'openai';
 import { getEmbedding, upsertVectors } from '@/lib/pinecone';
 import { Pinecone } from '@pinecone-database/pinecone';
 import crypto from 'crypto';
 
 const VOTE_THRESHOLD = 30;
+
+let _openai;
+function getOpenAI() {
+  if (!_openai) _openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+  return _openai;
+}
 
 export async function OPTIONS() {
   return new NextResponse(null, { status: 204 });
@@ -19,20 +25,22 @@ export async function POST(request) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
     }
 
-    const base64Image = image.replace(/^data:image\/\w+;base64,/, '');
+    // Ensure proper data URL format
+    const imageUrl = image.startsWith('data:')
+      ? image
+      : `data:image/png;base64,${image}`;
 
-    // Step 1: Verify with Claude Vision that the screenshot shows incorrect feedback
-    const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
-
-    const verifyResponse = await anthropic.messages.create({
-      model: 'claude-sonnet-4-20250514',
+    // Step 1: Verify with GPT-4o-mini Vision that the screenshot shows incorrect feedback
+    const verifyResponse = await getOpenAI().chat.completions.create({
+      model: 'gpt-4o-mini',
       max_tokens: 200,
+      temperature: 0,
       messages: [{
         role: 'user',
         content: [
           {
-            type: 'image',
-            source: { type: 'base64', media_type: 'image/png', data: base64Image },
+            type: 'image_url',
+            image_url: { url: imageUrl, detail: 'high' },
           },
           {
             type: 'text',
@@ -49,7 +57,7 @@ CORRECT_ANSWER: the answer text (or "none" if not verified)`,
       }],
     });
 
-    const aiText = verifyResponse.content[0].text.trim();
+    const aiText = verifyResponse.choices[0].message.content.trim();
     const verifiedMatch = aiText.match(/VERIFIED:\s*(yes|no)/i);
     const answerMatch = aiText.match(/CORRECT_ANSWER:\s*(.+)/i);
 
