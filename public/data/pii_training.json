@@ -1,0 +1,167 @@
+{
+  "category": "PII Training",
+  "description": "Personally Identifiable Information (PII) training covering PII definitions, PHI, breach reporting, safeguarding, encryption, disposal, Privacy Act of 1974, HIPAA overlap, and social engineering threats. Based on DoDI 5400.11.",
+  "icon": "shield-lock",
+  "questions": [
+    {
+      "q": "What is Personally Identifiable Information (PII)?",
+      "a": "PII is any information that can be used to distinguish or trace an individual's identity, either alone or when combined with other information that is linked or linkable to a specific individual."
+    },
+    {
+      "q": "What DoD Instruction governs the protection of PII within the Department of Defense?",
+      "a": "DoDI 5400.11, DoD Privacy and Civil Liberties Programs, establishes policy for the protection of PII within the DoD."
+    },
+    {
+      "q": "What is the difference between PII and Protected Health Information (PHI)?",
+      "a": "PII is any information identifying an individual. PHI is a subset of PII specifically related to health information — including medical records, treatment history, and health plan data — protected under HIPAA."
+    },
+    {
+      "q": "Give three examples of stand-alone PII that can identify someone without additional context.",
+      "a": "Social Security Number (SSN), passport number, and biometric data (fingerprints, facial recognition) are examples of stand-alone PII that can directly identify an individual."
+    },
+    {
+      "q": "What is 'linked' versus 'linkable' PII?",
+      "a": "Linked PII is already associated with a specific person (e.g., SSN in a personnel file). Linkable PII is information that could identify someone when combined with other data (e.g., zip code + date of birth + gender)."
+    },
+    {
+      "q": "What federal law requires agencies to safeguard records containing PII and gives individuals the right to access and amend their records?",
+      "a": "The Privacy Act of 1974 (5 U.S.C. 552a) requires federal agencies to safeguard PII in systems of records and grants individuals rights to access, amend, and control disclosure of their records."
+    },
+    {
+      "q": "What is a System of Records Notice (SORN)?",
+      "a": "A SORN is a public notice published in the Federal Register describing a system of records — a group of records under agency control from which information is retrieved by a personal identifier. It describes what PII is collected, why, and how it is safeguarded."
+    },
+    {
+      "q": "What must you do if you discover a potential PII breach?",
+      "a": "Report the breach immediately to your organization's Privacy Officer and the US-CERT (within 1 hour for DoD). Do not attempt to investigate or contain the breach on your own before reporting."
+    },
+    {
+      "q": "What is the DoD reporting timeline for a suspected PII breach to US-CERT?",
+      "a": "DoD requires reporting of suspected or confirmed PII breaches to US-CERT within 1 hour of discovery, regardless of the number of records affected."
+    },
+    {
+      "q": "What encryption standard does DoD require for PII stored on mobile devices and removable media?",
+      "a": "DoD requires FIPS 140-2 (or current FIPS 140-3) validated encryption for PII stored on mobile devices, laptops, and removable media such as USB drives."
+    },
+    {
+      "q": "How should paper documents containing PII be disposed of?",
+      "a": "Paper documents containing PII must be destroyed by cross-cut shredding, pulping, or burning. Simply placing them in a trash or recycling bin is a violation."
+    },
+    {
+      "q": "How should electronic media containing PII be disposed of when no longer needed?",
+      "a": "Electronic media must be sanitized according to NIST SP 800-88 guidelines — through clearing, purging, or physical destruction — depending on the sensitivity level of the PII."
+    },
+    {
+      "q": "What is a Privacy Impact Assessment (PIA)?",
+      "a": "A PIA is an analysis of how PII is collected, stored, shared, and protected in an information system. It is required by the E-Government Act of 2002 before deploying systems that collect PII."
+    },
+    {
+      "q": "What is the 'minimum necessary' rule regarding PII?",
+      "a": "The minimum necessary rule states that only the minimum amount of PII required to accomplish the authorized purpose should be collected, used, or disclosed — no more."
+    },
+    {
+      "q": "What is social engineering in the context of PII threats?",
+      "a": "Social engineering is the manipulation of people into divulging confidential information. Attackers use deception — such as pretexting, phishing, or impersonation — to trick individuals into revealing PII."
+    },
+    {
+      "q": "What is pretexting and how does it threaten PII?",
+      "a": "Pretexting is creating a fabricated scenario (pretext) to persuade a victim to release PII. For example, an attacker may pose as IT support and ask for login credentials to 'fix an issue.'"
+    },
+    {
+      "q": "How does phishing target PII?",
+      "a": "Phishing uses fraudulent emails, texts, or websites that mimic legitimate organizations to trick recipients into providing PII such as SSNs, passwords, or financial information."
+    },
+    {
+      "q": "What is spear phishing and why is it more dangerous than regular phishing?",
+      "a": "Spear phishing targets a specific individual using personalized information (name, unit, position) to appear credible. It is more dangerous because the tailored approach has a higher success rate than generic phishing."
+    },
+    {
+      "q": "What are 'tailgating' and 'shoulder surfing' in the context of PII protection?",
+      "a": "Tailgating is following an authorized person through a secured door without proper credentials. Shoulder surfing is observing someone's screen or keyboard to capture PII. Both are physical social engineering tactics."
+    },
+    {
+      "q": "What role does HIPAA play in DoD PII protection?",
+      "a": "HIPAA (Health Insurance Portability and Accountability Act) protects PHI in military healthcare. DoD military treatment facilities and TRICARE must comply with HIPAA's Privacy and Security Rules for health-related PII."
+    },
+    {
+      "q": "What are the HIPAA Privacy Rule's key requirements for PHI?",
+      "a": "The HIPAA Privacy Rule requires covered entities to limit PHI use and disclosure, provide individuals access to their records, implement administrative safeguards, and notify individuals of breaches affecting their PHI."
+    },
+    {
+      "q": "Can a supervisor access a service member's medical records without consent?",
+      "a": "Generally no. Medical records are PHI protected under HIPAA. Access requires the member's authorization or a specific exception such as fitness-for-duty determinations, public health reporting, or command-directed evaluations."
+    },
+    {
+      "q": "What is the penalty for willful unauthorized disclosure of PII under the Privacy Act?",
+      "a": "The Privacy Act provides for criminal penalties of up to $5,000 in fines for willful unauthorized disclosure of PII from a system of records, or for maintaining a system without publishing the required SORN."
+    },
+    {
+      "q": "What are common indicators that an email may be a phishing attempt targeting PII?",
+      "a": "Indicators include urgent/threatening language, requests for personal information, mismatched URLs, generic greetings, poor grammar, unexpected attachments, and sender addresses that don't match the claimed organization."
+    },
+    {
+      "q": "What is 'PII confidentiality impact level' and what are the three levels?",
+      "a": "PII confidentiality impact level rates the potential harm from unauthorized disclosure: Low (limited adverse effect), Moderate (serious adverse effect), and High (severe or catastrophic adverse effect) on the individual."
+    },
+    {
+      "q": "Give examples of PII that would be rated 'High' confidentiality impact.",
+      "a": "SSN combined with name, biometric data, financial account numbers with access codes, medical records, and law enforcement records are typically rated High due to potential for identity theft, discrimination, or physical harm."
+    },
+    {
+      "q": "What safeguards should be used when emailing PII?",
+      "a": "Encrypt the email or attachment, use digitally signed emails when possible, double-check recipient addresses, include only the minimum necessary PII, mark the email appropriately (FOUO/CUI), and avoid putting PII in the subject line."
+    },
+    {
+      "q": "What is Controlled Unclassified Information (CUI) and how does it relate to PII?",
+      "a": "CUI is unclassified information that requires safeguarding per law, regulation, or policy. PII is a common category of CUI. CUI markings and handling procedures under 32 CFR Part 2002 apply to documents containing PII."
+    },
+    {
+      "q": "What should you do if you receive a misdirected email containing someone else's PII?",
+      "a": "Notify the sender immediately, do not forward the email to anyone else, delete all copies from your system (including trash/sent folders), and report the incident to your Privacy Officer."
+    },
+    {
+      "q": "What is the DoD Breach Response Plan requirement?",
+      "a": "Each DoD component must have a breach response plan that includes procedures for detecting, reporting, investigating, and mitigating PII breaches, as well as notifying affected individuals when appropriate."
+    },
+    {
+      "q": "When must individuals be notified of a PII breach?",
+      "a": "Individuals must be notified when a breach of PII creates a risk of harm — such as identity theft, financial loss, or embarrassment — unless law enforcement or national security concerns require a delay."
+    },
+    {
+      "q": "What is the role of the Component Senior Official for Privacy (CSOP)?",
+      "a": "The CSOP oversees the DoD component's privacy program, ensures compliance with the Privacy Act and DoDI 5400.11, manages PIAs and SORNs, and leads breach response efforts."
+    },
+    {
+      "q": "How does the Freedom of Information Act (FOIA) interact with PII protections?",
+      "a": "FOIA requires disclosure of government records upon request, but Exemption 6 protects PII when disclosure would constitute a clearly unwarranted invasion of personal privacy. Agencies must balance public interest against privacy."
+    },
+    {
+      "q": "What are 'Privacy Act Statements' and when are they required?",
+      "a": "Privacy Act Statements must be provided whenever an individual is asked to furnish PII for a system of records. They explain the authority for collection, purpose, routine uses, and whether providing the information is mandatory or voluntary."
+    },
+    {
+      "q": "What is 'data masking' and when should it be used for PII?",
+      "a": "Data masking replaces PII with fictional but realistic data for use in testing, training, or analytics. It should be used whenever live PII is not required, reducing breach risk in non-production environments."
+    },
+    {
+      "q": "What physical safeguards protect PII in an office environment?",
+      "a": "Physical safeguards include locking file cabinets, using privacy screens on monitors, implementing clean desk policies, securing printed documents, controlling visitor access, and properly disposing of PII materials."
+    },
+    {
+      "q": "What is the 'two-person integrity' rule for handling sensitive PII?",
+      "a": "Two-person integrity requires that two authorized individuals be present when accessing or handling highly sensitive PII to reduce the risk of unauthorized access, theft, or misuse."
+    },
+    {
+      "q": "How should PII be handled when teleworking?",
+      "a": "Use only government-approved devices and VPN, encrypt all PII, lock screens when stepping away, secure printed materials, avoid public Wi-Fi, and follow your organization's telework security agreement."
+    },
+    {
+      "q": "What is the difference between a PII 'incident' and a PII 'breach'?",
+      "a": "A PII incident is any event that potentially compromises PII (e.g., lost laptop). A PII breach is a confirmed incident where PII was actually accessed, used, or disclosed without authorization. All breaches are incidents, but not all incidents become breaches."
+    },
+    {
+      "q": "What should a PII breach notification letter to affected individuals include?",
+      "a": "It should include a description of the breach, types of PII involved, steps taken to mitigate harm, recommended protective actions (credit monitoring, fraud alerts), and contact information for questions."
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "category": "Controlled Unclassified Information",
+  "description": "CUI training covering categories, marking requirements, safeguarding, dissemination controls, the CUI registry, destruction methods, differences from classified information, NARA's role, and 32 CFR Part 2002. Based on DoDI 5200.48.",
+  "icon": "file-lock",
+  "questions": [
+    {
+      "q": "What is Controlled Unclassified Information (CUI)?",
+      "a": "CUI is information the government creates or possesses, or that an entity creates or possesses for or on behalf of the government, that a law, regulation, or government-wide policy requires or permits an agency to handle using safeguarding or dissemination controls. It is NOT classified but still requires protection."
+    },
+    {
+      "q": "What DoD Instruction governs CUI within the Department of Defense?",
+      "a": "DoDI 5200.48, Controlled Unclassified Information (CUI). It implements the CUI program within the DoD, establishes policy for identifying, marking, safeguarding, and disseminating CUI, and assigns responsibilities for compliance."
+    },
+    {
+      "q": "What federal regulation establishes the government-wide CUI program?",
+      "a": "32 CFR Part 2002, Controlled Unclassified Information. This regulation, issued by the National Archives and Records Administration (NARA), implements Executive Order 13556 and establishes the uniform program for managing CUI across the executive branch."
+    },
+    {
+      "q": "What is the role of NARA in the CUI program?",
+      "a": "The National Archives and Records Administration (NARA) serves as the CUI Executive Agent (EA) for the federal government. NARA establishes and maintains the CUI Registry, develops policy and guidance, resolves disputes, approves CUI categories, and monitors agency implementation of the CUI program."
+    },
+    {
+      "q": "What is the CUI Registry?",
+      "a": "The CUI Registry is the government-wide online repository maintained by NARA that lists all approved CUI categories and subcategories, the authorizing laws/regulations/policies for each, applicable markings, and handling requirements. It is the authoritative source for determining what information qualifies as CUI. Found at www.archives.gov/cui."
+    },
+    {
+      "q": "What are the two types of CUI categories?",
+      "a": "CUI Basic and CUI Specified. CUI Basic requires the standard set of safeguarding and dissemination controls per 32 CFR Part 2002. CUI Specified requires additional controls beyond the basic level, as prescribed by the authorizing law, regulation, or government-wide policy (e.g., HIPAA for health information, or export control laws for technical data)."
+    },
+    {
+      "q": "How is CUI different from classified information?",
+      "a": "Classified information (Confidential, Secret, Top Secret) is protected under Executive Order 13526 and requires a security clearance for access. CUI is unclassified information that requires safeguarding but does NOT require a security clearance. CUI is protected by specific laws or regulations, not by classification authority. Unauthorized disclosure of CUI does not carry the same penalties as classified spillage."
+    },
+    {
+      "q": "What are the required markings for a CUI document?",
+      "a": "CUI documents must include: (1) the CUI banner marking at the top and bottom of each page ('CUI' or 'CONTROLLED'), (2) a CUI designation indicator identifying the specific category (e.g., CUI//SP-PRVCY for privacy), (3) the controlling office and contact information, (4) dissemination controls if applicable, and (5) a decontrol indicator when CUI status no longer applies."
+    },
+    {
+      "q": "What does the CUI banner marking 'CUI//SP-' indicate?",
+      "a": "The 'SP-' prefix indicates CUI Specified. The category abbreviation following SP- identifies which specific CUI Specified category applies (e.g., CUI//SP-PRVCY for privacy information, CUI//SP-EXPT for export-controlled technical data). CUI Specified information has handling requirements beyond the standard CUI Basic controls."
+    },
+    {
+      "q": "Who can designate information as CUI?",
+      "a": "Only authorized holders — government employees or contractors acting on behalf of the government — who have a lawful government purpose and are familiar with the CUI categories can designate information as CUI. The designation must be based on a specific authorizing law, regulation, or government-wide policy listed in the CUI Registry."
+    },
+    {
+      "q": "How must CUI be transmitted via email?",
+      "a": "CUI must be transmitted via encrypted email. Within the DoD, this typically means using digitally signed and encrypted email (S/MIME or PKI encryption). Sending CUI over unencrypted email is prohibited. The email subject line should include the CUI marking, and the body should contain appropriate CUI markings."
+    },
+    {
+      "q": "What are acceptable methods for destroying CUI?",
+      "a": "CUI in paper form must be destroyed by shredding (cross-cut shredder meeting DoDM 5200.01 standards), burning, pulping, or disintegrating. CUI on electronic media must be destroyed using methods that prevent reconstruction, such as degaussing, physical destruction, or sanitization per NIST SP 800-88 guidelines. Simply deleting files or placing paper in a regular trash bin is NOT acceptable."
+    },
+    {
+      "q": "True or False: CUI can be stored on a personally owned mobile device.",
+      "a": "False. CUI should only be stored on government-authorized information systems and devices that meet the security requirements specified in DoDI 8510.01 (Risk Management Framework). Personal devices, personal email accounts, and unauthorized cloud services are not approved for CUI storage or processing."
+    },
+    {
+      "q": "What is a Limited Dissemination Control?",
+      "a": "A Limited Dissemination Control restricts who can access CUI beyond the basic 'lawful government purpose' standard. Examples include NOFORN (not releasable to foreign nationals), FEDCON (federal employees and contractors only), FED ONLY (federal employees only), and DL ONLY (dissemination list only). These controls are marked on the document."
+    },
+    {
+      "q": "What physical safeguards are required for CUI documents?",
+      "a": "CUI documents must be stored in a controlled environment such as a locked desk, cabinet, or room when not under the direct control of an authorized user. Access must be limited to authorized individuals with a lawful government purpose. CUI should not be left unattended on desks, printers, or in unsecured areas."
+    },
+    {
+      "q": "Which of the following is a CUI category: (a) For Official Use Only (FOUO), (b) Privacy Information, (c) Sensitive But Unclassified (SBU), (d) Limited Official Use (LOU)?",
+      "a": "(b) Privacy Information. The CUI program replaced legacy markings such as FOUO, SBU, LOU, and others with standardized CUI categories listed in the CUI Registry. These legacy markings are no longer authorized for use on new documents."
+    },
+    {
+      "q": "What replaced the legacy 'For Official Use Only' (FOUO) marking?",
+      "a": "CUI replaced FOUO and all other agency-specific legacy markings (SBU, LES, PROPIN, etc.) as part of the standardization under Executive Order 13556 and 32 CFR Part 2002. Information previously marked FOUO should be re-evaluated against the CUI Registry and re-marked with the appropriate CUI category."
+    },
+    {
+      "q": "What is the 'lawful government purpose' standard for CUI access?",
+      "a": "Lawful government purpose means any activity, mission, function, operation, or endeavor that the U.S. government authorizes or recognizes as within the scope of government business. A person needs a lawful government purpose to access CUI — unlike classified information, no security clearance is required, but access must be justified by a legitimate need."
+    },
+    {
+      "q": "What should you do if you discover CUI on an unauthorized system?",
+      "a": "Report the incident to your Information Security Officer, command security manager, or the organization's CUI program manager immediately. Follow your organization's incident response procedures. Do not attempt to forward, copy, or delete the CUI — allow security personnel to handle remediation and determine if further reporting is required."
+    },
+    {
+      "q": "What is decontrolling CUI?",
+      "a": "Decontrolling is the process of removing CUI status from information when it no longer requires safeguarding or dissemination controls. Only an authorized holder with decontrolling authority can decontrol CUI. Once decontrolled, the information is treated as ordinary unclassified information and does not require CUI markings or safeguards."
+    },
+    {
+      "q": "How should CUI be marked on a portion-marked document?",
+      "a": "When portion marking, each portion (paragraph, section, title, subject line) is marked with '(CUI)' at the beginning to indicate it contains CUI. Non-CUI portions are marked with '(U)' for Unclassified. The overall document still carries the CUI banner marking at the top and bottom of each page."
+    },
+    {
+      "q": "What is the relationship between CUI and the Freedom of Information Act (FOIA)?",
+      "a": "CUI designation does not automatically exempt information from FOIA release. When a FOIA request covers CUI, the information must still be reviewed under applicable FOIA exemptions. Some CUI categories may qualify for FOIA exemptions (e.g., privacy, law enforcement), but the CUI marking alone is not a basis for withholding information."
+    },
+    {
+      "q": "What training is required for personnel who handle CUI?",
+      "a": "All personnel who create, handle, or have access to CUI must complete CUI awareness training. This includes initial training before accessing CUI and annual refresher training thereafter. The training covers identification, marking, safeguarding, disseminating, decontrolling, and destroying CUI, as well as reporting requirements for unauthorized disclosures."
+    },
+    {
+      "q": "True or False: Contractors who handle CUI on behalf of the DoD must comply with CUI requirements.",
+      "a": "True. Contractors who create, receive, or handle CUI must comply with CUI safeguarding requirements as specified in their contracts. DFARS clause 252.204-7012 (Safeguarding Covered Defense Information) and NIST SP 800-171 establish the cybersecurity requirements contractors must meet to handle CUI."
+    },
+    {
+      "q": "What is NIST SP 800-171 and how does it relate to CUI?",
+      "a": "NIST Special Publication 800-171 establishes the cybersecurity requirements for protecting CUI in nonfederal systems and organizations (such as defense contractors). It contains 110 security requirements across 14 families. Compliance with NIST SP 800-171 is mandatory for contractors handling DoD CUI under DFARS 252.204-7012."
+    },
+    {
+      "q": "What is the CMMC program and how does it relate to CUI?",
+      "a": "The Cybersecurity Maturity Model Certification (CMMC) is a DoD program that verifies defense contractors have adequate cybersecurity practices to protect CUI. It requires third-party assessments (at Level 2 and above) to certify compliance with NIST SP 800-171 requirements before contractors can handle CUI."
+    },
+    {
+      "q": "Which of the following is NOT an acceptable way to share CUI: (a) encrypted email on a government system, (b) hand-delivery in a sealed envelope, (c) posting to a personal cloud storage account, (d) approved secure file sharing platform?",
+      "a": "(c) Posting to a personal cloud storage account. CUI may only be shared through authorized methods that provide adequate protection: government encrypted email, approved secure platforms, hand-delivery, or approved mailing methods. Personal cloud storage, personal email, and social media are never authorized for CUI."
+    },
+    {
+      "q": "What Executive Order established the CUI program?",
+      "a": "Executive Order 13556, Controlled Unclassified Information, signed on November 4, 2010. It established the CUI program to standardize the way the executive branch handles unclassified information that requires safeguarding, replacing the confusing patchwork of over 100 agency-specific markings."
+    },
+    {
+      "q": "What is a CUI Specified category example?",
+      "a": "Examples of CUI Specified categories include Export Controlled (EXPT), Nuclear (NUKE), Intelligence (INTEL), NATO Restricted, and certain Privacy Act information. CUI Specified categories have additional handling requirements beyond CUI Basic, as defined by their authorizing law or regulation."
+    },
+    {
+      "q": "How should CUI be handled during travel?",
+      "a": "During travel, CUI documents should be kept in a locked briefcase or bag under your direct control at all times. Do not leave CUI in hotel rooms, vehicles, or unattended luggage. CUI on electronic devices should be encrypted, and devices should use strong passwords/PINs. Do not discuss CUI in public areas where it could be overheard."
+    },
+    {
+      "q": "What is an unauthorized disclosure of CUI?",
+      "a": "An unauthorized disclosure occurs when CUI is released, transmitted, or made accessible to individuals without a lawful government purpose, or through unauthorized channels. This includes sending CUI over unencrypted email, posting it on public websites, leaving it in unsecured locations, or sharing it with unauthorized persons. Unauthorized disclosures must be reported."
+    },
+    {
+      "q": "True or False: All unclassified information in the DoD is CUI.",
+      "a": "False. CUI is a specific subset of unclassified information that requires safeguarding based on law, regulation, or policy. Most unclassified information does NOT meet the criteria for CUI and can be handled as routine unclassified information without special markings or controls."
+    },
+    {
+      "q": "What are the organizational CUI categories in the CUI Registry?",
+      "a": "The CUI Registry organizes categories into groupings such as: Critical Infrastructure, Defense, Export Control, Financial, Immigration, Intelligence, International Agreements, Law Enforcement, Legal, Natural and Cultural Resources, NATO, Nuclear, Patent, Privacy, Procurement and Acquisition, Proprietary Business Information, Statistical, Tax, and Transportation."
+    },
+    {
+      "q": "What is the CUI Senior Agency Official (SAO)?",
+      "a": "The CUI SAO is the senior official within each agency designated to oversee and manage the agency's CUI program. In the DoD, the SAO is responsible for policy implementation, compliance monitoring, training oversight, and serving as the agency's liaison with NARA on CUI matters."
+    },
+    {
+      "q": "How should CUI be mailed outside of the organization?",
+      "a": "CUI sent through the U.S. Postal Service or commercial carriers must be enclosed in an opaque, sealed envelope or container. There is no requirement for double wrapping (unlike classified). The outer envelope should not indicate it contains CUI. Use certified mail, registered mail, or a tracked commercial delivery service for accountability."
+    },
+    {
+      "q": "What should be included in a CUI designation indicator block?",
+      "a": "A CUI designation indicator block (typically on the first page or cover) should include: the CUI category or categories, the designating agency or office, a point of contact, the dissemination controls (if any), the decontrol instructions or date, and any handling caveats applicable to the specific CUI Specified category."
+    },
+    {
+      "q": "What happens if you improperly mark unclassified information as CUI?",
+      "a": "Improperly marking information as CUI (overmarking) unnecessarily restricts information sharing, increases costs, and undermines the credibility of the CUI program. It can also impede FOIA compliance. Personnel who identify improperly marked CUI should notify the originating office so corrections can be made."
+    },
+    {
+      "q": "What is the difference between CUI and Classified National Security Information?",
+      "a": "Classified information (Confidential, Secret, Top Secret) is protected because its unauthorized disclosure could cause damage to national security, and access requires a security clearance. CUI is unclassified information protected by laws, regulations, or policies unrelated to national security classification. CUI does not require a clearance but does require safeguarding and authorized access."
+    },
+    {
+      "q": "What role do information systems play in CUI protection?",
+      "a": "Information systems processing CUI must be authorized under the Risk Management Framework (RMF) per DoDI 8510.01 and meet security controls commensurate with the CUI level. For DoD systems, this typically means meeting a moderate confidentiality impact level. Systems must have proper access controls, audit logging, encryption, and incident response capabilities."
+    },
+    {
+      "q": "What should you do if you receive a document with legacy markings like FOUO or SBU?",
+      "a": "Treat the document with the same protections as CUI until it can be properly evaluated. Contact the originating office to determine the appropriate CUI category and request re-marking. Legacy markings are no longer authorized for new documents but may still appear on older materials that have not yet been re-marked."
+    },
+    {
+      "q": "True or False: CUI can be discussed over unsecured telephone lines.",
+      "a": "Generally True for CUI Basic, but with caution. CUI Basic may be discussed on standard government phone lines, but should not be discussed on speakerphone in unsecured areas or where unauthorized persons might overhear. CUI Specified categories may have additional restrictions. Always be aware of your surroundings and who might be listening."
+    }
+  ]
+}

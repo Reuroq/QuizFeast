@@ -1,0 +1,171 @@
+{
+  "category": "Equal Opportunity",
+  "description": "DoD Equal Opportunity and EEO training covering protected categories, unlawful discrimination, harassment definitions, hostile work environment, complaint procedures, MEO vs EEO, retaliation protections, and diversity. Based on DoDD 1350.2.",
+  "icon": "balance-scale",
+  "questions": [
+    {
+      "q": "What DoD Directive establishes the Military Equal Opportunity (MEO) Program?",
+      "a": "DoDD 1350.2, Department of Defense Military Equal Opportunity (MEO) Program. It establishes policy to prohibit unlawful discrimination and harassment against military members based on race, color, national origin, religion, sex (including gender identity), and sexual orientation."
+    },
+    {
+      "q": "What are the protected categories under the DoD Military Equal Opportunity program?",
+      "a": "The protected categories are race, color, national origin, religion, sex (including pregnancy and gender identity), and sexual orientation. Discrimination or harassment based on any of these categories is prohibited and violates DoD policy."
+    },
+    {
+      "q": "What is the difference between MEO and EEO?",
+      "a": "MEO (Military Equal Opportunity) covers military service members and is governed by DoDD 1350.2. EEO (Equal Employment Opportunity) covers DoD civilian employees and is governed by Title VII of the Civil Rights Act, the EEOC, and agency-specific programs. They have different complaint procedures, timelines, and resolution processes."
+    },
+    {
+      "q": "What is the definition of unlawful discrimination?",
+      "a": "Unlawful discrimination is the unequal or unfavorable treatment of an individual or group based on a protected category (race, color, national origin, religion, sex, or sexual orientation) that affects their terms, conditions, or privileges of military service. It can be intentional (disparate treatment) or unintentional (disparate impact)."
+    },
+    {
+      "q": "What constitutes a hostile work environment?",
+      "a": "A hostile work environment exists when unwelcome conduct based on a protected category is sufficiently severe or pervasive that it unreasonably interferes with work performance or creates an intimidating, hostile, or offensive working environment. It is evaluated from the perspective of a reasonable person and considers the totality of circumstances."
+    },
+    {
+      "q": "What is the difference between quid pro quo harassment and hostile work environment harassment?",
+      "a": "Quid pro quo ('this for that') harassment occurs when submission to unwelcome sexual advances is made a condition of employment, promotion, or favorable treatment. Hostile work environment harassment occurs when unwelcome conduct based on a protected category is so severe or pervasive it creates an intimidating or offensive environment. Both are prohibited."
+    },
+    {
+      "q": "What is the informal complaint resolution process for MEO complaints?",
+      "a": "The informal process allows the complainant to resolve the issue at the lowest level without filing a formal complaint. Options include direct approach (talking to the offender), using the chain of command, seeking assistance from the MEO office, or mediation. The informal process does not have the same documentation and investigation requirements as the formal process."
+    },
+    {
+      "q": "What is the formal MEO complaint process?",
+      "a": "A formal MEO complaint is filed in writing with the MEO office. The complaint is investigated (typically within 60 calendar days), findings and recommendations are made, and the appropriate commander takes action based on the results. The complainant is informed of the outcome. Formal complaints create an official record."
+    },
+    {
+      "q": "Within how many days must a military member file a formal MEO complaint?",
+      "a": "A formal MEO complaint must be filed within 60 calendar days of the alleged offense. Extensions may be granted by the installation commander for good cause. The timeliness requirement ensures incidents are investigated while evidence and memories are still fresh."
+    },
+    {
+      "q": "What protections exist against retaliation for filing an EO complaint?",
+      "a": "DoD policy strictly prohibits reprisal or retaliation against anyone who files a complaint, serves as a witness, or participates in an EO investigation. Retaliation is itself a separate violation that can result in disciplinary action under the UCMJ. Victims of retaliation can file a separate complaint with the IG or MEO."
+    },
+    {
+      "q": "True or False: Harassment must be sexual in nature to violate equal opportunity policy.",
+      "a": "False. Harassment based on any protected category (race, color, national origin, religion, sex, or sexual orientation) can violate EO policy. While sexual harassment receives significant attention, racial slurs, religious discrimination, and harassment based on national origin are equally prohibited."
+    },
+    {
+      "q": "What is disparate treatment?",
+      "a": "Disparate treatment is a form of intentional discrimination where an individual is treated differently because of their membership in a protected category. For example, denying a promotion to a qualified person because of their race, or assigning less favorable duties based on sex, constitutes disparate treatment."
+    },
+    {
+      "q": "What is disparate impact?",
+      "a": "Disparate impact (also called adverse impact) is a form of unintentional discrimination where a facially neutral policy or practice disproportionately affects a protected group. Even if there is no intent to discriminate, the policy may be unlawful unless it is justified by a legitimate, nondiscriminatory reason and no less restrictive alternative exists."
+    },
+    {
+      "q": "What role does the commander play in the MEO program?",
+      "a": "Commanders are responsible for maintaining a climate free from unlawful discrimination and harassment, promoting equal opportunity, taking prompt corrective action when violations occur, ensuring annual EO training, supporting the complaint process, and conducting or supporting command climate assessments. They set the tone for the unit's EO environment."
+    },
+    {
+      "q": "What is a Command Climate Assessment (formerly Command Climate Survey)?",
+      "a": "A Command Climate Assessment is a tool used to evaluate the human relations environment within a unit, including perceptions of equal opportunity, leadership, and organizational effectiveness. Commanders are required to conduct one within 120 days of assuming command and annually thereafter. Results help identify EO issues and guide corrective action."
+    },
+    {
+      "q": "Which of the following is an example of unlawful discrimination: (a) a commander reassigning duties based on MOS, (b) denying leave to all members equally during high ops tempo, (c) passing over a qualified member for promotion due to their religion, (d) requiring PT for all unit members?",
+      "a": "(c) Passing over a qualified member for promotion due to their religion. This is disparate treatment based on a protected category. The other options involve neutral policies applied equally to all members regardless of protected status."
+    },
+    {
+      "q": "What is the role of the Equal Opportunity Advisor (EOA)?",
+      "a": "The Equal Opportunity Advisor is a trained professional who advises commanders on EO matters, conducts climate assessments, processes and investigates complaints, provides EO training, mediates disputes, and helps identify and address systemic issues. They serve as the subject matter expert on all MEO matters within the command."
+    },
+    {
+      "q": "What is sexual harassment under DoD policy?",
+      "a": "Sexual harassment is conduct that involves unwelcome sexual advances, requests for sexual favors, or other verbal, nonverbal, or physical conduct of a sexual nature when submission is made a condition of one's career (quid pro quo), or the conduct is sufficiently severe or pervasive to create a hostile work environment. It is a form of sex discrimination."
+    },
+    {
+      "q": "True or False: A single incident can constitute a hostile work environment.",
+      "a": "True, in some cases. While hostile work environment typically requires a pattern of severe or pervasive behavior, a single incident can be sufficient if it is extremely severe — such as a physical assault or the use of a highly offensive epithet by a supervisor. The standard is whether a reasonable person would find the conduct hostile or abusive."
+    },
+    {
+      "q": "What is the role of the Inspector General (IG) in equal opportunity matters?",
+      "a": "The IG investigates allegations of reprisal and retaliation against individuals who file EO complaints or participate in EO investigations. Service members who believe they have been retaliated against for EO activity can file a complaint with the IG. The IG operates independently of the chain of command."
+    },
+    {
+      "q": "What are the EEO complaint timelines for DoD civilian employees?",
+      "a": "DoD civilian employees must contact an EEO counselor within 45 calendar days of the alleged discriminatory act (or becoming aware of it). After EEO counseling, the employee has 15 calendar days to file a formal complaint. These timelines are strict, and failure to meet them can result in dismissal of the complaint."
+    },
+    {
+      "q": "What is the reasonable person standard in harassment cases?",
+      "a": "The reasonable person standard is used to determine whether conduct constitutes harassment. It asks whether a reasonable person in the same or similar circumstances would find the conduct offensive, intimidating, or hostile. It is an objective standard that considers the totality of circumstances, not just the subjective feelings of the complainant."
+    },
+    {
+      "q": "What is the difference between hazing and bullying in the EO context?",
+      "a": "Hazing involves conduct through which someone recklessly or intentionally subjects a military member to cruel, abusive, or harmful activity for initiation or as a condition of acceptance. Bullying involves repeated aggressive behavior intended to hurt, intimidate, or control another person. Both are prohibited but may or may not involve a protected category. If based on a protected category, they also violate EO policy."
+    },
+    {
+      "q": "Which federal law is the primary basis for EEO protections for civilian employees?",
+      "a": "Title VII of the Civil Rights Act of 1964 is the primary federal law prohibiting employment discrimination based on race, color, religion, sex, and national origin. Additional protections come from the Age Discrimination in Employment Act (ADEA), the Rehabilitation Act (disability), and the Equal Pay Act."
+    },
+    {
+      "q": "What is the 'totality of circumstances' test in EO cases?",
+      "a": "The totality of circumstances test considers all relevant factors when evaluating an EO complaint, including the frequency and severity of the conduct, whether it was physically threatening or humiliating, whether it unreasonably interfered with work performance, the context, the relationship between the parties, and the effect on the victim. No single factor is determinative."
+    },
+    {
+      "q": "What accommodations must be provided for religious practices under EO policy?",
+      "a": "The DoD must reasonably accommodate religious practices of service members unless doing so would adversely affect military readiness, unit cohesion, good order and discipline, or health and safety. Accommodations may include worship time, dietary requirements, religious apparel, grooming standards, and scheduling around religious observances. Requests are evaluated on a case-by-case basis."
+    },
+    {
+      "q": "What is a preponderance of evidence standard?",
+      "a": "Preponderance of evidence means 'more likely than not' (greater than 50% probability). This is the standard used in most MEO and EEO investigations and administrative proceedings. It is a lower standard than 'beyond a reasonable doubt' (used in criminal cases) or 'clear and convincing evidence.'"
+    },
+    {
+      "q": "True or False: Intent to discriminate is always required to prove an EO violation.",
+      "a": "False. While disparate treatment requires proof of discriminatory intent, disparate impact does not. A facially neutral policy can violate EO principles if it disproportionately affects a protected group and is not justified by a legitimate nondiscriminatory reason, even if there was no intent to discriminate."
+    },
+    {
+      "q": "What corrective actions can result from a substantiated MEO complaint?",
+      "a": "Corrective actions may include counseling, reprimand (oral or written), adverse performance evaluation, removal from position, non-judicial punishment (Article 15), court-martial, administrative separation, mandatory training, reassignment, or other administrative actions. The specific action depends on the severity of the offense and the commander's discretion."
+    },
+    {
+      "q": "What is the EEOC and what role does it play for DoD civilians?",
+      "a": "The Equal Employment Opportunity Commission (EEOC) is the federal agency that enforces laws prohibiting workplace discrimination. For DoD civilians, the EEOC provides the regulatory framework (29 CFR 1614), hears appeals from agency EEO decisions, and can order corrective action. Employees who are dissatisfied with their agency's decision can appeal to the EEOC or file in federal court."
+    },
+    {
+      "q": "What constitutes constructive discharge in an EO context?",
+      "a": "Constructive discharge occurs when working conditions become so intolerable due to discrimination or harassment that a reasonable person would feel compelled to resign. It is treated as an involuntary termination. The employee must show that the employer created or allowed conditions so hostile that resignation was the only reasonable option."
+    },
+    {
+      "q": "What is the difference between an EO complaint and an IG complaint?",
+      "a": "An EO complaint addresses unlawful discrimination or harassment based on a protected category and is filed with the MEO office or EEO counselor. An IG complaint addresses fraud, waste, abuse, or reprisal for protected communications and is filed with the Inspector General. If retaliation occurs for filing an EO complaint, the IG would handle the reprisal allegation."
+    },
+    {
+      "q": "How does the DoD define diversity?",
+      "a": "The DoD defines diversity as the different characteristics and attributes of individuals consistent with DoD core values, integral to overall readiness, and essential to total force effectiveness. It includes but is not limited to race, ethnicity, gender, religion, age, disability, sexual orientation, education, language, and professional experience."
+    },
+    {
+      "q": "What is an affirmative defense in sexual harassment cases?",
+      "a": "An affirmative defense allows an organization to avoid liability for supervisor harassment if it can show: (1) it exercised reasonable care to prevent and promptly correct the harassment (e.g., having an EO policy and complaint process), and (2) the complainant unreasonably failed to take advantage of the preventive or corrective opportunities. This defense does not apply in quid pro quo cases."
+    },
+    {
+      "q": "What responsibilities do all service members have regarding equal opportunity?",
+      "a": "All service members are responsible for treating others with dignity and respect, refraining from discrimination and harassment, reporting EO violations they witness, cooperating with EO investigations, completing required EO training, and supporting a command climate of inclusion. EO is not just a leadership responsibility — it applies to every member."
+    },
+    {
+      "q": "Which of the following is NOT a protected category under DoD MEO policy: (a) race, (b) political affiliation, (c) national origin, (d) sexual orientation?",
+      "a": "(b) Political affiliation. While political affiliation is protected for civilian employees under certain statutes, it is not one of the protected categories under the DoD MEO program for military members. The MEO protected categories are race, color, national origin, religion, sex (including gender identity), and sexual orientation."
+    },
+    {
+      "q": "What is the role of the Alternative Dispute Resolution (ADR) process in EO complaints?",
+      "a": "ADR, typically mediation, is an alternative to the formal investigation process. A neutral third party helps the parties reach a mutually acceptable resolution. ADR is voluntary, confidential, and often faster than a formal investigation. Both MEO and EEO programs offer ADR. Either party may decline or withdraw from ADR at any time."
+    },
+    {
+      "q": "What are some indicators of a healthy command climate regarding equal opportunity?",
+      "a": "Indicators include leaders who model inclusive behavior, members who feel comfortable reporting issues without fear of retaliation, fair and consistent application of standards, diverse perspectives valued in decision-making, low rates of substantiated complaints, high participation in unit activities across demographic groups, and positive command climate survey results."
+    },
+    {
+      "q": "True or False: An EO complaint can be filed anonymously.",
+      "a": "Generally False for formal complaints, which require the complainant's identity for investigation. However, some services allow anonymous complaints through hotlines or suggestion systems, which can prompt a commander-directed inquiry. Anonymous reports may be harder to investigate but can still trigger corrective action."
+    },
+    {
+      "q": "What is third-party harassment and how is it addressed under EO policy?",
+      "a": "Third-party harassment occurs when someone who is not the direct target of discriminatory or harassing conduct is negatively affected by it. For example, if a supervisor grants favors to an employee in exchange for sexual favors, other employees denied those opportunities may have a valid EO complaint. Third-party harassment is actionable under EO policy."
+    },
+    {
+      "q": "What training requirements exist for equal opportunity in the DoD?",
+      "a": "All service members must receive annual EO training covering prohibited discrimination, harassment prevention, reporting procedures, bystander intervention, and fostering inclusive environments. New accessions receive EO training during initial entry training. Leaders and supervisors receive additional training on their responsibilities. Commanders receive EO training within 90 days of assuming command."
+    }
+  ]
+}

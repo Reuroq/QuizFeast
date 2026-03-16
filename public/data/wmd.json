@@ -1,0 +1,151 @@
+{
+  "category": "Combating Weapons of Mass Destruction (CWMD)",
+  "description": "Combating Weapons of Mass Destruction training covering CBRN types, proliferation threats, counterproliferation, consequence management, detection methods, treaty compliance (NPT, CWC, BWC), and WMD response procedures. Based on JP 3-40.",
+  "icon": "radioactive",
+  "questions": [
+    {
+      "q": "What does CBRN stand for?",
+      "a": "Chemical, Biological, Radiological, and Nuclear — the four categories of Weapons of Mass Destruction (WMD) threats."
+    },
+    {
+      "q": "What is the definition of a Weapon of Mass Destruction (WMD)?",
+      "a": "A WMD is a weapon capable of a high order of destruction or causing mass casualties, including chemical, biological, radiological, or nuclear weapons. Some definitions also include high-yield explosives."
+    },
+    {
+      "q": "What joint publication provides doctrine for Combating Weapons of Mass Destruction?",
+      "a": "JP 3-40, Combating Weapons of Mass Destruction, provides joint doctrine for planning and executing CWMD operations."
+    },
+    {
+      "q": "What are the three pillars of the CWMD framework?",
+      "a": "Nonproliferation (preventing spread), Counterproliferation (defeating WMD threats), and Consequence Management (responding to WMD incidents and minimizing effects)."
+    },
+    {
+      "q": "What is nonproliferation?",
+      "a": "Nonproliferation encompasses actions to prevent the acquisition of WMD, delivery systems, related materials, technologies, and expertise by state and non-state actors through diplomatic, legal, economic, and security means."
+    },
+    {
+      "q": "What is counterproliferation?",
+      "a": "Counterproliferation consists of actions taken to defeat the threat and/or use of WMD against the United States, allies, and partners. It includes interdiction, deterrence, active defense, and offensive operations."
+    },
+    {
+      "q": "What is consequence management in the CWMD context?",
+      "a": "Consequence management involves actions taken to plan for, respond to, and mitigate the effects of a WMD attack or incident, including medical response, decontamination, and restoration of essential services."
+    },
+    {
+      "q": "What is the Nuclear Non-Proliferation Treaty (NPT)?",
+      "a": "The NPT (1968) is an international treaty to prevent the spread of nuclear weapons, promote disarmament, and facilitate peaceful nuclear energy use. It recognizes five nuclear-weapon states (US, Russia, UK, France, China)."
+    },
+    {
+      "q": "Which countries have not signed the NPT?",
+      "a": "India, Pakistan, and Israel have never signed the NPT. North Korea withdrew in 2003. South Sudan has not acceded. India and Pakistan have confirmed nuclear arsenals; Israel maintains a policy of ambiguity."
+    },
+    {
+      "q": "What is the Chemical Weapons Convention (CWC)?",
+      "a": "The CWC (1993) prohibits the development, production, stockpiling, and use of chemical weapons. It is administered by the Organisation for the Prohibition of Chemical Weapons (OPCW) and has near-universal membership."
+    },
+    {
+      "q": "What is the Biological Weapons Convention (BWC)?",
+      "a": "The BWC (1972) prohibits the development, production, and stockpiling of biological and toxin weapons. Unlike the CWC, it lacks a formal verification regime, which is considered a significant weakness."
+    },
+    {
+      "q": "Name the four categories of chemical warfare agents with an example of each.",
+      "a": "Nerve agents (Sarin/VX), Blister agents (Mustard gas), Blood agents (Hydrogen cyanide), and Choking/Pulmonary agents (Phosgene/Chlorine)."
+    },
+    {
+      "q": "What are nerve agents and how do they work?",
+      "a": "Nerve agents (Sarin, VX, Tabun, Soman, Novichok) inhibit acetylcholinesterase, causing overstimulation of muscles and glands. Symptoms include miosis (pinpoint pupils), salivation, seizures, respiratory failure, and death."
+    },
+    {
+      "q": "What is the immediate treatment for nerve agent exposure?",
+      "a": "Administer atropine and pralidoxime (2-PAM) via auto-injector (ATNAA/NAAK), decontaminate the casualty, ensure an open airway, and provide supportive care. Self-aid and buddy-aid must be performed rapidly."
+    },
+    {
+      "q": "What are biological warfare agents and how are they categorized?",
+      "a": "Biological agents are living organisms or toxins used to cause illness or death. CDC categorizes them: Category A (highest priority — anthrax, smallpox, plague, botulism), Category B (moderate — Q fever, brucellosis), and Category C (emerging pathogens)."
+    },
+    {
+      "q": "What makes biological weapons particularly challenging to detect?",
+      "a": "Biological agents are invisible, odorless, tasteless, and have incubation periods (hours to days). Symptoms mimic natural disease, making attribution difficult. They can be disseminated covertly through aerosols, water, or food."
+    },
+    {
+      "q": "What is the difference between a radiological and a nuclear weapon?",
+      "a": "A nuclear weapon produces energy through fission or fusion reactions with massive blast, heat, and radiation. A radiological weapon (dirty bomb) uses conventional explosives to disperse radioactive material — no nuclear detonation occurs."
+    },
+    {
+      "q": "What are the effects of a nuclear detonation?",
+      "a": "A nuclear detonation produces five effects: blast/shock wave (most casualties), thermal radiation (burns/fires), nuclear radiation (initial), electromagnetic pulse (EMP, disrupts electronics), and residual radiation (fallout)."
+    },
+    {
+      "q": "What is a 'dirty bomb' (Radiological Dispersal Device/RDD)?",
+      "a": "An RDD uses conventional explosives to spread radioactive material, contaminating an area. While unlikely to cause mass casualties from radiation, it creates panic, economic disruption, and costly decontamination requirements."
+    },
+    {
+      "q": "What are the three principles of radiation protection?",
+      "a": "Time (minimize exposure duration), Distance (maximize distance from the source — inverse square law), and Shielding (use dense materials like lead, concrete, or earth between you and the source)."
+    },
+    {
+      "q": "What is the Proliferation Security Initiative (PSI)?",
+      "a": "PSI is a global initiative (2003) involving over 100 nations cooperating to interdict WMD, delivery systems, and related materials in transit by air, land, or sea to prevent proliferation by state and non-state actors."
+    },
+    {
+      "q": "What role does the Defense Threat Reduction Agency (DTRA) play in CWMD?",
+      "a": "DTRA is the DoD combat support agency responsible for countering WMD threats. It provides technical expertise, threat reduction programs, detection capabilities, and consequence management support."
+    },
+    {
+      "q": "What is the Cooperative Threat Reduction (CTR) program?",
+      "a": "Also known as the Nunn-Lugar program, CTR works with former Soviet states and other countries to secure and dismantle WMD, related materials, and delivery systems to prevent proliferation."
+    },
+    {
+      "q": "What are WMD delivery systems?",
+      "a": "Delivery systems transport WMD to targets, including ballistic missiles (ICBMs, SLBMs), cruise missiles, aircraft, artillery, covert placement, aerosol sprayers, and improvised delivery methods by non-state actors."
+    },
+    {
+      "q": "What is the difference between decontamination types: immediate, operational, and thorough?",
+      "a": "Immediate decon minimizes casualties within minutes (skin decon, RSDL). Operational decon sustains operations with limited resources (MOPP gear exchange, vehicle spray-down). Thorough decon restores full capability (detailed equipment/personnel decon)."
+    },
+    {
+      "q": "What is MOPP and what are the MOPP levels?",
+      "a": "Mission Oriented Protective Posture — levels of CBRN protective gear. MOPP 0: gear available. MOPP 1: overgarment worn. MOPP 2: add overboots. MOPP 3: add mask/hood. MOPP 4: add gloves (full protection)."
+    },
+    {
+      "q": "What detection equipment is used for chemical agents?",
+      "a": "M8/M9 detection paper (liquid agents), M256 detection kit (vapor agents), JCAD/Joint Chemical Agent Detector (automatic vapor detection), and AP2C (flame photometry detector). Each has different capabilities and limitations."
+    },
+    {
+      "q": "What detection equipment is used for radiological/nuclear threats?",
+      "a": "AN/PDR-77 radiac meter, AN/VDR-2 (vehicle-mounted), personal dosimeters (DT-236), and advanced systems like JSLSCAD. Portal monitors and handheld detectors are used for screening cargo and personnel."
+    },
+    {
+      "q": "What is the WMD-Civil Support Team (CST)?",
+      "a": "National Guard WMD-CSTs are 22-member full-time teams in each state/territory that support civil authorities by identifying CBRN agents/substances, assessing consequences, and advising on response measures."
+    },
+    {
+      "q": "What are indicators of potential WMD use by a terrorist organization?",
+      "a": "Acquisition of precursor chemicals/biological agents, recruitment of scientists, unusual financial transactions related to materials, reconnaissance of critical infrastructure, and intelligence indicating intent to cause mass casualties."
+    },
+    {
+      "q": "What is 'dual-use' technology in the WMD context?",
+      "a": "Dual-use technology has both legitimate civilian and potential WMD applications. Examples include centrifuge equipment (nuclear), fermenters (biological), and certain chemical precursors. Export controls regulate these items."
+    },
+    {
+      "q": "What is the Australia Group?",
+      "a": "The Australia Group is an informal arrangement of 42 countries plus the EU that coordinates export controls on materials that could contribute to chemical and biological weapons programs."
+    },
+    {
+      "q": "What is the Missile Technology Control Regime (MTCR)?",
+      "a": "The MTCR is a voluntary partnership of 35 countries that restricts exports of missiles and related technology capable of delivering WMD, specifically those with payloads over 500 kg and ranges over 300 km."
+    },
+    {
+      "q": "What are the key response actions in the first hour after a suspected WMD incident?",
+      "a": "Establish a cordon/hot zone, initiate shelter-in-place or evacuation, don appropriate PPE, begin triage and immediate decon of casualties, identify the agent if possible, request specialized CBRN response assets, and report through chain of command."
+    },
+    {
+      "q": "What is the Nuclear Suppliers Group (NSG)?",
+      "a": "The NSG is a 48-nation group that coordinates export controls on nuclear and nuclear-related materials, equipment, and technology to prevent nuclear weapons proliferation while allowing peaceful nuclear use."
+    },
+    {
+      "q": "What is the 'comprehensive approach' to CWMD?",
+      "a": "The comprehensive approach integrates all instruments of national power — diplomatic, informational, military, economic, financial, intelligence, and law enforcement — across the full spectrum of CWMD activities rather than relying solely on military action."
+    }
+  ]
+}

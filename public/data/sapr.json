@@ -1,0 +1,175 @@
+{
+  "category": "Sexual Assault Prevention & Response",
+  "description": "DoD SAPR training covering restricted and unrestricted reporting, SARC and victim advocate roles, bystander intervention, definitions, retaliation protections, SAFE exams, and the 72-hour commander notification requirement. Based on DoDI 6495.02.",
+  "icon": "shield-check",
+  "questions": [
+    {
+      "q": "What DoD Instruction establishes the Sexual Assault Prevention and Response (SAPR) Program?",
+      "a": "DoDI 6495.02, Sexual Assault Prevention and Response (SAPR) Program Procedures. It establishes policy, assigns responsibilities, and provides procedures for reporting, responding to, and preventing sexual assault involving persons covered by the program."
+    },
+    {
+      "q": "What are the two types of reporting options available to a sexual assault victim in the military?",
+      "a": "Restricted Reporting and Unrestricted Reporting. Restricted reporting allows a victim to confidentially disclose to specified personnel (SARC, VA, or healthcare provider) and receive services without triggering an official investigation. Unrestricted reporting triggers a command notification and official MCIO investigation."
+    },
+    {
+      "q": "What is Restricted Reporting?",
+      "a": "Restricted Reporting is a confidential reporting option that allows a sexual assault victim to disclose the assault to a Sexual Assault Response Coordinator (SARC), Victim Advocate (VA), or healthcare personnel and receive medical treatment, counseling, and advocacy without triggering an official investigation or command notification. The victim's identity is protected."
+    },
+    {
+      "q": "What is Unrestricted Reporting?",
+      "a": "Unrestricted Reporting is when a victim reports a sexual assault through normal reporting channels (chain of command, law enforcement, MCIO). It triggers a command notification and an official criminal investigation. The victim still receives full SAPR services including a SARC, victim advocate, medical care, and counseling."
+    },
+    {
+      "q": "What does SARC stand for and what is their role?",
+      "a": "Sexual Assault Response Coordinator. The SARC is the single point of contact at an installation or within a command for coordinating the SAPR program. They provide crisis intervention, coordinate care, assign victim advocates, ensure victims are aware of reporting options, and manage all aspects of SAPR response and prevention."
+    },
+    {
+      "q": "What is the role of a Victim Advocate (VA) in the SAPR program?",
+      "a": "A Victim Advocate provides direct support to sexual assault victims, including crisis intervention, safety planning, information about reporting options, accompaniment to medical exams and legal proceedings, referrals to services, and ongoing support. VAs are trained and certified, and communications with them are confidential under restricted reporting."
+    },
+    {
+      "q": "Can a victim change from Restricted to Unrestricted Reporting?",
+      "a": "Yes, a victim may change from Restricted to Unrestricted Reporting at any time by notifying the SARC or VA. However, a victim CANNOT change from Unrestricted to Restricted Reporting once an unrestricted report has been made, because the investigation and command notification have already been initiated."
+    },
+    {
+      "q": "What is a SAFE exam?",
+      "a": "SAFE stands for Sexual Assault Forensic Exam. It is a medical examination conducted by trained personnel to collect forensic evidence, treat injuries, and provide medical care to a sexual assault victim. A SAFE can be performed under either reporting option. Under Restricted Reporting, the evidence kit is stored anonymously for up to 5 years."
+    },
+    {
+      "q": "Within how many hours of receiving an Unrestricted Report of sexual assault must the commander be notified?",
+      "a": "Within 24 hours. The SARC must notify the installation commander and the victim's immediate commander within 24 hours of receiving an unrestricted report. The first responder who receives the report must also contact the MCIO immediately."
+    },
+    {
+      "q": "What is the DoD definition of sexual assault?",
+      "a": "Sexual assault is intentional sexual contact characterized by the use of force, threats, intimidation, or abuse of authority, or when the victim does not or cannot consent. It includes rape, sexual assault, aggravated sexual contact, abusive sexual contact, and attempts to commit these offenses as defined in the UCMJ (Articles 120 and 120b)."
+    },
+    {
+      "q": "What is bystander intervention in the context of SAPR?",
+      "a": "Bystander intervention is when a person recognizes a potentially harmful or dangerous situation and takes action to intervene. In SAPR, it means stepping in when you see behavior that could lead to sexual assault, such as someone being targeted while intoxicated. Effective strategies include direct confrontation, distraction, delegation (getting others to help), and delay (checking on the person later)."
+    },
+    {
+      "q": "Who are 'covered persons' under the DoD SAPR program?",
+      "a": "Covered persons include active duty service members, Reserve/National Guard members on active duty or inactive duty training, and military dependents 18 and older who are eligible for treatment at military facilities. DoD civilians may receive limited emergency care and are referred to civilian resources."
+    },
+    {
+      "q": "What is the difference between sexual assault and sexual harassment?",
+      "a": "Sexual assault involves unwanted sexual contact through force, coercion, or without consent, and is a criminal offense under the UCMJ. Sexual harassment involves unwelcome sexual conduct (verbal, nonverbal, or physical) that is sufficiently severe or pervasive to create a hostile environment or involves a quid pro quo. Sexual harassment is addressed through the MEO/EO program, not SAPR."
+    },
+    {
+      "q": "What protections exist against retaliation for reporting sexual assault?",
+      "a": "DoD policy prohibits retaliation, reprisal, ostracism, and maltreatment against anyone who reports, witnesses, or intervenes in a sexual assault. Victims can report retaliation to the Inspector General, their SARC/VA, or the Safe Helpline. Retaliation is a punishable offense under the UCMJ and is tracked by the DoD."
+    },
+    {
+      "q": "What is the DoD Safe Helpline?",
+      "a": "The DoD Safe Helpline (1-877-995-5247) is a 24/7 confidential crisis support service for members of the DoD community affected by sexual assault. It provides live, one-on-one support via phone, online chat (safehelpline.org), or text. It is operated by RAINN and is anonymous — no personal information is required."
+    },
+    {
+      "q": "Which of the following persons CANNOT receive a Restricted Report of sexual assault: (a) SARC, (b) Victim Advocate, (c) First Sergeant, (d) Healthcare provider?",
+      "a": "(c) First Sergeant. Only SARCs, Victim Advocates (VAs), and healthcare personnel can receive a Restricted Report. Anyone in the chain of command (including First Sergeants, commanders, and supervisors) cannot receive restricted reports — disclosure to them triggers an unrestricted report."
+    },
+    {
+      "q": "What is an Expedited Transfer in the SAPR program?",
+      "a": "An Expedited Transfer allows a service member who files an unrestricted report of sexual assault to request a permanent change of station (PCS) or temporary/permanent unit transfer to protect them from the alleged offender or hostile environment. The request must be approved or denied within 72 hours and can be submitted through the SARC or chain of command."
+    },
+    {
+      "q": "What is a Military Protective Order (MPO)?",
+      "a": "A Military Protective Order is issued by a commander to order a service member to stay away from or have no contact with the victim. It can include restrictions on proximity, communication, and location. An MPO is an administrative tool — violating it can result in UCMJ action. It is distinct from a civilian protective order issued by a court."
+    },
+    {
+      "q": "True or False: A victim who was drinking alcohol at the time of the assault may still file a report without fear of punishment for underage drinking.",
+      "a": "True. DoD policy provides collateral misconduct protection, meaning victims will not be punished for minor collateral misconduct (such as underage drinking or fraternization) that is discovered as a result of reporting a sexual assault. This policy exists to remove barriers to reporting."
+    },
+    {
+      "q": "What is the 'catch a serial offender' (CATCH) program?",
+      "a": "CATCH is a DoD program that allows victims who filed Restricted Reports to anonymously submit information about their alleged offender into a confidential database. If two or more entries match the same offender, the SARC is notified, and victims are informed of the match and given the option to convert to an unrestricted report. It helps identify serial offenders while preserving victim confidentiality."
+    },
+    {
+      "q": "What annual training requirement exists for SAPR?",
+      "a": "All service members E-1 through O-10 must receive annual SAPR training. The training must be interactive, in-person (or live virtual), and cover topics including reporting options, bystander intervention, the role of alcohol, consent, retaliation prevention, and available resources. Online-only training does not satisfy this requirement for military members."
+    },
+    {
+      "q": "What is the role of the MCIO in sexual assault cases?",
+      "a": "The Military Criminal Investigative Organization (MCIO) — such as NCIS, CID, or OSI — conducts the official criminal investigation of sexual assault under an unrestricted report. The MCIO is notified immediately upon receipt of an unrestricted report and has investigative authority independent of the chain of command."
+    },
+    {
+      "q": "What is consent in the context of DoD SAPR policy?",
+      "a": "Consent is a freely given agreement to sexual conduct by a competent person. An expression of lack of consent through words or conduct means there is no consent. Lack of verbal or physical resistance does not constitute consent. A person cannot consent if incapacitated by alcohol, drugs, sleep, unconsciousness, or due to age or mental incapacity."
+    },
+    {
+      "q": "Which of the following is NOT a barrier to reporting sexual assault: (a) fear of retaliation, (b) availability of restricted reporting, (c) shame or self-blame, (d) distrust of the system?",
+      "a": "(b) Availability of restricted reporting. Restricted reporting is actually designed to REDUCE barriers to reporting by offering confidentiality. Fear of retaliation, shame/self-blame, and distrust of the system are all recognized barriers that prevent victims from coming forward."
+    },
+    {
+      "q": "What happens to the forensic evidence kit in a Restricted Report?",
+      "a": "Under Restricted Reporting, the SAFE evidence kit is stored for a minimum of 5 years, identified only by a DoD-assigned case number (not the victim's name). If the victim later decides to convert to an unrestricted report, the evidence can be used in the investigation. If the victim does not convert, the kit is eventually destroyed per Service policy."
+    },
+    {
+      "q": "What is the Special Victims' Counsel (SVC) / Victims' Legal Counsel (VLC)?",
+      "a": "The SVC (Army/Marine Corps) or VLC (Navy/Air Force) is a military attorney assigned to represent the legal interests of a sexual assault victim throughout the military justice process. They provide confidential legal advice, represent the victim's interests at hearings, and help navigate the legal system. Services are available to victims who filed either type of report."
+    },
+    {
+      "q": "What obligations does a service member have if they witness a sexual assault?",
+      "a": "Service members have a duty to intervene to stop a sexual assault if they can safely do so, and to report the incident. Failure to report or intervene can constitute a violation of the UCMJ (dereliction of duty). Bystander intervention training teaches practical strategies for safely intervening."
+    },
+    {
+      "q": "What is the 'One Is Too Many' campaign?",
+      "a": "One Is Too Many is a DoD-wide prevention campaign launched to reinforce that even one sexual assault is too many and to build a military culture of dignity, respect, and prevention. It emphasizes leadership accountability, bystander intervention, and creating environments where sexual assault cannot occur."
+    },
+    {
+      "q": "True or False: Male service members can be victims of sexual assault and are eligible for all SAPR services.",
+      "a": "True. Sexual assault affects all genders. Male victims are eligible for the same SAPR services including restricted/unrestricted reporting, SARC/VA support, SAFE exam, counseling, and legal counsel. Male sexual assault is underreported, and addressing stigma is a key part of SAPR training."
+    },
+    {
+      "q": "What is the 72-hour requirement related to sexual assault reporting to senior commanders?",
+      "a": "Within 72 hours of an unrestricted report, the installation commander must receive a briefing that includes the circumstances of the assault, the victim's current status and needs, any immediate safety concerns, and actions taken. This requirement ensures senior leader awareness and enables them to direct resources and protective measures."
+    },
+    {
+      "q": "Who is required to report allegations of sexual assault (mandatory reporters)?",
+      "a": "All military members in supervisory or command positions are mandatory reporters. When they receive information about a sexual assault, they must report it to the MCIO. This means a disclosure to any commander, supervisor, or person in authority triggers an unrestricted report, regardless of the victim's preference."
+    },
+    {
+      "q": "What is the difference between the SAPR and MEO programs?",
+      "a": "SAPR handles sexual assault (criminal sexual contact). MEO (Military Equal Opportunity) handles sexual harassment (unwelcome sexual conduct creating a hostile environment or quid pro quo). While related, they have different reporting channels, investigation procedures, and legal frameworks. A case may involve elements of both."
+    },
+    {
+      "q": "What accommodations can a sexual assault victim receive in the military?",
+      "a": "Victims may receive expedited transfers, no-contact/military protective orders, changes in duty assignment, modified work schedules, excusal from duties that require contact with the alleged offender, counseling services, and SVC/VLC legal representation. These accommodations aim to protect the victim and support recovery."
+    },
+    {
+      "q": "What is the role of alcohol in military sexual assaults?",
+      "a": "Alcohol is involved in a significant majority of military sexual assaults — often consumed by the offender, victim, or both. Alcohol use does not excuse the offender's behavior or diminish their culpability. A person who is incapacitated by alcohol cannot consent. SAPR training emphasizes the link between alcohol and sexual assault risk."
+    },
+    {
+      "q": "Which of the following could cause a Restricted Report to become Unrestricted: (a) victim tells a friend, (b) victim discloses to their commander, (c) victim seeks medical treatment, (d) victim contacts the Safe Helpline?",
+      "a": "(b) Victim discloses to their commander. Disclosure to anyone in the chain of command (commanders, supervisors, first sergeants) triggers mandatory reporting and converts the report to unrestricted. Telling a friend, seeking medical treatment through a healthcare provider, or contacting the Safe Helpline does not break restricted reporting."
+    },
+    {
+      "q": "What is the purpose of the Sexual Assault Prevention and Response Office (SAPRO)?",
+      "a": "SAPRO is the DoD-level office responsible for overseeing the SAPR program across all military services. It develops policy, provides oversight, collects and publishes annual reports on sexual assault in the military, manages the Safe Helpline, and coordinates with Congress and external stakeholders on SAPR issues."
+    },
+    {
+      "q": "How long does a victim have to file a Restricted Report after a sexual assault?",
+      "a": "There is no time limit for filing a Restricted Report. A victim can file a restricted report at any time after the assault, regardless of when it occurred. However, forensic evidence is best preserved if collected within 72-120 hours of the assault."
+    },
+    {
+      "q": "What does the SAPR program require regarding pre-trial investigations and the victim's rights?",
+      "a": "Under the military justice system, victims have the right to be informed of case status, the right to be heard at sentencing and parole hearings, the right to confer with the trial counsel, the right to be present at proceedings, and the right to a Special Victims' Counsel/Victims' Legal Counsel to protect their interests throughout the process."
+    },
+    {
+      "q": "What are the 3 D's of bystander intervention?",
+      "a": "Direct, Distract, and Delegate. Direct means confronting the situation head-on ('Hey, leave her alone'). Distract means creating a diversion to interrupt the behavior ('Hey, your car is getting towed'). Delegate means getting help from someone else (a bartender, bouncer, friend, or authority figure). Some models add a 4th D: Delay (check on the person afterward)."
+    },
+    {
+      "q": "True or False: A civilian spouse of a service member can file a Restricted Report with the SARC.",
+      "a": "True. Military dependents who are 18 years or older and eligible for treatment in military medical facilities can file a Restricted Report. This includes civilian spouses of service members. They are eligible for SARC/VA support, medical care, and counseling under the SAPR program."
+    },
+    {
+      "q": "What is the commander's obligation upon receiving an unrestricted report of sexual assault?",
+      "a": "The commander must immediately refer the matter to the MCIO, ensure the victim's safety (issue an MPO if needed), ensure the victim is offered SARC/VA support and medical care, preserve evidence, refrain from conducting their own investigation, and report to the next senior commander within 24 hours. The commander must also ensure no retaliation occurs."
+    },
+    {
+      "q": "What does the term 'victim-centered approach' mean in the SAPR program?",
+      "a": "A victim-centered approach places the victim's needs, safety, and well-being at the center of all decisions. It means respecting the victim's choices about reporting, providing non-judgmental support, ensuring access to services regardless of reporting option, and empowering the victim to regain control. The goal is to minimize re-traumatization throughout the response process."
+    }
+  ]
+}

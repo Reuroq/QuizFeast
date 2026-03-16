@@ -1,0 +1,171 @@
+{
+  "category": "Composite Risk Management",
+  "description": "Composite Risk Management (CRM) and Operational Risk Management (ORM) training covering the 5-step process, risk assessment matrix, probability and severity, hazard identification, controls, residual risk, and after-action reviews. Based on ATP 5-19 (Army) and general DoD ORM doctrine.",
+  "icon": "exclamation-triangle",
+  "questions": [
+    {
+      "q": "What are the five steps of the Composite Risk Management (CRM) process?",
+      "a": "1. Identify hazards, 2. Assess hazards (determine risk), 3. Develop controls and make risk decisions, 4. Implement controls, 5. Supervise and evaluate. These five steps form a continuous, cyclical process that applies to all military operations, training, and daily activities."
+    },
+    {
+      "q": "What Army doctrinal publication covers Composite Risk Management?",
+      "a": "ATP 5-19 (Army Techniques Publication 5-19), Risk Management. It provides guidance on the CRM process, risk assessment methodology, and integration of risk management into military operations and training. It replaced the earlier FM 5-19."
+    },
+    {
+      "q": "What is a hazard in the context of risk management?",
+      "a": "A hazard is any actual or potential condition that can cause injury, illness, or death to personnel; damage to or loss of equipment, property, or mission degradation. Hazards can be tactical, operational, environmental, physical, human factors, or related to equipment and materiel."
+    },
+    {
+      "q": "What two factors are used to assess the level of risk for each hazard?",
+      "a": "Probability and severity. Probability is the likelihood that the hazard will cause a loss event, and severity is the expected consequence or impact if the event occurs. These two factors are combined using the risk assessment matrix to determine the overall risk level."
+    },
+    {
+      "q": "What are the four levels of severity in the risk assessment matrix?",
+      "a": "Catastrophic (I) — death, permanent total disability, or loss of system/facility worth $10M+. Critical (II) — permanent partial disability, hospitalization of 3+, or loss worth $1M-$10M. Marginal (III) — lost workday injury/illness or loss worth $100K-$1M. Negligible (IV) — minor injury or loss under $100K."
+    },
+    {
+      "q": "What are the five levels of probability in the risk assessment matrix?",
+      "a": "Frequent (A) — occurs often, continuously experienced. Likely (B) — occurs several times. Occasional (C) — occurs sporadically. Seldom (D) — unlikely but could occur. Unlikely (E) — can assume it will not occur, but not impossible. Each level estimates how often a hazard event is expected to occur."
+    },
+    {
+      "q": "What are the four risk levels in the risk assessment matrix?",
+      "a": "Extremely High (E) — loss of ability to accomplish mission; High (H) — significant degradation of mission capabilities; Medium (M) — degradation of mission capabilities but achievable; Low (L) — minimal impact on mission. The level is determined by plotting probability and severity on the matrix."
+    },
+    {
+      "q": "Who has the authority to accept risk in the military?",
+      "a": "The commander or leader at the appropriate level. Risk decisions are made by the person with the authority to accept the level of risk involved. Generally, the higher the risk, the higher the level of command that must approve it. Extremely High risk typically requires the senior commander to accept. Leaders should never accept unnecessary risk."
+    },
+    {
+      "q": "What is residual risk?",
+      "a": "Residual risk is the level of risk that remains after controls have been implemented. No control can eliminate all risk. Leaders must evaluate whether the residual risk is acceptable for the mission. If residual risk remains too high, additional controls must be developed or the mission/activity must be modified."
+    },
+    {
+      "q": "What is the difference between risk avoidance and risk mitigation?",
+      "a": "Risk avoidance eliminates the hazard entirely by choosing not to engage in the activity or by selecting an alternative that does not involve the hazard. Risk mitigation (risk reduction) implements controls to reduce the probability or severity of the hazard to an acceptable level while still conducting the activity."
+    },
+    {
+      "q": "What are the three types of controls used in risk management?",
+      "a": "Engineering controls (physical barriers, guards, warning systems that physically eliminate or reduce the hazard), Administrative controls (policies, SOPs, training, scheduling, supervision that reduce exposure to the hazard), and Personal Protective Equipment (PPE) (helmets, gloves, body armor that protect individuals if the hazard occurs)."
+    },
+    {
+      "q": "Which type of control is most preferred in the hierarchy of controls?",
+      "a": "Engineering controls are most preferred because they physically remove or reduce the hazard, do not rely on human behavior, and provide the most reliable protection. The hierarchy is: elimination > substitution > engineering controls > administrative controls > PPE. PPE is the least preferred because it relies on individual compliance."
+    },
+    {
+      "q": "What is Step 1 of the CRM process — Identify Hazards — and how is it done?",
+      "a": "Identify hazards involves systematically finding and listing all conditions or activities that could cause harm. Methods include: operational analysis (breaking the mission into phases), preliminary hazard analysis, historical data review (lessons learned, accident reports), brainstorming with experienced personnel, site surveys/reconnaissance, and reviewing SOPs and doctrine."
+    },
+    {
+      "q": "What is an After-Action Review (AAR) and how does it relate to risk management?",
+      "a": "An AAR is a structured review conducted after an operation or activity to examine what was planned, what actually happened, why it happened, and how it can be done better. In risk management, the AAR evaluates whether controls were effective, identifies new hazards that emerged, captures lessons learned, and feeds improvements back into the CRM process for future operations."
+    },
+    {
+      "q": "True or False: Risk management only applies to combat operations.",
+      "a": "False. Risk management applies to ALL military activities — combat operations, training, garrison activities, maintenance, recreation, driving, and daily life. The CRM process is designed to be used at every level, from individual soldiers planning personal activities to commanders planning large-scale operations."
+    },
+    {
+      "q": "What is the principle 'accept no unnecessary risk' in CRM?",
+      "a": "Accept no unnecessary risk means that no risk should be accepted unless the potential benefit outweighs the potential cost. If a risk can be eliminated without compromising the mission, it should be. Only risks that are necessary to accomplish the mission should be accepted, and then only at the lowest level possible with appropriate controls."
+    },
+    {
+      "q": "Who is responsible for risk management in a military unit?",
+      "a": "Everyone is responsible for risk management. While the commander has ultimate responsibility and authority to make risk decisions, every leader and individual soldier is responsible for identifying hazards, implementing controls, and managing risk at their level. Risk management is not just a staff function — it is a leadership responsibility integrated into all activities."
+    },
+    {
+      "q": "What is the difference between deliberate, time-critical, and strategic risk management?",
+      "a": "Deliberate risk management is used in planning with ample time — involves detailed analysis, worksheets, and thorough assessment. Time-critical (real-time) risk management is used during execution when time is limited — relies on experience, intuition, and mental checklists. Strategic risk management addresses long-term, high-level risks to organizational goals and programs."
+    },
+    {
+      "q": "Which of the following is NOT one of the five steps of CRM: (a) Identify hazards, (b) Assess hazards, (c) Assign blame, (d) Implement controls?",
+      "a": "(c) Assign blame. The five steps are: Identify hazards, Assess hazards, Develop controls and make risk decisions, Implement controls, and Supervise and evaluate. CRM is a proactive, no-blame process focused on preventing losses, not assigning fault."
+    },
+    {
+      "q": "What is a risk assessment matrix and how is it used?",
+      "a": "A risk assessment matrix is a grid tool that plots probability (rows: Frequent to Unlikely) against severity (columns: Catastrophic to Negligible) to determine the overall risk level (Extremely High, High, Medium, or Low). Each identified hazard is plotted on the matrix both before and after controls are applied to visualize initial and residual risk."
+    },
+    {
+      "q": "What does Step 5 — Supervise and Evaluate — involve?",
+      "a": "Step 5 involves monitoring the effectiveness of implemented controls during and after the activity, ensuring controls are still working as planned, identifying new hazards that emerge during execution, making adjustments as needed, and conducting AARs to capture lessons learned. It ensures CRM is a continuous process, not just a planning exercise."
+    },
+    {
+      "q": "What is the four principles of CRM?",
+      "a": "The four principles are: (1) Accept no unnecessary risk, (2) Make risk decisions at the appropriate level, (3) Accept risk when benefits outweigh the cost, and (4) Integrate CRM into all phases of missions and activities. These principles guide commanders and individuals in applying the CRM process effectively."
+    },
+    {
+      "q": "What is a preliminary hazard analysis?",
+      "a": "A preliminary hazard analysis (PHA) is an initial assessment conducted early in the planning process to identify potential hazards and their possible effects. It provides a broad overview of risks before detailed planning begins, allowing leaders to address major hazards early and focus detailed analysis on the highest-risk areas."
+    },
+    {
+      "q": "How does weather factor into the CRM process?",
+      "a": "Weather is a significant environmental hazard that affects virtually all military operations. CRM requires identifying weather-related hazards (heat, cold, lightning, reduced visibility, icy roads, flooding), assessing their probability and severity, and implementing controls (modified schedules, protective equipment, shelter, go/no-go criteria). Weather conditions should be continuously monitored and risk reassessed."
+    },
+    {
+      "q": "What is the role of SOPs in risk management?",
+      "a": "Standard Operating Procedures (SOPs) serve as pre-established administrative controls that reduce risk by standardizing safe practices. SOPs codify lessons learned, best practices, and safety requirements into repeatable procedures. They reduce risk from human error and ensure consistent application of controls across the organization. SOPs should be reviewed and updated based on AAR findings."
+    },
+    {
+      "q": "True or False: Once controls are implemented, the CRM process is complete.",
+      "a": "False. CRM is a continuous, cyclical process. After implementing controls (Step 4), you must supervise and evaluate (Step 5) to ensure controls are effective, identify new hazards, and make adjustments. Conditions change during execution, and the CRM process must adapt accordingly. An AAR feeds lessons back into future planning."
+    },
+    {
+      "q": "What is Operational Risk Management (ORM) and how does it differ from CRM?",
+      "a": "ORM is the risk management process used primarily by the Navy, Marine Corps, and Air Force. CRM (Composite Risk Management) is the Army's term. Both use the same fundamental approach — identifying hazards, assessing risk, implementing controls, and monitoring results. The terminology and specific matrix formats may differ slightly, but the principles are identical."
+    },
+    {
+      "q": "How should risk management be integrated into the Military Decision-Making Process (MDMP)?",
+      "a": "Risk management should be integrated into every step of MDMP: during mission analysis (identify hazards), course of action development (assess hazards and develop controls), COA comparison (compare risk levels), decision (accept risk), and execution/assessment (implement controls and supervise). It should not be a separate annex completed after planning — it must inform planning decisions."
+    },
+    {
+      "q": "What is the difference between initial risk and residual risk on the risk assessment matrix?",
+      "a": "Initial risk is the risk level assessed before any controls are applied — it represents the raw hazard level. Residual risk is the risk level remaining after controls have been implemented. The goal of controls is to reduce initial risk to an acceptable residual risk level. Both should be documented to show the value of the controls."
+    },
+    {
+      "q": "What human factors contribute to risk in military operations?",
+      "a": "Common human factors include fatigue, complacency, stress, lack of training or experience, poor communication, task overload, peer pressure, substance use, inadequate supervision, and failure to follow procedures. Human factors are involved in the majority of military accidents and must be specifically addressed in the CRM process."
+    },
+    {
+      "q": "What is complacency in risk management and why is it dangerous?",
+      "a": "Complacency is a feeling of self-satisfaction or overconfidence that leads to reduced vigilance, especially during routine or repetitive tasks. It is dangerous because personnel stop looking for hazards, skip safety checks, or fail to follow procedures because 'nothing has ever gone wrong.' Many accidents occur during routine operations due to complacency."
+    },
+    {
+      "q": "What is a go/no-go decision in risk management?",
+      "a": "A go/no-go decision is a critical decision point where a leader determines whether an activity should proceed based on the assessed risk. If risk exceeds the acceptable level and cannot be reduced through additional controls, the activity is a 'no-go' and must be modified, postponed, or cancelled. Pre-established go/no-go criteria (such as weather limits, equipment status, or training thresholds) enable rapid decision-making."
+    },
+    {
+      "q": "What is the 'Make risk decisions at the appropriate level' principle?",
+      "a": "This principle means that risk decisions should be made by the person who has the authority and responsibility to accept the level of risk involved. Low risk can be accepted at lower levels (squad leader, crew chief). As risk increases, decisions should be elevated to higher levels of command. Extremely High risk decisions typically require the senior commander."
+    },
+    {
+      "q": "How do lessons learned feed back into the CRM process?",
+      "a": "Lessons learned from AARs, accident investigations, near-miss reports, and operational experience are captured and fed back into future CRM iterations. They help identify previously unknown hazards, evaluate the effectiveness of existing controls, improve SOPs, inform training programs, and refine the risk assessment process. This feedback loop makes CRM a learning system."
+    },
+    {
+      "q": "What is a near-miss and why is it important in risk management?",
+      "a": "A near-miss is an event that could have resulted in injury, damage, or loss but did not due to chance or a last-second intervention. Near-misses are critical indicators that hazards exist and controls may be inadequate. Reporting and analyzing near-misses allows organizations to identify and fix problems before an actual accident occurs. A culture of reporting near-misses improves safety."
+    },
+    {
+      "q": "Which of the following best describes the purpose of CRM: (a) eliminate all risk from operations, (b) identify who is at fault when accidents happen, (c) preserve combat power by managing risk to an acceptable level, (d) create paperwork for commanders?",
+      "a": "(c) Preserve combat power by managing risk to an acceptable level. CRM does not seek to eliminate all risk (which is impossible) or assign blame. Its purpose is to identify hazards, reduce risk to acceptable levels, and enable mission accomplishment while protecting personnel and resources."
+    },
+    {
+      "q": "What role does training play in risk management?",
+      "a": "Training is a primary administrative control that reduces risk by ensuring personnel have the knowledge, skills, and judgment to perform tasks safely. Well-trained personnel recognize hazards, follow procedures, and make better decisions under pressure. Lack of training is a leading risk factor in military accidents. Training effectiveness should be assessed during Step 5 of CRM."
+    },
+    {
+      "q": "How does fatigue affect risk in military operations?",
+      "a": "Fatigue degrades cognitive function, reaction time, judgment, situational awareness, and decision-making — all critical to safe operations. It is a major contributing factor in vehicle accidents, friendly fire incidents, and training mishaps. CRM addresses fatigue through controls such as crew rest policies, work/rest cycles, sleep plans, and leader monitoring of personnel alertness."
+    },
+    {
+      "q": "What is risk transference in CRM?",
+      "a": "Risk transference shifts the impact of a risk to another party or area. In military operations, this might mean using contractors for high-risk tasks, purchasing insurance for equipment, or shifting the timing or location of an activity to reduce risk to the primary force. Risk transference does not eliminate the risk — it changes who bears the consequences."
+    },
+    {
+      "q": "What is the CRM worksheet (DD Form 2977) used for?",
+      "a": "DD Form 2977 (Deliberate Risk Assessment Worksheet) is the standard form used to document the CRM process. It records identified hazards, initial risk levels, controls, residual risk levels, who implements the controls, and the overall risk level accepted by the approving authority. It provides a written record of the risk management process and the commander's risk decision."
+    },
+    {
+      "q": "True or False: Risk management should be conducted only during the planning phase of an operation.",
+      "a": "False. While detailed risk management occurs during planning, it must continue throughout execution. Conditions change, new hazards emerge, and controls may prove inadequate. Leaders must continuously assess risk during operations and adjust controls as needed. CRM is a continuous process, not a one-time planning event."
+    }
+  ]
+}

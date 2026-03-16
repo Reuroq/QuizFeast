@@ -1,0 +1,151 @@
+{
+  "category": "Domestic Violence / Family Advocacy Program",
+  "description": "Domestic violence awareness and Family Advocacy Program (FAP) training covering warning signs, safety planning, FAP referral process, military protective orders, restricted vs unrestricted reporting, impact on children, resources, and commander responsibilities. Based on DoDI 6400.06.",
+  "icon": "house-heart",
+  "questions": [
+    {
+      "q": "What is the Family Advocacy Program (FAP)?",
+      "a": "FAP is a DoD program that addresses domestic abuse and child abuse/neglect in military families. It provides prevention, identification, intervention, treatment, and reporting services at every military installation."
+    },
+    {
+      "q": "What DoD Instruction governs the Family Advocacy Program?",
+      "a": "DoDI 6400.06, Domestic Abuse Involving DoD Military and Certain Affiliated Personnel, establishes policy for FAP operations and domestic abuse prevention and response."
+    },
+    {
+      "q": "How does DoD define domestic abuse?",
+      "a": "Domestic abuse includes physical violence, sexual abuse, emotional/psychological abuse, and neglect or deprivation by a current or former spouse, intimate partner, or person with whom the victim shares a child in common."
+    },
+    {
+      "q": "What are the warning signs of domestic violence?",
+      "a": "Unexplained injuries or frequent 'accidents,' isolation from friends and family, excessive jealousy or controlling behavior by the partner, sudden changes in behavior or personality, fear of the partner, and financial control by one partner."
+    },
+    {
+      "q": "What are the types of domestic abuse recognized by DoD?",
+      "a": "Physical abuse (hitting, pushing, choking), emotional/psychological abuse (threats, intimidation, isolation), sexual abuse (unwanted sexual contact or coercion), and neglect/deprivation (withholding necessities from dependents)."
+    },
+    {
+      "q": "What is a Military Protective Order (MPO)?",
+      "a": "An MPO is a written order issued by a military commander to a service member restricting contact with specific persons (victim/family). It can include no-contact provisions, stay-away orders, and removal from shared quarters."
+    },
+    {
+      "q": "How does an MPO differ from a civilian protective order (CPO)?",
+      "a": "An MPO is issued by a military commander under military authority and enforceable under UCMJ. A CPO is issued by a civilian court. MPOs only apply to the service member; CPOs can restrain any person. Victims may need both for full protection."
+    },
+    {
+      "q": "What is restricted reporting for domestic abuse in the military?",
+      "a": "Restricted reporting allows adult victims of domestic abuse to confidentially report to specified individuals (FAP clinical providers, healthcare providers, victim advocates) and receive services without triggering a command or law enforcement investigation."
+    },
+    {
+      "q": "What is unrestricted reporting for domestic abuse?",
+      "a": "Unrestricted reporting triggers a full investigation by law enforcement and notification of the service member's chain of command. The victim receives full FAP services, and the incident is reported to the FAP central registry."
+    },
+    {
+      "q": "Who can receive a restricted report of domestic abuse?",
+      "a": "Only designated FAP clinical providers, healthcare personnel, and victim advocates can receive restricted reports. Reporting to the chain of command, law enforcement, or chaplains (in some cases) constitutes an unrestricted report."
+    },
+    {
+      "q": "Can a restricted report be converted to unrestricted?",
+      "a": "Yes, a victim can request to convert a restricted report to unrestricted at any time. However, an unrestricted report cannot be converted to restricted. Certain exceptions (imminent threat to life) may require breaking restricted confidentiality."
+    },
+    {
+      "q": "What are a commander's responsibilities regarding domestic violence?",
+      "a": "Commanders must ensure victim safety (issue MPOs if needed), refer victims to FAP and victim advocacy, hold offenders accountable, coordinate with law enforcement, support victims through the process, and promote a climate of trust for reporting."
+    },
+    {
+      "q": "What is the FAP Central Registry?",
+      "a": "The FAP Central Registry is a DoD database that records all substantiated incidents of domestic abuse and child abuse/neglect. It is used for tracking, research, and ensuring offenders do not evade accountability by moving between installations."
+    },
+    {
+      "q": "What is the Incident Determination Committee (IDC)?",
+      "a": "The IDC is a FAP multidisciplinary team that reviews domestic abuse and child abuse allegations to determine if they meet criteria for substantiation. It includes FAP clinical staff, law enforcement, legal, and command representatives."
+    },
+    {
+      "q": "What is a safety plan and why is it important?",
+      "a": "A safety plan is a personalized strategy to reduce a victim's risk during dangerous situations. It includes escape routes, emergency contacts, safe locations, important documents to keep accessible, code words with trusted people, and financial resources."
+    },
+    {
+      "q": "What key elements should a domestic violence safety plan include?",
+      "a": "Emergency numbers (911, hotlines), safe places to go, copies of important documents (ID, financial records, custody orders), emergency cash, packed bag with essentials, plan for pets, code words to signal for help, and a plan for children."
+    },
+    {
+      "q": "How does domestic violence impact children who witness it?",
+      "a": "Children exposed to domestic violence may experience anxiety, depression, PTSD, behavioral problems, difficulty in school, developmental delays, aggression, and increased risk of becoming victims or perpetrators of violence as adults."
+    },
+    {
+      "q": "What is the cycle of violence (Lenore Walker's model)?",
+      "a": "The cycle includes three phases: Tension Building (stress, minor incidents, walking on eggshells), Acute Battering (violent episode), and Honeymoon/Reconciliation (apologies, gifts, promises to change). The cycle typically escalates over time."
+    },
+    {
+      "q": "What is coercive control?",
+      "a": "Coercive control is a pattern of behavior that seeks to dominate a partner through intimidation, isolation, monitoring, financial control, and manipulation. It can exist without physical violence and is recognized as a form of domestic abuse."
+    },
+    {
+      "q": "What is strangulation and why is it a critical warning sign?",
+      "a": "Strangulation (choking) during domestic violence is one of the strongest predictors of future lethality. Victims who have been strangled are 7.5 times more likely to be killed. It may leave no visible injuries but can cause brain damage or delayed death."
+    },
+    {
+      "q": "What is the military's Transitional Compensation (TC) program?",
+      "a": "TC provides monthly payments, medical/dental benefits (TRICARE), and commissary/exchange access to dependents of service members who are separated for domestic violence offenses. It is authorized by 10 U.S.C. 1059."
+    },
+    {
+      "q": "What is the National Domestic Violence Hotline number?",
+      "a": "1-800-799-7233 (1-800-799-SAFE). It operates 24/7, provides crisis support in over 200 languages, connects callers to local resources, and offers safety planning assistance. TTY: 1-800-787-3224."
+    },
+    {
+      "q": "What is the Military OneSource number for domestic violence resources?",
+      "a": "1-800-342-9647. Military OneSource provides free, confidential counseling (up to 12 sessions), referrals to FAP, financial assistance information, and other support services for military families 24/7."
+    },
+    {
+      "q": "What UCMJ articles may apply to domestic violence offenses?",
+      "a": "Article 128 (Assault), Article 128b (Domestic Violence), Article 120 (Sexual Assault), Article 134 (Communicating threats), and Article 92 (Failure to obey MPO). The Lautenberg Amendment also applies, barring firearms possession for misdemeanor DV convictions."
+    },
+    {
+      "q": "What is the Lautenberg Amendment and how does it affect military members?",
+      "a": "The Lautenberg Amendment (18 U.S.C. 922(g)(9)) prohibits anyone convicted of a misdemeanor crime of domestic violence from possessing firearms. For military members, this effectively ends their career since bearing arms is an essential function."
+    },
+    {
+      "q": "What is lethality assessment and why do FAP providers use it?",
+      "a": "Lethality assessment uses evidence-based tools (like the Danger Assessment by Jacquelyn Campbell) to evaluate risk factors that predict domestic violence homicide. FAP uses these tools to determine the level of danger and plan appropriate safety interventions."
+    },
+    {
+      "q": "What are high-risk factors for domestic violence lethality?",
+      "a": "Prior strangulation, threats with weapons, gun ownership, separation/estrangement, stalking, controlling behavior, forced sex, substance abuse, prior protection order violations, and escalating frequency/severity of violence."
+    },
+    {
+      "q": "What role do victim advocates play in the FAP?",
+      "a": "Victim advocates provide crisis intervention, safety planning, information about rights and resources, accompaniment to appointments and proceedings, help navigating military and civilian systems, and ongoing support throughout the process."
+    },
+    {
+      "q": "What is the difference between a FAP Victim Advocate and a Special Victims' Counsel (SVC)?",
+      "a": "A Victim Advocate provides emotional support, information, and resource referrals. A Special Victims' Counsel (SVC) is a military attorney who provides independent legal advice to victims of domestic violence and sexual assault."
+    },
+    {
+      "q": "How does a Permanent Change of Station (PCS) affect a domestic violence case?",
+      "a": "FAP cases transfer with the family to the new installation. The gaining FAP takes over case management. However, MPOs must be reissued at the new command, and civilian protective orders from the previous jurisdiction may need enforcement coordination."
+    },
+    {
+      "q": "What is the 'power and control wheel'?",
+      "a": "Developed by the Duluth Model, it illustrates tactics abusers use: physical/sexual violence as outer ring, with spokes including intimidation, emotional abuse, isolation, minimizing/denying, using children, economic abuse, male privilege, and coercion/threats."
+    },
+    {
+      "q": "Can civilian spouses of military members access FAP services?",
+      "a": "Yes, all family members eligible for military healthcare (current/former spouses, children, intimate partners sharing a child) can access FAP services regardless of whether the abuser is the service member or the civilian."
+    },
+    {
+      "q": "What should a first responder or colleague do if they suspect domestic violence?",
+      "a": "Express concern privately and without judgment, provide information about FAP and the domestic violence hotline, do not pressure the person to leave or report, document observations, ensure immediate safety, and follow mandatory reporting requirements."
+    },
+    {
+      "q": "What is mandatory reporting of domestic violence in the military context?",
+      "a": "Healthcare providers, FAP personnel, and in many jurisdictions law enforcement are mandatory reporters of domestic violence and child abuse. Failure to report suspected abuse can result in disciplinary action."
+    },
+    {
+      "q": "What financial resources are available to domestic violence victims in the military?",
+      "a": "Emergency financial assistance through military relief societies (AER, AFAS, NMCFA, CGMA), transitional compensation for dependents of separated members, state victim compensation funds, legal aid services, and emergency shelter funding."
+    },
+    {
+      "q": "What is the impact of deployment on domestic violence?",
+      "a": "Deployment stress can increase risk factors: reintegration challenges, PTSD, TBI, substance abuse, and relationship strain. The pre-deployment and reintegration phases are particularly high-risk. FAP should be integrated into deployment cycle support."
+    }
+  ]
+}

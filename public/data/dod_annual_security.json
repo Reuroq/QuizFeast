@@ -1,0 +1,163 @@
+{
+  "category": "DoD Annual Security Awareness Refresher",
+  "description": "DoD Annual Security Awareness training covering insider threat indicators, counterintelligence, suspicious contacts, foreign travel, social media risks, security violations, reporting requirements, and classified spillage procedures. Based on CDSE curriculum.",
+  "icon": "shield-check",
+  "questions": [
+    {
+      "q": "What is the primary purpose of the DoD Annual Security Awareness Refresher training?",
+      "a": "To ensure all personnel with access to classified information or who hold security clearances maintain awareness of their security responsibilities, current threats, and reporting requirements."
+    },
+    {
+      "q": "What is an insider threat?",
+      "a": "An insider threat is a person with authorized access to DoD resources who uses that access — wittingly or unwittingly — to harm national security, including espionage, unauthorized disclosure, sabotage, or workplace violence."
+    },
+    {
+      "q": "Name five behavioral indicators of a potential insider threat.",
+      "a": "Unexplained affluence, working unusual hours without authorization, attempts to access information beyond need-to-know, disgruntlement with the organization, and unreported foreign contacts or travel."
+    },
+    {
+      "q": "What is counterintelligence (CI)?",
+      "a": "Counterintelligence encompasses activities conducted to identify, deceive, exploit, disrupt, or protect against espionage, sabotage, or other intelligence activities conducted by foreign powers, organizations, or persons."
+    },
+    {
+      "q": "What should you do if approached by someone you suspect is attempting to collect classified information?",
+      "a": "Do not provide any information, disengage from the conversation, note details about the person and encounter, and immediately report the contact to your security manager and local counterintelligence office."
+    },
+    {
+      "q": "What are 'suspicious contacts' that require reporting?",
+      "a": "Any contact with known or suspected foreign intelligence officers, any attempt by anyone to obtain classified or sensitive information without authorization, and any contact that suggests you may be a target of exploitation."
+    },
+    {
+      "q": "What are your reporting obligations before foreign travel?",
+      "a": "Report planned foreign travel to your security manager in advance, complete a foreign travel briefing, understand country-specific threats, know what devices you can take, and complete a debrief upon return."
+    },
+    {
+      "q": "What precautions should you take with electronic devices during foreign travel?",
+      "a": "Use only clean/burner devices if possible, never connect to unsecured networks, never leave devices unattended, assume all communications are monitored, disable Bluetooth and Wi-Fi when not in use, and consider that hotel safes are not secure."
+    },
+    {
+      "q": "What social media risks exist for cleared personnel?",
+      "a": "Social media can reveal duty stations, deployment info, security clearance levels, and personal vulnerabilities. Foreign intelligence services actively mine social media to identify, target, and recruit cleared personnel."
+    },
+    {
+      "q": "What information should cleared personnel never post on social media?",
+      "a": "Classified information, security clearance level, specific job functions involving classified work, deployment details, unit movements, operational information, or details that could be used for blackmail or recruitment."
+    },
+    {
+      "q": "What is a security violation?",
+      "a": "A security violation is any knowing, willful, or negligent action that results in the unauthorized disclosure of classified information, or an action that could reasonably be expected to result in such disclosure."
+    },
+    {
+      "q": "What is a security infraction versus a security violation?",
+      "a": "A security infraction is a deviation from security regulations that does not result in the actual or probable compromise of classified information. A violation involves known or probable compromise. Both require reporting."
+    },
+    {
+      "q": "What is classified spillage?",
+      "a": "Classified spillage occurs when classified data is placed on an unclassified information system (e.g., sending SECRET info via unclassified email). It is a security incident requiring immediate reporting and remediation."
+    },
+    {
+      "q": "What steps must be taken when classified spillage is discovered?",
+      "a": "Stop the spillage (don't forward/copy), disconnect the affected system from the network if possible, do not delete the data, notify your security manager and Information System Security Officer (ISSO) immediately, and document the incident."
+    },
+    {
+      "q": "Who do you report security incidents to?",
+      "a": "Report to your immediate supervisor, your organization's security manager, and your Information System Security Officer (ISSO). For imminent threats to life or national security, contact law enforcement or counterintelligence directly."
+    },
+    {
+      "q": "What are the three levels of classified information and their definitions?",
+      "a": "Confidential: damage to national security. Secret: serious damage to national security. Top Secret: exceptionally grave damage to national security. Each level requires its own safeguarding procedures."
+    },
+    {
+      "q": "What is the 'need-to-know' principle?",
+      "a": "Need-to-know means that even with the proper clearance level, a person must have an official need to access specific classified information to perform their duties. Clearance alone is not sufficient for access."
+    },
+    {
+      "q": "What is the 'two-person integrity' (TPI) rule for classified materials?",
+      "a": "TPI requires that at least two authorized persons be present when accessing or handling certain highly sensitive classified materials (e.g., COMSEC, nuclear-related) to prevent unauthorized access or tampering."
+    },
+    {
+      "q": "What is a Sensitive Compartmented Information Facility (SCIF)?",
+      "a": "A SCIF is an accredited area where Sensitive Compartmented Information (SCI) can be stored, discussed, and processed. It has enhanced physical security, access controls, and technical countermeasures against surveillance."
+    },
+    {
+      "q": "What items are typically prohibited in a SCIF?",
+      "a": "Personal electronic devices (cell phones, smartwatches, fitness trackers, personal laptops), unauthorized recording devices, cameras, and any non-authorized portable electronic device that could transmit or store data."
+    },
+    {
+      "q": "What is the SF-86 and why is it important for security awareness?",
+      "a": "The SF-86 (Questionnaire for National Security Positions) is used for background investigations. Personnel must report changes to information on their SF-86 — such as foreign contacts, financial problems, or arrests — to their security manager."
+    },
+    {
+      "q": "What types of personal conduct must be self-reported to your security manager?",
+      "a": "Arrests, charges, convictions, bankruptcies, significant financial difficulties, foreign contacts or relationships, foreign travel, suspicious contacts, mental health treatment (with limitations), and any activity that could affect your clearance eligibility."
+    },
+    {
+      "q": "What is Continuous Evaluation (CE) and how does it affect cleared personnel?",
+      "a": "CE is the ongoing review of a cleared person's background between periodic reinvestigations. It uses automated checks of financial, criminal, and other records to detect issues that may affect clearance eligibility."
+    },
+    {
+      "q": "What is the Insider Threat Program and what does Executive Order 13587 require?",
+      "a": "EO 13587 requires all federal agencies with classified networks to establish insider threat programs that deter, detect, and mitigate insider threats through monitoring, training, and integrated CI and security capabilities."
+    },
+    {
+      "q": "What is the role of the Insider Threat Program Senior Official (ITPSO)?",
+      "a": "The ITPSO leads the organization's insider threat program, coordinates between security, CI, human resources, IT, and legal, and ensures compliance with NITTF (National Insider Threat Task Force) minimum standards."
+    },
+    {
+      "q": "How should classified documents be stored when not in use?",
+      "a": "In GSA-approved security containers appropriate for the classification level, in a locked SCIF/vault for SCI materials, with proper end-of-day security checks. Secret and Confidential require GSA Class 5 or 6 containers."
+    },
+    {
+      "q": "What are the approved methods for destroying classified documents?",
+      "a": "NSA/CSS-approved crosscut shredders (for up to Secret), burning, pulping, or disintegration. Top Secret destruction typically requires burning or pulping with two-person witnessing and a destruction certificate."
+    },
+    {
+      "q": "What is the significance of derivative classification?",
+      "a": "Derivative classification is incorporating, paraphrasing, restating, or generating classified information from existing classified sources into a new document. The person doing so must be trained and must properly mark the new document."
+    },
+    {
+      "q": "How often must derivative classifiers receive training?",
+      "a": "Derivative classifiers must receive training at least every two years, covering proper marking, classification guides, and the principles of derivative classification."
+    },
+    {
+      "q": "What is a Foreign Intelligence Entity (FIE)?",
+      "a": "An FIE is any known or suspected foreign government, organization, or person that conducts intelligence activities, including espionage, against the United States. FIEs target cleared personnel for recruitment and information theft."
+    },
+    {
+      "q": "What are common recruitment techniques used by Foreign Intelligence Entities?",
+      "a": "MICE: Money (bribery), Ideology (appealing to beliefs), Compromise/Coercion (blackmail), and Ego (flattery). Modern additions include cyber exploitation, social media targeting, and academic/conference approaches."
+    },
+    {
+      "q": "What is an 'elicitation' technique in counterintelligence?",
+      "a": "Elicitation is the subtle extraction of information through seemingly normal conversation. Techniques include flattery, deliberate provocation, assumed knowledge, and casual questioning in social settings."
+    },
+    {
+      "q": "What should you do if you suspect you are being elicited for sensitive information?",
+      "a": "Deflect the conversation to non-sensitive topics, do not confirm or deny any classified information, end the interaction politely, note details of the encounter, and report it to your security manager and CI."
+    },
+    {
+      "q": "What is the significance of SF-312 (Classified Information Nondisclosure Agreement)?",
+      "a": "The SF-312 is a legally binding agreement signed by all persons granted access to classified information. It obligates them to protect classified information for life and acknowledges criminal penalties for unauthorized disclosure."
+    },
+    {
+      "q": "What are the consequences of a security violation?",
+      "a": "Consequences range from security awareness counseling and additional training to suspension or revocation of clearance, administrative action, termination of employment, and criminal prosecution depending on severity and intent."
+    },
+    {
+      "q": "What is 'classification by compilation'?",
+      "a": "Classification by compilation occurs when individually unclassified pieces of information, when combined, reveal classified information. The compiled document must be classified at the appropriate level."
+    },
+    {
+      "q": "What are the reporting requirements for contact with foreign nationals?",
+      "a": "Report close and continuing contact with foreign nationals (personal relationships, cohabitation, financial obligations) to your security manager. Some organizations require reporting all foreign national contacts. Requirements vary by agency and clearance level."
+    },
+    {
+      "q": "What is a 'dead drop' in the context of espionage awareness?",
+      "a": "A dead drop is a prearranged secret location where materials (documents, data, money) are left for another person to pick up later without direct contact. It is a classic espionage tradecraft technique personnel should be aware of."
+    },
+    {
+      "q": "What must you do at the end of each workday if you handle classified materials?",
+      "a": "Conduct an end-of-day security check: verify all classified materials are properly stored in approved containers, lock all safes/vaults, verify security of the area, and complete the SF-702 (Security Container Check Sheet)."
+    }
+  ]
+}

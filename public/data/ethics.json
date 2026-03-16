@@ -1,0 +1,167 @@
+{
+  "category": "DoD Ethics",
+  "description": "DoD Ethics training covering gift rules, the Hatch Act, financial disclosure, outside employment, post-employment restrictions, use of government resources, gambling, and endorsement prohibitions. Based on 5 CFR 2635 (Standards of Ethical Conduct) and the Joint Ethics Regulation (JER).",
+  "icon": "gavel",
+  "questions": [
+    {
+      "q": "What regulation provides the Standards of Ethical Conduct for all executive branch employees?",
+      "a": "5 CFR Part 2635, Standards of Ethical Conduct for Employees of the Executive Branch. These standards apply to all federal employees, including DoD military and civilian personnel. They cover gifts, conflicts of interest, impartiality, misuse of position, outside activities, and post-employment restrictions."
+    },
+    {
+      "q": "What is the Joint Ethics Regulation (JER)?",
+      "a": "DoD 5500.7-R, the Joint Ethics Regulation, supplements 5 CFR 2635 with DoD-specific ethics guidance. It covers topics such as off-duty employment, teaching, political activities, fundraising, gambling, and other ethical obligations unique to the military environment."
+    },
+    {
+      "q": "What is the general rule on gifts from prohibited sources?",
+      "a": "Federal employees generally may not accept gifts from prohibited sources (persons or organizations that do business with, seek official action from, or are regulated by the employee's agency, or have interests that may be substantially affected by the employee's duties). There are exceptions for gifts valued at $20 or less per occasion, up to $50 per year from any one source."
+    },
+    {
+      "q": "What is the $20/$50 gift rule?",
+      "a": "Under 5 CFR 2635.204(a), an employee may accept unsolicited gifts from a prohibited source with a market value of $20 or less per occasion, provided the aggregate value from any single source does not exceed $50 in a calendar year. The employee must not pay the difference to bring an item under the limit — if it exceeds $20, the entire gift must be declined."
+    },
+    {
+      "q": "Which of the following gifts may a DoD employee accept: (a) a $25 gift card from a defense contractor, (b) a $15 lunch from a vendor, (c) a $100 golf outing from a regulated company, (d) a $75 bottle of wine from a foreign government?",
+      "a": "(b) A $15 lunch from a vendor. It falls under the $20 de minimis exception. The $25 gift card exceeds $20, the $100 golf outing far exceeds it, and gifts from foreign governments over minimal value must be reported and usually turned over to the agency under the Foreign Gifts and Decorations Act."
+    },
+    {
+      "q": "What is a prohibited source for gift purposes?",
+      "a": "A prohibited source is any person or organization that: (1) is seeking official action by the employee's agency, (2) does business or seeks to do business with the agency, (3) conducts activities regulated by the agency, (4) has interests that may be substantially affected by the employee's official duties, or (5) is a registered lobbyist or lobbying organization."
+    },
+    {
+      "q": "What is the Hatch Act?",
+      "a": "The Hatch Act (5 U.S.C. 7321-7326) restricts the political activities of federal employees. It prohibits using official authority to influence elections, engaging in political activity while on duty, in a government building, wearing an official uniform, or using a government vehicle. Violations can result in disciplinary action up to removal."
+    },
+    {
+      "q": "What political activities are prohibited under the Hatch Act while on duty?",
+      "a": "While on duty, in a government building, wearing an official uniform, or using a government vehicle, employees may NOT: display campaign materials, solicit political contributions, engage in political organizing, wear political buttons, post partisan material on social media, or engage in any activity directed at the success or failure of a candidate, political party, or partisan political group."
+    },
+    {
+      "q": "What political activities ARE permitted under the Hatch Act?",
+      "a": "Off duty and not in a government setting, most federal employees may: register and vote, contribute money to campaigns, attend political rallies, express political opinions, display campaign materials on personal property, volunteer for campaigns, and run for nonpartisan office. However, further restricted employees (like certain SES members and intelligence employees) have additional limitations."
+    },
+    {
+      "q": "What is the purpose of financial disclosure in DoD ethics?",
+      "a": "Financial disclosure requirements help identify and prevent conflicts of interest. Public Financial Disclosure (OGE 278e) is required for senior officials, and Confidential Financial Disclosure (OGE 450) is required for employees in designated positions. Filers report financial interests, outside positions, agreements, gifts, and travel reimbursements that could create conflicts with their official duties."
+    },
+    {
+      "q": "What rules govern outside employment for DoD personnel?",
+      "a": "DoD employees must obtain written approval from their supervisor and ethics counselor before engaging in outside employment or business activities. Approval may be denied if the activity would create a conflict of interest, interfere with official duties, or create an appearance of impropriety. Some outside activities are prohibited entirely (e.g., with prohibited sources in certain cases)."
+    },
+    {
+      "q": "True or False: A military officer may teach a course at a local university for compensation without any approval.",
+      "a": "False. Military officers must obtain prior approval for outside employment, including teaching. Additionally, there are restrictions on receiving compensation for teaching if the subject relates to the officer's official duties. The JER and service-specific regulations provide detailed guidance on teaching, speaking, and writing for compensation."
+    },
+    {
+      "q": "What are post-employment restrictions for DoD personnel?",
+      "a": "18 U.S.C. 207 imposes restrictions on former government employees: (1) a lifetime ban on representing others on matters they worked on personally and substantially, (2) a 2-year ban on matters that were pending under their official responsibility, (3) a 1-year senior official cooling-off period on contacting their former agency, and (4) additional restrictions for senior procurement officials."
+    },
+    {
+      "q": "What is the one-year cooling-off period for senior officials?",
+      "a": "Senior officials (O-7 and above, SES, and certain designated positions) are subject to a one-year post-employment restriction that prohibits them from contacting their former agency with intent to influence on any matter. This cooling-off period prevents senior officials from immediately leveraging their connections for private gain."
+    },
+    {
+      "q": "What are the rules on using government resources?",
+      "a": "Government resources (equipment, time, personnel, vehicles, supplies) may only be used for authorized purposes. Limited personal use of government communication equipment (phone, email) is permitted if it does not interfere with official duties, is of reasonable duration, does not create additional cost, and does not violate any other ethical standard. Use for commercial activities, political purposes, or creating an appearance of endorsement is prohibited."
+    },
+    {
+      "q": "Can a DoD employee use their government email for personal messages?",
+      "a": "Limited personal use of government email is generally permitted under JER guidelines, provided it: does not interfere with official duties, involves minimal additional cost to the government, does not create the appearance of an official endorsement, is not for commercial gain, political activity, or anything that would embarrass the DoD, and does not involve prohibited content."
+    },
+    {
+      "q": "What is the rule on gambling in the DoD?",
+      "a": "The JER prohibits gambling on federal property. This includes poker games, sports betting pools, raffles, and other games of chance conducted on military installations or in government buildings. Exceptions may exist for authorized Morale, Welfare, and Recreation (MWR) activities such as bingo. State and local laws also apply."
+    },
+    {
+      "q": "What restrictions exist on endorsements by DoD personnel?",
+      "a": "DoD personnel may not use their official title, position, or government affiliation to endorse any product, service, enterprise, or entity. This includes endorsements on social media, in advertisements, or in public statements. Even the appearance that the government endorses a private activity must be avoided. The DoD name and seal may not be used for non-official purposes."
+    },
+    {
+      "q": "What is a conflict of interest?",
+      "a": "A conflict of interest occurs when an employee's personal financial interests or relationships conflict with, or appear to conflict with, their official duties. Under 18 U.S.C. 208, an employee may not participate in an official matter that would directly and predictably affect their own financial interest or the interest of specified persons (spouse, minor child, employer, etc.)."
+    },
+    {
+      "q": "What should an employee do if they identify a potential conflict of interest?",
+      "a": "The employee should immediately disclose the potential conflict to their supervisor and agency ethics counselor. They must recuse (disqualify) themselves from the matter until the conflict is resolved. The ethics counselor may determine that no conflict exists, authorize a waiver, or require divestiture of the conflicting financial interest."
+    },
+    {
+      "q": "What is the 'appearance standard' in government ethics?",
+      "a": "Under 5 CFR 2635.101(b)(14), employees should act impartially and not give preferential treatment to any organization or individual. Even if no actual conflict exists, employees must avoid any action that would create the appearance that they are violating the law or ethical standards. The test is whether a reasonable person with knowledge of the facts would question the employee's impartiality."
+    },
+    {
+      "q": "Which of the following is a violation of ethics rules: (a) accepting a plaque from a professional association, (b) using your title in a personal real estate transaction, (c) attending a widely attended gathering approved by ethics, (d) receiving a $10 gift basket from a subordinate?",
+      "a": "(b) Using your official title in a personal real estate transaction to gain an advantage. This misuses your official position for personal gain. Plaques and certificates are generally acceptable, widely attended gatherings can be approved, and the $10 gift from a subordinate may fall under the occasional basis exception."
+    },
+    {
+      "q": "What are the rules on gifts between employees (superior-subordinate)?",
+      "a": "Under 5 CFR 2635.302, employees may not give or solicit gifts to their superiors, and superiors may not accept gifts from subordinates. Exceptions exist for food and refreshments shared in the office, items worth $10 or less on special occasions (birthday, holiday, farewell), personal hospitality at a residence, and leave donations."
+    },
+    {
+      "q": "What is the widely attended gathering (WAG) exception?",
+      "a": "Under 5 CFR 2635.204(g), an employee may accept free attendance at a widely attended gathering from a prohibited source if their agency determines attendance is in the interest of the agency. The event must be open to a large number of persons with a common interest. The ethics counselor must approve attendance in writing before the event."
+    },
+    {
+      "q": "What is fundraising policy for DoD personnel?",
+      "a": "DoD personnel may not use their official authority, title, or position to solicit contributions or endorsements for any organization, even charitable ones. The Combined Federal Campaign (CFC) is the only authorized solicitation of employees in the federal workplace. Personnel may participate in private fundraising off duty, but may not imply government endorsement."
+    },
+    {
+      "q": "What is the Combined Federal Campaign (CFC)?",
+      "a": "The CFC is the official workplace giving program for federal employees and military members. It is the only authorized solicitation of employees in the federal workplace. The CFC runs annually and allows employees to contribute to approved charitable organizations through payroll deduction. Participation is voluntary, and supervisors may not pressure subordinates to contribute."
+    },
+    {
+      "q": "True or False: A government employee may use their official title when writing a letter to the editor about a policy issue.",
+      "a": "It depends. An employee generally should NOT use their official title in a way that implies the government endorses their personal views. If writing in their personal capacity, they should include a disclaimer and avoid using letterhead. If writing in their official capacity as directed by the agency, title use may be appropriate."
+    },
+    {
+      "q": "What are the penalties for ethics violations?",
+      "a": "Penalties vary by violation and may include: informal counseling, written reprimand, suspension, demotion, removal from position, criminal prosecution (for violations of criminal statutes like 18 U.S.C. 201-209), fines, and imprisonment. Criminal conflict-of-interest violations can carry up to 5 years in prison and fines up to $50,000."
+    },
+    {
+      "q": "What is the role of an agency ethics counselor?",
+      "a": "The agency ethics counselor (or Designated Agency Ethics Official — DAEO) administers the agency's ethics program, provides ethics advice and training, reviews financial disclosure reports, determines conflicts of interest, approves outside activities, issues ethics opinions, and ensures compliance with ethics laws and regulations."
+    },
+    {
+      "q": "What is misuse of official position?",
+      "a": "Under 5 CFR 2635.702, an employee may not use their official position, title, or authority for personal gain, to endorse products or entities, to coerce others, or to give preferential treatment. This includes using nonpublic government information for private purposes and leveraging their position to benefit friends or family."
+    },
+    {
+      "q": "What restrictions apply to seeking employment while in government service?",
+      "a": "Under 5 CFR 2635.604, an employee who is negotiating for or has an arrangement concerning future employment must recuse from any matter that would affect the financial interests of the prospective employer. The employee must report the employment negotiations to their supervisor and ethics counselor and receive guidance on recusal requirements."
+    },
+    {
+      "q": "What is the ethics rule regarding nonpublic information?",
+      "a": "Under 5 CFR 2635.703, employees may not use nonpublic information (information gained through their official position that is not available to the general public) for personal financial gain or to benefit others. This includes stock trading based on nonpublic government information (insider trading), sharing procurement-sensitive information, or disclosing pre-decisional policy information."
+    },
+    {
+      "q": "What are the rules on accepting travel reimbursement from non-federal sources?",
+      "a": "Under 31 U.S.C. 1353, agencies may accept payment for travel, subsistence, and related expenses from non-federal sources when an employee attends a meeting or event in their official capacity. Acceptance must be approved in advance by the agency, and payments from prohibited sources require careful ethics review. Accepted payments must be reported on semiannual reports."
+    },
+    {
+      "q": "What training requirements exist for DoD ethics?",
+      "a": "All DoD employees must receive initial ethics orientation within 90 days of entering government service. Annual ethics training is required for employees who file financial disclosure reports. All employees should receive periodic ethics awareness through briefings, notices, or other communication. Ethics training covers conflicts of interest, gifts, outside activities, post-employment, and the Hatch Act."
+    },
+    {
+      "q": "What is the prohibition on supplementation of salary?",
+      "a": "Under 18 U.S.C. 209, an employee may not receive any salary or contribution to their salary from any source other than the United States as compensation for their government services. This means an outside entity cannot pay an employee for doing their government job. Violations carry criminal penalties."
+    },
+    {
+      "q": "Can a DoD employee serve on the board of directors of a private company?",
+      "a": "It depends. Service on a board is considered outside employment and requires prior written approval from the supervisor and ethics counselor. It may be prohibited if it creates a conflict of interest with official duties, involves a prohibited source, or would require the employee to represent the company before the government. Each case is evaluated individually."
+    },
+    {
+      "q": "What is the ethics rule on personal commercial solicitation in the workplace?",
+      "a": "DoD personnel may not engage in personal commercial solicitation (selling products, services, or insurance) in the workplace or while on duty. This includes operating businesses, selling items for personal profit, and soliciting for multi-level marketing or direct sales companies on military installations."
+    },
+    {
+      "q": "True or False: An employee may keep frequent flyer miles earned on government travel for personal use.",
+      "a": "True. Under the Federal Travel Regulation and JER, employees may keep frequent flyer miles, hotel loyalty points, and similar benefits earned during official government travel for personal use. However, they may not select a more expensive or less convenient itinerary solely to earn personal loyalty benefits."
+    },
+    {
+      "q": "What is the principle of impartiality in government ethics?",
+      "a": "Under 5 CFR 2635.501-502, employees must act impartially and should not participate in matters where a reasonable person would question their impartiality due to a personal relationship, financial interest, or other circumstance. Even without an actual conflict, the appearance of bias can undermine public trust and require recusal."
+    },
+    {
+      "q": "What restrictions apply to receiving awards or honorary degrees from outside organizations?",
+      "a": "Employees may accept awards for meritorious public service or achievement from organizations not doing business with their agency, provided there is no quid pro quo. Awards from prohibited sources require ethics review. Honorary degrees may generally be accepted but should not imply government endorsement. Foreign government awards are subject to the Foreign Gifts Act."
+    }
+  ]
+}

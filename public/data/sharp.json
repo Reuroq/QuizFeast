@@ -1,0 +1,211 @@
+{
+  "category": "Army SHARP",
+  "description": "Sexual Harassment/Assault Response and Prevention (SHARP) program — reporting options, bystander intervention, victim rights, command responsibilities, and AR 600-20 requirements",
+  "icon": "shield-check",
+  "questions": [
+    {
+      "q": "What does SHARP stand for?",
+      "a": "Sexual Harassment/Assault Response and Prevention"
+    },
+    {
+      "q": "What Army regulation governs the SHARP program?",
+      "a": "AR 600-20, Army Command Policy, Chapters 7 (Equal Opportunity) and 8 (SHARP)"
+    },
+    {
+      "q": "What are the two types of reporting options available to victims of sexual assault?",
+      "a": "Restricted Reporting and Unrestricted Reporting"
+    },
+    {
+      "q": "What is Restricted Reporting?",
+      "a": "A reporting option that allows a victim to confidentially disclose a sexual assault to specified individuals (SARC, VA, or healthcare personnel) and receive medical treatment and counseling WITHOUT triggering an official investigation or command notification"
+    },
+    {
+      "q": "What is Unrestricted Reporting?",
+      "a": "A reporting option that triggers an official investigation by law enforcement (CID/military police) and notifies the victim's chain of command. The victim receives full medical treatment, counseling, and legal services"
+    },
+    {
+      "q": "Who can receive a Restricted Report?",
+      "a": "Only a Sexual Assault Response Coordinator (SARC), Victim Advocate (VA), or healthcare personnel. Chaplains provide confidential communication but do NOT file restricted reports"
+    },
+    {
+      "q": "True or False: A victim can change from a Restricted Report to an Unrestricted Report.",
+      "a": "True. A victim may change from Restricted to Unrestricted at any time. However, once a report is Unrestricted, it CANNOT be changed back to Restricted"
+    },
+    {
+      "q": "What is the role of a Sexual Assault Response Coordinator (SARC)?",
+      "a": "The SARC is the single point of contact for coordinating the SHARP program at the installation or unit level. They ensure victims receive appropriate care, oversee Victim Advocates, track cases, and provide 24/7 response capability"
+    },
+    {
+      "q": "What is the role of a Victim Advocate (VA)?",
+      "a": "A VA provides crisis intervention, referrals, and ongoing non-clinical support to victims of sexual assault. They accompany victims to appointments, explain reporting options, and assist with safety planning"
+    },
+    {
+      "q": "What form is used to document a sexual assault report?",
+      "a": "DD Form 2910, Victim Reporting Preference Statement. This form documents the victim's choice of Restricted or Unrestricted reporting and is signed by the victim"
+    },
+    {
+      "q": "What form is used for the sexual assault forensic exam?",
+      "a": "DD Form 2911, DoD Sexual Assault Forensic Examination (SAFE) Report"
+    },
+    {
+      "q": "How long is a Restricted Report retained before being destroyed?",
+      "a": "Restricted Reports are retained for 50 years in a secure, centralized database to allow victims to convert to Unrestricted Reporting at a later date if they choose"
+    },
+    {
+      "q": "What is sexual harassment as defined by AR 600-20?",
+      "a": "Conduct that involves unwelcome sexual advances, requests for sexual favors, or other verbal or physical conduct of a sexual nature when submission is made a condition of a person's job or career, or when such conduct creates an intimidating, hostile, or offensive working environment"
+    },
+    {
+      "q": "What are the two forms of sexual harassment?",
+      "a": "Quid Pro Quo (this for that — when submission to sexual conduct is made a condition of employment, pay, or advancement) and Hostile Work Environment (unwelcome sexual conduct that is severe or pervasive enough to interfere with work performance)"
+    },
+    {
+      "q": "What are the three Ds of bystander intervention?",
+      "a": "Direct (directly confront the situation), Distract (create a diversion to disrupt the situation), and Delegate (get help from someone else such as a leader, bartender, or friend)"
+    },
+    {
+      "q": "Give an example of the 'Direct' bystander intervention approach.",
+      "a": "Directly telling the person to stop their behavior, such as saying 'Hey, that's not okay' or 'Leave her alone' when witnessing harassment or a potentially dangerous situation"
+    },
+    {
+      "q": "Give an example of the 'Distract' bystander intervention approach.",
+      "a": "Creating a diversion to break up the situation, such as spilling a drink, asking one of the individuals for directions, changing the subject, or suggesting the group move to a different location"
+    },
+    {
+      "q": "Give an example of the 'Delegate' bystander intervention approach.",
+      "a": "Getting someone else to help intervene, such as alerting a supervisor, NCO, bartender, bouncer, or another friend to step in and address the situation"
+    },
+    {
+      "q": "True or False: Bystander intervention only applies when you witness a sexual assault in progress.",
+      "a": "False. Bystander intervention applies to any situation where you observe warning signs, risk factors, or behaviors that could lead to sexual harassment, sexual assault, or other harmful behaviors — intervention should occur BEFORE an incident escalates"
+    },
+    {
+      "q": "What is retaliation in the context of SHARP?",
+      "a": "Taking or threatening to take an adverse personnel action, or withholding or threatening to withhold a favorable personnel action, against a person because they reported, planned to report, or were believed to have reported a sexual assault or sexual harassment incident"
+    },
+    {
+      "q": "What protections exist against retaliation for SHARP reporters?",
+      "a": "AR 600-20 and federal law prohibit retaliation. Victims can report retaliation to their SARC, VA, chain of command, IG, or through the DoD Safe Helpline. Commanders are required to monitor for and address retaliation"
+    },
+    {
+      "q": "What is the DoD Safe Helpline and how can it be reached?",
+      "a": "A confidential crisis support service for members of the DoD community affected by sexual assault. Available 24/7 by phone (877-995-5247), text (55-247), or online at safehelpline.org"
+    },
+    {
+      "q": "What are the commander's responsibilities regarding SHARP?",
+      "a": "Commanders must establish a command climate that prevents harmful behaviors, ensure all personnel complete annual SHARP training, respond to all reports promptly, protect victims from retaliation, hold offenders accountable, and conduct command climate surveys"
+    },
+    {
+      "q": "How often is SHARP training required?",
+      "a": "Annual SHARP training is required for all Army personnel. Initial SHARP training is required within 14 days of arrival at a new unit"
+    },
+    {
+      "q": "What is an expedited transfer and who is eligible?",
+      "a": "A victim of sexual assault who files an Unrestricted Report may request an expedited transfer to a different unit or installation to remove them from the proximity of the alleged offender. The request is processed within 72 hours"
+    },
+    {
+      "q": "True or False: A victim of sexual assault is entitled to a Special Victims' Counsel (SVC).",
+      "a": "True. Every eligible victim of sexual assault has the right to a Special Victims' Counsel, who is a military attorney that provides independent legal advice and representation throughout the military justice process at no cost"
+    },
+    {
+      "q": "What is a Military Protective Order (MPO)?",
+      "a": "A written order issued by a commander directing a Soldier to have no contact with a specified person. It is used to protect victims of sexual assault or harassment from the alleged offender. Violation of an MPO is a punishable offense under UCMJ"
+    },
+    {
+      "q": "What rights does a victim of sexual assault have under SHARP?",
+      "a": "The right to be treated with dignity and respect, to be informed of reporting options, to receive medical care, to have a SARC and VA, to have a Special Victims' Counsel, to request an expedited transfer, to be protected from retaliation, and to be kept informed of case status"
+    },
+    {
+      "q": "What are the possible UCMJ charges for sexual assault?",
+      "a": "Article 120 (Rape and Sexual Assault), Article 120b (Rape and Sexual Assault of a Child), Article 120c (Other Sexual Misconduct), and Article 134 (General Article) for related offenses"
+    },
+    {
+      "q": "What is consent as defined under the UCMJ (Article 120)?",
+      "a": "A freely given agreement to the conduct at issue by a competent person. Lack of verbal or physical resistance does NOT constitute consent. A person cannot consent when incapacitated by alcohol, drugs, or unconsciousness, or when under coercion or threat"
+    },
+    {
+      "q": "True or False: If both parties were intoxicated, neither can be held accountable for sexual assault.",
+      "a": "False. Intoxication of the alleged offender is NOT a defense to sexual assault. The focus is on whether the victim was capable of consenting, not whether the offender was sober"
+    },
+    {
+      "q": "What is a command climate survey and how does it relate to SHARP?",
+      "a": "The Defense Equal Opportunity Climate Survey (DEOCS) assesses the unit's climate regarding equal opportunity and SHARP issues. Commanders must conduct it within 120 days of assuming command and annually thereafter, and develop action plans to address findings"
+    },
+    {
+      "q": "Who are mandatory reporters for sexual assault in the Army?",
+      "a": "All personnel in supervisory or command positions who receive an Unrestricted Report are mandatory reporters and must report to law enforcement. This includes officers, NCOs, and civilian supervisors. Only SARCs, VAs, healthcare providers, and chaplains can receive restricted reports without mandatory reporting"
+    },
+    {
+      "q": "What happens if a mandatory reporter fails to report a sexual assault?",
+      "a": "Failure to report by a mandatory reporter is a violation of AR 600-20 and may result in adverse action under UCMJ or administrative action. It undermines the SHARP program and can deny victims access to services"
+    },
+    {
+      "q": "True or False: A chaplain can receive a Restricted Report of sexual assault.",
+      "a": "False. Chaplains provide privileged communication (confidential), but they do NOT file Restricted Reports. Only SARCs, VAs, and healthcare personnel can receive Restricted Reports. However, chaplain communications are fully confidential and protected"
+    },
+    {
+      "q": "What is the difference between privileged communication with a chaplain and a Restricted Report?",
+      "a": "Privileged communication with a chaplain is completely confidential — nothing is documented or reported anywhere. A Restricted Report is documented on DD Form 2910 and tracked in the DSAID database, but command and law enforcement are not notified"
+    },
+    {
+      "q": "What is DSAID?",
+      "a": "Defense Sexual Assault Incident Database — a centralized DoD database that captures information about sexual assault reports to track case outcomes, ensure services to victims, and support research and analysis"
+    },
+    {
+      "q": "What are some risk factors for sexual assault in the military?",
+      "a": "Alcohol use, isolated environments, power imbalances, unit deployments, lack of unit cohesion, tolerance of sexist language or behavior, and failure by leaders to address inappropriate conduct"
+    },
+    {
+      "q": "What is a catch phrase used to describe the Army's SHARP prevention strategy?",
+      "a": "Not In My Squad (NIMS) — emphasizing that prevention starts at the lowest levels with every Soldier taking personal responsibility to prevent harmful behaviors in their immediate team"
+    },
+    {
+      "q": "What should you do if someone discloses a sexual assault to you and you are not a SARC, VA, or healthcare provider?",
+      "a": "Listen without judgment, ensure the person's safety, provide the SARC and Safe Helpline contact information, explain reporting options, do NOT promise confidentiality (if you are a mandatory reporter), and do NOT investigate on your own"
+    },
+    {
+      "q": "True or False: Male Soldiers can be victims of sexual assault and are eligible for all SHARP services.",
+      "a": "True. Sexual assault affects all genders. Male victims have the same reporting options and are entitled to the same support services including SARC, VA, SVC, and medical care"
+    },
+    {
+      "q": "What is collateral misconduct in the context of SHARP?",
+      "a": "Misconduct by a victim that is discovered as a result of the sexual assault report (e.g., underage drinking, fraternization). DoD policy generally defers disciplinary action for collateral misconduct to encourage victims to report without fear of punishment"
+    },
+    {
+      "q": "What is the Army's policy on sexual harassment complaints?",
+      "a": "Victims of sexual harassment can file a complaint through their chain of command, the Equal Opportunity (EO) program, or the IG. Commanders must investigate all allegations promptly and take appropriate corrective action"
+    },
+    {
+      "q": "Within what timeframe must a commander initiate action on a sexual harassment complaint?",
+      "a": "Commanders must acknowledge receipt of a formal complaint within 3 duty days and complete the investigation within 14 calendar days (or request an extension)"
+    },
+    {
+      "q": "What training must SHARP personnel (SARCs and VAs) complete?",
+      "a": "SARCs must complete an 80-hour certification course through SHARP Academy. VAs must complete a 40-hour certification course. Both must complete annual sustainment training and maintain D-SAACP certification"
+    },
+    {
+      "q": "What is D-SAACP?",
+      "a": "Department of Defense Sexual Assault Advocate Certification Program — the professional certification required for all SARCs and VAs to ensure they meet national standards for victim advocacy"
+    },
+    {
+      "q": "What are some behavioral indicators that a person may be a victim of sexual assault?",
+      "a": "Sudden changes in behavior or performance, withdrawal from peers, increased alcohol use, anxiety, depression, sleep disturbances, unexplained injuries, reluctance to be alone with certain individuals, and avoidance of certain locations"
+    },
+    {
+      "q": "True or False: Sexist jokes and comments, even if not directed at a specific person, can constitute sexual harassment.",
+      "a": "True. Sexual harassment includes any unwelcome conduct of a sexual nature that creates a hostile work environment, even if it is not directed at a specific individual. Pervasive sexist comments and jokes contribute to a hostile environment"
+    },
+    {
+      "q": "What should a first-line leader do to prevent sexual harassment and assault in their unit?",
+      "a": "Set the example, enforce standards, address inappropriate behavior immediately, foster an environment of trust and respect, know the SHARP resources available, conduct regular training, and maintain an open-door policy for reporting"
+    },
+    {
+      "q": "What is the catch-a-serial-offender (CATCH) program?",
+      "a": "A program in DSAID that allows Restricted Reports to be anonymously matched. If two or more restricted reports identify the same alleged offender, the SARC is notified so the victims can be informed and given the option to convert to Unrestricted Reporting"
+    },
+    {
+      "q": "True or False: Sexual assault between spouses or intimate partners is covered under SHARP.",
+      "a": "True. Sexual assault by a spouse or intimate partner is covered under SHARP. Victims of intimate partner sexual assault have the same reporting options and access to services as any other sexual assault victim"
+    }
+  ]
+}

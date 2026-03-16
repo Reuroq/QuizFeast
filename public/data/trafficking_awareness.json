@@ -1,0 +1,151 @@
+{
+  "category": "Human Trafficking Awareness",
+  "description": "Expanded human trafficking awareness training covering labor and sex trafficking indicators, TIP report tiers, victim identification, federal laws (TVPA, TVPRA), mandatory reporting, and protection of victims in conflict zones.",
+  "icon": "people",
+  "questions": [
+    {
+      "q": "What is human trafficking as defined by federal law?",
+      "a": "Human trafficking involves the use of force, fraud, or coercion to exploit a person for labor, services, or commercial sex. Under the TVPA, trafficking does not require movement — a person can be trafficked in their own home."
+    },
+    {
+      "q": "What are the two primary forms of human trafficking?",
+      "a": "Sex trafficking (inducing a commercial sex act through force, fraud, or coercion, or involving a minor) and labor trafficking (obtaining labor or services through force, fraud, or coercion, including debt bondage and involuntary servitude)."
+    },
+    {
+      "q": "What is the Trafficking Victims Protection Act (TVPA)?",
+      "a": "The TVPA (2000) is the primary U.S. federal law addressing human trafficking. It established criminal penalties for traffickers, protections for victims (T-visas, services), and the Trafficking in Persons (TIP) Report requirement."
+    },
+    {
+      "q": "What is the TVPRA and how does it strengthen the TVPA?",
+      "a": "The Trafficking Victims Protection Reauthorization Act (TVPRA) has been reauthorized multiple times (2003, 2005, 2008, 2013). It expanded victim protections, increased penalties, required anti-trafficking measures in federal contracts, and enhanced international programs."
+    },
+    {
+      "q": "What are the three elements of human trafficking (the 'A-M-P' model)?",
+      "a": "Action (recruitment, harboring, transportation, provision, obtaining), Means (force, fraud, coercion), and Purpose (commercial sex or forced labor). For minors in sex trafficking, the 'Means' element is not required."
+    },
+    {
+      "q": "What are common indicators of labor trafficking?",
+      "a": "Workers living in employer-provided housing in poor conditions, excessive work hours with little pay, confiscated identity documents, workers not allowed to speak for themselves, signs of physical abuse, restricted freedom of movement, and debt bondage."
+    },
+    {
+      "q": "What are common indicators of sex trafficking?",
+      "a": "Signs of physical abuse or branding/tattoos, malnourishment, inability to speak freely, not in control of own identification or finances, scripted responses, evidence of being controlled or monitored, presence at commercial sex venues, and fearful/anxious behavior."
+    },
+    {
+      "q": "What is debt bondage?",
+      "a": "Debt bondage is a form of labor trafficking where a person is forced to work to pay off a debt, and the terms of the debt are not clearly defined or the value of work is not reasonably applied to the debt. It is the most common form of trafficking globally."
+    },
+    {
+      "q": "What is the Trafficking in Persons (TIP) Report?",
+      "a": "The TIP Report is an annual report published by the U.S. State Department that ranks countries into tiers based on their governments' efforts to combat trafficking. It is the world's most comprehensive resource on governmental anti-trafficking efforts."
+    },
+    {
+      "q": "What are the TIP Report tier rankings?",
+      "a": "Tier 1: Fully meets TVPA minimum standards. Tier 2: Significant efforts but not fully meeting standards. Tier 2 Watch List: Significant efforts but serious concerns (high victim numbers, failure to show progress). Tier 3: Not meeting minimum standards and not making significant efforts."
+    },
+    {
+      "q": "What are the consequences for countries placed on Tier 3 of the TIP Report?",
+      "a": "Tier 3 countries may face restrictions on non-humanitarian, non-trade U.S. foreign assistance, opposition to loans from international financial institutions (IMF, World Bank), and diplomatic pressure."
+    },
+    {
+      "q": "What is a T-visa?",
+      "a": "A T-visa is a nonimmigrant visa allowing trafficking victims to remain in the United States for up to 4 years if they assist law enforcement in the investigation/prosecution of trafficking cases. Up to 5,000 T-visas may be issued annually."
+    },
+    {
+      "q": "How does the military define Combating Trafficking in Persons (CTIP)?",
+      "a": "CTIP encompasses DoD policies, programs, and activities to prevent trafficking, protect victims, and prosecute offenders. It applies to all DoD personnel, contractors, and subcontractors worldwide."
+    },
+    {
+      "q": "What is the DoD's zero-tolerance policy on trafficking?",
+      "a": "DoD has a zero-tolerance policy prohibiting all DoD personnel and contractors from engaging in trafficking, procuring commercial sex acts in areas of military operations, or using forced labor. Violations result in UCMJ action or contract termination."
+    },
+    {
+      "q": "What should military personnel do if they identify a potential trafficking victim?",
+      "a": "Ensure the victim's safety, do not attempt to confront the trafficker, report to the chain of command and law enforcement (Military Criminal Investigative Organization), contact the DoD IG Hotline, and preserve any evidence."
+    },
+    {
+      "q": "What is the National Human Trafficking Hotline number?",
+      "a": "1-888-373-7888. It is operated by Polaris Project 24/7, provides crisis support, connects victims with services, and accepts tips. Text support is available by texting 233733 (BEFREE)."
+    },
+    {
+      "q": "How does trafficking differ from smuggling?",
+      "a": "Smuggling is a crime against a border — voluntary movement across borders for payment. Trafficking is a crime against a person — exploitation through force, fraud, or coercion. Smuggling becomes trafficking when force/coercion/exploitation is involved."
+    },
+    {
+      "q": "What populations are most vulnerable to trafficking?",
+      "a": "Runaway and homeless youth, undocumented immigrants, individuals with substance abuse disorders, domestic violence victims, LGBTQ+ individuals, people with disabilities, and those from impoverished backgrounds or unstable countries."
+    },
+    {
+      "q": "What is 'force' in the context of trafficking?",
+      "a": "Force includes physical restraint, physical harm, sexual assault, beating, and confinement. It also includes threats of violence against the victim or the victim's family members."
+    },
+    {
+      "q": "What is 'fraud' in the context of trafficking?",
+      "a": "Fraud includes false promises about employment, wages, working conditions, or immigration status. Common examples: promising legitimate jobs that turn into forced labor or commercial sex, and deceiving victims about freedom of movement."
+    },
+    {
+      "q": "What is 'coercion' in the context of trafficking?",
+      "a": "Coercion includes threats of serious harm, psychological manipulation, document confiscation, debt manipulation, threats to report immigration status, isolation from support systems, and any scheme intended to cause a person to believe refusal would result in serious harm."
+    },
+    {
+      "q": "Why is trafficking particularly prevalent in conflict zones?",
+      "a": "Conflict zones create displaced populations, destroy social structures, overwhelm law enforcement, create demand for cheap labor and commercial sex near military installations, and allow traffickers to exploit chaos and vulnerable populations."
+    },
+    {
+      "q": "What protections exist for trafficking victims in conflict zones under international law?",
+      "a": "The Palermo Protocol (2000), UN Security Council resolutions, Geneva Conventions, and international humanitarian law protect civilians. Peacekeeping forces have mandatory anti-trafficking training, and the UN has zero-tolerance policies for exploitation."
+    },
+    {
+      "q": "What is the Palermo Protocol?",
+      "a": "The Protocol to Prevent, Suppress and Punish Trafficking in Persons (2000), supplementing the UN Convention against Transnational Organized Crime. It provides the first internationally agreed-upon definition of trafficking and framework for prevention, protection, and prosecution."
+    },
+    {
+      "q": "What is the role of the DoD Inspector General in combating trafficking?",
+      "a": "The DoD IG investigates allegations of trafficking by DoD personnel and contractors, operates a hotline (800-424-9098) for reporting, and provides oversight to ensure CTIP compliance across the department."
+    },
+    {
+      "q": "What specific UCMJ articles may apply to military members involved in trafficking?",
+      "a": "Article 134 (patronizing a prostitute, general article), Article 120 (sexual assault), Article 93 (cruelty and maltreatment), and potentially Articles 77-82 (principals, accessories, attempts, conspiracy) depending on the specific conduct."
+    },
+    {
+      "q": "What are contractor requirements under FAR 52.222-50 regarding trafficking?",
+      "a": "Federal contractors must have a compliance plan if the contract exceeds $550,000 and is performed outside the US. The plan must include anti-trafficking awareness programs, employee reporting mechanisms, housing standards, and recruitment fee prohibitions."
+    },
+    {
+      "q": "What is the significance of recruiting fees in trafficking?",
+      "a": "Charging workers recruiting fees creates debt bondage. The FAR prohibits contractors from charging employees recruitment fees. Some workers pay thousands of dollars to labor recruiters, then must work under exploitative conditions to repay the debt."
+    },
+    {
+      "q": "What are 'trauma bonds' and how do they affect trafficking victims?",
+      "a": "Trauma bonds (Stockholm syndrome) develop when victims form emotional attachments to their traffickers due to cycles of abuse and reward. This makes victims reluctant to identify as victims, seek help, or cooperate with law enforcement."
+    },
+    {
+      "q": "What is the 'victim-centered approach' to trafficking response?",
+      "a": "A victim-centered approach prioritizes the victim's safety, needs, and well-being at every stage of response. It recognizes trauma, avoids re-victimization, provides services regardless of cooperation with law enforcement, and treats victims as crime victims rather than criminals."
+    },
+    {
+      "q": "What is domestic minor sex trafficking (DMST)?",
+      "a": "DMST is the commercial sexual exploitation of American children (under 18) within U.S. borders. Under federal law, any minor induced to perform commercial sex acts is a trafficking victim regardless of whether force, fraud, or coercion is present."
+    },
+    {
+      "q": "How do traffickers commonly recruit victims online?",
+      "a": "Through social media (false romantic relationships, fake job offers), online gaming platforms, dating apps, and classified advertising sites. Traffickers target vulnerable youth by building trust over weeks or months before exploitation."
+    },
+    {
+      "q": "What is 'sextortion' and how does it relate to trafficking?",
+      "a": "Sextortion is a form of coercion where someone threatens to distribute intimate images unless the victim provides more images, sexual favors, or money. It can escalate into full sex trafficking when used to control and exploit victims."
+    },
+    {
+      "q": "What training is required for DoD personnel on trafficking?",
+      "a": "All DoD personnel must complete annual CTIP awareness training. Personnel deploying to areas of heightened risk receive additional pre-deployment training. Contracting officers receive specialized training on FAR anti-trafficking provisions."
+    },
+    {
+      "q": "What are the 'push' and 'pull' factors that contribute to trafficking?",
+      "a": "Push factors: poverty, lack of education, political instability, discrimination, natural disasters, and family dysfunction. Pull factors: demand for cheap labor, demand for commercial sex, perceived better opportunities, and recruiter promises."
+    },
+    {
+      "q": "What role do military installations play in trafficking awareness?",
+      "a": "Military installations must have CTIP programs, display awareness materials, train personnel to recognize indicators, establish reporting procedures, monitor off-base establishments for trafficking, and ensure local communities are aware of anti-trafficking resources."
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "category": "Military First Aid / TCCC",
+  "description": "Tactical Combat Casualty Care (TCCC) principles, MARCH algorithm, hemorrhage control, airway management, MEDEVAC procedures, and battlefield trauma care based on TCCC guidelines and TC 4-02.1",
+  "icon": "heart-pulse",
+  "questions": [
+    {
+      "q": "What does the MARCH acronym stand for in TCCC?",
+      "a": "Massive hemorrhage, Airway, Respiration, Circulation, Hypothermia/Head injury"
+    },
+    {
+      "q": "What are the three phases of Tactical Combat Casualty Care (TCCC)?",
+      "a": "Care Under Fire (CUF), Tactical Field Care (TFC), and Tactical Evacuation Care (TACEVAC)"
+    },
+    {
+      "q": "During Care Under Fire, what is the FIRST priority?",
+      "a": "Return fire and take cover. The best medicine on the battlefield is fire superiority."
+    },
+    {
+      "q": "What is the ONLY medical intervention typically performed during Care Under Fire?",
+      "a": "Application of a tourniquet for life-threatening extremity hemorrhage"
+    },
+    {
+      "q": "Where should a tourniquet be placed during Care Under Fire?",
+      "a": "High and tight on the affected extremity, over the uniform, as proximal as possible"
+    },
+    {
+      "q": "What is the recommended tourniquet for TCCC use?",
+      "a": "The Combat Application Tourniquet (CAT) or the SOF Tactical Tourniquet Wide (SOFTT-W)"
+    },
+    {
+      "q": "How tight should a tourniquet be applied?",
+      "a": "Tight enough to completely stop the distal pulse and eliminate all bleeding from the wound"
+    },
+    {
+      "q": "True or False: A tourniquet should be loosened periodically to allow blood flow to the limb.",
+      "a": "False. Once applied, a tourniquet should not be loosened or removed in the field unless directed by medical personnel during Tactical Field Care"
+    },
+    {
+      "q": "What time information must be marked on a tourniquet after application?",
+      "a": "The time of application, written directly on the tourniquet or on the casualty's skin near the tourniquet"
+    },
+    {
+      "q": "What is the maximum recommended time a tourniquet should remain in place before reassessment?",
+      "a": "2 hours. After 2 hours, the risk of limb damage increases significantly, and conversion to a pressure dressing or hemostatic agent should be considered if tactically feasible"
+    },
+    {
+      "q": "What is wound packing and when is it used?",
+      "a": "Wound packing is stuffing hemostatic or plain gauze directly into a wound cavity to control hemorrhage in junctional areas (groin, axilla, neck) where tourniquets cannot be applied"
+    },
+    {
+      "q": "Name two hemostatic agents approved for TCCC use.",
+      "a": "Combat Gauze (QuikClot) impregnated with kaolin, and Celox Gauze impregnated with chitosan"
+    },
+    {
+      "q": "How long should direct pressure be held after packing a wound with hemostatic gauze?",
+      "a": "A minimum of 3 minutes of direct pressure, then apply a pressure dressing"
+    },
+    {
+      "q": "What is a junctional hemorrhage and why is it dangerous?",
+      "a": "Bleeding from the junction of a limb and the torso (groin, axilla, neck) where a tourniquet cannot be effectively applied. These areas are highly vascular and can result in rapid death"
+    },
+    {
+      "q": "What junctional hemorrhage device is used at the inguinal (groin) area?",
+      "a": "The Junctional Emergency Treatment Tool (JETT) or the Combat Ready Clamp (CRoC)"
+    },
+    {
+      "q": "In the MARCH algorithm, after controlling massive hemorrhage, what is the next step?",
+      "a": "Airway management — ensure the casualty has a patent (open) airway"
+    },
+    {
+      "q": "What is a nasopharyngeal airway (NPA) and when is it used?",
+      "a": "A soft rubber tube inserted through the nostril into the nasopharynx to maintain an open airway in an unconscious casualty who has a gag reflex. It is the basic TCCC airway adjunct"
+    },
+    {
+      "q": "What size NPA is generally recommended for adults in TCCC?",
+      "a": "28 French (Fr) for adults, lubricated with water-based lubricant or water before insertion"
+    },
+    {
+      "q": "True or False: An NPA should be inserted in a casualty with suspected basilar skull fracture.",
+      "a": "False. An NPA is contraindicated when there is evidence of mid-face trauma or suspected basilar skull fracture"
+    },
+    {
+      "q": "What is a surgical cricothyroidotomy and when is it performed in TCCC?",
+      "a": "A surgical airway created by cutting through the cricothyroid membrane to insert a tube. It is performed when the airway cannot be maintained by positioning, NPA, or other means (e.g., severe facial trauma)"
+    },
+    {
+      "q": "What position should an unconscious breathing casualty be placed in?",
+      "a": "The recovery position (lateral recumbent position) to prevent aspiration and maintain airway patency"
+    },
+    {
+      "q": "What does the 'R' in MARCH stand for, and what are you assessing?",
+      "a": "Respiration — assess for tension pneumothorax, open pneumothorax (sucking chest wound), and other respiratory issues"
+    },
+    {
+      "q": "What are the signs and symptoms of a tension pneumothorax?",
+      "a": "Progressive respiratory distress, decreased or absent breath sounds on the affected side, tracheal deviation (late sign), distended neck veins, and hypotension/shock"
+    },
+    {
+      "q": "How is a tension pneumothorax treated in TCCC?",
+      "a": "Needle decompression (needle thoracentesis) at the 2nd intercostal space midclavicular line or the 5th intercostal space anterior axillary line on the affected side, using a 14-gauge, 3.25-inch needle/catheter"
+    },
+    {
+      "q": "What is an open (sucking) chest wound and how is it treated?",
+      "a": "A penetrating wound to the chest that allows air to enter the pleural space. Treat by applying a vented chest seal (or an occlusive dressing taped on three sides) over the wound"
+    },
+    {
+      "q": "Why is a vented chest seal preferred over a fully occlusive dressing?",
+      "a": "A vented chest seal has a one-way valve that allows air to escape during exhalation but prevents air from entering during inhalation, reducing the risk of tension pneumothorax"
+    },
+    {
+      "q": "True or False: You should apply chest seals to both entry and exit wounds if present.",
+      "a": "True. Both the entry and exit wound should be sealed to prevent air from entering the chest cavity from either wound"
+    },
+    {
+      "q": "What does the 'C' in MARCH stand for, and what are you assessing?",
+      "a": "Circulation — assess for signs of shock (altered mental status, weak/rapid pulse, pale/cool/clammy skin) and establish IV/IO access for fluid resuscitation"
+    },
+    {
+      "q": "What is the preferred IV fluid for resuscitation in TCCC?",
+      "a": "Whole blood or blood products are preferred. If unavailable, Lactated Ringer's (LR) or Hextend (6% hetastarch) may be used. Normal saline is also acceptable"
+    },
+    {
+      "q": "What is the concept of permissive hypotension in TCCC?",
+      "a": "Maintaining a lower-than-normal blood pressure (systolic ~80-90 mmHg or palpable radial pulse) to reduce the risk of disrupting clot formation while still maintaining organ perfusion. Does NOT apply to TBI casualties"
+    },
+    {
+      "q": "What is Tranexamic Acid (TXA) and when should it be given?",
+      "a": "TXA is an antifibrinolytic drug that prevents clot breakdown. It should be given as early as possible (within 3 hours of injury) to casualties with significant hemorrhage or at risk for significant hemorrhage — 1g IV over 10 minutes"
+    },
+    {
+      "q": "What does the 'H' in MARCH stand for, and why is it critical?",
+      "a": "Hypothermia/Head injury — prevent hypothermia because it worsens the lethal triad (hypothermia, acidosis, coagulopathy) and assess for traumatic brain injury"
+    },
+    {
+      "q": "What is the lethal triad of trauma?",
+      "a": "Hypothermia, acidosis, and coagulopathy. These three conditions create a vicious cycle that makes hemorrhage harder to control and significantly increases mortality"
+    },
+    {
+      "q": "Name three methods to prevent hypothermia in a casualty.",
+      "a": "Minimize exposure to the elements, remove wet clothing, use the Hypothermia Prevention and Management Kit (HPMK) or a casualty blanket, place insulation between the casualty and the ground, and use warm IV fluids when available"
+    },
+    {
+      "q": "What are the three MEDEVAC precedence categories (urgency)?",
+      "a": "Urgent (within 2 hours to save life/limb/eyesight), Priority (within 4 hours or condition will deteriorate), and Routine (within 24 hours, not expected to deteriorate)"
+    },
+    {
+      "q": "What are the 9 lines of a MEDEVAC request (9-line)?",
+      "a": "Line 1: Location (grid), Line 2: Radio frequency/call sign, Line 3: Number of patients by precedence, Line 4: Special equipment needed, Line 5: Number of patients by type (litter/ambulatory), Line 6: Security of pickup site, Line 7: Method of marking, Line 8: Patient nationality/status, Line 9: CBRN contamination (terrain description in peacetime)"
+    },
+    {
+      "q": "What does Line 3 of the 9-line MEDEVAC request specify?",
+      "a": "The number of patients by precedence category: A=Urgent, B=Urgent Surgical, C=Priority, D=Routine, E=Convenience"
+    },
+    {
+      "q": "What does Line 4 of the 9-line MEDEVAC request indicate?",
+      "a": "Special equipment required at the pickup site: A=None, B=Hoist, C=Extraction equipment, D=Ventilator"
+    },
+    {
+      "q": "What methods can be used to mark a MEDEVAC pickup site (Line 7)?",
+      "a": "A=Panels, B=Pyrotechnic signal, C=Smoke signal, D=None, E=Other (e.g., VS-17 panel, infrared strobe, chemical light)"
+    },
+    {
+      "q": "What is a TCCC Casualty Card (DD Form 1380) used for?",
+      "a": "To document all injuries found and treatments given to a casualty on the battlefield. It stays with the casualty throughout the evacuation chain to ensure continuity of care"
+    },
+    {
+      "q": "What medication is given for pain management in TCCC for a casualty who CAN fight?",
+      "a": "Acetaminophen (Tylenol) and/or Meloxicam (a non-steroidal anti-inflammatory). Opioids are avoided because they can impair the ability to fight"
+    },
+    {
+      "q": "What pain medication is given to a casualty who CANNOT fight?",
+      "a": "Ketamine (50mg IV/IO or 100mg IM) is the preferred analgesic. Oral transmucosal fentanyl citrate (OTFC) 800mcg lozenge is an alternative"
+    },
+    {
+      "q": "True or False: Every Soldier should carry a tourniquet readily accessible on their person.",
+      "a": "True. TCCC recommends every service member carry at least one tourniquet in a readily accessible location for rapid self-aid or buddy aid"
+    },
+    {
+      "q": "What is the difference between Tactical Field Care and Care Under Fire?",
+      "a": "Care Under Fire is performed while still under effective hostile fire with limited interventions (mainly tourniquet). Tactical Field Care is performed when no longer under effective fire, allowing a more thorough MARCH assessment and expanded treatment options"
+    },
+    {
+      "q": "What should you do with a casualty's weapon and equipment during care?",
+      "a": "Secure the casualty's weapon and sensitive equipment. Ensure the weapon is on safe and accounted for. Redistribute ammunition and equipment to other team members if the casualty cannot continue the mission"
+    },
+    {
+      "q": "What is the proper technique for a head-tilt chin-lift to open an airway?",
+      "a": "Place one hand on the forehead and tilt the head back while lifting the chin forward with the fingers of the other hand. Do NOT use this technique if cervical spine injury is suspected — use jaw-thrust instead"
+    },
+    {
+      "q": "What are the signs of inadequate breathing in a casualty?",
+      "a": "Respiratory rate less than 8 or greater than 30 per minute, shallow or irregular breathing, cyanosis (blue discoloration of lips/nail beds), use of accessory muscles, and altered mental status"
+    },
+    {
+      "q": "How do you assess circulation using the AVPU scale?",
+      "a": "AVPU is a rapid mental status assessment: A=Alert, V=responds to Voice, P=responds to Pain, U=Unresponsive. A declining AVPU score may indicate worsening shock"
+    },
+    {
+      "q": "What is an IO (intraosseous) infusion and when is it used?",
+      "a": "IO infusion delivers fluids/medications directly into the bone marrow cavity (usually the proximal tibia or humeral head). It is used when IV access cannot be obtained quickly, especially in hypovolemic shock"
+    },
+    {
+      "q": "True or False: Antibiotics should be given to all casualties with penetrating trauma.",
+      "a": "True. TCCC guidelines recommend oral antibiotics (moxifloxacin 400mg) for all open combat wounds to prevent infection. If the casualty cannot take oral medications, ertapenem 1g IV/IM is an alternative"
+    },
+    {
+      "q": "What is a combat pill pack and what does it typically contain?",
+      "a": "A pre-packaged set of medications for combat casualties, typically containing: Acetaminophen (pain), Meloxicam (anti-inflammatory/pain), and Moxifloxacin (antibiotic)"
+    },
+    {
+      "q": "During TACEVAC, what additional capabilities are available compared to Tactical Field Care?",
+      "a": "TACEVAC may include additional medical personnel, equipment (monitors, oxygen, advanced airway tools), blood products, and the ability to perform more advanced interventions en route to a medical treatment facility"
+    },
+    {
+      "q": "What is the proper application sequence if a casualty has both massive hemorrhage and an airway problem?",
+      "a": "Address Massive hemorrhage first (M in MARCH), then Airway. Hemorrhage control takes priority because exsanguination (bleeding out) is the #1 preventable cause of death on the battlefield"
+    },
+    {
+      "q": "What percentage of preventable combat deaths are caused by hemorrhage?",
+      "a": "Approximately 90% of preventable combat deaths are caused by hemorrhage, with extremity hemorrhage being the most common (60% of those)"
+    }
+  ]
+}

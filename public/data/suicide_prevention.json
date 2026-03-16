@@ -1,0 +1,179 @@
+{
+  "category": "Suicide Prevention",
+  "description": "DoD Suicide Prevention training covering the ACE model (Ask, Care, Escort), warning signs, risk factors, protective factors, means restriction, crisis resources, and wingman/buddy concepts. Based on DoDI 6490.16.",
+  "icon": "shield-heart",
+  "questions": [
+    {
+      "q": "What does the ACE acronym stand for in the DoD Suicide Prevention model?",
+      "a": "Ask, Care, Escort. Ask the person directly if they are thinking about suicide, Care by listening without judgment and removing access to lethal means, and Escort them to a helping resource such as a chaplain, behavioral health, or the emergency room."
+    },
+    {
+      "q": "What is the phone number for the 988 Suicide and Crisis Lifeline?",
+      "a": "988. Service members, veterans, and their families can press 1 after dialing 988 to reach the Military Crisis Line. The line is available 24/7/365 and also accessible via text (text 838255) or online chat at VeteransCrisisLine.net."
+    },
+    {
+      "q": "What is the Military Crisis Line number and how do you reach it?",
+      "a": "Dial 988 then press 1 to reach the Military Crisis Line. You can also text 838255 or chat online at VeteransCrisisLine.net. It is staffed 24/7 by trained counselors, many of whom are veterans themselves."
+    },
+    {
+      "q": "What DoD Instruction governs the Defense Suicide Prevention Program (DSPP)?",
+      "a": "DoDI 6490.16, Defense Suicide Prevention Program (DSPP). It establishes policy, assigns responsibilities, and provides procedures for suicide prevention, intervention, and postvention across the DoD."
+    },
+    {
+      "q": "Which of the following is a warning sign that someone may be considering suicide: (a) increased social activity, (b) giving away prized possessions, (c) improved work performance, (d) requesting additional duties?",
+      "a": "(b) Giving away prized possessions. Other warning signs include talking about being a burden, expressing hopelessness, withdrawing from friends and activities, dramatic mood changes, increased substance use, and researching methods of suicide."
+    },
+    {
+      "q": "What is 'means restriction' in the context of suicide prevention?",
+      "a": "Means restriction is the practice of reducing access to lethal means such as firearms, medications, and other methods a person might use to attempt suicide. Research shows that putting time and distance between a person in crisis and lethal means significantly reduces suicide deaths, because most suicidal crises are temporary."
+    },
+    {
+      "q": "True or False: Asking someone directly if they are thinking about suicide will plant the idea in their head.",
+      "a": "False. Research consistently shows that asking someone directly about suicidal thoughts does NOT plant the idea. In fact, asking shows you care and gives the person permission to talk about their pain. Avoiding the question can leave the person feeling more isolated."
+    },
+    {
+      "q": "What are protective factors against suicide?",
+      "a": "Protective factors include strong social connections and unit cohesion, effective coping and problem-solving skills, access to behavioral health care, reasons for living (family, faith, purpose), restricted access to lethal means, and leadership that fosters help-seeking behavior without stigma."
+    },
+    {
+      "q": "What is the 'wingman' concept in Air Force suicide prevention?",
+      "a": "The wingman concept means every Airman is responsible for looking out for fellow service members. Just as a wingman protects a pilot in flight, every member should watch for warning signs, check in on peers, and intervene when someone is struggling. It emphasizes that suicide prevention is everyone's responsibility, not just leadership or behavioral health."
+    },
+    {
+      "q": "What does QPR stand for in suicide prevention?",
+      "a": "Question, Persuade, Refer. QPR is an evidence-based gatekeeper training that teaches people to recognize warning signs of suicide (Question), persuade the person to seek help (Persuade), and refer them to appropriate resources (Refer). It is similar to CPR for mental health emergencies."
+    },
+    {
+      "q": "Which of the following is a risk factor for suicide among service members: (a) strong unit cohesion, (b) recent relationship breakup, (c) regular physical exercise, (d) involvement in community activities?",
+      "a": "(b) Recent relationship breakup. Relationship problems are one of the most common precipitating factors for military suicides. Other risk factors include prior suicide attempts, mental health conditions, substance abuse, legal/financial problems, and access to lethal means."
+    },
+    {
+      "q": "What should you do if a service member tells you they are thinking about killing themselves?",
+      "a": "Take it seriously and follow the ACE model: Ask direct follow-up questions to assess immediacy, Care by listening without judgment and removing access to lethal means if possible, and Escort them to help immediately — do not leave them alone. Take them to behavioral health, a chaplain, the ER, or call the Military Crisis Line (988, press 1)."
+    },
+    {
+      "q": "What is postvention?",
+      "a": "Postvention refers to the organized response after a suicide or suicide attempt to support survivors of loss (family, friends, unit members), reduce the risk of contagion or additional suicides, and promote healing. It includes critical event debriefings, memorial guidance, and connecting affected individuals with support services."
+    },
+    {
+      "q": "True or False: Most people who die by suicide showed no warning signs beforehand.",
+      "a": "False. Research indicates that the majority of people who die by suicide exhibited warning signs. However, the signs may not have been recognized or taken seriously. This is why training in recognizing warning signs is critical for all service members."
+    },
+    {
+      "q": "What role does a unit commander play in suicide prevention?",
+      "a": "Commanders are responsible for creating a climate that encourages help-seeking, reducing stigma around mental health, knowing their people and recognizing changes in behavior, ensuring members have access to resources, implementing means safety, conducting annual suicide prevention training, and leading postvention response after incidents."
+    },
+    {
+      "q": "What is the difference between suicidal ideation, a suicide plan, and a suicide attempt?",
+      "a": "Suicidal ideation is thinking about or considering suicide. A suicide plan involves specific details about how, when, and where a person would carry it out. A suicide attempt is a self-directed, potentially injurious behavior with intent to die. Risk increases as a person moves from ideation to plan to attempt, especially when they have access to means."
+    },
+    {
+      "q": "Which of the following is NOT one of the steps in the ACE model: (a) Ask, (b) Counsel, (c) Care, (d) Escort?",
+      "a": "(b) Counsel. The ACE model stands for Ask, Care, Escort. Service members are not expected to provide counseling — they are expected to connect the person with professional help by escorting them to appropriate resources."
+    },
+    {
+      "q": "What is 'suicide contagion' and why is it a concern in military units?",
+      "a": "Suicide contagion (also called cluster effect) is the phenomenon where exposure to a suicide can increase suicide risk in others, especially those who identified with the deceased. In military units with strong bonds, a suicide can deeply affect the entire formation. This is why postvention and careful messaging about suicide deaths are critical."
+    },
+    {
+      "q": "How does substance abuse relate to suicide risk?",
+      "a": "Substance abuse significantly increases suicide risk. Alcohol and drugs impair judgment, lower inhibitions, increase impulsivity, and worsen depression. Many military suicides involve alcohol or drug use at the time of death. Addressing substance abuse is a key component of suicide prevention."
+    },
+    {
+      "q": "True or False: Chaplains can provide confidential counseling that is protected by privileged communication.",
+      "a": "True. Military chaplains provide 100% confidential counseling protected by privileged communication (similar to attorney-client privilege). This makes them a unique resource for service members who may be reluctant to seek help through behavioral health due to concerns about their career."
+    },
+    {
+      "q": "What is the 'Care' step in the ACE model?",
+      "a": "The Care step involves actively listening to the person without judgment, expressing concern, and taking action to remove access to lethal means. Calmly control the situation, do not argue or debate whether suicide is right or wrong, and let the person know you care about them and want to help."
+    },
+    {
+      "q": "What behavioral changes might indicate a service member is at increased risk for suicide?",
+      "a": "Behavioral changes include withdrawal from friends and activities, decline in work performance or attendance, increased alcohol or drug use, giving away possessions, sudden calmness after a period of depression, reckless behavior, changes in sleep patterns, expressions of hopelessness or feeling like a burden, and searching online for suicide methods."
+    },
+    {
+      "q": "What is the significance of prior suicide attempts as a risk factor?",
+      "a": "A prior suicide attempt is the single strongest predictor of future suicide. Individuals who have previously attempted suicide are significantly more likely to die by suicide compared to those with no prior attempts. This is why follow-up care after an attempt is critical."
+    },
+    {
+      "q": "Which DoD resource provides 24/7 confidential support for service members and families via phone, text, and online chat?",
+      "a": "The Military Crisis Line (dial 988, press 1). Additionally, Military OneSource (1-800-342-9647) provides 24/7 confidential support including non-medical counseling for service members, retirees, and their families for issues that may contribute to suicide risk."
+    },
+    {
+      "q": "What is the 'Escort' step in the ACE model?",
+      "a": "Escort means physically accompanying the person to a helping resource. Do not leave them alone. Take them to the nearest emergency room, behavioral health clinic, chaplain, or command. If you cannot physically escort them, call the Military Crisis Line (988, press 1) together or stay with them until help arrives."
+    },
+    {
+      "q": "What is lethal means safety counseling?",
+      "a": "Lethal means safety counseling is a conversation with an at-risk individual (and often their family) about reducing access to the methods they might use to attempt suicide. It may involve voluntarily storing firearms with a trusted person, locking up medications, or other measures. It is a proven strategy that saves lives."
+    },
+    {
+      "q": "True or False: People who talk about suicide are just seeking attention and are unlikely to actually attempt it.",
+      "a": "False. Talking about wanting to die or kill oneself is a major warning sign that must always be taken seriously. Many people who die by suicide communicated their intent beforehand. Dismissing these statements as attention-seeking can be fatal."
+    },
+    {
+      "q": "What is the annual requirement for suicide prevention training in the DoD?",
+      "a": "Per DoDI 6490.16, all Service members are required to receive annual suicide prevention training. The training must be interactive (not just a briefing), include warning signs, risk and protective factors, the ACE model or equivalent, and local resources. Leaders receive additional gatekeeper training."
+    },
+    {
+      "q": "How does Traumatic Brain Injury (TBI) relate to suicide risk in military populations?",
+      "a": "TBI is associated with increased suicide risk due to impaired impulse control, emotional dysregulation, chronic pain, depression, and cognitive difficulties. Service members with a history of TBI, particularly moderate-to-severe or repeated concussions, should be monitored for suicidal ideation as part of their ongoing care."
+    },
+    {
+      "q": "What is the role of the Suicide Prevention Program Manager (SPPM)?",
+      "a": "The SPPM oversees the installation or command suicide prevention program, coordinates training, tracks trends and data, conducts postvention activities, ensures compliance with DoDI 6490.16, connects at-risk individuals with resources, and advises commanders on suicide prevention strategies."
+    },
+    {
+      "q": "Which of the following is a myth about suicide: (a) suicide can be prevented, (b) only mental health professionals can help, (c) warning signs should be taken seriously, (d) asking about suicide shows you care?",
+      "a": "(b) Only mental health professionals can help. While professionals are essential, everyone can play a role in suicide prevention. Peers, wingmen, battle buddies, supervisors, chaplains, and family members are often the first to notice warning signs and can intervene using models like ACE or QPR."
+    },
+    {
+      "q": "What is the relationship between sleep problems and suicide risk?",
+      "a": "Sleep disturbances (insomnia, nightmares, and hypersomnia) are independently associated with increased suicide risk, even after controlling for depression. In the military, operational demands often disrupt sleep. Persistent sleep problems should be addressed and may warrant screening for suicidal ideation."
+    },
+    {
+      "q": "What should a supervisor do after learning that a subordinate has attempted suicide?",
+      "a": "Ensure the person receives immediate medical care, notify the chain of command per local policy, safeguard the member's privacy (share information only on a need-to-know basis), coordinate with behavioral health for follow-up care and safety planning, initiate postvention for affected unit members, and create a supportive environment for the member's return."
+    },
+    {
+      "q": "What is a safety plan in suicide prevention?",
+      "a": "A safety plan is a personalized, written plan developed with a provider that lists warning signs, coping strategies, people and resources to contact during a crisis, and steps to make the environment safer. It is a brief, practical tool the individual keeps with them, distinct from a no-harm contract, and is considered a best practice in suicide prevention."
+    },
+    {
+      "q": "True or False: Suicide prevention is primarily the responsibility of behavioral health providers.",
+      "a": "False. Suicide prevention is everyone's responsibility. While behavioral health providers deliver treatment, peers, leaders, family members, and chaplains often have the most daily contact with at-risk individuals and are best positioned to recognize warning signs and intervene early."
+    },
+    {
+      "q": "What demographic factors are associated with higher suicide rates in the military?",
+      "a": "Statistically, younger enlisted males (ages 17-24), those in their first term of service, those with recent disciplinary or legal issues, and those going through relationship transitions are at higher risk. However, suicide can affect any service member regardless of rank, age, gender, or branch."
+    },
+    {
+      "q": "What is the 'buddy system' approach to suicide prevention?",
+      "a": "The buddy system (also called battle buddy or wingman concept) pairs service members to watch out for each other's well-being. Buddies are trained to recognize warning signs, check in regularly, and intervene when they notice changes. It leverages the military's existing peer structure to extend the reach of suicide prevention."
+    },
+    {
+      "q": "How does financial stress contribute to suicide risk in service members?",
+      "a": "Financial stress (debt, garnishment, inability to support family) is a significant risk factor that can create feelings of hopelessness, shame, and being a burden. It is frequently identified in military suicide investigations. Military Financial Counselors and programs like Military OneSource can help address financial issues before they escalate."
+    },
+    {
+      "q": "What is the significance of 'hopelessness' as a predictor of suicide?",
+      "a": "Hopelessness — the belief that things will never get better — is one of the strongest psychological predictors of suicidal behavior, even more than depression alone. When a person expresses that nothing will change or there is no way out, this should be treated as a serious warning sign requiring immediate intervention."
+    },
+    {
+      "q": "What should you NOT do when someone discloses suicidal thoughts to you?",
+      "a": "Do NOT leave them alone, do NOT promise to keep it a secret, do NOT minimize their pain or say things like 'you have so much to live for,' do NOT argue about whether suicide is right or wrong, and do NOT try to handle it entirely on your own. Do take it seriously, listen, and get them to professional help."
+    },
+    {
+      "q": "What is the 'Ask' step in the ACE model and how should you do it?",
+      "a": "The Ask step means directly and clearly asking the person if they are thinking about suicide. Use plain language such as 'Are you thinking about killing yourself?' Being direct is more effective than hinting. A direct question shows you take their pain seriously, reduces isolation, and opens the door to getting help."
+    },
+    {
+      "q": "What resources are available for family members concerned about a service member's mental health?",
+      "a": "Family members can contact Military OneSource (1-800-342-9647), the Military Crisis Line (988 press 1), their installation's Military Family Life Counselor (MFLC), the chaplain, or Family Readiness Groups. They can also speak to the service member's commander if they believe there is imminent danger."
+    },
+    {
+      "q": "What is the connection between transitions and suicide risk in the military?",
+      "a": "Major life transitions — such as PCS moves, deployment/redeployment, separation from the military, divorce, demotion, or unit reorganization — increase suicide risk by disrupting social connections, routine, and sense of purpose. The transition from military to civilian life is a particularly high-risk period, which is why the VA and DoD coordinate during the Transition Assistance Program."
+    }
+  ]
+}

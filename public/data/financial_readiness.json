@@ -1,0 +1,151 @@
+{
+  "category": "Military Financial Readiness",
+  "description": "Personal financial management training covering TSP (Thrift Savings Plan), BAS/BAH, SCRA protections, predatory lending, debt management, emergency savings, tax advantages, SBP (Survivor Benefit Plan), and military pay basics. Based on DoDI 1342.27.",
+  "icon": "piggy-bank",
+  "questions": [
+    {
+      "q": "What DoD Instruction governs the Personal Financial Management Program?",
+      "a": "DoDI 1342.27, Personal Financial Management Programs, requires each military service to provide financial education, counseling, and assistance to service members and their families."
+    },
+    {
+      "q": "What is the Thrift Savings Plan (TSP)?",
+      "a": "TSP is a federal retirement savings plan similar to a 401(k) for military members and federal employees. It offers tax-advantaged investing with low expense ratios and matching contributions for those under the Blended Retirement System (BRS)."
+    },
+    {
+      "q": "What are the TSP fund options?",
+      "a": "G Fund (government securities), F Fund (fixed income/bonds), C Fund (S&P 500 index), S Fund (small/mid-cap stocks), I Fund (international stocks), and L Funds (lifecycle target-date funds that automatically adjust allocation)."
+    },
+    {
+      "q": "What is the Blended Retirement System (BRS) and how does TSP matching work?",
+      "a": "BRS combines a reduced pension (2.0% per year of service) with TSP matching. DoD automatically contributes 1% after 60 days and matches up to 5% of basic pay: 1% auto + dollar-for-dollar on first 3% + $0.50 per dollar on next 2%."
+    },
+    {
+      "q": "What is the maximum TSP contribution limit for 2026?",
+      "a": "The IRS annual elective deferral limit applies (check current year — it was $23,500 for 2025). Service members in combat zones can contribute up to the annual additions limit ($70,000 range) including tax-exempt combat zone pay."
+    },
+    {
+      "q": "What is the difference between Traditional and Roth TSP contributions?",
+      "a": "Traditional TSP contributions are pre-tax (reduce taxable income now, taxed upon withdrawal). Roth TSP contributions are after-tax (no tax break now, but qualified withdrawals in retirement are completely tax-free, including earnings)."
+    },
+    {
+      "q": "What is Basic Allowance for Housing (BAH)?",
+      "a": "BAH is a monthly allowance to help service members pay for civilian housing when government quarters are not provided. The amount is based on duty station location, pay grade, and dependency status. BAH is tax-free."
+    },
+    {
+      "q": "What is Basic Allowance for Subsistence (BAS)?",
+      "a": "BAS is a monthly allowance to offset the cost of meals for service members. Enlisted members receive a higher BAS rate than officers. BAS is tax-free and is meant to cover the cost of food only."
+    },
+    {
+      "q": "What is the Servicemembers Civil Relief Act (SCRA)?",
+      "a": "The SCRA (formerly Soldiers' and Sailors' Civil Relief Act) provides protections for active duty members including a 6% interest rate cap on pre-service debts, protection from eviction, the right to terminate leases, and protection from default judgments."
+    },
+    {
+      "q": "How does the SCRA 6% interest rate cap work?",
+      "a": "The SCRA caps interest at 6% per year on debts incurred before active duty (mortgages, car loans, credit cards, student loans). You must request the cap in writing and provide a copy of your orders. The lender must forgive interest above 6%, not just defer it."
+    },
+    {
+      "q": "What SCRA protections exist for lease termination?",
+      "a": "Service members can terminate residential and vehicle leases early without penalty when they receive PCS orders, deployment orders of 90+ days, or enter active duty from reserve status. Written notice and a copy of orders are required."
+    },
+    {
+      "q": "What is predatory lending and what are its warning signs?",
+      "a": "Predatory lending involves unfair, deceptive, or abusive loan practices. Warning signs: extremely high interest rates, excessive fees, balloon payments, loan flipping (frequent refinancing), requiring unnecessary products, and targeting military communities."
+    },
+    {
+      "q": "What does the Military Lending Act (MLA) provide?",
+      "a": "The MLA (2006, expanded 2015) caps the Military Annual Percentage Rate (MAPR) at 36% for most consumer credit to active duty members and dependents, prohibits mandatory arbitration, and bans certain predatory practices."
+    },
+    {
+      "q": "What types of financial products are common predatory lending traps near military bases?",
+      "a": "Payday loans, car title loans, rent-to-own agreements, high-interest used car dealers, and 'military discount' financing with hidden fees. These businesses often cluster near military installations."
+    },
+    {
+      "q": "What is the recommended size of an emergency fund?",
+      "a": "Financial experts recommend 3 to 6 months of essential expenses in an easily accessible savings account. For military families, this provides a buffer during PCS transitions, deployments, or unexpected expenses."
+    },
+    {
+      "q": "What is the Survivor Benefit Plan (SBP)?",
+      "a": "SBP provides a monthly annuity to eligible survivors (spouse, children) of deceased retirees. It pays up to 55% of the member's retired pay. Members must elect SBP before retirement; the premium is 6.5% of selected base amount."
+    },
+    {
+      "q": "What happens if a service member does not elect SBP coverage?",
+      "a": "If a married member does not elect SBP, the spouse must concur in writing. Without SBP, military retired pay stops completely upon the retiree's death, leaving the surviving spouse with no military pension annuity."
+    },
+    {
+      "q": "What is Servicemembers' Group Life Insurance (SGLI)?",
+      "a": "SGLI provides low-cost term life insurance up to $500,000 for active duty members. It is automatically provided unless declined. Coverage is available at $0.06 per $1,000 per month ($31/month for maximum $500,000)."
+    },
+    {
+      "q": "What is Veterans' Group Life Insurance (VGLI) and when should you consider it?",
+      "a": "VGLI allows veterans to convert SGLI to renewable term insurance after separation without medical underqualification. You must apply within 240 days of separation (or 1 year with evidence of good health). Premiums increase with age."
+    },
+    {
+      "q": "What tax-free pay and allowances do military members receive?",
+      "a": "BAH, BAS, combat zone pay, hazardous duty pay, family separation allowance, move-related allowances, and uniform allowances are all tax-free. This effectively increases take-home pay compared to equivalent civilian salaries."
+    },
+    {
+      "q": "How does combat zone tax exclusion (CZTE) work?",
+      "a": "Enlisted members and warrant officers have all pay earned in a combat zone excluded from federal income tax. Officers' exclusion is capped at the highest enlisted pay rate plus imminent danger/hostile fire pay."
+    },
+    {
+      "q": "What is the military pay chart based on?",
+      "a": "Military basic pay is determined by pay grade (E-1 through E-9 for enlisted, O-1 through O-10 for officers, W-1 through W-5 for warrant officers) and years of service. It increases with promotions and time in service."
+    },
+    {
+      "q": "What is the SAVE plan for military members with student loans?",
+      "a": "SAVE (Saving on a Valuable Education) is an income-driven repayment plan that calculates payments based on income and family size. Military members benefit because tax-free allowances (BAH/BAS) are excluded from the income calculation."
+    },
+    {
+      "q": "What is the Public Service Loan Forgiveness (PSLF) program and how does it apply to military?",
+      "a": "PSLF forgives remaining federal student loan balances after 120 qualifying monthly payments (10 years) while working full-time for a qualifying public service employer. Active duty military service qualifies. Payments under income-driven plans count."
+    },
+    {
+      "q": "What free financial counseling resources are available to military members?",
+      "a": "Military OneSource financial counseling, installation Personal Financial Management Program (PFMP), military relief societies (AER, AFAS, NMCFA, CGMA), the Consumer Financial Protection Bureau (CFPB) Office of Servicemember Affairs, and free tax preparation through VITA/MilTax."
+    },
+    {
+      "q": "What is the AER, AFAS, NMCFA, and CGMA?",
+      "a": "Military relief societies: Army Emergency Relief (AER), Air Force Aid Society (AFAS), Navy-Marine Corps Relief Society (NMCFA), and Coast Guard Mutual Assistance (CGMA). They provide interest-free loans and grants for emergency financial needs."
+    },
+    {
+      "q": "What are the consequences of financial irresponsibility for military careers?",
+      "a": "Financial problems can lead to loss of security clearance, administrative action, reduction in grade, bars to reenlistment, and involuntary separation. Commanders are notified of garnishments, and debt can trigger security clearance reviews."
+    },
+    {
+      "q": "What is the debt-to-income ratio and why does it matter?",
+      "a": "Debt-to-income ratio compares monthly debt payments to monthly gross income. Lenders use it for loan approval (generally under 36% is preferred). High ratios indicate financial stress and can trigger security clearance concerns."
+    },
+    {
+      "q": "What should you do before making a major purchase (car, home) as a service member?",
+      "a": "Check your credit report, research fair pricing, get pre-approved through a military credit union or bank, avoid dealerships near bases that target military, read all contracts carefully, understand total cost including interest, and consult with your installation's financial counselor."
+    },
+    {
+      "q": "What is the VA Home Loan benefit?",
+      "a": "VA Home Loans offer eligible service members home purchases with no down payment, no private mortgage insurance (PMI), competitive interest rates, limited closing costs, and no prepayment penalty. The VA guarantees a portion of the loan to the lender."
+    },
+    {
+      "q": "What is the difference between the legacy 'High-3' retirement system and BRS?",
+      "a": "High-3 provides 2.5% x years of service x average of highest 36 months of basic pay (50% at 20 years) with no TSP matching. BRS provides 2.0% multiplier (40% at 20 years) plus TSP matching and continuation pay, benefiting those who serve less than 20 years."
+    },
+    {
+      "q": "What is BRS continuation pay?",
+      "a": "A one-time lump sum payment (2.5x to 13x monthly basic pay, varies by service) offered between 8 and 12 years of service in exchange for agreeing to serve an additional 3+ years. It incentivizes mid-career retention under BRS."
+    },
+    {
+      "q": "What is MilTax?",
+      "a": "MilTax is a free tax preparation and filing service available through Military OneSource. It provides tax preparation software, consultants for military-specific tax questions, and covers federal and up to three state returns at no cost."
+    },
+    {
+      "q": "What are the rules for the TSP loan program?",
+      "a": "TSP offers general purpose loans (repaid in 1-5 years) and residential loans (repaid in 1-15 years). Minimum loan is $1,000, maximum is 50% of vested balance up to $50,000. You repay yourself with interest, but miss market gains on borrowed funds."
+    },
+    {
+      "q": "What should military members know about power of attorney before deployment?",
+      "a": "Execute a durable power of attorney before deployment designating a trusted person to handle financial, legal, and property matters. Military legal assistance offices prepare these free of charge. Review and update it before each deployment."
+    },
+    {
+      "q": "What is the Family Servicemembers' Group Life Insurance (FSGLI)?",
+      "a": "FSGLI provides term life insurance for spouses (up to $100,000) and children ($10,000) of service members with SGLI. Spouse premiums vary by age; child coverage costs $2.50/month regardless of number of children."
+    }
+  ]
+}
