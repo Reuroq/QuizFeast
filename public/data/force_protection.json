@@ -1,0 +1,163 @@
+{
+  "category": "Force Protection",
+  "description": "Antiterrorism Awareness Level I — physical security, access control, and force protection (JS-US007 JKO)",
+  "icon": "shield-check",
+  "questions": [
+    {
+      "q": "What DoD Instruction prescribes the Level I Antiterrorism Awareness Training requirement?",
+      "a": "DoDI 2000.16, DoD Antiterrorism (AT) Standards."
+    },
+    {
+      "q": "True or False: When possible, it is best to always travel with a cell phone.",
+      "a": "True."
+    },
+    {
+      "q": "True or False: In the event of a skyjacking, you should immediately attempt to subdue the skyjackers.",
+      "a": "False. You should remain calm, comply with instructions, and avoid drawing attention to yourself unless conditions clearly favor action."
+    },
+    {
+      "q": "True or False: Keeping a well-maintained vehicle is considered a 'best practice' from both a security and safety perspective.",
+      "a": "True."
+    },
+    {
+      "q": "True or False: From a security perspective, the best rooms are directly next to emergency exits.",
+      "a": "False. Rooms directly next to emergency exits or stairwells can be vulnerable. Choose rooms between the 2nd and 7th floors, away from the ground level and above fire ladder reach."
+    },
+    {
+      "q": "True or False: IEDs may come in many forms and may be camouflaged to blend in to the surrounding environment.",
+      "a": "True."
+    },
+    {
+      "q": "True or False: Internet acquaintances can pose a security threat and should be carefully monitored.",
+      "a": "True."
+    },
+    {
+      "q": "True or False: Early symptoms of a biological attack may appear the same as common illnesses.",
+      "a": "True."
+    },
+    {
+      "q": "What is Force Protection Condition (FPCON) DELTA?",
+      "a": "The highest FPCON level, indicating a terrorist attack has occurred or that intelligence indicates imminent terrorist action against a specific location. Maximum security measures are implemented."
+    },
+    {
+      "q": "What are the five Force Protection Condition (FPCON) levels?",
+      "a": "FPCON NORMAL (no known threat), FPCON ALPHA (general threat of possible terrorist activity), FPCON BRAVO (increased and more predictable threat), FPCON CHARLIE (incident has occurred or intelligence indicates imminent action), and FPCON DELTA (attack imminent or has occurred against a specific location)."
+    },
+    {
+      "q": "What does RAM stand for?",
+      "a": "Random Antiterrorism Measures — unpredictable security measures that change frequently to prevent terrorists from identifying patterns and planning attacks."
+    },
+    {
+      "q": "What is the purpose of Random Antiterrorism Measures (RAM)?",
+      "a": "To create uncertainty in the minds of potential terrorists by varying security procedures and activities, making it difficult for them to predict security patterns and plan attacks."
+    },
+    {
+      "q": "Which of the following is a possible indicator of a suspicious letter or package?",
+      "a": "Misspellings of common words, excessive postage, no return address, oily stains, protruding wires, rigid or lopsided envelope, restrictive markings like 'personal' or 'confidential,' and unusual odor."
+    },
+    {
+      "q": "What should you do if you discover a suspicious package?",
+      "a": "Do NOT touch, move, or open it. Clear the area immediately. Call security/law enforcement. Do not use cell phones or radios near the package (could trigger an electronic detonator). Note and report the exact location."
+    },
+    {
+      "q": "What should you consider when selecting a hotel room for security?",
+      "a": "Request rooms between the 2nd and 7th floors (above ground-level access, within fire department ladder reach). Avoid ground-floor rooms. Check for fire exits. Know multiple escape routes. Avoid rooms at the end of hallways."
+    },
+    {
+      "q": "What are the key factors to consider when understanding the threat in your environment?",
+      "a": "Are terrorist groups in the area? Are they active? Are they violent? How sophisticated are they? What tactics and weapons do they use? Do they attack Americans? Are they predictable? Will local citizens warn Americans about threats?"
+    },
+    {
+      "q": "What is the definition of terrorism?",
+      "a": "The calculated use of unlawful violence or threat of unlawful violence to instill fear, intended to coerce or intimidate governments or societies in pursuit of goals that are generally political, religious, or ideological."
+    },
+    {
+      "q": "What are the phases of a terrorist attack cycle?",
+      "a": "Target selection, planning and surveillance, deployment, attack, and escape/exploitation. The surveillance and planning phase is where the attacker is most vulnerable to detection."
+    },
+    {
+      "q": "Which phase of a terrorist attack provides the best opportunity for detection?",
+      "a": "The surveillance/planning phase — terrorists must observe their target to plan the attack, and this is when they are most likely to be noticed exhibiting suspicious behavior."
+    },
+    {
+      "q": "What is an IED?",
+      "a": "An Improvised Explosive Device — a bomb fabricated from available materials, often using commercial or military explosives. IEDs can be detonated by timers, command wire, remote control, or victim-activated triggers."
+    },
+    {
+      "q": "What should you do if you are caught in a bombing/explosion?",
+      "a": "Take cover under sturdy furniture or against an interior wall. Stay away from windows, mirrors, and falling debris. Do not use elevators. Once safe, assist others if possible and evacuate using designated routes."
+    },
+    {
+      "q": "What is the recommended response to a bomb threat received by phone?",
+      "a": "Keep the caller on the line as long as possible. Note the exact time and wording. Ask where the bomb is located and when it will detonate. Listen for background noises and voice characteristics. Immediately notify security/law enforcement after the call."
+    },
+    {
+      "q": "Which of the following is NOT a recommended response to an active shooter incident?",
+      "a": "'Provide instructions to arriving emergency response personnel' is NOT recommended for bystanders. The correct response priorities are: Run (evacuate if possible), Hide (if you cannot evacuate), Fight (as a last resort)."
+    },
+    {
+      "q": "What are the three response options during an active shooter event?",
+      "a": "Run (evacuate if safe to do so), Hide (find a secure location, lock/barricade doors), Fight (as an absolute last resort, act aggressively to incapacitate the shooter)."
+    },
+    {
+      "q": "What personal security measures should you practice while traveling abroad?",
+      "a": "Vary your routes and schedule, be aware of your surroundings, avoid advertising your military/government affiliation, keep a low profile, know the location of the nearest U.S. Embassy or Consulate, register with the State Department's STEP program, and carry emergency contact information."
+    },
+    {
+      "q": "What is the State Department's STEP program?",
+      "a": "Smart Traveler Enrollment Program — a free service that allows U.S. citizens and nationals traveling and living abroad to enroll their trip with the nearest U.S. Embassy or Consulate for safety updates and assistance in emergencies."
+    },
+    {
+      "q": "What should you do if taken hostage?",
+      "a": "Remain calm and cooperative. Do not make sudden movements. Follow instructions. Do not try to negotiate or be a hero. Observe and remember details about your captors. Be patient — rescue may take time. During a rescue attempt, drop to the floor and keep hands visible."
+    },
+    {
+      "q": "What are vehicle-borne IED (VBIED) indicators?",
+      "a": "Vehicles parked in unusual or unauthorized areas, vehicles sitting low on springs (heavy load), vehicles with modified compartments, abandoned vehicles near high-value targets, vehicles with unusual antennas or wires, and recently purchased or stolen vehicles."
+    },
+    {
+      "q": "What is the standoff distance concept?",
+      "a": "The distance maintained between a potential VBIED and a protected building or asset. Greater standoff distance significantly reduces blast effects. Barriers such as bollards, jersey barriers, and planters are used to enforce standoff distances."
+    },
+    {
+      "q": "What should be included in an evacuation plan?",
+      "a": "Primary and alternate evacuation routes, rally/assembly points, accountability procedures, communication plan, procedures for persons with disabilities, location of emergency supplies, and designated personnel responsibilities."
+    },
+    {
+      "q": "What are the security classification levels?",
+      "a": "Confidential (damage to national security), Secret (serious damage to national security), and Top Secret (exceptionally grave damage to national security)."
+    },
+    {
+      "q": "What are the procedures for vehicle searches at access control points?",
+      "a": "Check under the vehicle, in the trunk, under the hood, inside the cab/passenger area, and in any cargo areas. Use mirrors for undercarriage inspection. Verify identification of all occupants."
+    },
+    {
+      "q": "What information should be included on a visitor badge?",
+      "a": "Visitor's name, organization, date, escort required (if applicable), areas authorized, badge number, and expiration time."
+    },
+    {
+      "q": "What is the difference between physical security and force protection?",
+      "a": "Physical security focuses on protecting facilities, personnel, and resources from unauthorized access, espionage, sabotage, and theft. Force protection is broader and encompasses all measures taken to prevent or mitigate hostile actions against DoD personnel, resources, facilities, and critical information."
+    },
+    {
+      "q": "What is Antiterrorism (AT)?",
+      "a": "Defensive measures used to reduce the vulnerability of individuals and property to terrorist acts, to include rapid containment by local military and civilian forces."
+    },
+    {
+      "q": "What is the difference between antiterrorism and counterterrorism?",
+      "a": "Antiterrorism (AT) consists of defensive measures to reduce vulnerability to terrorist attacks. Counterterrorism (CT) consists of offensive measures taken to prevent, deter, preempt, and respond to terrorism."
+    },
+    {
+      "q": "What is an Antiterrorism Officer (ATO)?",
+      "a": "A trained individual designated by the installation commander to develop, coordinate, and manage the installation's antiterrorism program, including threat assessments, vulnerability assessments, and training."
+    },
+    {
+      "q": "What should you do if you observe surveillance activity against your installation?",
+      "a": "Note the details (description of person/vehicle, license plate, time, location, activities observed), do not confront the individual, and report immediately to security/law enforcement and your chain of command."
+    },
+    {
+      "q": "What are indicators of pre-attack surveillance?",
+      "a": "Individuals photographing or recording security features, someone asking specific questions about security procedures, vehicles making multiple passes by a facility, individuals testing security by probing access points, and people in unusual locations with no apparent purpose."
+    }
+  ]
+}

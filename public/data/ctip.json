@@ -1,0 +1,207 @@
+{
+  "category": "Combating Trafficking in Persons",
+  "description": "Recognizing and reporting human trafficking indicators (CTIP-GA-US011)",
+  "icon": "hand",
+  "questions": [
+    {
+      "q": "Trafficking in persons consists of which of the following? (Select all that apply: Sex trafficking, Child soldiering, Labor trafficking, Shoplifting)",
+      "a": "Sex trafficking, Child soldiering, and Labor trafficking. Shoplifting is a property crime, not trafficking in persons."
+    },
+    {
+      "q": "Any person under the age of 18 found in commercial sex is considered what?",
+      "a": "A per se victim of sex trafficking. No proof of force, fraud, or coercion is needed when the victim is under 18 years of age."
+    },
+    {
+      "q": "Sex trafficking consists of which of the following?",
+      "a": "The recruitment, harboring, transportation, provision, obtaining, patronizing, or soliciting of a person for the purpose of a commercial sex act, induced by force, fraud, or coercion."
+    },
+    {
+      "q": "What is one method for combating trafficking in persons?",
+      "a": "Be informed and learn the signs and indicators of trafficking in persons."
+    },
+    {
+      "q": "Traffickers exploit people who are vulnerable because of which factors?",
+      "a": "All of the above: Illegal immigration status, Language barriers, and Age. Traffickers target vulnerabilities to control their victims."
+    },
+    {
+      "q": "Which of the following is an appropriate action if you suspect a trafficking in persons violation? (Select all that apply)",
+      "a": "Contact the Department of Defense Inspector General (IG) at 1-800-424-9098, and/or contact your chain of command."
+    },
+    {
+      "q": "Labor traffickers are most likely to take advantage of employees in which of the following professions? (Select all that apply: Janitorial services, Hospitality industry, Science fields, Political office)",
+      "a": "Janitorial services and Hospitality industry. These industries often employ vulnerable populations with limited oversight."
+    },
+    {
+      "q": "Which of the following most likely indicates a labor trafficking situation? (a) Employees were not given contracts in their native language (b) Employees are required to work and live in the same location (c) Employees complaining about their job",
+      "a": "(a) Employees were not given contracts in their native language, and (b) Employees are required to work and live in the same location. Employees simply complaining about their job is NOT an indicator of trafficking."
+    },
+    {
+      "q": "How has trafficking in persons impacted the U.S. Military's mission and readiness?",
+      "a": "Subcontractor employees working on U.S. government contracts on military installations have been subjected to steep recruitment fees, unsafe working and living conditions, or violence and abuse. Additionally, children are used in rogue or extremist militias as soldiers, spies, messengers, guards, and sex slaves."
+    },
+    {
+      "q": "Human trafficking is defined as the use of what three elements for the purpose of exploitation?",
+      "a": "Force, fraud, or coercion. These are the three means by which traffickers control their victims for the purpose of involuntary servitude, peonage, debt bondage, slavery, or commercial sex acts."
+    },
+    {
+      "q": "What is the DoD's policy on trafficking in persons?",
+      "a": "Zero tolerance. DoD promotes the U.S. Government's zero tolerance policy regarding trafficking in persons. Any involvement in TIP activities by DoD personnel is prohibited and subject to administrative action, UCMJ prosecution, or contract termination."
+    },
+    {
+      "q": "What DoD Instruction establishes the DoD CTIP policy?",
+      "a": "DoDI 2200.01, Combating Trafficking in Persons (CTIP). It assigns responsibilities and establishes policy for combating trafficking within the Department of Defense."
+    },
+    {
+      "q": "What activities are specifically prohibited for DoD personnel under the CTIP policy?",
+      "a": "Engaging in or facilitating prostitution, purchasing commercial sex acts, using forced labor, destroying or confiscating identity documents, using deceptive recruitment practices, charging excessive recruitment fees, and failing to provide return transportation when required."
+    },
+    {
+      "q": "Involuntary servitude and debt bondage are forms of what?",
+      "a": "Forced labor. Both involuntary servitude and debt bondage are recognized forms of labor trafficking."
+    },
+    {
+      "q": "What is debt bondage?",
+      "a": "When a person is forced to work to pay off a debt, often with inflated interest or unreasonable deductions making the debt impossible to repay. It is one of the most common forms of human trafficking worldwide."
+    },
+    {
+      "q": "What is labor trafficking?",
+      "a": "The recruitment, harboring, transportation, provision, or obtaining of a person for labor or services through the use of force, fraud, or coercion for the purpose of involuntary servitude, peonage, debt bondage, or slavery."
+    },
+    {
+      "q": "What are physical indicators that a person may be a trafficking victim?",
+      "a": "Signs of physical abuse (bruises, burns, scars), malnourishment, exhaustion, poor physical health, untreated injuries or illness, inappropriate clothing for weather or work, branding or tattoos indicating ownership, and appearing fearful, anxious, or submissive."
+    },
+    {
+      "q": "What are behavioral indicators that a person may be a trafficking victim?",
+      "a": "Avoidance of eye contact, inability to speak freely or appearing coached, not in possession of their own identification documents, inability to provide their home address, inconsistent stories, fearfulness or depression, and deferring to another person to speak on their behalf."
+    },
+    {
+      "q": "What are situational indicators of potential human trafficking?",
+      "a": "Living and working in the same place, living in overcrowded or substandard conditions, security measures that keep people inside rather than keeping others out, workers with no days off or breaks, and unpaid or severely underpaid workers."
+    },
+    {
+      "q": "How should military personnel report suspected trafficking?",
+      "a": "Report through the chain of command, to law enforcement (military or civilian), to the DoD Inspector General Hotline (1-800-424-9098), or to the National Human Trafficking Hotline (1-888-373-7888). In an emergency, call 911 or local military police."
+    },
+    {
+      "q": "What is the National Human Trafficking Hotline number?",
+      "a": "1-888-373-7888. You can also text 233733 (BeFree). It is a toll-free, confidential, 24/7 hotline that connects victims with services, takes tips, and provides information."
+    },
+    {
+      "q": "What is the DoD Inspector General Hotline number for reporting TIP violations?",
+      "a": "1-800-424-9098. This is one of the primary channels for DoD personnel to report suspected trafficking in persons violations."
+    },
+    {
+      "q": "What are the consequences for military members involved in trafficking?",
+      "a": "Prosecution under the UCMJ including court-martial, imprisonment, dishonorable discharge, forfeiture of pay and allowances, and reduction in rank. Even soliciting prostitution can result in UCMJ action under the zero-tolerance policy."
+    },
+    {
+      "q": "What anti-trafficking requirements apply to DoD contracts under FAR 52.222-50?",
+      "a": "Contractors must not engage in trafficking, use forced labor, destroy identity documents, use misleading recruitment, or charge recruitment fees. They must notify employees of the policy, establish a complaint mechanism, and report violations. Violations can result in contract termination, suspension, and debarment."
+    },
+    {
+      "q": "What is a 'compliance plan' required for DoD contractors?",
+      "a": "Required for contracts exceeding $550,000 performed outside the United States. It must include an awareness program, process for employee reporting, housing plan if applicable, and procedures to prevent agents or subcontractors from engaging in trafficking."
+    },
+    {
+      "q": "What role do recruitment fees play in trafficking?",
+      "a": "Excessive recruitment fees charged to workers (especially foreign nationals) create debt bondage, trapping workers in exploitative conditions as they try to repay the debt. DoD policy prohibits contractors from charging recruitment fees to employees."
+    },
+    {
+      "q": "What is the difference between human trafficking and human smuggling?",
+      "a": "Smuggling involves illegally transporting someone across a border with their consent (crime against a state). Trafficking involves exploitation through force, fraud, or coercion (crime against a person). Trafficking does not require crossing borders. Smuggling can become trafficking if exploitation occurs."
+    },
+    {
+      "q": "What populations are most vulnerable to trafficking?",
+      "a": "Runaway and homeless youth, undocumented immigrants, persons fleeing conflict or natural disasters, migrant workers, persons with substance abuse issues, individuals with disabilities, persons in poverty, and those with limited education or language barriers."
+    },
+    {
+      "q": "Why are military operations areas particularly vulnerable to trafficking?",
+      "a": "Large military deployments create demand for services including commercial sex, economic desperation in local populations, disruption of governance and rule of law, large influxes of cash and contractors, and displacement of populations — all factors traffickers exploit."
+    },
+    {
+      "q": "What is the 'three P' framework for combating trafficking?",
+      "a": "Prevention (awareness, training, policies), Protection (victim assistance, services, immigration relief), and Prosecution (criminal enforcement against traffickers). A fourth 'P' — Partnership — is sometimes added."
+    },
+    {
+      "q": "What federal law is the primary U.S. legislation against human trafficking?",
+      "a": "The Trafficking Victims Protection Act (TVPA) of 2000. It established trafficking as a federal crime, created protections for victims, and mandated prevention programs."
+    },
+    {
+      "q": "What is the Palermo Protocol?",
+      "a": "The Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children (2000). It is the primary international legal framework addressing human trafficking, supplementing the UN Convention against Transnational Organized Crime."
+    },
+    {
+      "q": "What is the annual Trafficking in Persons (TIP) Report?",
+      "a": "Published annually by the U.S. State Department, it ranks countries into tiers (Tier 1, Tier 2, Tier 2 Watch List, Tier 3) based on government efforts to combat trafficking. Tier 3 countries may face U.S. sanctions."
+    },
+    {
+      "q": "What is 'force' in the context of trafficking?",
+      "a": "Physical restraint, physical assault, sexual assault, beatings, confinement, and any form of physical coercion used to control a victim and compel them to work or engage in commercial sex acts."
+    },
+    {
+      "q": "What is 'fraud' in the context of trafficking?",
+      "a": "False promises and deception used to recruit or exploit victims, such as false promises of well-paying jobs, better living conditions, educational opportunities, or legal immigration status."
+    },
+    {
+      "q": "What is 'coercion' in the context of trafficking?",
+      "a": "Threats of serious harm, psychological manipulation, debt manipulation, threats to report immigration status, threats against family members, document confiscation, and isolation — any scheme intended to make a person believe failure to comply would result in serious harm."
+    },
+    {
+      "q": "What are indicators of trafficking specific to the DoD/military environment?",
+      "a": "Foreign workers on base with restricted movement, contractor employees living at the worksite, workers without access to passports, local nationals under exploitative conditions, personnel frequenting commercial sex establishments, and contractor recruitment charging excessive fees."
+    },
+    {
+      "q": "What protections exist for trafficking victims under U.S. law?",
+      "a": "T-visa immigration relief, access to federal benefits, right to sue traffickers civilly, mandatory restitution in criminal cases, and protection from prosecution for crimes committed as a direct result of being trafficked. Victims are treated as crime victims, not criminals."
+    },
+    {
+      "q": "What is a T-visa?",
+      "a": "A nonimmigrant visa for victims of severe trafficking. It allows victims to remain in the U.S. for up to four years, provides access to federal benefits, and offers a path to lawful permanent residence. Up to 5,000 may be issued annually."
+    },
+    {
+      "q": "What Executive Order addresses trafficking in persons and government contracting?",
+      "a": "Executive Order 13627, 'Strengthening Protections Against Trafficking in Persons in Federal Contracts' (2012). It prohibited recruitment fees, required compliance plans for large overseas contracts, and enhanced contractor accountability."
+    },
+    {
+      "q": "How often must DoD personnel complete CTIP training?",
+      "a": "Annually. All DoD personnel (military members, civilian employees, and contractors) must complete CTIP awareness training every year, typically through JKO."
+    },
+    {
+      "q": "What should a service member do if they suspect a fellow service member is involved in trafficking?",
+      "a": "Report it immediately through the chain of command, to military law enforcement (CID, NCIS, OSI), the DoD IG Hotline, or local authorities. Do not investigate independently. Zero-tolerance applies regardless of rank."
+    },
+    {
+      "q": "What is 'involuntary servitude'?",
+      "a": "A condition where a person is compelled to work against their will through force, threats, or coercion. It is prohibited by the 13th Amendment and is a form of labor trafficking."
+    },
+    {
+      "q": "What is child trafficking under U.S. law?",
+      "a": "Any recruitment, harboring, transportation, or exploitation of a person under 18 for commercial sex or forced labor. For sex trafficking of minors, the act itself constitutes trafficking — no proof of force, fraud, or coercion is required."
+    },
+    {
+      "q": "What is the connection between commercial sex and trafficking?",
+      "a": "Not all prostitution is trafficking, but commercial sex industries create high-risk environments where trafficking thrives. DoD policy prohibits soliciting prostitution because it is difficult to determine if a person has been trafficked, and demand drives trafficking."
+    },
+    {
+      "q": "How does trafficking relate to national security?",
+      "a": "Trafficking undermines the rule of law, fuels corruption, funds transnational criminal organizations, destabilizes communities, creates security vulnerabilities near military installations, and can compromise operations. It is both a human rights issue and national security threat."
+    },
+    {
+      "q": "What workplace indicators suggest labor trafficking on a military installation?",
+      "a": "Workers not allowed breaks, unable to access earnings, unable to leave premises freely, identification confiscated by employer, living in employer housing with excessive deductions, working excessively long hours, and subjected to threats or punishment."
+    },
+    {
+      "q": "Upon receiving credible information about a trafficking violation, what must a Contracting Officer do?",
+      "a": "Promptly notify the Geographic Combatant Commander, the DoD CTIP Program Manager, agency Inspector General, and if appropriate, the agency suspending and debarring official and law enforcement officials with jurisdiction."
+    },
+    {
+      "q": "What role does the DoD CTIP Program Management Office play?",
+      "a": "Established under the Under Secretary of Defense for Personnel and Readiness, it coordinates all DoD CTIP efforts, develops policy and training, manages awareness campaigns, oversees compliance, and reports to Congress on DoD anti-trafficking activities."
+    },
+    {
+      "q": "What are the TIP Report tier rankings?",
+      "a": "Tier 1: Fully meets minimum standards. Tier 2: Not fully meeting standards but making significant efforts. Tier 2 Watch List: Efforts insufficient or trafficking increasing. Tier 3: Not meeting standards, not making efforts — may face sanctions."
+    }
+  ]
+}

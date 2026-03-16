@@ -1,0 +1,251 @@
+{
+  "category": "Antiterrorism Level 1",
+  "description": "Antiterrorism awareness and force protection fundamentals (JS-US007)",
+  "icon": "alert-triangle",
+  "questions": [
+    {
+      "q": "True or False: When possible, it is best to always travel with a cell phone.",
+      "a": "True"
+    },
+    {
+      "q": "True or False: In the event of a skyjacking, you should immediately attempt to subdue the skyjackers.",
+      "a": "False"
+    },
+    {
+      "q": "True or False: Keeping a well-maintained vehicle is considered a 'best practice' from both a security and safety perspective.",
+      "a": "True"
+    },
+    {
+      "q": "True or False: From a security perspective, the best rooms are directly next to emergency exits.",
+      "a": "False"
+    },
+    {
+      "q": "True or False: IEDs may come in many forms and may be camouflaged to blend in to the surrounding environment.",
+      "a": "True"
+    },
+    {
+      "q": "True or False: Surveillance can be performed through either stationary or mobile means.",
+      "a": "True"
+    },
+    {
+      "q": "True or False: Terrorists usually avoid tourist locations since they are not DOD-related.",
+      "a": "False"
+    },
+    {
+      "q": "True or False: Room invasions are a significant security issue for hotels located in CONUS.",
+      "a": "True"
+    },
+    {
+      "q": "True or False: In an active shooter incident involving firearms, you should immediately lie on the ground.",
+      "a": "False"
+    },
+    {
+      "q": "True or False: From an antiterrorism perspective, espionage and security negligence are considered insider threats.",
+      "a": "True"
+    },
+    {
+      "q": "True or False: State Department Travel Warnings should be consulted prior to taking trips across the US-Mexican border.",
+      "a": "True"
+    },
+    {
+      "q": "True or False: Active resistance should be the immediate response to an active shooter incident.",
+      "a": "False"
+    },
+    {
+      "q": "True or False: Internet acquaintances can pose a security threat and should be carefully monitored.",
+      "a": "True"
+    },
+    {
+      "q": "True or False: Early symptoms of a biological attack may appear the same as common illnesses.",
+      "a": "True"
+    },
+    {
+      "q": "True or False: Reasons for acquiring hostages include publicity, use as a bargaining chip while executing other crimes, the forcing of political concessions, and ransom.",
+      "a": "True"
+    },
+    {
+      "q": "True or False: Alerts from the National Terrorism Advisory System apply only to the United States and its possessions.",
+      "a": "True"
+    },
+    {
+      "q": "True or False: Home security can be improved with self-help measures like changing locks, securing windows, and improving outdoor lighting.",
+      "a": "True"
+    },
+    {
+      "q": "From the following choices, select the factors you should consider to understand the threat in your environment: How sophisticated are terrorist groups? How active are terrorist groups? Are terrorist groups violent?",
+      "a": "All of the above are correct. You should consider all of these factors to understand the threat in your environment."
+    },
+    {
+      "q": "Select the factor that will NOT help you avoid becoming the victim of a terrorist attack: Predictability, Location, Opportunity, or Association?",
+      "a": "Predictability. Being predictable in your daily routines actually makes you MORE vulnerable to a terrorist attack, not less."
+    },
+    {
+      "q": "Force Protection Condition DELTA means that your base is at which one of the following levels?",
+      "a": "The most increased level of protection. FPCON DELTA applies in the immediate area where a terrorist attack has occurred or when intelligence is received indicating terrorist action against a specific location is imminent."
+    },
+    {
+      "q": "Which of the following is NOT an Antiterrorism Level I theme? (Be Vigilant, Collections, Counter-surveillance, Report and Respond, Anticipate)",
+      "a": "Counter-surveillance and Collections are NOT Antiterrorism Level I themes. The four AT Level I themes are: Anticipate, Be Vigilant, Don't Be a Target, and Report and Respond."
+    },
+    {
+      "q": "Which of the following have NOT been targeted or plotted against by terrorists or violent individuals?",
+      "a": "None of the above. Terrorists and violent individuals have targeted or plotted against all types of locations and personnel."
+    },
+    {
+      "q": "What is NOT a terrorist method of surveillance?",
+      "a": "Breaking and entering to steal valuables. This is a criminal act, not a method of surveillance used by terrorists."
+    },
+    {
+      "q": "Which one of these is a possible indicator of a suspicious letter or package?",
+      "a": "Misspellings of common words. Other indicators include excessive postage, no return address, rigid or bulky envelopes, oily stains, protruding wires, and strange odors."
+    },
+    {
+      "q": "Which of the following is NOT a useful vehicle feature from a security perspective?",
+      "a": "Wi-Fi capable. Useful security features include power locks, power windows, an inside hood release, and a full-size spare tire."
+    },
+    {
+      "q": "What should you NOT do during a hostage rescue attempt?",
+      "a": "Try to assist the hostage rescue team. During a rescue, drop to the floor, keep your hands visible and empty, do not make sudden movements, and follow all instructions from rescuers."
+    },
+    {
+      "q": "Which of the following is NOT a physical security feature you should check when inspecting your hotel room?",
+      "a": "Lockbox or safe. Physical security features to check include working door locks, deadbolts, peephole, window locks, and connecting door locks."
+    },
+    {
+      "q": "Which one of the following is NOT an early indicator of a potential insider threat?",
+      "a": "A reasonable disagreement with a U.S. Government policy. Early indicators of insider threats include unexplained affluence, unusual work hours, unauthorized removal of classified materials, and attempts to gain access to information outside one's need to know."
+    },
+    {
+      "q": "Which of the following is NOT a recommended response to an active shooter incident?",
+      "a": "Provide instructions to arriving emergency response personnel. The recommended response is Run, Hide, Fight. When law enforcement arrives, keep hands visible, follow their instructions, and do not attempt to direct their actions."
+    },
+    {
+      "q": "What are the four Antiterrorism Level I themes?",
+      "a": "Anticipate, Be Vigilant, Don't Be a Target, and Report and Respond."
+    },
+    {
+      "q": "What does FPCON stand for?",
+      "a": "Force Protection Condition. FPCONs describe progressive levels of protective measures to be implemented by military installations when a terrorist threat exists."
+    },
+    {
+      "q": "What are the five FPCON levels in order from lowest to highest?",
+      "a": "FPCON Normal, FPCON Alpha, FPCON Bravo, FPCON Charlie, and FPCON Delta."
+    },
+    {
+      "q": "What does FPCON Normal indicate?",
+      "a": "A general global threat of possible terrorist activity exists and warrants a routine security posture."
+    },
+    {
+      "q": "What does FPCON Alpha indicate?",
+      "a": "An increased general threat of possible terrorist activity against personnel or facilities, the nature and extent of which are unpredictable."
+    },
+    {
+      "q": "What does FPCON Bravo indicate?",
+      "a": "An increased or more predictable threat of terrorist activity exists. Measures must be sustainable for weeks without causing undue hardship."
+    },
+    {
+      "q": "What does FPCON Charlie indicate?",
+      "a": "An incident occurs or intelligence is received indicating some form of terrorist action or targeting against personnel or facilities is likely."
+    },
+    {
+      "q": "If you identify a possible surveillance attempt, what should you do?",
+      "a": "Do NOT try to handle the situation yourself. Note details about the person and activity, leave the area, and report it immediately to security or law enforcement."
+    },
+    {
+      "q": "What are the three recommended responses to an active shooter event in order?",
+      "a": "Run, Hide, Fight. First try to evacuate (Run). If you cannot evacuate safely, find a secure hiding place (Hide). As an absolute last resort, take action to incapacitate the shooter (Fight)."
+    },
+    {
+      "q": "What does the 'Run' phase of active shooter response involve?",
+      "a": "Have an escape route in mind, evacuate regardless of whether others follow, leave belongings behind, help others escape if possible, prevent others from entering the area, keep hands visible, and call 911 when safe."
+    },
+    {
+      "q": "What does the 'Hide' phase of active shooter response involve?",
+      "a": "Find a room that can be locked, blockade the door with heavy furniture, silence your cell phone (not just vibrate), turn off lights, hide behind large items, and remain quiet."
+    },
+    {
+      "q": "What does the 'Fight' phase of active shooter response involve?",
+      "a": "As an absolute last resort, act with physical aggression, throw items at the shooter, use improvised weapons, commit to your actions, and attempt to incapacitate the shooter."
+    },
+    {
+      "q": "What is the ticketing area at an airport compared to the area beyond the security checkpoint?",
+      "a": "The ticketing area is NOT more secure than the area beyond the security checkpoint. The area beyond the checkpoint has additional screening measures."
+    },
+    {
+      "q": "What is the best way to protect yourself from terrorist surveillance?",
+      "a": "Vary your daily routines. Change your routes, departure times, modes of transportation, and daily patterns to avoid being predictable."
+    },
+    {
+      "q": "What are indicators of a possible Vehicle-Borne IED (VBIED)?",
+      "a": "A vehicle that is heavily loaded with sagging suspension, wires or tanks visible, strong chemical odor, parked in an unusual location near buildings, or recently abandoned near a potential target."
+    },
+    {
+      "q": "What should you do if you discover a suspicious package or possible IED?",
+      "a": "Do NOT touch, move, or open the item. Clear the area immediately, do not use cell phones or radios near the item (RF energy could trigger it), and call security or law enforcement."
+    },
+    {
+      "q": "What are the phases of a terrorist attack planning cycle?",
+      "a": "Target selection, planning and surveillance, pre-attack surveillance and rehearsal, final preparations, attack execution, and escape/exploitation."
+    },
+    {
+      "q": "What does iSALUTE stand for in suspicious activity reporting?",
+      "a": "Immediately report, Size/type of activity, Activity observed, Location, Uniform or clothing description, Time observed, Equipment or vehicles involved."
+    },
+    {
+      "q": "True or False: Security is a team effort.",
+      "a": "True. Every person has a role in maintaining security awareness and reporting suspicious activity."
+    },
+    {
+      "q": "What should you do if you observe someone photographing a military installation's security features?",
+      "a": "Do not confront the person. Note their description, behavior, vehicle information, and direction of travel. Report the activity immediately to installation security or law enforcement."
+    },
+    {
+      "q": "What travel precautions should you take when traveling OCONUS (outside the continental United States)?",
+      "a": "Register with the embassy, keep a low profile, avoid military clothing or items identifying you as American military, carry minimal identification, know local emergency numbers, avoid predictable patterns, and follow theater-specific force protection guidance."
+    },
+    {
+      "q": "What is the most common method of terrorist attack worldwide?",
+      "a": "Bombings and IED attacks. They are relatively easy to construct, can be deployed remotely, and create significant fear and casualties."
+    },
+    {
+      "q": "What social media practices help reduce your terrorism risk?",
+      "a": "Limit personal information shared online, disable geotagging on photos, do not post travel plans or military movements, use strong privacy settings, do not reveal military affiliation in public profiles, and be wary of unknown friend requests."
+    },
+    {
+      "q": "During a hostage situation, what should you do in the initial moments of capture?",
+      "a": "Remain calm, be observant, do not resist or make sudden movements, follow instructions, and do not challenge the captors. The first few moments are the most dangerous."
+    },
+    {
+      "q": "What information should a POW provide if captured?",
+      "a": "Name, rank, date of birth, and service number only (the 'Big Four'). You are not required to provide any other information."
+    },
+    {
+      "q": "What are indicators of a possible chemical attack?",
+      "a": "Unusual dead or dying animals, unexplained casualties with similar symptoms, unusual liquids or sprays, unexplained odors (fruity, flowery, sharp, garlic-like), and low-lying clouds or fog unrelated to weather."
+    },
+    {
+      "q": "What is the difference between antiterrorism (AT) and counterterrorism (CT)?",
+      "a": "Antiterrorism (AT) consists of defensive measures to reduce vulnerability to terrorist acts and is everyone's responsibility. Counterterrorism (CT) consists of offensive measures to prevent, deter, and respond to terrorism, conducted by specially designated units."
+    },
+    {
+      "q": "What are Random Antiterrorism Measures (RAMs)?",
+      "a": "Security measures that introduce unpredictability into a security posture to disrupt terrorist planning and surveillance. They vary in timing, location, and type to prevent predictable patterns."
+    },
+    {
+      "q": "What should you do if you receive a bomb threat by telephone?",
+      "a": "Keep the caller talking as long as possible, note the exact wording, ask specific questions (when, where, what kind), listen for background noises, note voice characteristics, and call security immediately after the call ends."
+    },
+    {
+      "q": "What DoDI establishes the DoD Antiterrorism Program?",
+      "a": "DoDI 2000.12, DoD Antiterrorism Program."
+    },
+    {
+      "q": "How often must all DoD personnel complete Antiterrorism Level 1 training?",
+      "a": "Annually. All DoD personnel (military, civilian, contractors, and dependents) must complete AT Level 1 awareness training every year."
+    },
+    {
+      "q": "What does NTAS stand for?",
+      "a": "National Terrorism Advisory System. It replaced the color-coded Homeland Security Advisory System and communicates information about terrorist threats through alerts and bulletins."
+    }
+  ]
+}

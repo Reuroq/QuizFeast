@@ -1,0 +1,495 @@
+{
+  "category": "Cyber Awareness Challenge",
+  "description": "DoD annual cybersecurity training covering phishing, social engineering, data protection, and more",
+  "icon": "shield",
+  "questions": [
+    {
+      "q": "You receive an email asking you to click a link within two days to verify your account and keep it active. Your IT department has never sent emails like this, and the email does not have a digital signature. What action should you take?",
+      "a": "Report the email to your security POC or help desk. This is a phishing attempt using urgency to trick you into clicking a malicious link."
+    },
+    {
+      "q": "What is spear phishing?",
+      "a": "Spear phishing is a type of phishing attack that targets particular individuals, groups of people, or organizations using personalized information to appear legitimate."
+    },
+    {
+      "q": "What is whaling?",
+      "a": "Whaling is a complex, targeted phishing attack aimed at senior officials. It uses personalized information such as the target's name, title, official email address, and sender names from personal contacts lists to create an individualized, believable message."
+    },
+    {
+      "q": "What is smishing?",
+      "a": "Smishing is a type of social engineering that uses Short Message Service (SMS) text messages to deceive you into providing personal information or gaining access to your device. Do not reply or click the link -- delete the message."
+    },
+    {
+      "q": "What is vishing?",
+      "a": "Vishing is a type of social engineering that uses voice calls to deceive you into giving up personal information or installing software that provides access to your devices or network. Let calls from unknown numbers go to voicemail."
+    },
+    {
+      "q": "Which of the following is a best practice to protect against phishing? (A) Click links in emails to verify if they are real (B) Type the web address directly or use bookmarks instead of clicking links in emails (C) Reply to the sender to ask if it is legitimate (D) Forward the email to coworkers for their opinion",
+      "a": "B. Do not access sites by selecting links in emails or pop-up messages. Type the address or use bookmarks. Contact the organization using a phone number you know to be legitimate if suspicious."
+    },
+    {
+      "q": "How can you protect against phishing emails requesting personal information?",
+      "a": "Never give out organizational, personal, or financial information to anyone by email. Look for digital signatures. Report emails requesting personal information to your security POC or help desk. Delete the email."
+    },
+    {
+      "q": "You receive a suspicious email that uses your name and appears to come from inside your organization. What type of attack is this likely to be?",
+      "a": "This is likely a spear phishing attack. Be wary of suspicious emails that use your name and/or appear to come from inside your organization or a related organization. Report the email to your security POC."
+    },
+    {
+      "q": "Trisha receives an email containing a dramatic rumor about a celebrity. Which action should Trisha AVOID taking with this email?",
+      "a": "Do not forward it. Email hoaxes clog networks, slow down internet and email services, and can be part of a distributed denial of service (DDoS) attack."
+    },
+    {
+      "q": "What should you assume about all unsolicited information requests you receive via email?",
+      "a": "Assume all unsolicited information requests are phishing attempts and follow your organization's IT security policies and guidelines."
+    },
+    {
+      "q": "What are compressed URLs (such as TinyURLs) and why should you exercise caution with them?",
+      "a": "Compressed URLs convert a long URL into a short URL for convenience but may be used to mask malicious intent. Investigate the destination by using the preview feature to see where the link actually leads before clicking."
+    },
+    {
+      "q": "An unknown caller contacts your office and asks for names from a personnel directory. What should you do?",
+      "a": "Do not give out personal or organizational information. Document the interaction -- verify the caller's identity, write down their phone number, and take detailed notes. Contact your security POC or help desk."
+    },
+    {
+      "q": "What methods do social engineers use to obtain information?",
+      "a": "Social engineers use telephone surveys, email messages, websites, text messages, automated phone calls, and in-person interviews to trick targets into revealing information."
+    },
+    {
+      "q": "To protect against social engineering, what should you do if an unverified person contacts you requesting information?",
+      "a": "Do not participate in telephone surveys. Do not give out personal, computer, or network information. Do not follow instructions from unverified personnel. Document the interaction, verify their identity, and contact your security POC or help desk."
+    },
+    {
+      "q": "Sara, a government expert, receives an email from a foreign national who praises her work and asks to connect to learn more about her field. What must Sara do?",
+      "a": "Report the contact to her security POC. If you work with classified or sensitive material, you must inform your security POC of all non-professional or non-routine contacts with foreign nationals."
+    },
+    {
+      "q": "How do adversaries exploit social media to target DoD personnel?",
+      "a": "Adversaries disseminate fake news and propaganda, share fake audio/video (deepfakes), and gather personal information shared on social media to devise social engineering attacks against military and national security targets."
+    },
+    {
+      "q": "What should you do to protect against social engineering during phone calls?",
+      "a": "Let calls from unknown numbers go to voicemail -- legitimate callers will leave a message. Never provide personal or organizational information to unverified callers. Document the interaction and report it to your security POC."
+    },
+    {
+      "q": "You receive a text message from a commercial shipping company claiming they need an updated address to deliver a package, with a link provided. What should you do?",
+      "a": "Delete the message. This is a smishing attack. Do not reply or click the link in the message."
+    },
+    {
+      "q": "What are the three classification levels for national security information?",
+      "a": "Confidential (damage to national security), Secret (serious damage to national security), and Top Secret (exceptionally grave damage to national security)."
+    },
+    {
+      "q": "What three conditions must be met for an individual to access classified data?",
+      "a": "The individual must have: (1) an appropriate security clearance, (2) a signed and approved non-disclosure agreement, and (3) a need-to-know for the specific information."
+    },
+    {
+      "q": "How should classified data be stored when not in use?",
+      "a": "Store classified data appropriately in a GSA-approved vault or security container when not in use. Do not assume open storage in a secure facility is authorized."
+    },
+    {
+      "q": "What is spillage in the context of classified information?",
+      "a": "Spillage occurs when information is 'spilled' from a higher classification or protection level to a lower classification or protection level. Spillage can be either inadvertent or intentional."
+    },
+    {
+      "q": "Which of the following may help to prevent spillage? (A) Using classified networks for unclassified work (B) Labeling all files, removable media, and subject headers with appropriate classification markings (C) Removing equipment from classified networks for use on unclassified networks (D) Connecting unauthorized devices to any network",
+      "a": "B. Label all files, removable media, and subject headers with appropriate classification markings. Also be aware of classification markings and all handling caveats."
+    },
+    {
+      "q": "If spillage occurs, what should you do?",
+      "a": "Immediately notify your security POC. Do not delete the suspected files. Do not forward, read further, or manipulate the file. Secure the area."
+    },
+    {
+      "q": "A user writes down details marked as Secret from a classified system and uses those details to draft a briefing on an unclassified system without authorization. What has occurred?",
+      "a": "Spillage, because classified data was moved to a lower classification level system without authorization."
+    },
+    {
+      "q": "If you find classified government data on the internet that has not been cleared for public release, what should you do?",
+      "a": "Do not download the information (it may create a new spillage). Note any identifying information and the website's URL. Report the situation to your security POC. Refer any inquiries to your public affairs office. Remember it is still classified even if compromised."
+    },
+    {
+      "q": "Why should you NOT use a classified network for unclassified work?",
+      "a": "It can unnecessarily consume mission-essential bandwidth, may illegally shield information from FOIA disclosure, and creates a danger of spillage when attempting to remove the information to unclassified media or hard copy."
+    },
+    {
+      "q": "What is Controlled Unclassified Information (CUI)?",
+      "a": "CUI is Government information that must be handled using safeguarding or dissemination controls. It includes Controlled Technical Information (CTI), PII, PHI, financial information, personal/payroll information, and operational information. CUI is NOT classified information."
+    },
+    {
+      "q": "What type of sensitive information does a roster containing employee names and passport numbers represent?",
+      "a": "Controlled Unclassified Information (CUI), because it contains Personally Identifiable Information (PII) -- specifically names combined with passport numbers."
+    },
+    {
+      "q": "What is Personally Identifiable Information (PII)?",
+      "a": "PII is information that can be used to distinguish or trace an individual's identity, either alone or when combined with other linked information. It includes Social Security Number, date and place of birth, mother's maiden name, biometric records, Protected Health Information, and passport number."
+    },
+    {
+      "q": "What is the most commonly reported cause of PII breaches?",
+      "a": "The most commonly reported cause of PII breaches is failure to encrypt email messages containing PII."
+    },
+    {
+      "q": "What is Protected Health Information (PHI)?",
+      "a": "PHI is a subset of PII requiring additional protection. It is health information that identifies the individual, created or received by a healthcare provider, health plan, employer, or business associate, relating to physical/mental health, healthcare provision, or payment for healthcare."
+    },
+    {
+      "q": "Paula is organizing data about healthcare provided to service members that includes PHI. What is the most secure way to handle this data?",
+      "a": "Use Government-furnished or Government-approved equipment with extra protection and encryption, especially on mobile devices."
+    },
+    {
+      "q": "Can PII be transmitted via personal email accounts?",
+      "a": "No. Never use personal email accounts for transmitting PII. PII may only be emailed between Government email accounts and must be encrypted and digitally signed when possible."
+    },
+    {
+      "q": "Does the following social media post raise security concerns? (Post includes mother's maiden name, home address, and birthday.)",
+      "a": "Yes. It contains several items of PII including mother's maiden name, home address, and birthday. Avoid posting PII on social media."
+    },
+    {
+      "q": "How should CUI be stored after working hours if no security is present or it is deemed inadequate?",
+      "a": "In locked containers, desks, or cabinets. If security is present, locked or unlocked containers are acceptable."
+    },
+    {
+      "q": "What DoD instruction governs CUI handling?",
+      "a": "DoD Instruction 5200.48, 'Controlled Unclassified Information (CUI),' along with Defense Federal Acquisition Regulation Supplement (DFARS) for CUI and Controlled Technical Information (CTI) handling requirements."
+    },
+    {
+      "q": "When faxing CUI, what precautions must be taken?",
+      "a": "Ensure the recipient is at the receiving end, use the correct cover sheet, and contact the recipient to confirm receipt."
+    },
+    {
+      "q": "What are best practices for physical security at a government facility?",
+      "a": "Use your own security badge/key code, don't allow others to piggyback into secure areas, challenge people without proper badges, report suspicious activity, and protect access rosters from public view."
+    },
+    {
+      "q": "What should you do after leaving your controlled area or office building regarding your security badge?",
+      "a": "Remove your security badge after leaving your controlled area or office building to avoid being targeted by adversaries."
+    },
+    {
+      "q": "What is piggybacking (tailgating) and how should you respond to it?",
+      "a": "Piggybacking is when someone follows an authorized person through a secure entrance without badging in themselves. Do not allow others access or to piggyback into secure areas. Everyone must badge in individually."
+    },
+    {
+      "q": "An unfamiliar person without a visible badge is in your secure work area. What should you do?",
+      "a": "Challenge people without proper badges. Report suspicious activity to your security POC. Ensure uncleared persons are escorted by a cleared person familiar with facility security procedures."
+    },
+    {
+      "q": "You are working at your desk and hear an unusual sound near the office door. Before leaving your workstation to investigate, what critical security step must you perform?",
+      "a": "Remove your Common Access Card (CAC) from your workstation to lock it before walking away."
+    },
+    {
+      "q": "Within a SCIF, where must badges be displayed?",
+      "a": "Badges must be visible and displayed above the waist at all times while in the facility. Badges must be removed when leaving the facility."
+    },
+    {
+      "q": "What are the risks associated with removable media on government systems?",
+      "a": "Introduction of malicious code, compromise of systems' confidentiality, availability, and/or integrity, and spillage of classified information. Potential consequences include shutdown of systems, compromise of information, loss of mission, and loss of life."
+    },
+    {
+      "q": "What is the primary security risk that removable storage devices pose to government computer systems?",
+      "a": "Their data storage and ability to connect to systems can lead to unintended transfers of information, such as introduction of malicious code or spillage of classified data."
+    },
+    {
+      "q": "Can personally owned USB drives or removable media be used on government systems?",
+      "a": "No. Do not use any personally owned or non-organizational removable media on your organization's systems. Only use removable media approved by your organization."
+    },
+    {
+      "q": "What must users ensure when using removable media such as a CD in a SCIF?",
+      "a": "Media shall display a label inclusive of maximum classification, date of creation, point of contact (POC), and Configuration Management (CM) Control Number."
+    },
+    {
+      "q": "What is the best practice for labeling removable media?",
+      "a": "Label all removable media regardless of classification or environment, and avoid inserting removable media with unknown content into your computer."
+    },
+    {
+      "q": "You find an unattended USB drive in your office. What should you do?",
+      "a": "Do not plug it into any computer. Turn it in to your security office. Unattended removable media may contain malware or could be part of a baiting social engineering attack."
+    },
+    {
+      "q": "Ed is authorized to work in a SCIF today. Which personal electronic items is he forbidden from bringing inside?",
+      "a": "All personal portable electronic devices (PEDs) are forbidden in a SCIF -- including cell phones, smart watches, fitness trackers, tablets, and any device with Wi-Fi, Bluetooth, cellular, image capturing, video, or audio recording capabilities."
+    },
+    {
+      "q": "Which peripherals are you allowed to connect to Government Furnished Equipment (GFE)?",
+      "a": "Only government-furnished peripherals are authorized for use with GFE. In classified spaces, only government-issued wired headsets, microphones, wired webcams in designated areas, and personally-owned wired headsets without a microphone are permitted."
+    },
+    {
+      "q": "What two types of credentials does two-factor authentication combine?",
+      "a": "Two-factor authentication combines two of these three types: something you possess (such as a CAC), something you know (such as a PIN), and something you are (such as a fingerprint or biometrics)."
+    },
+    {
+      "q": "Which of the following examples uses two different types of authentication factors? (A) Password and PIN (B) Two different passwords (C) Password and fingerprint (D) PIN and security question",
+      "a": "C. Password and fingerprint -- these combine something you know (password) with something you are (biometrics). The others all use the same factor type (something you know)."
+    },
+    {
+      "q": "What certificates does the Common Access Card (CAC)/PIV card contain?",
+      "a": "The CAC/PIV implements DoD Public Key Infrastructure (PKI) and contains certificates for identification, encryption, and digital signature."
+    },
+    {
+      "q": "How should you protect your CAC/PIV card?",
+      "a": "Maintain possession at all times. Remove it whenever leaving your workstation. Never surrender it for building access. Store in a shielded sleeve to prevent cloning. Do not write down or share your PIN. Report it immediately if lost."
+    },
+    {
+      "q": "When creating strong passwords, which practices should you follow?",
+      "a": "Combine letters, numbers, and special characters. Do not use personal information, common phrases, or dictionary words in any language. Do not write it down -- memorize it. Change passwords at least every 3 months. Avoid using the same password across systems."
+    },
+    {
+      "q": "At what level of network system are you authorized to use a SIPRNet PKI token?",
+      "a": "SIPRNet only. Never use a token approved for NIPRNet on a higher classification system, and never use a SIPRNet token on the NIPRNet. Only use a token within its designated classification level."
+    },
+    {
+      "q": "When should you leave a DoD PKI token in a system?",
+      "a": "Only leave it in a system while actively using it for a PKI-required task. Never use on publicly accessible computers such as kiosks, internet cafes, or public libraries."
+    },
+    {
+      "q": "What should you be aware of when using public Wi-Fi with a mobile device?",
+      "a": "Information sent over public Wi-Fi connections may be exposed to theft, and the device may be exposed to malware. Fake Wi-Fi access points may be used for deception. Use public or free Wi-Fi only with the Government VPN."
+    },
+    {
+      "q": "What precaution should you take when connecting a laptop to a hotel internet connection?",
+      "a": "Use caution -- if you are directed to a login page before you can connect by VPN, the risk of malware loading or data compromise is substantially increased."
+    },
+    {
+      "q": "What should you assume about electronic transmissions when traveling overseas with mobile devices?",
+      "a": "Assume that any electronic transmission (voice or data) may be monitored. Mobile phones carried overseas are often compromised upon exiting the plane. Devices not in your custody or in secure U.S. Government facility storage should be assumed compromised."
+    },
+    {
+      "q": "What is a best practice for protecting your home wireless network for telework?",
+      "a": "Implement, at a minimum, Wi-Fi Protected Access 2 (WPA2) Personal encryption on your home wireless network."
+    },
+    {
+      "q": "Are DoD employees allowed to use their CAC in card-reader-enabled public devices?",
+      "a": "No. DoD employees are prohibited from using a DoD CAC in card-reader-enabled public devices such as those found in public libraries and internet cafes."
+    },
+    {
+      "q": "What should you do before using a mobile device in public?",
+      "a": "Be careful of information visible on the screen (consider screen protection), maintain possession of the device at all times, use password or two-factor authentication, ensure all sensitive data is encrypted, and never discuss sensitive information in public."
+    },
+    {
+      "q": "What is malicious code and what forms can it take?",
+      "a": "Malicious code can corrupt files, encrypt or erase your hard drive, and allow hackers access. It includes viruses, Trojan horses, worms, macros, and scripts. It can spread via email attachments, downloading files, and visiting infected websites."
+    },
+    {
+      "q": "Which of the following email habits helps protect against downloading viruses? (A) Open all attachments quickly (B) View email in Preview Pane (C) Look for a digital signature on emails (D) Forward suspicious emails to friends",
+      "a": "C. Look for digital signatures if your organization uses them. Digitally signed emails are more secure. Also view email in plain text, scan all attachments, and don't access links or graphics in emails."
+    },
+    {
+      "q": "What are indicators that your computer may be infected with malicious code?",
+      "a": "Sudden flashing pop-ups warning of virus infection, sudden appearance of new apps or programs, strange pop-ups during startup/operation/shutdown, device slowing down, new browser extensions or tabs, and loss of control of mouse or keyboard."
+    },
+    {
+      "q": "How can you prevent the download of malicious code?",
+      "a": "Scan all external files before uploading. For personal devices, research apps before downloading. For Government devices, use only approved and authorized applications. Only allow mobile code from your organization's trusted sites to run."
+    },
+    {
+      "q": "How should you handle email to prevent virus downloads?",
+      "a": "View email in plain text (not Preview Pane), look for digital signatures, scan all attachments, delete emails from unknown senders if authenticity cannot be confirmed, and do not click links, buttons, or graphics in emails or email-generated pop-ups."
+    },
+    {
+      "q": "What is Near Field Communication (NFC) and what are its security risks?",
+      "a": "NFC is wireless technology enabling devices to communicate when placed next to each other (e.g., contactless payments). Risks include eavesdropping (adversary intercepts signal), data manipulation/corruption, and viruses targeting stored financial or mission information."
+    },
+    {
+      "q": "When you are issued a new Government mobile phone, what is the essential first step to secure it?",
+      "a": "Set up a passcode to unlock it. Additionally, enable automatic screen locking, encrypt all sensitive data, and use two-factor authentication if possible."
+    },
+    {
+      "q": "What should you do if your government mobile device is lost or stolen?",
+      "a": "Immediately report the loss to your security POC."
+    },
+    {
+      "q": "How can mobile device tracking be a security concern?",
+      "a": "Many mobile devices and apps can track your location without your knowledge or consent. They can geolocate you, display your location, record location history, and activate tracking by default."
+    },
+    {
+      "q": "If you want to install an application on a Government-owned mobile device, what step must you take first?",
+      "a": "Ensure that it is an approved and authorized application. Only use applications authorized by your organization on Government devices."
+    },
+    {
+      "q": "Why is powering off a mobile device or putting it in airplane mode NOT sufficient in a classified environment?",
+      "a": "Mobile devices may be hacked or infected with malware and can be used to track, record, photograph, or videotape the environment. Powering off or airplane mode is not sufficient to mitigate these risks and the threat to classified information."
+    },
+    {
+      "q": "What is an insider threat?",
+      "a": "An insider threat uses authorized access, wittingly or unwittingly, to harm national security through unauthorized disclosure, data modification, espionage, terrorism, or kinetic actions resulting in loss or degradation of resources or capabilities."
+    },
+    {
+      "q": "Which of the following is a potential insider threat indicator? (A) Taking approved vacation time (B) Untreated alcohol use disorder (C) Volunteering for extra projects (D) Arriving early to work",
+      "a": "B. Untreated alcohol use disorder is a recognized insider threat indicator. Other indicators include financial difficulties, unexplained affluence, unreported foreign contact, hostile behavior, and inappropriate interest in classified information."
+    },
+    {
+      "q": "What is the specific way that an insider threat causes damage?",
+      "a": "By exploiting their trusted status and authorized access to government information systems and resources."
+    },
+    {
+      "q": "What is the primary method that Insider Threat Programs use to defend the organization?",
+      "a": "Intervening early to help individuals with issues -- such as referring them to counseling or assistance to alleviate personal stressors, requiring security training, and developing protocols to secure information, resources, and personnel."
+    },
+    {
+      "q": "John frequently appears hungover at work, handles classified information carelessly, and brings a cell phone into restricted classified areas. How many insider threat indicators is John exhibiting?",
+      "a": "Three or more: alcohol misuse, mishandling of classified information, and bringing electronic devices into prohibited areas."
+    },
+    {
+      "q": "What behaviors should you report as potential insider threat indicators?",
+      "a": "Attempting to access information without need-to-know, unauthorized removal of sensitive information, unusual requests for sensitive data, electronic devices in prohibited areas, sudden high-value purchases, unexplained overseas trips, substance problems, personality changes, and hostile statements."
+    },
+    {
+      "q": "In a study of known U.S. spies, what percentage demonstrated behaviors of security concern?",
+      "a": "80% demonstrated behaviors of security concern, 25% experienced a life crisis, and 70% volunteered their services (were not recruited)."
+    },
+    {
+      "q": "If SCI is exposed or compromised, what action must you take immediately?",
+      "a": "Call your security point of contact (POC). Do not elaborate on sensitive/classified details until secure two-way communications (verbal or transmitted) can be achieved."
+    },
+    {
+      "q": "What is Sensitive Compartmented Information (SCI)?",
+      "a": "SCI is a program that segregates classified information into distinct compartments for added protection and dissemination control. It overlays Top Secret, Secret, and Confidential information. Access requires Top Secret clearance and indoctrination into the specific SCI program."
+    },
+    {
+      "q": "Which statement is correct regarding SCI handling? (A) SCI can be discussed on unencrypted phones (B) SCI may be printed using an authorized printer when retrieved promptly (C) SCI can be taken home for review (D) SCI can be stored in any locked cabinet",
+      "a": "B. SCI may be printed using an authorized printer when retrieved promptly. Use appropriate classification cover sheets and ensure classified material is not mixed with unclassified material being removed from the SCIF."
+    },
+    {
+      "q": "Who has overarching authority concerning SCI policy?",
+      "a": "The Director of National Intelligence has overarching authority concerning SCI policy."
+    },
+    {
+      "q": "What is a Security Classification Guide (SCG)?",
+      "a": "An SCG provides precise, comprehensive guidance on classifying specific program, system, operation, or weapon system information -- including classification levels, reasons, and duration. It is approved by the Original Classification Authority (OCA) and is an authoritative source for derivative classification."
+    },
+    {
+      "q": "Devon receives an email on her unclassified computer with an unmarked attachment she recognizes as containing classified information. What is the first thing she must do?",
+      "a": "Immediately notify her security point of contact (POC). Do not delete, forward, read further, or manipulate the file."
+    },
+    {
+      "q": "What should you do to report a cybersecurity incident?",
+      "a": "Immediately notify your security POC or help desk. Do not delete suspected files. Do not forward or manipulate evidence. Secure the area. Document what happened and when."
+    },
+    {
+      "q": "If an incident occurs in a SCIF, what steps must be taken?",
+      "a": "Notify your security POC, analyze the media for viruses or malicious code, analyze other workstations in the SCIF, and if unintentional, the person may attend a refresher training course in security awareness."
+    },
+    {
+      "q": "If you find classified data on the internet, what identifying information should you note?",
+      "a": "Note any identifying information and the website's URL, then report it to your security POC. Do not download the information. Remember that leaked classified information is still classified even if it has been compromised."
+    },
+    {
+      "q": "Who should you report cultivation contacts by foreign nationals to?",
+      "a": "Report cultivation contacts by foreign nationals to your security POC. Inform your security POC of all non-professional or non-routine contacts with foreign nationals."
+    },
+    {
+      "q": "What are Cyberspace Protection Conditions (CPCON)?",
+      "a": "CPCON levels established by USCYBERCOM set protection priorities during significant cyberspace events. CPCON 1 = Very High risk (Critical Functions only), CPCON 2 = High, CPCON 3 = Medium, CPCON 4 = Low, CPCON 5 = Very Low (All Functions)."
+    },
+    {
+      "q": "What is the Unclassified designation?",
+      "a": "Unclassified marks information that does not have potential to damage national security. It must be cleared before public release, may require CUI controls, and if aggregated, may be elevated to a higher sensitivity level or even become classified."
+    },
+    {
+      "q": "Can CUI be marked on any information?",
+      "a": "No. CUI may only be marked as CUI if it belongs to a category established in the DoD CUI Registry."
+    },
+    {
+      "q": "What encryption is required when emailing PII or other CUI?",
+      "a": "Use encryption when emailing PII or other types of CUI, as required by the DoD. The DoD requires use of two-factor authentication for access to systems processing CUI."
+    },
+    {
+      "q": "Oliver searched for a jacket on his phone and later saw ads for that same jacket on his laptop. Why?",
+      "a": "Oliver's apps and devices collect and share information about him. Online data aggregators collect and catalogue your information from apps, smart devices, and public records, which can be used to target you with tailored advertisements and scams."
+    },
+    {
+      "q": "How should you protect your identity online?",
+      "a": "Ask how information will be used before giving it out, pay attention to financial statements, avoid common names/dates for passwords, never share passwords, shred personal documents, refrain from carrying SSN card, and order your credit report annually."
+    },
+    {
+      "q": "What is a cookie and why can it pose a security threat?",
+      "a": "A cookie is a text file stored on your hard drive by a web server. Cookies may pose a security threat when they save unencrypted personal information and may track your web activities. Only accept cookies from reputable, trusted websites using encrypted (HTTPS) links."
+    },
+    {
+      "q": "What should you avoid posting on social networking sites?",
+      "a": "Avoid posting PII (SSN, date/place of birth, mother's maiden name, home address), GPS/location information, and any content that could reveal operational details. Do not connect with people you don't know, even if you share mutual connections."
+    },
+    {
+      "q": "Is the social networking app TikTok allowed on government devices?",
+      "a": "No. TikTok is banned on all Government devices."
+    },
+    {
+      "q": "What should you do when posting pictures in uniform or at work on social media?",
+      "a": "Make sure there are no identifiable landmarks or items visible. When establishing personal social networking accounts, use only personal contact information, never your Government contact information."
+    },
+    {
+      "q": "What is the Bring Your Own Approved Device (BYOAD) program?",
+      "a": "BYOAD allows use of personal devices per organization policy. You must read and sign a User Agreement, and the approved device will be provisioned to employ necessary security measures. Use depends on your organization's specific policies."
+    },
+    {
+      "q": "What are prohibited uses of Government Furnished Equipment (GFE)?",
+      "a": "Do not: view/download pornography, gamble online, conduct private business, load unauthorized software (including DropBox or P2P), illegally download copyrighted material, make unauthorized configuration changes. Use GFE for official purposes only."
+    },
+    {
+      "q": "Why is peer-to-peer (P2P) software prohibited on government systems?",
+      "a": "P2P software can compromise network configurations, spread viruses and spyware, and allow unauthorized access to data."
+    },
+    {
+      "q": "Are all DoD-owned devices subject to monitoring?",
+      "a": "Yes. All DoD-owned devices are subject to monitoring. When you use these devices, you authorize the monitoring of your activity on them."
+    },
+    {
+      "q": "What are best practices for using government email?",
+      "a": "Do not use email to sell anything. Do not send chain letters, offensive letters, mass emails, jokes, or unnecessary pictures. Use digital signatures when sending attachments/hyperlinks. Do not use personal accounts for official DoD communication."
+    },
+    {
+      "q": "What precaution should be taken regarding monitors displaying classified information?",
+      "a": "Ensure monitors do not provide unobstructed views of classified information. Monitors facing windows should be turned or window blinds should be closed."
+    },
+    {
+      "q": "What wireless technologies are prohibited in DoD classified spaces?",
+      "a": "All wireless headsets, microphones, and webcams are prohibited. As a general rule, there should be no Wi-Fi, Bluetooth, cellular, image capturing, video recording, or audio recording capabilities or wearable devices in a SCIF."
+    },
+    {
+      "q": "What types of personally-owned peripherals can be used in a collateral classified environment?",
+      "a": "Only personally-owned wired headsets without a microphone are permitted. All other personally-owned external peripherals are prohibited in DoD classified spaces."
+    },
+    {
+      "q": "How should you handle unclassified laptops in a collateral classified environment?",
+      "a": "Ensure any embedded cameras, microphones, and Wi-Fi are physically disabled. Use only authorized external peripherals."
+    },
+    {
+      "q": "When can classified information be discussed on a smartphone?",
+      "a": "Never. Do not discuss classified information over smartphones, and do not view classified information via a device when not in a cleared space."
+    },
+    {
+      "q": "What steps should you take to avoid being misled by online disinformation?",
+      "a": "Research the source's credibility, read beyond the headline, check against known facts and other sources, consider if it's intended as a joke, and check your personal biases -- actively seek opposing or disconfirming content."
+    },
+    {
+      "q": "What is online misconduct according to DoD policy?",
+      "a": "Online misconduct is inconsistent with DoD values. Do NOT use electronic communications for harassment, bullying, hazing, stalking, discrimination, or retaliation. Individuals who participate may face criminal, disciplinary, or administrative action. No one is truly anonymous online."
+    },
+    {
+      "q": "If you post content to a social networking site and regret it, what can you do?",
+      "a": "You can delete the post, but be aware that once content is posted, it may have already been shared, cached, or archived. Sites may own content you post, and it may not be fully removable."
+    },
+    {
+      "q": "What IoT devices pose security risks while teleworking?",
+      "a": "All internet-connected devices in a telework environment pose risks, including smart speakers, fitness trackers, smart TVs, home security cameras, and personal digital assistants. These devices collect data and may be exploited."
+    },
+    {
+      "q": "What is a best practice for securing a home computer used by multiple family members?",
+      "a": "Create separate user accounts for each user and have each user create their own password."
+    },
+    {
+      "q": "How should data on removable media be encrypted?",
+      "a": "Encrypt data appropriately and in accordance with its classification or sensitivity level. Store according to the appropriate security classification in GSA-approved storage containers."
+    },
+    {
+      "q": "What should you do before downloading data from classified networks onto removable storage media?",
+      "a": "Do not download data from classified networks onto removable storage media. Follow your organization's strict policies on transferring data to/from outside agency and non-Government networks."
+    },
+    {
+      "q": "How should classified removable media be destroyed?",
+      "a": "Destroy classified removable media in accordance with its classification level, following your organization's policy for sanitizing, purging, discarding, and destroying removable media."
+    },
+    {
+      "q": "What is the significance of digital signatures on DoD emails?",
+      "a": "Digital signatures verify the sender's identity and the integrity of the message. The DoD requires use of a digital signature when sending attachments or hyperlinks. Digitally signed emails are more secure and help protect against phishing."
+    }
+  ]
+}

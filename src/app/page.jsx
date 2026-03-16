@@ -1,33 +1,115 @@
 import Link from 'next/link';
+import CBTSearch from '@/components/CBTSearch';
+
+const cbtCategories = [
+  {
+    slug: 'cyber_awareness',
+    title: 'Cyber Awareness Challenge',
+    desc: 'DoD annual cybersecurity training — phishing, social engineering, PII, spillage, and more',
+    questions: 122,
+    color: 'from-blue-500 to-cyan-500',
+    badge: 'Most Popular',
+  },
+  {
+    slug: 'insider_threat',
+    title: 'Insider Threat Awareness',
+    desc: 'Identifying and reporting potential insider threats to national security',
+    questions: 61,
+    color: 'from-red-500 to-orange-500',
+  },
+  {
+    slug: 'opsec',
+    title: 'OPSEC Awareness',
+    desc: 'Operations Security fundamentals — the 5-step OPSEC process and protecting critical information',
+    questions: 61,
+    color: 'from-emerald-500 to-green-500',
+  },
+  {
+    slug: 'antiterrorism',
+    title: 'Antiterrorism Level 1',
+    desc: 'AT awareness, FPCON levels, active shooter response, IED recognition, and travel security',
+    questions: 61,
+    color: 'from-yellow-500 to-amber-500',
+  },
+  {
+    slug: 'hipaa_privacy',
+    title: 'HIPAA & Privacy Act',
+    desc: 'Health information privacy, PHI protection, breach notification, and the Privacy Act of 1974',
+    questions: 58,
+    color: 'from-purple-500 to-violet-500',
+  },
+  {
+    slug: 'law_of_war',
+    title: 'Law of War',
+    desc: 'Law of Armed Conflict — Geneva Conventions, ROE, targeting principles, and war crimes reporting',
+    questions: 56,
+    color: 'from-slate-400 to-zinc-500',
+  },
+  {
+    slug: 'sere',
+    title: 'SERE 100.2',
+    desc: 'Survival, Evasion, Resistance, and Escape — Code of Conduct, captivity, and survival skills',
+    questions: 50,
+    color: 'from-lime-500 to-emerald-600',
+  },
+  {
+    slug: 'cbrn',
+    title: 'CBRN Awareness',
+    desc: 'Chemical, Biological, Radiological, and Nuclear defense — MOPP levels, agents, and decontamination',
+    questions: 50,
+    color: 'from-orange-500 to-red-600',
+  },
+  {
+    slug: 'ctip',
+    title: 'Combating Trafficking in Persons',
+    desc: 'Recognizing and reporting human trafficking — indicators, DoD policy, and reporting procedures',
+    questions: 50,
+    color: 'from-pink-500 to-rose-500',
+  },
+  {
+    slug: 'tarp',
+    title: 'TARP — Threat Awareness & Reporting',
+    desc: 'Counterintelligence reporting, foreign intelligence threats, elicitation, and suspicious contacts',
+    questions: 44,
+    color: 'from-indigo-500 to-blue-600',
+  },
+  {
+    slug: 'force_protection',
+    title: 'Force Protection',
+    desc: 'Physical security, access control, FPCON measures, bomb threats, and evacuation procedures',
+    questions: 39,
+    color: 'from-teal-500 to-cyan-600',
+  },
+];
 
 const features = [
   {
-    icon: '🧠',
+    icon: '\u{1F9E0}',
     title: 'AI-Powered Generation',
-    desc: 'Upload any document — PDF, DOCX, notes, images — and our AI instantly creates study sets. No manual typing.',
+    desc: 'Upload any document \u2014 PDF, DOCX, notes, images \u2014 and our AI instantly creates study sets. No manual typing.',
   },
   {
-    icon: '🎯',
+    icon: '\u{1F3AF}',
     title: 'Smart Answer Checking',
     desc: 'No more rigid matching. Our AI understands synonyms, rephrasings, and equivalent answers. "Father Christmas" = "Santa Claus".',
   },
   {
-    icon: '📊',
+    icon: '\u{1F4CA}',
     title: 'Real Spaced Repetition',
     desc: 'SM-2 algorithm adapts to your memory. Cards you struggle with appear more often. Cards you know fade away. Science-backed.',
   },
   {
-    icon: '🔍',
+    icon: '\u{1F50D}',
     title: 'Semantic Search',
     desc: 'Search our massive study library using AI. Find related content by meaning, not just keywords.',
   },
   {
-    icon: '📝',
+    icon: '\u{1F4DD}',
     title: 'Multiple Study Modes',
-    desc: 'Flashcards, multiple choice tests, fill-in-the-blank, matching — all free. No paywalls hiding the good stuff.',
+    desc: 'Flashcards, multiple choice tests, fill-in-the-blank, matching \u2014 all free. No paywalls hiding the good stuff.',
   },
   {
-    icon: '💡',
+    icon: '\u{1F4A1}',
     title: 'AI Explanations',
     desc: 'Get wrong? AI explains why the correct answer is right and helps you understand the concept. Real learning, not just memorization.',
   },
@@ -46,6 +128,8 @@ const comparisons = [
 ];
 
 export default function Home() {
+  const totalQuestions = cbtCategories.reduce((sum, c) => sum + c.questions, 0);
+
   return (
     <div className="relative">
       {/* Hero */}
@@ -64,22 +148,24 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-6">
-            Study smarter with
+            Military CBT Answers
             <br />
-            <span className="gradient-text">AI that gets it</span>
+            <span className="gradient-text">& Study Tools</span>
           </h1>
 
           <p className="text-xl text-dark-400 max-w-2xl mx-auto mb-10">
-            Upload any document. Get instant flashcards. Study with real spaced repetition.
-            AI-powered learning that actually works. No ads, no paywalls, ever.
+            {totalQuestions}+ questions and answers for every major DoD CBT.
+            Cyber Awareness, OPSEC, Insider Threat, and more. Free forever.
           </p>
 
+          <CBTSearch className="mb-8" />
+
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-            <Link href="/create" className="btn-primary text-lg px-8 py-4 w-full sm:w-auto">
-              Start Studying Free
+            <Link href="#cbt-library" className="btn-primary text-lg px-8 py-4 w-full sm:w-auto">
+              Browse CBT Answers
             </Link>
             <Link href="/search" className="btn-secondary text-lg px-8 py-4 w-full sm:w-auto">
-              Search Study Materials
+              Search All Study Materials
             </Link>
           </div>
 
@@ -90,18 +176,84 @@ export default function Home() {
                 <div className="w-3 h-3 rounded-full bg-red-500/60" />
                 <div className="w-3 h-3 rounded-full bg-yellow-500/60" />
                 <div className="w-3 h-3 rounded-full bg-green-500/60" />
-                <span className="ml-2 text-dark-500 text-sm">Biology 101 — Flashcard Mode</span>
+                <span className="ml-2 text-dark-500 text-sm">Cyber Awareness Challenge — Q&A Mode</span>
               </div>
               <div className="p-8 sm:p-12">
-                <div className="text-dark-500 text-sm mb-4 font-medium">QUESTION 4 of 25</div>
+                <div className="text-dark-500 text-sm mb-4 font-medium">QUESTION 7 of 122</div>
                 <p className="text-2xl font-semibold text-white mb-8">
-                  What is the powerhouse of the cell?
+                  Which of the following is a best practice for telework security?
                 </p>
                 <div className="bg-brand-500/10 border border-brand-500/30 rounded-xl p-4 text-brand-300">
-                  Click to reveal answer
+                  Use your organization&apos;s VPN when connecting to work resources
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Military CBT Library */}
+      <section id="cbt-library" className="py-24 relative">
+        <div className="absolute inset-0">
+          <div className="absolute top-0 left-1/3 w-[600px] h-[600px] bg-blue-500/5 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-emerald-500/5 rounded-full blur-3xl" />
+        </div>
+
+        <div className="relative max-w-6xl mx-auto px-4">
+          <div className="text-center mb-4">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 text-sm font-medium mb-6">
+              <span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />
+              {totalQuestions}+ Questions & Answers
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
+              Military CBT{' '}
+              <span className="gradient-text">Answer Library</span>
+            </h2>
+            <p className="text-lg text-dark-400 max-w-2xl mx-auto">
+              Every major DoD annual training — all the questions and answers you need. Click any course to start studying.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-12">
+            {cbtCategories.map((cbt) => (
+              <Link
+                key={cbt.slug}
+                href={`/cbt/${cbt.slug}`}
+                className="group relative card-hover overflow-hidden"
+              >
+                {/* Gradient accent bar */}
+                <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${cbt.color} opacity-60 group-hover:opacity-100 transition-opacity`} />
+
+                {cbt.badge && (
+                  <div className="absolute top-4 right-4 px-2.5 py-1 rounded-full bg-blue-500/20 border border-blue-500/30 text-blue-300 text-xs font-semibold">
+                    {cbt.badge}
+                  </div>
+                )}
+
+                <div className="pt-5">
+                  <h3 className="text-lg font-bold text-white mb-2 group-hover:text-brand-300 transition-colors pr-24">
+                    {cbt.title}
+                  </h3>
+                  <p className="text-dark-400 text-sm leading-relaxed mb-4">
+                    {cbt.desc}
+                  </p>
+                  <div className="flex items-center justify-between">
+                    <span className="text-dark-500 text-sm font-medium">
+                      {cbt.questions} questions
+                    </span>
+                    <span className="text-brand-400 text-sm font-semibold group-hover:translate-x-1 transition-transform">
+                      Study now &rarr;
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <Link href="/search" className="btn-secondary inline-block">
+              Search 2M+ Study Materials
+            </Link>
           </div>
         </div>
       </section>

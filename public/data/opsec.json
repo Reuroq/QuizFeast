@@ -1,0 +1,251 @@
+{
+  "category": "OPSEC Awareness",
+  "description": "Operations Security fundamentals - protecting critical information from adversaries. Based on CDSE GS130.16 and JKO JS-US009 CBTs.",
+  "icon": "eye-off",
+  "questions": [
+    {
+      "q": "Operational Security (OPSEC) defines Critical Information as:",
+      "a": "Specific facts about friendly intentions, capabilities, and activities needed by adversaries to plan and act effectively against friendly mission accomplishment."
+    },
+    {
+      "q": "OPSEC is:",
+      "a": "A process that is a systematic method used to identify, control, and protect critical information and subsequently analyze friendly actions associated with military operations and other activities."
+    },
+    {
+      "q": "A vulnerability exists when:",
+      "a": "The adversary is capable of collecting critical information, correctly analyzing it, and then taking timely action."
+    },
+    {
+      "q": "A threat is an adversary that has the _____ + _____ to take any actions detrimental to the success of DOD activities or operations.",
+      "a": "Intent + Capability"
+    },
+    {
+      "q": "The purpose of OPSEC is to:",
+      "a": "Reduce the vulnerability of U.S. and multinational forces from successful adversary exploitation of critical information."
+    },
+    {
+      "q": "OPSEC as a capability of Information Operations:",
+      "a": "Denies the adversary the information needed to correctly assess friendly capabilities and intentions."
+    },
+    {
+      "q": "The identification of critical information is a key part of the OPSEC process because:",
+      "a": "It focuses the remainder of the OPSEC process on protecting vital information rather than attempting to protect all unclassified information."
+    },
+    {
+      "q": "Protection of sensitive unclassified information is:",
+      "a": "The responsibility of all persons, including civilians and contractors."
+    },
+    {
+      "q": "OPSEC is concerned with:",
+      "a": "Identifying, controlling, and protecting unclassified information that is associated with specific military operations and activities."
+    },
+    {
+      "q": "If it is believed that an OPSEC disclosure has occurred, you should:",
+      "a": "Report the OPSEC disclosure to your OPSEC representative or the EUCOM OPSEC PM."
+    },
+    {
+      "q": "Which one would be considered critical information?",
+      "a": "Deployment dates and location."
+    },
+    {
+      "q": "True or False: An indicator is a comprehensive analysis of critical information by an adversary normally providing the whole picture of an agency's capabilities.",
+      "a": "False. An indicator is a piece of friendly detectable action or open-source information that can be interpreted or pieced together by an adversary to derive critical information."
+    },
+    {
+      "q": "True or False: Critical unclassified information is sometimes revealed by publicly available information.",
+      "a": "True. Critical Information is unclassified and controlled unclassified information (CUI) that can be revealed through publicly available sources."
+    },
+    {
+      "q": "Which of the following are good OPSEC countermeasures?",
+      "a": "Use social media with caution by limiting the amount of personal information you post, and be aware that the photos you take with smartphones and load to the internet may have been geotagged."
+    },
+    {
+      "q": "A service member tells a family member about a sensitive training exercise. The family member posts details of the event on a social media site. Could an adversary use this information as an indicator to obtain critical information?",
+      "a": "Yes. Even seemingly innocent information shared by family members on social media can serve as indicators that adversaries can piece together to derive critical information."
+    },
+    {
+      "q": "A person leaving a facility and failing to remove their ID badge. Could an adversary use this information as an indicator to obtain critical information?",
+      "a": "Yes. Wearing an ID badge outside a facility reveals organizational affiliation, facility location, and potentially access levels to adversaries conducting surveillance."
+    },
+    {
+      "q": "OPSEC planning should focus on:",
+      "a": "Identifying and protecting critical information."
+    },
+    {
+      "q": "OPSEC is:",
+      "a": "An operations function, not a security function."
+    },
+    {
+      "q": "What are the five steps of the OPSEC process?",
+      "a": "1) Identify critical information, 2) Analyze threats, 3) Analyze vulnerabilities, 4) Assess risk, 5) Apply appropriate countermeasures."
+    },
+    {
+      "q": "What is the first step of the OPSEC process?",
+      "a": "Identify critical information. This involves determining what information, if available to adversaries, would harm friendly operations or give them an advantage."
+    },
+    {
+      "q": "What is an OPSEC indicator?",
+      "a": "Friendly detectable actions and open-source information that can be interpreted or pieced together by an adversary to derive critical information."
+    },
+    {
+      "q": "OPSEC countermeasures can be used to:",
+      "a": "Prevent the adversary from detecting an indicator, prevent the adversary from collecting an indicator, and/or prevent the adversary from correctly analyzing and interpreting critical information."
+    },
+    {
+      "q": "True or False: OPSEC is a cycle that involves all members of the organization.",
+      "a": "True. OPSEC is a continuous cycle and is the responsibility of every member of the organization, not just security personnel."
+    },
+    {
+      "q": "Discussing sensitive information in public, in person, or on the telephone: Could an adversary use this information as an indicator to obtain critical information?",
+      "a": "Yes. Adversaries can overhear conversations in public places, intercept phone communications, and piece together fragments of information to develop intelligence."
+    },
+    {
+      "q": "What is the OPSEC process?",
+      "a": "A five-step process to identify, control, and protect critical information and analyze friendly actions and indicators that would allow adversaries or potential adversaries to identify and exploit vulnerabilities."
+    },
+    {
+      "q": "OPSEC's most important characteristic is that:",
+      "a": "It is a process. OPSEC is not a collection of specific rules and instructions that can be applied to every operation, but rather a methodology that can be applied to any operation or activity."
+    },
+    {
+      "q": "True or False: A sudden change to a predictable routine is an example of an OPSEC countermeasure.",
+      "a": "True. Varying routines and patterns makes it harder for adversaries to predict activities and exploit predictable behavior."
+    },
+    {
+      "q": "An OPSEC threat is:",
+      "a": "An adversary who has the intent and capability to collect, analyze, and exploit critical information about friendly operations."
+    },
+    {
+      "q": "What is Step 2 (Analyze Threats) in the OPSEC process?",
+      "a": "Identifying who the adversaries are, what their goals are, what intelligence collection capabilities they have, and what critical information they already possess or need."
+    },
+    {
+      "q": "What is Step 3 (Analyze Vulnerabilities) in the OPSEC process?",
+      "a": "Examining each aspect of the planned operation to identify OPSEC indicators that could reveal critical information and determining which vulnerabilities an adversary could exploit."
+    },
+    {
+      "q": "What is Step 4 (Assess Risk) in the OPSEC process?",
+      "a": "Evaluating the risks by weighing the potential damage of a vulnerability being exploited against the cost of implementing countermeasures. Commanders decide which vulnerabilities require countermeasures."
+    },
+    {
+      "q": "What is Step 5 (Apply Countermeasures) in the OPSEC process?",
+      "a": "Selecting and implementing measures to eliminate vulnerabilities, indicators, and threats, or reduce them to an acceptable level. Examples include action control, counter-analysis, and diversions."
+    },
+    {
+      "q": "Who is responsible for OPSEC?",
+      "a": "Everyone. OPSEC is the responsibility of all personnel, including military members, DOD civilians, and contractors. Every individual must protect critical information in daily activities."
+    },
+    {
+      "q": "Why is social media a significant OPSEC concern?",
+      "a": "Personnel can unknowingly post details about operations, schedules, unit movements, capabilities, and personal information that adversaries aggregate into actionable intelligence. Geotagged photos can reveal locations."
+    },
+    {
+      "q": "What is the difference between OPSEC and traditional security?",
+      "a": "Traditional security protects classified information through established standards. OPSEC protects unclassified but critical information and indicators that, when aggregated, could reveal classified or sensitive activities."
+    },
+    {
+      "q": "What is OSINT (Open Source Intelligence)?",
+      "a": "Intelligence collected from publicly available sources such as newspapers, social media, websites, public databases, and government reports. Adversaries use OSINT extensively because it is legal and low-risk."
+    },
+    {
+      "q": "What does 'aggregation' or 'mosaic effect' mean in OPSEC?",
+      "a": "Individually insignificant pieces of unclassified information, when combined and analyzed together, can reveal a classified or sensitive picture of operations. Adversaries assemble many small data points into comprehensive intelligence."
+    },
+    {
+      "q": "What is an Essential Element of Friendly Information (EEFI)?",
+      "a": "Key questions about friendly force capabilities, activities, and intentions that adversaries are likely to ask. EEFI are used to build the Critical Information List (CIL) and guide OPSEC analysis."
+    },
+    {
+      "q": "What is a Critical Information List (CIL)?",
+      "a": "A list of specific items of critical information approved by the commander that identifies the most important information to protect. It focuses the OPSEC process and is distributed to all personnel."
+    },
+    {
+      "q": "What are examples of OPSEC countermeasures?",
+      "a": "Action control (modifying routines), counter-analysis (misleading indicators), diversions, communication discipline, cover and deception, use of secure communications, and varying predictable patterns."
+    },
+    {
+      "q": "How do adversaries use pattern analysis against friendly forces?",
+      "a": "They monitor routine activities and identify predictable patterns such as communication surges, supply build-ups, personnel movements, and shift changes. Changes in patterns can signal upcoming operations."
+    },
+    {
+      "q": "What OPSEC precautions should be taken with personal electronic devices?",
+      "a": "Disable GPS/location services, turn off Bluetooth and Wi-Fi auto-connect, do not use personal devices in classified areas, use strong passwords and encryption, avoid connecting to unknown networks."
+    },
+    {
+      "q": "How should family members practice OPSEC?",
+      "a": "Avoid posting deployment dates, return dates, or specific locations on social media. Do not discuss operational details. Be cautious with strangers asking about their service member's duties or whereabouts."
+    },
+    {
+      "q": "What is the origin of OPSEC?",
+      "a": "OPSEC originated from a Vietnam War study called 'Purple Dragon' in 1966 after discovering the enemy was anticipating U.S. operations by exploiting unclassified indicators."
+    },
+    {
+      "q": "What is the relationship between OPSEC and Information Operations (IO)?",
+      "a": "OPSEC is one of the core capabilities of Information Operations. OPSEC supports IO by denying adversaries information needed to counter friendly operations."
+    },
+    {
+      "q": "How does OPSEC apply during off-duty hours?",
+      "a": "OPSEC applies 24/7. Conversations in public places, social media posts, phone calls, and daily routines can all reveal critical information. Personnel must be cautious even when not at work."
+    },
+    {
+      "q": "What OPSEC risks do geotagged photos create?",
+      "a": "GPS metadata (EXIF data) embedded in photos can reveal exact coordinates, potentially exposing military facility locations, personnel unit assignments, and facility layouts. The 2018 Strava incident revealed secret base locations."
+    },
+    {
+      "q": "What Army regulation governs OPSEC?",
+      "a": "AR 530-1, Operations Security, establishes OPSEC policy for the Army. DoD Manual 5205.02-M provides overarching DoD OPSEC guidance."
+    },
+    {
+      "q": "What is an OPSEC assessment?",
+      "a": "A formal evaluation of an organization's OPSEC posture to identify vulnerabilities in the protection of critical information. It examines policies, procedures, personnel practices, and security measures."
+    },
+    {
+      "q": "What is 'action control' as an OPSEC countermeasure?",
+      "a": "Eliminating or altering indicators by changing schedules, varying routes, modifying operational patterns, or timing activities to avoid adversary detection windows."
+    },
+    {
+      "q": "A unit suddenly increases ammunition and fuel orders. What is the OPSEC concern?",
+      "a": "This is an OPSEC indicator that could reveal an upcoming operation. Adversaries monitoring supply channels could infer the timing, scale, and potential location of the operation."
+    },
+    {
+      "q": "During a deployment, family members post countdown timers for return. What OPSEC violation is this?",
+      "a": "This reveals the exact timeline of the deployment and return date, which is critical information. Adversaries could use this to plan attacks timed to troop movements or identify windows of reduced security."
+    },
+    {
+      "q": "What is an OPSEC 'red team'?",
+      "a": "A group that thinks and acts like the adversary to identify vulnerabilities in friendly operations. They attempt to collect critical information using adversary methods and report findings to improve OPSEC posture."
+    },
+    {
+      "q": "How does logistics information create OPSEC vulnerabilities?",
+      "a": "Supply orders, shipping manifests, fuel deliveries, and equipment requests can reveal the timing, scale, and nature of operations. Adversaries actively target logistics channels for intelligence."
+    },
+    {
+      "q": "What is the 'need-to-know' principle in OPSEC?",
+      "a": "Restricting access to information to only those who require it for their duties. Limiting the number of people with access to critical information reduces potential sources of leakage and overall vulnerability."
+    },
+    {
+      "q": "What is 'communication discipline' in OPSEC?",
+      "a": "Controlling the content and methods of communications to prevent adversary interception. It includes using secure channels, limiting sensitive discussion over unsecured lines, and avoiding patterns that signal operations."
+    },
+    {
+      "q": "You overhear a coworker discussing classified project details at an off-base restaurant. What should you do?",
+      "a": "Immediately but discreetly ask the coworker to stop the conversation. After returning to a secure environment, remind them of OPSEC procedures and report the incident to your security manager or OPSEC officer."
+    },
+    {
+      "q": "True or False: OPSEC only applies to classified information.",
+      "a": "False. OPSEC primarily protects unclassified but critical information and indicators that, when aggregated, could reveal classified or sensitive operational details."
+    },
+    {
+      "q": "What OPSEC considerations apply to video teleconferences (VTCs)?",
+      "a": "Ensure classification level matches discussion, remove or cover visible sensitive materials, verify all participants are authorized, use encryption for sensitive topics, and do not record or distribute beyond need-to-know."
+    },
+    {
+      "q": "How can phishing and social engineering compromise OPSEC?",
+      "a": "Adversaries use phishing and social engineering to trick personnel into revealing critical information or credentials. Spear-phishing using personal details from social media can lead to network compromise and data theft."
+    },
+    {
+      "q": "What is OPSEC's role in force protection?",
+      "a": "OPSEC supports force protection by concealing vulnerabilities, movements, schedules, and security gaps that adversaries could exploit for attacks against personnel and facilities."
+    }
+  ]
+}

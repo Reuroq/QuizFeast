@@ -1,0 +1,251 @@
+{
+  "category": "Insider Threat Awareness",
+  "description": "Identifying and reporting potential insider threats to national security. Based on CDSE INT101.16 CBT and DoD Insider Threat Awareness training.",
+  "icon": "user-x",
+  "questions": [
+    {
+      "q": "What is the name for the unintentional transfer of classified or proprietary information to unaccredited or unauthorized systems, individuals, applications, or media?",
+      "a": "Spill. Spills are the most common form of insider threat. They don't have to have malicious intent to cause damage."
+    },
+    {
+      "q": "What Targeted Violence subcategory results in physical or psychological harm to the safety and well-being of an employee?",
+      "a": "Workplace Bullying/Violence. It is intentional, disruptive physical, verbal, or written behavior committed by an individual or group that physically damages a facility, or psychologically or physically harms an employee."
+    },
+    {
+      "q": "What is the name for the intentional, unauthorized disclosure of classified or proprietary information to a person or an organization that does not have a 'need-to-know'?",
+      "a": "Leak. Leaks are the intentional, unauthorized disclosure of classified or proprietary information to an unauthorized person or organization."
+    },
+    {
+      "q": "Which of the following is NOT an example of a potential insider threat vulnerability? (Obesity, Drug/alcohol use, Loneliness, Promiscuity)",
+      "a": "Obesity. Examples of insider threat vulnerabilities include: financial stress, exploitable promiscuity, addictive behaviors (drug/alcohol abuse, gambling, pornography), loneliness, and disgruntlement."
+    },
+    {
+      "q": "Which of the following are examples of behavioral indicators associated with insider threat? (Significant changes in personality/behavior/work habits, Disregard for security procedures, Access to facilities outside normal hours, All of the above)",
+      "a": "All of the above. All of these are reportable behavioral indicators that have been associated with insider threat."
+    },
+    {
+      "q": "True or False: Adversaries only target you if you have a security clearance.",
+      "a": "False. Since the end of the Cold War, 37% of spies had no security clearance. Adversaries target anyone with access to useful information, regardless of clearance level."
+    },
+    {
+      "q": "Which of the following is NOT a way to deflect an elicitation attempt? (Ignoring improper questions and changing topic, Tell them what they want to know up front, Stating that you do not know, Deflecting a question with one of your own)",
+      "a": "Tell them what they want to know up front. Proper deflection methods include referring to public sources, stating you don't know, deflecting with your own question, or stating you cannot discuss the matter."
+    },
+    {
+      "q": "Technological advances impact the insider threat by:",
+      "a": "All of the above: Allowing more information to be accessed easily, allowing more information to be transmitted easily, and allowing more information to be edited easily."
+    },
+    {
+      "q": "Which of the following is a technology indicator of an insider threat? (Listening to music on Internet, Using Google for open source info, Hoarding files/data/code/programs, Reading online newspapers)",
+      "a": "Hoarding files, data, code, and programs. This is a technology-related behavioral indicator that should raise suspicion of insider threat activity."
+    },
+    {
+      "q": "How did Manning remove classified documents from a secure facility?",
+      "a": "Copied the documents onto a rewritable music CD. Manning brought music CDs to work under the pretense of listening to them, erased the music, then wrote compressed classified data to them."
+    },
+    {
+      "q": "Which of the following behavioral indicators would you report to your Security office? (Disregard for security procedures, Seeking access without need-to-know, Access to facilities outside normal hours, All of the above)",
+      "a": "All of the above. If you witness or experience any behavioral indicators, you must report them to your immediate supervisor and/or your local Security office."
+    },
+    {
+      "q": "How does DoD Directive 5205.16 define an 'insider'?",
+      "a": "Any person with authorized access to DoD resources by virtue of employment, volunteer activities, or contractual relationship with DoD. This can include employees, former employees, consultants, and anyone with access."
+    },
+    {
+      "q": "How does the National Insider Threat Task Force (NITTF) define 'insider threat'?",
+      "a": "The threat that an insider will use his or her authorized access, wittingly or unwittingly, to do harm to the security of the United States. This can include damage through espionage, terrorism, unauthorized disclosure, or loss/degradation of department resources or capabilities."
+    },
+    {
+      "q": "What are the five main categories of insider threat defined by the NITTF?",
+      "a": "Leaks, Spills, Espionage, Sabotage, and Targeted Violence."
+    },
+    {
+      "q": "What is espionage in the context of insider threat?",
+      "a": "The unauthorized transmittal of classified or proprietary information to a competitor, foreign nation, or entity with the intent to harm."
+    },
+    {
+      "q": "What is sabotage in the context of insider threat?",
+      "a": "To deliberately destroy, damage, or obstruct, especially for political or military advantage. Motivations can also include personal disgruntlement."
+    },
+    {
+      "q": "What is targeted violence?",
+      "a": "Any form of violence that is directed at an individual or group for a specific reason. Targeted violence is not a random act."
+    },
+    {
+      "q": "What are the subcategories of Targeted Violence?",
+      "a": "Active Shooter, Domestic Violence, Harassment, Hostile Work Environment, Sexual Assault, Stalking, Threats/Threatening Behavior, and Workplace Bullying/Violence."
+    },
+    {
+      "q": "What is an active shooter?",
+      "a": "A person actively engaged in killing, or trying to kill, people in a confined and populated area. Active shooters are not limited only to the use of guns."
+    },
+    {
+      "q": "What is the definition of harassment in the context of insider threat?",
+      "a": "Any unwelcome written, verbal, or physical conduct that objectively creates a hostile or offensive work environment. It may or may not be based on age, color, gender, disabilities, national origin, race, religion, or other protected categories."
+    },
+    {
+      "q": "What behaviors create a hostile work environment?",
+      "a": "Behaviors that are severe or pervasive, and perceived as unwelcome or offensive."
+    },
+    {
+      "q": "What is stalking in the context of insider threat?",
+      "a": "Harassment, unwanted, or threatening physical, verbal, written, or virtual conduct that causes the victim, or could cause the victim, to fear for his or her safety or the safety of a family member."
+    },
+    {
+      "q": "What is threatening behavior?",
+      "a": "Any use of words or actions that may intimidate or provoke a reasonable person and/or interfere with the performance of official duties."
+    },
+    {
+      "q": "What are examples of insider threat vulnerabilities?",
+      "a": "Financial stress, exploitable promiscuity, addictive behaviors (drug/alcohol abuse, gambling, pornography), loneliness, and disgruntlement."
+    },
+    {
+      "q": "Research has shown that malicious acts by insiders are:",
+      "a": "Seldom impulsive. Something happens over time that contributes to a trusted insider evolving into a malicious one, usually some sort of perceived life crisis."
+    },
+    {
+      "q": "What are the reportable behavioral indicators associated with insider threat?",
+      "a": "Significant changes in personality/behavior/work habits, substance abuse or addictive behaviors, considerable financial change (unexplained affluence or excessive debt), disgruntlement to the point of retaliation, disregard for security procedures, seeking access without need-to-know, after-hours access, and unauthorized copying/hoarding of classified material."
+    },
+    {
+      "q": "What should you do if you notice a coworker exhibiting insider threat vulnerabilities?",
+      "a": "Say something. Notify the appropriate company representative who can help get the assistance they need before the situation escalates. Identifying colleagues who may be in need of help is not an act of betrayal; it is an act of respect."
+    },
+    {
+      "q": "What is a 'honey trap' in the context of insider threat?",
+      "a": "A technique where an adversary uses romantic or sexual relationships to recruit or exploit an insider. Benjamin Bishop, a 59-year-old defense contractor, was caught in a honey trap when he passed nuclear secrets to a 27-year-old Chinese graduate student."
+    },
+    {
+      "q": "What is elicitation?",
+      "a": "A technique used to discreetly gather information through a conversation with a specific purpose: to collect information that is not readily available and do so without raising suspicion. The conversation can be in person, over the phone, or in writing."
+    },
+    {
+      "q": "Why does elicitation work?",
+      "a": "It exploits natural human tendencies: desire to be polite and helpful, desire to appear well-informed, tendency to expand when given praise, tendency to gossip, tendency to correct others, tendency to underestimate the value of information, and disinclination to be suspicious."
+    },
+    {
+      "q": "How can you deflect elicitation attempts?",
+      "a": "Refer them to public sources, ignore improper questions and change the topic, deflect a question with your own, respond with 'Why do you ask?', give a nondescript answer, state you don't know, state you'd need to clear discussions with your security office, or state you cannot discuss the matter."
+    },
+    {
+      "q": "What types of adversaries want non-public information from insiders?",
+      "a": "Foreign governments, terrorist organizations, competitors, and non-state actors all want non-public information that an insider can provide."
+    },
+    {
+      "q": "What do adversaries want to know about organizations?",
+      "a": "Who are the organization's personnel, with which countries does the organization work, what are the organization's methodologies/capabilities/limitations, and where are the organization's facilities located worldwide."
+    },
+    {
+      "q": "What techniques do adversaries use to gather information?",
+      "a": "Direct approaches (during travel, persistent requests to socialize, conference requests), exploitation (excessive photography, concealed listening devices, malicious emails, unsecured Wi-Fi), and elicitation."
+    },
+    {
+      "q": "If contacted by a member of the media about information you are not authorized to share, what should you do?",
+      "a": "Take down the person's name and organization, date, time, location, method of contact, and reason for contact. Report this information to your organization's security office."
+    },
+    {
+      "q": "Since the end of the Cold War, what percentage of spies have been civilians?",
+      "a": "67% of spies have been civilians. Also, 37% had no security clearance, 84% were successful, and 67% volunteered to commit espionage."
+    },
+    {
+      "q": "What percentage of post-Cold War spies received no money for their services?",
+      "a": "81% received no money for their services. 94% went to prison."
+    },
+    {
+      "q": "What are technology-related indicators of insider threat?",
+      "a": "Improper use of privileged access, working odd hours without authorization, bypassing security rules/protocols, inappropriate copying of classified info, requests for access beyond scope, introducing unauthorized devices, keeping unauthorized backups, unauthorized removal of equipment, and hoarding files/data/code."
+    },
+    {
+      "q": "How did Harold T. Martin III demonstrate insider threat through technology?",
+      "a": "Martin, an NSA contractor, was arrested after the FBI found an estimated 50 terabytes of electronic files in his home, car, and shed. He had allegedly been stealing and hoarding highly classified documents for more than two decades."
+    },
+    {
+      "q": "What is the story of Daniela Greene as an insider threat case?",
+      "a": "Greene was an FBI translator with Top Secret clearance who was assigned to investigate an ISIS recruiter. Instead, she traveled to Syria to marry the terrorist she was supposed to be watching, after falsely stating she was visiting family in Germany. She was sentenced to two years in prison."
+    },
+    {
+      "q": "How can you help reduce technology-associated insider threat?",
+      "a": "Use strong passwords, keep out unauthorized devices, prevent unauthorized access, inventory tech holdings, ask questions and take training, watch for behavioral indicators, and be cautious on social media."
+    },
+    {
+      "q": "Why is social media a vulnerability for insider threat?",
+      "a": "In the social media age, people share details of their personal and professional lives online, making them much more vulnerable to adversaries, competitors, and cyber-criminals, who all use the Internet as a key targeting tool."
+    },
+    {
+      "q": "What is an Employee Assistance Program (EAP)?",
+      "a": "A program that offers financial counseling, mental health support, and other services to help employees address problems before they escalate. Most EAPs recognize diagnosable addictive disorders as treatable illnesses."
+    },
+    {
+      "q": "What are employee reporting obligations related to insider threat?",
+      "a": "Personal foreign travel (even Canada) must be reported. Personal foreign contacts and outside activities involving Intelligence Community information must also be reported."
+    },
+    {
+      "q": "What should contractors report regarding insider threat?",
+      "a": "Events that impact facility status, personnel security clearance, proper safeguarding of classified information, or indications that classified information has been lost or compromised. Reports go to DSS and the FBI."
+    },
+    {
+      "q": "What are reportable activities related to insider threat?",
+      "a": "Unauthorized disclosure, improper use of privileged access, working odd hours without authorization, bypassing security rules, inappropriate copying, requests for access beyond scope, unauthorized devices, unauthorized backups, unauthorized removal of equipment, and hoarding files/data."
+    },
+    {
+      "q": "What is the most challenging barrier to reporting insider threat activity?",
+      "a": "The belief that we are not susceptible. People are naive and complacent, in denial that something could happen to their organization."
+    },
+    {
+      "q": "In the 'Betrayed' video scenario, what insider threat indicators did coworkers observe?",
+      "a": "Photographing documents with a cell phone in the SCIF, changing screens when people entered the room, a new unexplained romantic relationship, unreported foreign travel (London), and suspicious online gaming contacts."
+    },
+    {
+      "q": "What mistake did the coworkers make in the 'Betrayed' video scenario?",
+      "a": "They rationalized and explained away the suspicious behavior instead of reporting it. Tom even tipped off the suspect by confronting him directly, instead of reporting to the security officer. They should have contacted their security officer immediately."
+    },
+    {
+      "q": "Gregory Allen Justice was convicted of what insider threat category?",
+      "a": "Espionage. Justice, an aerospace engineer, attempted to sell satellite secrets to someone he believed was Russian intelligence. His vulnerabilities included disgruntlement (felt unappreciated at work) and personal stress (caring for a sick wife)."
+    },
+    {
+      "q": "What insider threat category did John Robert Neumann represent?",
+      "a": "Targeted Violence (Active Shooter). The disgruntled former employee returned to his workplace and killed five coworkers. He had a history of negative relationships and had battered another employee previously."
+    },
+    {
+      "q": "What insider threat category did Chelsea Manning represent?",
+      "a": "Leak. Manning, a U.S. Army intelligence analyst, leaked more than 750,000 classified documents to WikiLeaks in 2010 by copying data onto rewritable CDs labeled as music."
+    },
+    {
+      "q": "Studies of inside offenders have shown that most:",
+      "a": "Were known to have displayed concerning or problematic behavior before acting directly against their organization. This behavior included violations of policies, standard procedures, accepted practices, or laws observed by managers, supervisors, and coworkers."
+    },
+    {
+      "q": "What is domestic violence in the context of insider threat targeted violence?",
+      "a": "Violence, usually physical abuse or threat, that creates a risk to the health and safety of an employee. It includes any abusive, violent, coercive, forceful, or threatening act used to gain power and control over a household or family member, current or former spouse or partner."
+    },
+    {
+      "q": "What is sexual assault in the context of insider threat targeted violence?",
+      "a": "A range of behaviors including completed or attempted nonconsensual sex acts and abusive sexual contact. It includes any sexual act perpetrated without consent, whether due to force, threat, incapacitation, minority, or inability to consent."
+    },
+    {
+      "q": "True or False: Seeking assistance to deal with life's challenges is a sign of weakness.",
+      "a": "False. Seeking assistance is a sign of good judgment and an act of bravery. Identifying colleagues who may need help is an ultimate act of respect for their safety, the company, and the nation."
+    },
+    {
+      "q": "What should you do to protect against adversary elicitation at conferences?",
+      "a": "Be prepared by talking to your security officer first, beware of odd behaviors like repeat requests or suspicious business cards, and reduce exploitation by using VPN on Wi-Fi, screening suspicious emails, and never loaning your devices."
+    },
+    {
+      "q": "How much American intellectual property is stolen yearly by foreign adversaries?",
+      "a": "$300 billion worth of American intellectual property and business intelligence are stolen yearly by China, Russia, Iran, and others."
+    },
+    {
+      "q": "What was the Benjamin Bishop insider threat case about?",
+      "a": "Bishop, a 59-year-old civilian defense contractor, pleaded guilty to passing nuclear weapons secrets to a 27-year-old Chinese graduate student he met at an international military conference. He was caught in a honey trap and sentenced to 87 months in prison."
+    },
+    {
+      "q": "What should you report if you notice a coworker discussing financial difficulties and expressing excessive debt while asking about overtime?",
+      "a": "Report the concerning behavior to your security officer. Financial stress combined with seeking additional income opportunities is a behavioral indicator of potential insider threat vulnerability that could be exploited by adversaries."
+    },
+    {
+      "q": "True or False: It is your responsibility to investigate a coworker's suspicious behavior before reporting it.",
+      "a": "False. You should report suspicious behavior to your security office. It is their job to investigate. Do NOT confront the individual or conduct your own investigation, as this could compromise an official investigation."
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "category": "Law of War",
+  "description": "Law of Armed Conflict principles and rules of engagement fundamentals (JS-US014)",
+  "icon": "scale",
+  "questions": [
+    {
+      "q": "What best describes the Law of War?",
+      "a": "That part of international law that regulates the conduct of hostilities. It is also referred to as the Law of Armed Conflict (LOAC)."
+    },
+    {
+      "q": "The Law of War may overlap, or be included within, other bodies or types of international law. True or False?",
+      "a": "True. The Law of War overlaps with International Humanitarian Law, Human Rights Law, and other bodies of international law."
+    },
+    {
+      "q": "How does Human Rights Law differ from the Law of War?",
+      "a": "Human Rights Law primarily deals with the relationship between a state and individuals in its jurisdiction, protecting individual rights against government abuses. The Law of War regulates the conduct of hostilities between parties in armed conflict."
+    },
+    {
+      "q": "Is the Law of War the 'lex specialis,' or controlling body of law, for U.S. armed forces in armed conflict?",
+      "a": "True. The Law of War serves as the lex specialis (the specialized law that controls) for U.S. armed forces during armed conflict, taking precedence over general Human Rights Law in that context."
+    },
+    {
+      "q": "Select all that apply. What are the Law of War principles?",
+      "a": "Military Necessity, Distinction, Proportionality, Humanity (Unnecessary Suffering), and Honor. All five are core principles of the Law of War."
+    },
+    {
+      "q": "Which Law of War principle addresses the immunity of peaceful populations and civilian objects from attack?",
+      "a": "Humanity. The principle of Humanity forbids the infliction of suffering, injury, or destruction not necessary for accomplishing a legitimate military purpose."
+    },
+    {
+      "q": "The Law of War principle of Honor influences the conduct of activities by encouraging what?",
+      "a": "It encourages combatants to refrain from taking advantage of the adversary's adherence to the Law of War and to act in good faith in non-hostile relations. It prohibits treachery and perfidy."
+    },
+    {
+      "q": "Which two of the following are true about the principle of Military Necessity? (a) It justifies the use of overwhelming force but not wanton destruction (b) It does not justify prohibited actions (c) It permits any action needed to win (d) It overrides all other principles",
+      "a": "(a) It justifies the use of overwhelming force but not wanton destruction, and (b) It does not justify prohibited actions. Military Necessity never authorizes actions prohibited by the Law of War."
+    },
+    {
+      "q": "What does the principle of Distinction require?",
+      "a": "It requires parties to a conflict to distinguish at all times between combatants and civilians, and between military objectives and civilian objects. Attacks may only be directed against combatants and military objectives."
+    },
+    {
+      "q": "What does the principle of Proportionality prohibit?",
+      "a": "It prohibits attacks that may be expected to cause incidental loss of civilian life, injury to civilians, or damage to civilian objects that would be excessive in relation to the concrete and direct military advantage anticipated."
+    },
+    {
+      "q": "Which two of the following acts are prohibited acts of perfidy?",
+      "a": "Displaying a white flag of truce while attacking the enemy, and fighting in the enemy's uniform. Perfidy involves acts that invite the confidence of the adversary by feigning protected status with intent to betray that confidence."
+    },
+    {
+      "q": "What is the difference between perfidy and a legitimate ruse of war?",
+      "a": "Perfidy is feigning protected status (e.g., Red Cross emblem, white flag, civilian status) with intent to kill or injure, and is prohibited. Ruses of war are legitimate deceptions (camouflage, decoys, feints, ambushes) that do not abuse protected status."
+    },
+    {
+      "q": "Which two of the following describe prohibited actions? (a) Using civilians to shield a military object from attack (b) Using civilians to shield military operations from the enemy (c) Warning civilians before an attack (d) Attacking a military objective",
+      "a": "(a) Using civilians to shield or make a military object immune from attack, and (b) Using civilians to shield one's military operations from the enemy. Using human shields is a war crime."
+    },
+    {
+      "q": "Which persons are exempt from attack under the Law of War?",
+      "a": "Military personnel exclusively assigned to and engaged in medical or chaplain duties. They are protected under the Geneva Conventions and must not be targeted."
+    },
+    {
+      "q": "Can civilians who spontaneously take up arms in a 'levee en masse' be prisoners of war?",
+      "a": "Yes. Members of a non-occupied nation who spontaneously take up arms to resist invading forces (levee en masse) are entitled to POW status if captured, provided they carry arms openly and respect the laws of war."
+    },
+    {
+      "q": "Who may conduct initial tactical questioning of detainees?",
+      "a": "Initial tactical questioning of detainees may be conducted by any DoD personnel. However, interrogations may be conducted only by trained interrogators."
+    },
+    {
+      "q": "What are the four Geneva Conventions of 1949?",
+      "a": "I) Wounded and sick in the field; II) Wounded, sick, and shipwrecked at sea; III) Treatment of prisoners of war; IV) Protection of civilian persons in time of war."
+    },
+    {
+      "q": "Under Geneva Convention III, what information is a POW required to provide?",
+      "a": "Only name, rank, date of birth, and service number (the 'Big Four'). A POW is not required to provide any other information."
+    },
+    {
+      "q": "How must POWs be treated under the Geneva Conventions?",
+      "a": "POWs must be treated humanely at all times. They must receive adequate food, water, clothing, shelter, and medical attention. They cannot be tortured, subjected to medical experiments, or exposed to violence, intimidation, or public curiosity."
+    },
+    {
+      "q": "What is an Article 5 Tribunal?",
+      "a": "A competent tribunal convened under Geneva Convention III, Article 5, to determine whether a captured person is entitled to POW status when doubt exists. Until such determination, the person must be treated as a POW."
+    },
+    {
+      "q": "What constitutes a 'military objective' that may be lawfully attacked?",
+      "a": "An object which by its nature, location, purpose, or use makes an effective contribution to military action and whose total or partial destruction, capture, or neutralization offers a definite military advantage."
+    },
+    {
+      "q": "When does a civilian lose protected status under the Law of War?",
+      "a": "Civilians lose their protected status when and for such time as they take a direct part in hostilities."
+    },
+    {
+      "q": "What is 'hors de combat'?",
+      "a": "Hors de combat means 'out of the fight.' A person is hors de combat if they are wounded, sick, shipwrecked, have surrendered, or are otherwise incapacitated. They are protected and must not be attacked."
+    },
+    {
+      "q": "What is the obligation regarding acceptance of surrender?",
+      "a": "LOAC prohibits 'denial of quarter,' meaning it is unlawful to declare or order that no prisoners shall be taken. Enemy combatants who clearly indicate intent to surrender must be accepted and treated as POWs."
+    },
+    {
+      "q": "What is a war crime?",
+      "a": "A violation of the Law of War for which an individual may be held criminally liable. Examples include willful killing of protected persons, torture, taking hostages, directing attacks against civilians, using prohibited weapons, and denying quarter."
+    },
+    {
+      "q": "Do all military personnel have a duty to report suspected war crimes?",
+      "a": "Yes. All military personnel have a duty to report known or suspected violations of the Law of War. Failure to report a war crime is itself a violation. Reports should be made through the chain of command or to the Inspector General."
+    },
+    {
+      "q": "Is 'following orders' a valid defense for committing a war crime?",
+      "a": "No. Service members have a duty to disobey manifestly unlawful orders. Superior orders may be considered in mitigation of punishment but do not relieve individual criminal responsibility."
+    },
+    {
+      "q": "What is command responsibility regarding war crimes?",
+      "a": "Commanders can be held criminally responsible for war crimes committed by subordinates if they knew or should have known that subordinates were committing such acts and failed to take necessary measures to prevent them or punish perpetrators."
+    },
+    {
+      "q": "Can enemy war crimes be the basis for legitimate reprisals?",
+      "a": "Yes, but reprisals are heavily restricted under modern LOAC. They may never be directed against POWs, wounded/sick, civilians in occupied territory, or civilian objects like hospitals and cultural property."
+    },
+    {
+      "q": "Marines collect and care for the wounded, whether friend or foe. True or False?",
+      "a": "True. Under the Law of War, all parties must collect and care for the wounded and sick without discrimination. Priority of treatment is based solely on medical need."
+    },
+    {
+      "q": "What are Rules of Engagement (ROE)?",
+      "a": "Directives issued by competent military authority that delineate the circumstances and limitations under which forces will initiate or continue combat engagement with other forces encountered."
+    },
+    {
+      "q": "Do ROE ever restrict the inherent right of self-defense?",
+      "a": "No. ROE may limit the use of force in certain circumstances, but they never restrict the inherent right of individual self-defense against an imminent threat of death or serious bodily harm."
+    },
+    {
+      "q": "What is the Standing Rules of Engagement (SROE)?",
+      "a": "CJCSI 3121.01, which provides implementation guidance on the application of force for mission accomplishment and self-defense for all U.S. forces. It serves as the baseline ROE when no supplemental ROE has been issued."
+    },
+    {
+      "q": "What weapons are prohibited under the Law of War?",
+      "a": "Biological weapons, chemical weapons, blinding laser weapons, poisoned weapons, and expanding (dum-dum) bullets in international armed conflict. Generally, any weapon calculated to cause unnecessary suffering."
+    },
+    {
+      "q": "What are protected places under the Law of War?",
+      "a": "Hospitals, medical facilities, religious sites, cultural property (museums, monuments, historical sites), civilian infrastructure not used for military purposes, and designated demilitarized zones, hospital zones, or safety zones."
+    },
+    {
+      "q": "When can cultural property lose its protected status?",
+      "a": "When it is being used for military purposes (e.g., a mosque used as a fighting position or weapons storage). Even then, a warning must be given with reasonable time before attacking, unless immediate self-defense requires otherwise."
+    },
+    {
+      "q": "What are the recognized protected emblems under the Law of War?",
+      "a": "The Red Cross, Red Crescent, and Red Crystal. Misuse of these emblems (perfidy) is a war crime."
+    },
+    {
+      "q": "When does medical protection cease?",
+      "a": "When medical personnel or facilities are used to commit hostile acts outside their humanitarian function, such as storing weapons, shielding combatants, or transporting ammunition. A warning must be given before attacking."
+    },
+    {
+      "q": "What is the principle of 'precaution in attack'?",
+      "a": "Parties to a conflict must take constant care to spare civilians and civilian objects. Feasible precautions include verifying targets, choosing means of attack to minimize civilian harm, and issuing effective advance warnings."
+    },
+    {
+      "q": "What targeting considerations must commanders make under LOAC?",
+      "a": "1) Verify the target is a military objective, 2) Assess potential collateral damage (proportionality), 3) Take feasible precautions to reduce civilian harm, 4) Select weapons to minimize collateral damage, 5) Cancel or suspend if target is not military or damage would be excessive."
+    },
+    {
+      "q": "What is collateral damage?",
+      "a": "Incidental damage to civilian persons or objects that is not the intended target of an attack. It is not per se unlawful, but it is prohibited if it would be excessive in relation to the concrete and direct military advantage anticipated."
+    },
+    {
+      "q": "What is the difference between an international armed conflict (IAC) and a non-international armed conflict (NIAC)?",
+      "a": "An IAC occurs between two or more states (nations). A NIAC occurs between a state and an organized non-state armed group, or between such groups within a state."
+    },
+    {
+      "q": "What is Common Article 3 of the Geneva Conventions?",
+      "a": "It appears in all four Geneva Conventions and provides minimum humanitarian protections in non-international armed conflicts. It prohibits violence, torture, cruel treatment, hostage-taking, humiliating treatment, and execution without proper judicial proceedings."
+    },
+    {
+      "q": "What are the requirements for lawful combatant status?",
+      "a": "1) Commanded by a person responsible for subordinates, 2) Have a fixed distinctive sign recognizable at a distance, 3) Carry arms openly, 4) Conduct operations in accordance with the laws and customs of war."
+    },
+    {
+      "q": "What is 'combatant immunity' (combatant's privilege)?",
+      "a": "Lawful combatants cannot be prosecuted for lawful acts of war. A soldier who kills an enemy combatant in battle is not guilty of murder. This privilege does not protect combatants who commit war crimes."
+    },
+    {
+      "q": "What is an 'unprivileged belligerent' (unlawful combatant)?",
+      "a": "A person who engages in hostilities without meeting the requirements for lawful combatant status (e.g., terrorists, spies, mercenaries). They do not receive combatant immunity or automatic POW status and may be prosecuted for their belligerent acts."
+    },
+    {
+      "q": "What is the Martens Clause?",
+      "a": "In cases not covered by specific treaty provisions, civilians and combatants remain under the protection of principles of international law derived from established custom, principles of humanity, and the dictates of public conscience."
+    },
+    {
+      "q": "What is the DoD Law of War Manual?",
+      "a": "DoD Manual 5.11.2 — the Department of Defense's comprehensive reference on the law of war. It provides legal guidance for DoD personnel on the conduct of armed conflict."
+    },
+    {
+      "q": "What is 'human shielding' and how does LOAC address it?",
+      "a": "The prohibited practice of using protected persons (civilians, POWs) to shield military objectives from attack. Using human shields is a war crime. Their presence does not make a lawful military target immune from attack, but proportionality must still be assessed."
+    },
+    {
+      "q": "What does the Law of War say about torture?",
+      "a": "Torture is absolutely prohibited under all circumstances, including armed conflict. Any act intentionally inflicting severe physical or mental pain for purposes such as obtaining information, punishment, or coercion constitutes a war crime."
+    },
+    {
+      "q": "What is the role of a Judge Advocate (JAG) in targeting?",
+      "a": "Judge Advocates serve as legal advisors on the Law of War in military operations. They review targets for LOAC compliance, advise commanders on proportionality and distinction, participate in targeting boards, and review ROE."
+    },
+    {
+      "q": "What are the rules regarding occupied territory under LOAC?",
+      "a": "An occupying power must maintain public order and safety, respect existing laws, not compel the population to serve in its military, not deport or transfer protected persons, and ensure adequate food and medical supplies for the civilian population."
+    },
+    {
+      "q": "What does the Law of War say about starvation of civilians?",
+      "a": "Starvation of civilians as a method of warfare is prohibited. Besieging forces must allow passage of essential supplies (food, medicine) for the civilian population."
+    },
+    {
+      "q": "What is the relationship between the UCMJ and the Law of War?",
+      "a": "The UCMJ incorporates Law of War obligations. Service members who violate the Law of War may be prosecuted under the UCMJ. Article 134 specifically makes violations of the Law of War punishable."
+    },
+    {
+      "q": "What is a 'no-strike list'?",
+      "a": "A list identifying objects that must not be struck due to legal, policy, or operational considerations. It typically includes hospitals, religious sites, cultural monuments, diplomatic facilities, and infrastructure critical to civilian survival."
+    },
+    {
+      "q": "What is a 'dual-use' object?",
+      "a": "An object serving both civilian and military purposes (e.g., a bridge used by civilians and military). It may qualify as a military objective, but the principles of proportionality and precaution still apply."
+    }
+  ]
+}

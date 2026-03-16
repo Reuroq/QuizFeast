@@ -1,0 +1,207 @@
+{
+  "category": "CBRN Awareness",
+  "description": "Chemical, Biological, Radiological, and Nuclear defense fundamentals — CBRN Defense Awareness CBT",
+  "icon": "radiation",
+  "questions": [
+    {
+      "q": "What does CBRN stand for?",
+      "a": "Chemical, Biological, Radiological, and Nuclear."
+    },
+    {
+      "q": "What does MOPP stand for?",
+      "a": "Mission Oriented Protective Posture."
+    },
+    {
+      "q": "What are the five MOPP levels?",
+      "a": "MOPP 0 through MOPP 4, ranging from IPE (Individual Protective Equipment) available and accessible (MOPP 0) to full protective gear worn (MOPP 4)."
+    },
+    {
+      "q": "What protective equipment is worn at MOPP 0?",
+      "a": "IPE is issued and available within the work area. Overgarment, boots, mask, and gloves are accessible but not worn."
+    },
+    {
+      "q": "What protective equipment is worn at MOPP 1?",
+      "a": "Overgarment (suit) worn, overboots carried. Mask and gloves carried."
+    },
+    {
+      "q": "What protective equipment is worn at MOPP 2?",
+      "a": "Overgarment and overboots worn. Mask and gloves carried."
+    },
+    {
+      "q": "What protective equipment is worn at MOPP 3?",
+      "a": "Overgarment, overboots, and mask worn. Gloves carried."
+    },
+    {
+      "q": "What protective equipment is worn at MOPP 4?",
+      "a": "All protective equipment worn: overgarment, overboots, mask, and gloves."
+    },
+    {
+      "q": "What does JSLIST stand for?",
+      "a": "Joint Service Lightweight Integrated Suit Technology."
+    },
+    {
+      "q": "What are the four types of chemical agents?",
+      "a": "Nerve agents, blister agents, blood agents, and choking agents."
+    },
+    {
+      "q": "What forms do chemical agents come in?",
+      "a": "Vapors, solids, liquids, and gases."
+    },
+    {
+      "q": "How are chemical agents classified by the U.S.?",
+      "a": "Three categories: persistent, non-persistent, and dusty."
+    },
+    {
+      "q": "How may chemical agents be deployed?",
+      "a": "Arterial spray, artillery bombs, individual dissemination, mines, and rockets."
+    },
+    {
+      "q": "What are the 9 mild symptoms of nerve agent poisoning?",
+      "a": "Runny nose, headache, drooling, vision difficulty, chest tightness, localized sweating, stomach cramps, nausea, and heart rate changes."
+    },
+    {
+      "q": "What are the 11 severe symptoms of nerve agent poisoning?",
+      "a": "Confusion, wheezing, pinpointed pupils, tearing, vomiting, muscular twitching, involuntary urination/defecation, convulsions, unconsciousness, respiratory failure, and bradycardia."
+    },
+    {
+      "q": "What will replace the Nerve Agent Antidote Kit (NAAK)?",
+      "a": "The Antidote Treatment, Nerve Agent Autoinjector (ATNAA)."
+    },
+    {
+      "q": "How many ATNAA doses should be administered for nerve agent poisoning?",
+      "a": "3 doses."
+    },
+    {
+      "q": "How long should you apply pressure when using the autoinjector?",
+      "a": "10 seconds."
+    },
+    {
+      "q": "What do you do with the autoinjector after injecting?",
+      "a": "Stick it through the pocket flap to track the number of injections given."
+    },
+    {
+      "q": "What are the three types of alarms and signals used to convey NBC contamination warnings?",
+      "a": "Audible alarms, automatic alarms, and visual signals."
+    },
+    {
+      "q": "When under an NBC attack, when do you give warning?",
+      "a": "After you mask first, then sound the alarm. Self-protection comes before warning others."
+    },
+    {
+      "q": "What are the proper masking procedures?",
+      "a": "Stop breathing, close your eyes, don the mask, clear the mask, check the seal, sound the alarm, and continue the mission."
+    },
+    {
+      "q": "The protective mask will NOT protect against what two types of gases?",
+      "a": "Ammonia vapors and carbon monoxide."
+    },
+    {
+      "q": "Once a unit has masked, who can make the decision to unmask?",
+      "a": "The unit commander."
+    },
+    {
+      "q": "NBC hazards are classified into two types. What are they?",
+      "a": "Immediate hazards and residual hazards."
+    },
+    {
+      "q": "What are the three fundamentals of NBC defense?",
+      "a": "Avoid contamination, protection, and decontamination."
+    },
+    {
+      "q": "What are the three levels of decontamination?",
+      "a": "Immediate, operational, and thorough."
+    },
+    {
+      "q": "What Field Manual covers NBC Operations?",
+      "a": "FM 3-11."
+    },
+    {
+      "q": "What Field Manual covers NBC Protection?",
+      "a": "FM 3-11.4."
+    },
+    {
+      "q": "What Field Manual covers NBC Decontamination?",
+      "a": "FM 3-5."
+    },
+    {
+      "q": "What is FM 3-7?",
+      "a": "NBC Handbook."
+    },
+    {
+      "q": "What is an NBC-1 report used for?",
+      "a": "Initial detection and reporting of NBC weapons usage by the enemy."
+    },
+    {
+      "q": "What are the three types of nuclear bursts?",
+      "a": "Air burst, ground burst (surface), and subsurface burst."
+    },
+    {
+      "q": "Soldiers in MOPP 4 may lose how much water per hour?",
+      "a": "1 quart or more per hour due to heat stress."
+    },
+    {
+      "q": "When fitting the protective mask, in what sequence should straps be tightened?",
+      "a": "Forehead straps, cheek straps, then temple straps."
+    },
+    {
+      "q": "What is the best way to protect against biological agents?",
+      "a": "Personal hygiene."
+    },
+    {
+      "q": "What is a vector in biological warfare?",
+      "a": "An insect or organism used to disseminate biological agents."
+    },
+    {
+      "q": "What is meant by biological warfare?",
+      "a": "The intentional use of germs or toxins from living organisms to cause death and disease among people, animals, or plants."
+    },
+    {
+      "q": "What are the four types of microorganisms used in biological agents?",
+      "a": "Bacteria, fungi, rickettsiae, and viruses."
+    },
+    {
+      "q": "What is the best decontamination method for biological agents?",
+      "a": "Warm soapy water."
+    },
+    {
+      "q": "What two things should you avoid when crossing a contaminated area?",
+      "a": "Stirring up dust and touching anything."
+    },
+    {
+      "q": "What FM covers Nuclear Contamination Avoidance?",
+      "a": "FM 3-11.3."
+    },
+    {
+      "q": "What is the M50 protective mask?",
+      "a": "The current-issue joint-service general purpose protective mask that provides respiratory, eye, and face protection against CBRN agents, toxins, and radioactive particles."
+    },
+    {
+      "q": "Is the M50 mask effective in confined spaces?",
+      "a": "The M50 provides protection in confined spaces, but oxygen-deficient environments require a self-contained breathing apparatus (SCBA) instead."
+    },
+    {
+      "q": "What is the M8 detector paper used for?",
+      "a": "Detecting liquid chemical agents. It changes color when exposed: yellow for G-series nerve agents, red for H-series blister agents, and dark green for V-series nerve agents."
+    },
+    {
+      "q": "What shape are CBRN contamination markers?",
+      "a": "Triangular markers placed with the point facing the contaminated area."
+    },
+    {
+      "q": "What colors are used on CBRN contamination markers?",
+      "a": "Yellow background with red lettering for chemical (GAS), blue background with red lettering for biological (BIO), white background with black lettering for radiological (ATOM), and black background with red lettering for chemical mines."
+    },
+    {
+      "q": "What are the effects of a nuclear blast?",
+      "a": "Thermal radiation (flash/heat), blast wave (overpressure), nuclear radiation (initial and residual), and electromagnetic pulse (EMP)."
+    },
+    {
+      "q": "What is fallout?",
+      "a": "Residual radioactive material propelled into the upper atmosphere following a nuclear blast that falls back to the surface. It can contaminate large areas downwind of the detonation."
+    },
+    {
+      "q": "What are the three principles of radiation protection?",
+      "a": "Time (minimize exposure time), distance (maximize distance from source), and shielding (use dense materials to block radiation)."
+    }
+  ]
+}

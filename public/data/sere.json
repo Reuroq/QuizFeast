@@ -1,0 +1,207 @@
+{
+  "category": "SERE 100.2",
+  "description": "Survival, Evasion, Resistance, and Escape fundamentals — JKO Level A",
+  "icon": "compass",
+  "questions": [
+    {
+      "q": "What does SERE stand for?",
+      "a": "Survival, Evasion, Resistance, and Escape."
+    },
+    {
+      "q": "The Code of Conduct describes your basic responsibilities and obligations from isolation to captivity resolution. True or False?",
+      "a": "True."
+    },
+    {
+      "q": "How many articles are in the Code of Conduct?",
+      "a": "Six articles."
+    },
+    {
+      "q": "What does Article I of the Code of Conduct state?",
+      "a": "I am an American, fighting in the forces which guard my country and our way of life. I am prepared to give my life in their defense."
+    },
+    {
+      "q": "What does Article II of the Code of Conduct state?",
+      "a": "I will never surrender of my own free will. If in command, I will never surrender the members of my command while they still have the means to resist."
+    },
+    {
+      "q": "During military operations outside declared hostilities, what does Article II allow?",
+      "a": "You may delay contact with local authorities. However, military members are never authorized to surrender."
+    },
+    {
+      "q": "What does Article III of the Code of Conduct state?",
+      "a": "If I am captured I will continue to resist by all means available. I will make every effort to escape and aid others to escape. I will accept neither parole nor special favors from the enemy."
+    },
+    {
+      "q": "What does Article IV of the Code of Conduct state?",
+      "a": "If I become a prisoner of war, I will keep faith with my fellow prisoners. I will give no information or take part in any action which might be harmful to my comrades."
+    },
+    {
+      "q": "If held in captivity, you must remember to give no information or take part in any action which might be harmful to your comrades. This is an example of what?",
+      "a": "Keeping faith with fellow prisoners under Article IV of the Code of Conduct."
+    },
+    {
+      "q": "What does Article V of the Code of Conduct state?",
+      "a": "When questioned, should I become a prisoner of war, I am required to give name, rank, service number, and date of birth. I will evade answering further questions to the utmost of my ability."
+    },
+    {
+      "q": "What information are you required to provide if captured, per Article V?",
+      "a": "Name, rank, service number, and date of birth."
+    },
+    {
+      "q": "What does Article VI of the Code of Conduct state?",
+      "a": "I will never forget that I am an American, fighting for freedom, responsible for my actions, and dedicated to the principles which made my country free. I will trust in my God and in the United States of America."
+    },
+    {
+      "q": "What does the acronym SCORE stand for in captivity guidance?",
+      "a": "Survive, Communicate, Organize, Resist, Escape."
+    },
+    {
+      "q": "What does the acronym PAID-E stand for?",
+      "a": "Perceive, Analyze, Interpret, Decide, Execute — a memory tool for maintaining situational awareness during an isolating event."
+    },
+    {
+      "q": "Resistance is a 'Battle of Wits' with your captor. True or False?",
+      "a": "False. Resistance is much more than a battle of wits — it is an attitude and a way of life that encompasses all aspects of captivity."
+    },
+    {
+      "q": "What is an Evasion Plan of Action (EPA)?",
+      "a": "A plan that helps recovery forces anticipate your actions and intentions, details methods and procedures to communicate with recovery forces, and provides your evasion intentions and key recovery information."
+    },
+    {
+      "q": "What should you ensure about your communication devices before deploying or executing a mission?",
+      "a": "Record data about your communication devices on your EPA (Evasion Plan of Action) prior to deploying or mission execution."
+    },
+    {
+      "q": "What document should you use to record personal authentication information?",
+      "a": "DD Form 1833 — Isolated Personnel Report (ISOPREP)."
+    },
+    {
+      "q": "What are the three consumable sources of water in a survival situation?",
+      "a": "Rainfall, water from plants, and melted snow."
+    },
+    {
+      "q": "What are the approved methods to purify water in a survival situation?",
+      "a": "Boiling vigorously for at least one minute, chemically treating with chlorine or iodine, and purifying with a commercial micro filter."
+    },
+    {
+      "q": "The three basic food sources during isolation are packed rations, animals and insects, and plants. True or False?",
+      "a": "True."
+    },
+    {
+      "q": "What are the criteria for selecting a shelter site?",
+      "a": "Provides natural protection from environment, hazards, and threats; sufficient materials are available for constructing a shelter; and the area is large enough for you and your equipment."
+    },
+    {
+      "q": "What are appropriate means for leaving evidence of your presence during evasion?",
+      "a": "Fingerprints, notes, and DNA."
+    },
+    {
+      "q": "What actions should you take when capture is imminent?",
+      "a": "Try to retain your personal cell phone, leave evidence of your presence, and sanitize personal materials that could be exploited by the enemy."
+    },
+    {
+      "q": "What evasion aids are used for making contact with the local population?",
+      "a": "Blood Chit and Pointee-Talkee."
+    },
+    {
+      "q": "What is a Blood Chit?",
+      "a": "A document carried by military personnel that identifies them as an American service member and promises a reward to anyone who assists them. It is printed in multiple languages."
+    },
+    {
+      "q": "What is a Pointee-Talkee?",
+      "a": "A booklet with phrases in multiple languages that an isolated person can point to in order to communicate basic needs and intentions with local populations."
+    },
+    {
+      "q": "What are de-escalation strategies when in contact with hostile or potentially hostile persons?",
+      "a": "Be conscious of your body language, maintain a low profile, avoid provoking confrontation, and try to diffuse tense situations through calm communication."
+    },
+    {
+      "q": "What techniques are used to control bleeding in a survival situation?",
+      "a": "Using a tourniquet, elevating and immobilizing the injured area, and applying direct pressure to the wound."
+    },
+    {
+      "q": "How should you prevent overheating when wearing protective clothing?",
+      "a": "Remove layers of clothing before strenuous activities to prevent overheating."
+    },
+    {
+      "q": "What should you communicate with a captor if detained?",
+      "a": "Limit communication to: identify yourself, ask to be returned to U.S. control, and provide the innocent circumstances leading to your capture."
+    },
+    {
+      "q": "What are the two types of reporting for isolating events?",
+      "a": "Observer-reported and self-reported (NOT media reporting)."
+    },
+    {
+      "q": "One way to gain acceptance from the local population after making contact is to discuss similarities between religions to show you are peaceful. True or False?",
+      "a": "False. Discussing religion can be dangerous and offensive. Focus on practical matters and showing respect for local customs."
+    },
+    {
+      "q": "What should you do with sensitive documents and equipment if capture is imminent?",
+      "a": "Sanitize, destroy, or hide sensitive items to prevent them from being exploited by the enemy."
+    },
+    {
+      "q": "What is the primary survival priority in order?",
+      "a": "Immediate protection from the environment (shelter/warmth), water, signaling for rescue, and food."
+    },
+    {
+      "q": "What is the Geneva Convention's protection for prisoners of war?",
+      "a": "POWs must be treated humanely, protected from violence, intimidation, insults, and public curiosity. They are entitled to respect for their persons and honor, and must receive adequate food, water, clothing, shelter, and medical attention."
+    },
+    {
+      "q": "What information must a captor provide under the Geneva Convention?",
+      "a": "Captors are required to provide their name and allow the POW to communicate with the International Committee of the Red Cross (ICRC)."
+    },
+    {
+      "q": "What agency assists military personnel after release from captivity?",
+      "a": "The DoD Public Affairs Officer (PAO) provides assistance after release or rescue."
+    },
+    {
+      "q": "What is the universal distress signal?",
+      "a": "Three of anything — three fires, three gunshots, three whistle blasts, or the SOS signal (three short, three long, three short)."
+    },
+    {
+      "q": "What natural navigation methods can be used during evasion?",
+      "a": "Using the sun's position (rises in east, sets in west), the North Star (Polaris), stick shadow method, and using a watch as a compass."
+    },
+    {
+      "q": "What are the key principles of evasion movement?",
+      "a": "Move during limited visibility (night/bad weather), avoid roads and trails, use terrain for cover and concealment, avoid leaving tracks, and move slowly and deliberately."
+    },
+    {
+      "q": "What should you do first if you become isolated?",
+      "a": "Stop, think, observe, plan (STOP). Assess your situation, take inventory of equipment, and begin executing your Evasion Plan of Action (EPA)."
+    },
+    {
+      "q": "What role does resistance play in captivity?",
+      "a": "Resistance is an obligation under the Code of Conduct. It helps maintain personal dignity, unit cohesion among prisoners, and denies the enemy exploitation of prisoners for propaganda or intelligence purposes."
+    },
+    {
+      "q": "What exploitation techniques might a captor use?",
+      "a": "Isolation, threats, humiliation, sleep deprivation, manipulation of environment (temperature, light, noise), and psychological pressure to gain information or cooperation."
+    },
+    {
+      "q": "What is the senior ranking officer's (SRO) role in captivity?",
+      "a": "The SRO assumes command of all POWs, establishes a chain of command, organizes resistance efforts, maintains discipline and morale, and ensures compliance with the Code of Conduct."
+    },
+    {
+      "q": "Can you accept parole from the enemy if captured?",
+      "a": "No. Article III states: 'I will accept neither parole nor special favors from the enemy.' Accepting parole or special favors gives the enemy a propaganda victory and may endanger fellow prisoners."
+    },
+    {
+      "q": "What is the purpose of SERE training?",
+      "a": "To provide military personnel with the knowledge and skills needed to survive, evade capture, resist exploitation, and escape from captivity, in support of the Code of Conduct."
+    },
+    {
+      "q": "What survival signaling devices might be available to isolated personnel?",
+      "a": "Signal mirror, flares, smoke signals, VS-17 signal panel, strobe light, whistle, and radio/beacon."
+    },
+    {
+      "q": "What are indicators that a plant may be poisonous?",
+      "a": "Milky or discolored sap, beans/bulbs/seeds inside pods, bitter or soapy taste, spines/fine hairs/thorns, dill/carrot/parsnip/parsley-like foliage, and an almond scent in woody parts and leaves."
+    },
+    {
+      "q": "How should you approach water procurement in a survival situation?",
+      "a": "Look for streams, rivers, and lakes. Collect rainwater. Look for animal tracks (they often lead to water). Dig in dry riverbeds. Collect dew in the early morning. Always purify water before drinking."
+    }
+  ]
+}

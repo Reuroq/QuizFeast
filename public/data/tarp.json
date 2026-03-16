@@ -1,0 +1,183 @@
+{
+  "category": "TARP - Threat Awareness & Reporting",
+  "description": "Threat Awareness and Reporting Program — counterintelligence reporting requirements (AR 381-12 / CI116)",
+  "icon": "flag",
+  "questions": [
+    {
+      "q": "What does TARP stand for?",
+      "a": "Threat Awareness and Reporting Program."
+    },
+    {
+      "q": "What Army regulation governs TARP?",
+      "a": "AR 381-12, Threat Awareness and Reporting Program."
+    },
+    {
+      "q": "What is the purpose of TARP?",
+      "a": "To educate and train all Department of the Army (DA) personnel to recognize and report threats from espionage, international terrorism, sabotage, subversion, and other intelligence-related activities directed against the U.S. Army."
+    },
+    {
+      "q": "Who is required to complete annual TARP training?",
+      "a": "All DA personnel including active duty soldiers, Army National Guard, Army Reserve, DA civilians, and all supporting contractors with access to Army facilities or information."
+    },
+    {
+      "q": "What is the CDSE course that satisfies the TARP annual training requirement?",
+      "a": "CI116 — Counterintelligence Awareness and Reporting Course for DOD, provided by the Center for Development of Security Excellence (CDSE)."
+    },
+    {
+      "q": "What is an insider threat?",
+      "a": "A person with authorized access to U.S. government resources who uses that access to harm the security of the United States. This includes espionage, terrorism, unauthorized disclosure of classified information, or actions that could threaten the health and safety of the workforce."
+    },
+    {
+      "q": "What are the five threat categories that must be reported under TARP?",
+      "a": "Espionage, international terrorism, sabotage, subversion, and theft or illegal diversion of military technology."
+    },
+    {
+      "q": "What is espionage?",
+      "a": "The act of obtaining, delivering, transmitting, communicating, or receiving information about the national defense with intent or reason to believe that it will be used to the injury of the United States or to the advantage of a foreign nation."
+    },
+    {
+      "q": "What is elicitation?",
+      "a": "A technique used by foreign intelligence entities to subtly extract information from people during what appears to be normal and innocent conversation. The target may not even realize they are being pumped for information."
+    },
+    {
+      "q": "What are common elicitation techniques?",
+      "a": "Flattery, false statements to provoke a correction, appealing to ego, sharing false or sensitive information to encourage reciprocity, deliberate provocation, feigning ignorance, and asking leading questions in a casual setting."
+    },
+    {
+      "q": "What is a honeypot or honey trap?",
+      "a": "A counterintelligence technique where a person uses romantic or sexual relationships to compromise an intelligence target and extract classified information or recruit them as an agent."
+    },
+    {
+      "q": "How quickly must suspicious activity be reported?",
+      "a": "As soon as possible, typically within 24 hours of the observation or event."
+    },
+    {
+      "q": "Who should you report suspicious contacts or activities to?",
+      "a": "Your chain of command, security manager, or Military Intelligence/Counterintelligence (CI) personnel. You can also report through the iSalute portal or by calling the Army CI hotline."
+    },
+    {
+      "q": "What is the iSalute reporting system?",
+      "a": "A web-based system that allows Army personnel to submit online reports of suspicious activity, foreign contacts, and other counterintelligence-related information."
+    },
+    {
+      "q": "What types of suspicious contacts must be reported?",
+      "a": "Any contact with a known or suspected foreign intelligence officer, any request for classified or sensitive information by unauthorized persons, attempts to recruit you as a source, suspicious approaches at conferences or trade shows, and any unexplained contact with foreign nationals that seems intelligence-related."
+    },
+    {
+      "q": "What foreign travel must be reported under TARP?",
+      "a": "All personal foreign travel must be reported to your security manager or command. This includes travel to countries that are known intelligence threats, and any suspicious contacts during foreign travel."
+    },
+    {
+      "q": "What are indicators that you may be a target of foreign intelligence?",
+      "a": "Persistent contact by a foreign national who is overly interested in your work, unexpected invitations to social events by foreign nationals, unsolicited gifts or offers of financial assistance, requests to provide information outside official channels, and being approached at conferences or professional events."
+    },
+    {
+      "q": "How do foreign intelligence services use social media for targeting?",
+      "a": "They create fake profiles to establish relationships with military and government personnel, use social engineering to extract information, monitor open-source postings about military operations or capabilities, and identify potential recruitment targets based on vulnerabilities revealed online."
+    },
+    {
+      "q": "What is the difference between a 'foreign intelligence entity' and a 'foreign intelligence service'?",
+      "a": "A foreign intelligence service (FIS) is a government-run intelligence organization. A foreign intelligence entity (FIE) is broader and includes any foreign government or non-government entity that engages in intelligence activities directed against the United States, including terrorist organizations and foreign corporations."
+    },
+    {
+      "q": "What should you do if you are approached by someone you suspect is a foreign intelligence officer?",
+      "a": "Do not provide any information. End the conversation politely. Report the contact immediately through proper channels. Document as many details as possible including the person's description, what was discussed, and any business cards or contact information provided."
+    },
+    {
+      "q": "What is subversion?",
+      "a": "Actions designed to undermine the military, economic, psychological, or political strength of a nation. It includes attempts to influence military personnel to violate their duties or act against the interests of the United States."
+    },
+    {
+      "q": "What is sabotage in the TARP context?",
+      "a": "An act or acts with intent to injure, interfere with, or obstruct the national defense by willfully destroying, damaging, or obstructing national defense material, premises, or utilities."
+    },
+    {
+      "q": "What is the significance of 'need to know' in counterintelligence?",
+      "a": "Even if a person has a security clearance, they should only be given access to classified information that they need for the performance of their official duties. Unauthorized sharing of classified information — even with cleared personnel — can constitute a security violation."
+    },
+    {
+      "q": "What are indicators of a potential insider threat?",
+      "a": "Working unusual hours without authorization, unexplained affluence, interest in matters outside job responsibilities, unauthorized removal of classified material, excessive copying of sensitive documents, attempts to bypass security procedures, and significant changes in behavior or lifestyle."
+    },
+    {
+      "q": "What is the Army CI hotline?",
+      "a": "A phone line available for reporting suspicious activity and potential counterintelligence threats. Personnel can call to report concerns anonymously if needed."
+    },
+    {
+      "q": "What are the consequences of failing to report under TARP?",
+      "a": "Failure to report can result in UCMJ action for military personnel, disciplinary action for civilians, and potential criminal prosecution. It may also enable foreign intelligence activities that harm national security."
+    },
+    {
+      "q": "What is 'technology transfer' in the TARP context?",
+      "a": "The unauthorized or illegal transfer of sensitive or classified military technology, equipment, data, or know-how to a foreign entity, whether by espionage, theft, or circumvention of export controls."
+    },
+    {
+      "q": "What methods do foreign intelligence entities use to collect information?",
+      "a": "Human intelligence (HUMINT) through agents and elicitation, signals intelligence (SIGINT) through electronic eavesdropping, cyber operations targeting networks and systems, open source intelligence (OSINT) from public information, and technical surveillance."
+    },
+    {
+      "q": "What is a 'false flag' recruitment approach?",
+      "a": "When a foreign intelligence officer misrepresents their true affiliation or nationality during a recruitment attempt — for example, claiming to work for an allied nation's intelligence service when they actually work for a hostile nation."
+    },
+    {
+      "q": "What should you report about contacts at international conferences?",
+      "a": "Any unusual or persistent interest in your work, any requests for information that seems beyond normal professional exchange, any offers of gifts, travel, or hospitality that seem excessive, and any attempts to establish personal relationships that feel manipulative."
+    },
+    {
+      "q": "What is the role of counterintelligence (CI) in the Army?",
+      "a": "CI identifies, deceives, exploits, disrupts, or neutralizes foreign intelligence entities, insider threats, and terrorist organizations that threaten the U.S. Army, DoD, or national security."
+    },
+    {
+      "q": "What is Operations Security (OPSEC) and how does it relate to TARP?",
+      "a": "OPSEC is the process of identifying critical information, analyzing threats and vulnerabilities, and applying countermeasures to deny adversaries information about friendly activities. TARP awareness supports OPSEC by helping personnel recognize when foreign entities are attempting to collect such information."
+    },
+    {
+      "q": "What are 'indicators' in counterintelligence?",
+      "a": "Observable actions, conditions, or information that suggest foreign intelligence activity, insider threat behavior, or terrorist planning. Recognizing indicators is the first step in threat reporting."
+    },
+    {
+      "q": "Can a foreign intelligence entity target unclassified information?",
+      "a": "Yes. Foreign intelligence entities actively collect unclassified information including organizational charts, personnel directories, training schedules, and technical manuals. Aggregation of unclassified information can reveal classified capabilities."
+    },
+    {
+      "q": "What is the 'mosaic effect' in intelligence?",
+      "a": "When individually insignificant pieces of unclassified information are combined to reveal classified or sensitive information about military capabilities, operations, or vulnerabilities."
+    },
+    {
+      "q": "What are cyber threats relevant to TARP?",
+      "a": "Phishing emails designed to steal credentials, social engineering attacks, malware targeting military networks, unauthorized access to information systems, and data exfiltration by insiders or foreign actors."
+    },
+    {
+      "q": "What should you do if you receive a suspicious email that may be a phishing attempt?",
+      "a": "Do not click any links or open attachments. Report it to your Information Assurance (IA) officer or security manager. Do not forward it to others. Document the sender's information."
+    },
+    {
+      "q": "What is the relationship between TARP and the Insider Threat Program?",
+      "a": "TARP addresses external threats (foreign intelligence, terrorism) while the Insider Threat Program focuses on threats from within the organization. Both require awareness and reporting, and an insider can be recruited by an external foreign intelligence entity."
+    },
+    {
+      "q": "What personal vulnerabilities do foreign intelligence services exploit?",
+      "a": "Financial difficulties, substance abuse, relationship problems, disgruntlement with employer, ego/desire for recognition, ideology, and susceptibility to blackmail or compromise."
+    },
+    {
+      "q": "The acronym MICE describes motivations for espionage. What does it stand for?",
+      "a": "Money, Ideology, Compromise (or Coercion), and Ego."
+    },
+    {
+      "q": "What is the penalty for espionage under U.S. law?",
+      "a": "Under 18 U.S.C. 794, espionage can be punished by death or imprisonment for any term of years, including life."
+    },
+    {
+      "q": "When did TARP replace the SAEDA program?",
+      "a": "TARP replaced Subversion and Espionage Directed Against the U.S. Army (SAEDA) to expand the scope of threat awareness beyond just espionage to include terrorism, sabotage, subversion, and technology theft."
+    },
+    {
+      "q": "What is the authorized CBT alternative when live TARP training is not possible?",
+      "a": "The Computer Web-Based Training (CBT) available on the Army Learning Management System (ALMS) is the only authorized alternative method for TARP training."
+    },
+    {
+      "q": "How often must TARP training be completed?",
+      "a": "Within 30 days of assignment and annually (every 12 months) thereafter."
+    }
+  ]
+}

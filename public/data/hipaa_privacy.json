@@ -1,0 +1,239 @@
+{
+  "category": "HIPAA & Privacy Act",
+  "description": "Health information privacy and the Privacy Act of 1974 — JKO DHA-US001",
+  "icon": "lock",
+  "questions": [
+    {
+      "q": "What two laws does the DHA-US001 training cover?",
+      "a": "The Health Insurance Portability and Accountability Act (HIPAA) of 1996 and the Privacy Act of 1974."
+    },
+    {
+      "q": "What is Protected Health Information (PHI)?",
+      "a": "Individually identifiable health information that relates to the past, present, or future physical or mental health condition of an individual; the provision of health care to an individual; or the past, present, or future payment for the provision of health care to an individual."
+    },
+    {
+      "q": "Which formats are considered electronic PHI (ePHI)?",
+      "a": "PHI that is transmitted by or maintained in electronic media. This does NOT include PHI transmitted orally or in paper form — only electronic."
+    },
+    {
+      "q": "What does the HIPAA Privacy Rule establish?",
+      "a": "National standards for the protection of individually identifiable health information, including standards for individuals' rights to understand and control how their health information is used."
+    },
+    {
+      "q": "What does the HIPAA Security Rule require?",
+      "a": "Appropriate administrative, physical, and technical safeguards to ensure the confidentiality, integrity, and availability of electronic protected health information (ePHI)."
+    },
+    {
+      "q": "What are the three types of safeguards required by the HIPAA Security Rule?",
+      "a": "Administrative safeguards, physical safeguards, and technical safeguards."
+    },
+    {
+      "q": "What is the 'minimum necessary' standard?",
+      "a": "Covered entities must make reasonable efforts to use, disclose, and request only the minimum amount of PHI needed to accomplish the intended purpose of the use, disclosure, or request."
+    },
+    {
+      "q": "Does the minimum necessary standard apply to disclosures for treatment?",
+      "a": "No. The minimum necessary standard does NOT apply to disclosures to or requests by a health care provider for treatment purposes."
+    },
+    {
+      "q": "What is the Privacy Act of 1974?",
+      "a": "A federal law that balances the government's need to maintain information about individuals with the rights of individuals to be protected against unwarranted invasions of their privacy. It regulates how federal agencies solicit, collect, maintain, use, and disseminate personally identifiable information (PII)."
+    },
+    {
+      "q": "What does PII stand for and what does it include?",
+      "a": "Personally Identifiable Information — information that can be used to distinguish or trace an individual's identity, such as name, SSN, date and place of birth, mother's maiden name, biometric records, or any information linkable to an individual."
+    },
+    {
+      "q": "What is a System of Records Notice (SORN)?",
+      "a": "A formal notice published in the Federal Register that describes a system of records — a group of records under the control of a federal agency from which information is retrieved by an individual's name or other personal identifier."
+    },
+    {
+      "q": "What is a Privacy Impact Assessment (PIA)?",
+      "a": "An analysis of how information is handled to ensure handling conforms to applicable legal, regulatory, and policy requirements regarding privacy; to determine the risks and effects of collecting, maintaining, and disseminating PII; and to evaluate protections and alternative processes."
+    },
+    {
+      "q": "Under what circumstances must an individual be given the opportunity to agree or object to the use and disclosure of their PHI?",
+      "a": "Before PHI directly relevant to a person's involvement with the individual's care or payment of health care is shared with that person, and before their information is included in a facility directory."
+    },
+    {
+      "q": "Who is a 'covered entity' under HIPAA?",
+      "a": "Health plans, health care clearinghouses, and health care providers who transmit health information in electronic form in connection with a covered transaction."
+    },
+    {
+      "q": "Is the Military Health System (MHS) a covered entity?",
+      "a": "Yes. The MHS, including military treatment facilities (MTFs), TRICARE, and the Defense Health Agency (DHA), functions as a covered entity under HIPAA."
+    },
+    {
+      "q": "What is a Business Associate?",
+      "a": "A person or organization, other than a member of a covered entity's workforce, that performs certain functions or activities on behalf of, or provides certain services to, a covered entity that involve the use or disclosure of PHI."
+    },
+    {
+      "q": "What is required before sharing PHI with a Business Associate?",
+      "a": "A Business Associate Agreement (BAA) — a written contract or arrangement that requires the business associate to appropriately safeguard the PHI it receives or creates on behalf of the covered entity."
+    },
+    {
+      "q": "What are the permitted uses and disclosures of PHI without individual authorization?",
+      "a": "Treatment, payment, and health care operations (TPO); disclosures required by law; public health activities; victims of abuse, neglect, or domestic violence; health oversight activities; judicial and administrative proceedings; law enforcement purposes; and several other specific situations."
+    },
+    {
+      "q": "What uses of PHI ALWAYS require written authorization from the individual?",
+      "a": "Use or disclosure of psychotherapy notes, use of PHI for marketing purposes, and sale of PHI."
+    },
+    {
+      "q": "What is the HIPAA Breach Notification Rule?",
+      "a": "It requires covered entities to notify affected individuals, the Secretary of HHS, and in certain circumstances the media, following a breach of unsecured PHI."
+    },
+    {
+      "q": "What is considered a 'breach' under HIPAA?",
+      "a": "An impermissible use or disclosure under the Privacy Rule that compromises the security or privacy of PHI."
+    },
+    {
+      "q": "Within what timeframe must individuals be notified of a PHI breach?",
+      "a": "Without unreasonable delay and no later than 60 calendar days from the discovery of the breach."
+    },
+    {
+      "q": "When is media notification required for a breach?",
+      "a": "When a breach affects more than 500 residents of a single state or jurisdiction."
+    },
+    {
+      "q": "What DoD regulation implements the HIPAA Privacy Rule for the Military Health System?",
+      "a": "DoD 6025.18-R, DoD Health Information Privacy Regulation."
+    },
+    {
+      "q": "What rights do individuals have under the HIPAA Privacy Rule?",
+      "a": "Right to access their PHI, request amendments, receive an accounting of disclosures, request restrictions on uses/disclosures, request confidential communications, and receive a Notice of Privacy Practices."
+    },
+    {
+      "q": "What is the Notice of Privacy Practices (NPP)?",
+      "a": "A document that describes how a covered entity may use and disclose an individual's PHI, the individual's rights regarding their PHI, and the covered entity's legal duties to protect PHI."
+    },
+    {
+      "q": "What should you do if you discover or suspect a breach of PHI?",
+      "a": "Report it immediately to your Privacy Officer, supervisor, or the chain of command. Do not attempt to investigate the breach yourself."
+    },
+    {
+      "q": "What is the penalty for wrongful disclosure of individually identifiable health information?",
+      "a": "Penalties range from $100 to $50,000 per violation for civil penalties. Criminal penalties include fines up to $250,000 and imprisonment up to 10 years for offenses committed with intent to sell, transfer, or use PHI for commercial advantage, personal gain, or malicious harm."
+    },
+    {
+      "q": "What are the 18 HIPAA identifiers that make health information 'individually identifiable'?",
+      "a": "Names; geographic data smaller than state; all dates (except year) related to an individual; phone numbers; fax numbers; email addresses; SSNs; medical record numbers; health plan beneficiary numbers; account numbers; certificate/license numbers; vehicle identifiers; device identifiers; web URLs; IP addresses; biometric identifiers; full-face photographs; and any other unique identifying number, characteristic, or code."
+    },
+    {
+      "q": "What is 'de-identified' health information?",
+      "a": "Health information that does not identify an individual and with respect to which there is no reasonable basis to believe that the information can be used to identify an individual. De-identified data is not subject to HIPAA protections."
+    },
+    {
+      "q": "What two methods can be used to de-identify PHI?",
+      "a": "Expert determination (a qualified statistical expert certifies the risk of identification is very small) and Safe Harbor (removal of all 18 specified identifiers)."
+    },
+    {
+      "q": "Can a service member's commander access their full medical record?",
+      "a": "No. Commanders may receive limited health information necessary for fitness-for-duty determinations, safety concerns, or mission requirements, but generally cannot access the full medical record without proper authorization."
+    },
+    {
+      "q": "What is the role of the Privacy Officer?",
+      "a": "The designated individual responsible for developing and implementing the covered entity's privacy policies and procedures, handling privacy complaints, and ensuring HIPAA Privacy Rule compliance."
+    },
+    {
+      "q": "What is the role of the Security Officer?",
+      "a": "The designated individual responsible for developing and implementing the security policies and procedures required by the HIPAA Security Rule to protect ePHI."
+    },
+    {
+      "q": "What training is required under HIPAA?",
+      "a": "All workforce members must receive training on the covered entity's HIPAA policies and procedures. Training must be provided to new members within a reasonable period after joining and when material changes are made to policies or procedures."
+    },
+    {
+      "q": "How often must DoD personnel complete HIPAA and Privacy Act training?",
+      "a": "Annually. All DoD personnel who access, use, or disclose PHI must complete annual HIPAA and Privacy Act training."
+    },
+    {
+      "q": "What does HIPAA Title I cover?",
+      "a": "Health Insurance Reform — it protects health insurance coverage for workers and their families when they change or lose their jobs (portability)."
+    },
+    {
+      "q": "What does HIPAA Title II cover?",
+      "a": "Administrative Simplification — it includes the Privacy Rule, Security Rule, and Breach Notification Rule, and establishes standards for electronic health care transactions."
+    },
+    {
+      "q": "What are administrative safeguards?",
+      "a": "Administrative actions, policies, and procedures to manage the selection, development, implementation, and maintenance of security measures to protect ePHI and manage the conduct of the covered entity's workforce. Examples include risk assessments, workforce training, and contingency planning."
+    },
+    {
+      "q": "What are physical safeguards?",
+      "a": "Physical measures, policies, and procedures to protect a covered entity's electronic information systems and related buildings and equipment from natural and environmental hazards and unauthorized intrusion. Examples include facility access controls, workstation security, and device and media controls."
+    },
+    {
+      "q": "What are technical safeguards?",
+      "a": "The technology and the policies and procedures for its use that protect ePHI and control access to it. Examples include access controls (unique user IDs, automatic logoff), audit controls, integrity controls, and transmission security (encryption)."
+    },
+    {
+      "q": "What is the 'accounting of disclosures' right?",
+      "a": "Individuals have the right to receive a list of certain disclosures of their PHI made by the covered entity during the six years prior to the request (excluding disclosures for TPO, to the individual, pursuant to authorization, and certain other exceptions)."
+    },
+    {
+      "q": "What is a 'designated record set'?",
+      "a": "A group of records maintained by or for a covered entity that includes medical records, billing records, enrollment/payment/claims records, and any other records used to make decisions about individuals."
+    },
+    {
+      "q": "Under what circumstances can a covered entity deny a request to amend PHI?",
+      "a": "If the PHI was not created by the covered entity, is not part of the designated record set, is not available for access, or is accurate and complete."
+    },
+    {
+      "q": "What is a Privacy Act 'routine use'?",
+      "a": "A disclosure of a record for a purpose compatible with the purpose for which it was collected, as published in the SORN. It is the most commonly used exception allowing disclosure of Privacy Act records."
+    },
+    {
+      "q": "What should you do before emailing PHI?",
+      "a": "Verify the recipient's identity and need to know, ensure the email is encrypted if sent outside the organization's secure network, use the minimum necessary amount of PHI, and consider whether an alternative method of communication would be more secure."
+    },
+    {
+      "q": "What is the difference between 'use' and 'disclosure' of PHI?",
+      "a": "Use refers to sharing, employing, applying, utilizing, examining, or analyzing PHI within the entity that maintains it. Disclosure refers to the release, transfer, provision of access to, or divulging of PHI outside the covered entity."
+    },
+    {
+      "q": "Can PHI be disclosed for law enforcement purposes?",
+      "a": "Yes, in specific circumstances including: in response to a court order or subpoena, to identify or locate a suspect/fugitive/witness, about a victim of crime (with individual's agreement in most cases), about a death that may have resulted from criminal conduct, and about criminal conduct occurring on the premises."
+    },
+    {
+      "q": "What is the HITECH Act and how did it affect HIPAA?",
+      "a": "The Health Information Technology for Economic and Clinical Health Act (2009) expanded HIPAA enforcement, increased penalty amounts, extended breach notification requirements, and made business associates directly liable for HIPAA compliance."
+    },
+    {
+      "q": "What should you do if you receive a misdirected fax or email containing PHI?",
+      "a": "Notify the sender immediately, do not further use or disclose the information, and follow your facility's procedures for reporting the incident to your Privacy Officer."
+    },
+    {
+      "q": "What is 'protected health information' in the context of the Military Health System?",
+      "a": "Health information created or received by a military treatment facility (MTF), TRICARE, or other MHS component that relates to an individual's health condition, provision of health care, or payment for health care, and that identifies the individual or could reasonably be used to identify the individual."
+    },
+    {
+      "q": "Who can file a HIPAA complaint?",
+      "a": "Any person who believes that a covered entity or its business associate has violated HIPAA can file a complaint with the Office for Civil Rights (OCR) at HHS."
+    },
+    {
+      "q": "How long must HIPAA-related documentation be retained?",
+      "a": "Six years from the date of creation or the date when the document was last in effect, whichever is later."
+    },
+    {
+      "q": "What is 'unsecured PHI'?",
+      "a": "PHI that has not been rendered unusable, unreadable, or indecipherable to unauthorized individuals through the use of a technology or methodology specified by the Secretary of HHS (such as encryption or destruction)."
+    },
+    {
+      "q": "What are the four factors in a breach risk assessment?",
+      "a": "(1) The nature and extent of PHI involved, including types of identifiers and likelihood of re-identification; (2) The unauthorized person who used the PHI or to whom the disclosure was made; (3) Whether the PHI was actually acquired or viewed; (4) The extent to which the risk to the PHI has been mitigated."
+    },
+    {
+      "q": "Can PHI be used for research without individual authorization?",
+      "a": "Yes, under limited circumstances — if an Institutional Review Board (IRB) or Privacy Board grants a waiver of authorization, if the PHI is de-identified, or if it is part of a limited data set with a data use agreement."
+    },
+    {
+      "q": "What is the relationship between the Privacy Act and HIPAA in the DoD?",
+      "a": "Both laws apply simultaneously to DoD health care records. The Privacy Act covers all federal records about individuals, while HIPAA specifically covers health information. DoD must comply with both, applying whichever provides greater protection to the individual."
+    },
+    {
+      "q": "What are consequences for DoD personnel who violate HIPAA or the Privacy Act?",
+      "a": "Administrative actions (reprimand, suspension, removal), UCMJ action for military members, civil monetary penalties, and potential criminal prosecution."
+    }
+  ]
+}
