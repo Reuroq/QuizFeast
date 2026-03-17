@@ -1,0 +1,147 @@
+{
+  "category": "Accident Avoidance Course (AAC)",
+  "description": "Army Accident Avoidance Course covering the Smith System 5 Keys, defensive driving techniques, skid control, following distance, adverse weather driving, night driving, vehicle inspection (PMCS), and risk management for military vehicle operations.",
+  "icon": "🚗",
+  "questions": [
+    {
+      "q": "What are the 5 Keys of the Smith System of defensive driving?",
+      "a": "1) Aim High in Steering, 2) Get the Big Picture, 3) Keep Your Eyes Moving, 4) Leave Yourself an Out, 5) Make Sure They See You."
+    },
+    {
+      "q": "What is the mnemonic to remember the Smith System 5 Keys?",
+      "a": "'All Good Kids Like Milk' — Aim high, Get the big picture, Keep your eyes moving, Leave yourself an out, Make sure they see you."
+    },
+    {
+      "q": "What does 'Aim High in Steering' mean in the Smith System?",
+      "a": "Look well ahead of your vehicle — at least 15 seconds of eye-lead time — to see potential hazards early, allowing more time for decisions and actions."
+    },
+    {
+      "q": "What does 'Get the Big Picture' mean in the Smith System?",
+      "a": "Maintain awareness of the entire traffic environment around your vehicle, not just the road directly ahead. Fewer mistakes are made when you have the complete traffic picture."
+    },
+    {
+      "q": "What does 'Keep Your Eyes Moving' mean in the Smith System?",
+      "a": "Continuously scan the driving environment — check mirrors and gauges every 5 to 8 seconds. Proper scanning separates safe drivers from those who make costly errors."
+    },
+    {
+      "q": "What does 'Leave Yourself an Out' mean in the Smith System?",
+      "a": "Maintain adequate space around your vehicle at all times. Space is all that separates you from a collision — always have an escape route available."
+    },
+    {
+      "q": "What does 'Make Sure They See You' mean in the Smith System?",
+      "a": "Ensure other drivers are aware of your presence and intentions through proper use of turn signals, headlights, horn, and making eye contact when appropriate."
+    },
+    {
+      "q": "How often must personnel retake the Army Accident Avoidance Course?",
+      "a": "Every 4 years. The AAC certificate is valid for 4 years from completion."
+    },
+    {
+      "q": "Who is required to complete the Army Accident Avoidance Course?",
+      "a": "All Soldiers, civilian employees, and contractor employees who operate any Army-owned or leased vehicles."
+    },
+    {
+      "q": "What is PMCS?",
+      "a": "Preventive Maintenance Checks and Services — a systematic inspection of a military vehicle before, during, and after operation to ensure it is safe and mission-ready."
+    },
+    {
+      "q": "When should PMCS be performed?",
+      "a": "Before operation (before-operation checks), during operation (during-operation checks), and after operation (after-operation checks)."
+    },
+    {
+      "q": "What is the recommended following distance in normal driving conditions?",
+      "a": "At least 2-4 seconds behind the vehicle ahead. Use the 'two-second rule' as a minimum — pick a fixed object and count the time between when the lead vehicle passes it and when you pass it."
+    },
+    {
+      "q": "How should following distance be adjusted in adverse conditions?",
+      "a": "Increase following distance significantly — at least double in rain, and up to 10 times the normal distance on ice or snow."
+    },
+    {
+      "q": "What is the primary responsibility of an operator involved in a vehicle accident?",
+      "a": "Report the accident immediately through the chain of command, no matter how minor it appears."
+    },
+    {
+      "q": "What are the three main types of driver distraction?",
+      "a": "Visual (taking your eyes off the road), Manual (taking your hands off the wheel), and Cognitive (taking your mind off driving)."
+    },
+    {
+      "q": "What is the leading cause of traffic fatalities among military personnel?",
+      "a": "Privately owned vehicle (POV) accidents, often involving speeding, alcohol, fatigue, or failure to use seatbelts."
+    },
+    {
+      "q": "What risk factors contribute to vehicle accidents among military personnel?",
+      "a": "Speeding, alcohol consumption, fatigue, medications, distractions, aggressive driving, failure to use restraint systems, adverse environment, increased vehicle occupancy, and weekend/early morning driving."
+    },
+    {
+      "q": "What are the leading indicators of a high-risk driver?",
+      "a": "Age (18-25), gender (male), licensing status, history of traffic citations, and level of leader engagement."
+    },
+    {
+      "q": "What should you do if you experience a front-wheel skid?",
+      "a": "Remove your foot from the accelerator, do not brake, and look and steer in the direction you want to go. The vehicle will regain traction as speed decreases."
+    },
+    {
+      "q": "What should you do if you experience a rear-wheel skid?",
+      "a": "Take your foot off the brake and accelerator, then steer in the direction the rear of the vehicle is sliding (steer into the skid) until you regain traction."
+    },
+    {
+      "q": "What is hydroplaning?",
+      "a": "When a layer of water builds between the tires and road surface, causing the vehicle to lose traction. It can occur at speeds as low as 35 mph on wet roads."
+    },
+    {
+      "q": "How should you handle hydroplaning?",
+      "a": "Take your foot off the accelerator, do not brake suddenly, and steer straight ahead until you regain contact with the road surface."
+    },
+    {
+      "q": "What are key safety considerations for night driving?",
+      "a": "Reduce speed, increase following distance, use headlights properly, avoid staring at oncoming headlights (look to the right edge of the road), ensure clean windshield and working lights, and allow extra time for your eyes to adjust."
+    },
+    {
+      "q": "What is the proper technique for driving in fog?",
+      "a": "Use low-beam headlights (not high beams which cause glare), reduce speed, increase following distance, use fog lights if equipped, and avoid passing other vehicles."
+    },
+    {
+      "q": "What is the purpose of a vehicle ground guide?",
+      "a": "To safely direct a military vehicle during backing, parking, or operating in areas with limited visibility. The ground guide walks ahead of the vehicle and signals the driver."
+    },
+    {
+      "q": "What system is used to report Army vehicle accidents?",
+      "a": "The Army Accident Reporting System (REPORTIT)."
+    },
+    {
+      "q": "What is Composite Risk Management (CRM) in the context of vehicle operations?",
+      "a": "A five-step process to identify hazards, assess risks, develop controls, implement controls, and supervise/evaluate — applied to all driving operations to reduce accident risk."
+    },
+    {
+      "q": "What are the five steps of Composite Risk Management?",
+      "a": "1) Identify hazards, 2) Assess hazards, 3) Develop controls and make risk decisions, 4) Implement controls, 5) Supervise and evaluate."
+    },
+    {
+      "q": "What effect does fatigue have on driving ability?",
+      "a": "Fatigue impairs reaction time, judgment, and attention similar to alcohol impairment. Drowsy driving causes thousands of accidents annually. Drivers should stop and rest if fatigued."
+    },
+    {
+      "q": "What is the proper seatbelt policy for Army vehicles?",
+      "a": "All occupants of military and privately owned vehicles must wear seatbelts at all times when the vehicle is in motion. This is a mandatory Army regulation."
+    },
+    {
+      "q": "How does alcohol affect driving performance?",
+      "a": "Alcohol impairs judgment, reduces reaction time, decreases coordination, narrows peripheral vision, and creates a false sense of confidence. Even small amounts affect driving ability."
+    },
+    {
+      "q": "What should you do if a tire blows out while driving?",
+      "a": "Grip the steering wheel firmly, take your foot off the accelerator (do not brake), let the vehicle slow gradually, steer straight, then gently pull off the road when safe."
+    },
+    {
+      "q": "What is the safe procedure for driving through a curve?",
+      "a": "Slow down before entering the curve (not while in it), maintain a steady speed through the curve, and accelerate gently when exiting. Braking in a curve can cause loss of control."
+    },
+    {
+      "q": "What does 'eye-lead time' refer to in defensive driving?",
+      "a": "The distance ahead that a driver scans while driving — ideally 15 seconds ahead in highway driving and 4-6 seconds in city driving — to provide maximum time to identify and react to hazards."
+    },
+    {
+      "q": "How often should commanders conduct POV safety briefings?",
+      "a": "Quarterly, with emphasis on seasonal driving hazards, restraint systems, driving while fatigued, alcohol use, and speeding."
+    }
+  ]
+}

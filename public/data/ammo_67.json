@@ -1,0 +1,179 @@
+{
+  "category": "AMMO-67 HAZMAT Familiarization & Safety in Transport",
+  "description": "AMMO-67-DL course covering DOT hazard classes, proper shipping names, UN/NA numbers, placarding, shipping papers, emergency response, 49 CFR compliance, and military hazardous materials transportation requirements.",
+  "icon": "☢️",
+  "questions": [
+    {
+      "q": "What are the three types of hazmat transportation?",
+      "a": "Land (highway/rail), sea, and air."
+    },
+    {
+      "q": "What regulation governs the transportation of hazardous materials in the United States?",
+      "a": "49 CFR (Code of Federal Regulations), specifically Title 49 — Transportation."
+    },
+    {
+      "q": "What is the definition of a hazardous material (HAZMAT)?",
+      "a": "A substance or material capable of posing an unreasonable risk to health, safety, and property when transported in commerce, as designated by the Secretary of Transportation."
+    },
+    {
+      "q": "How many DOT hazard classes are there?",
+      "a": "Nine hazard classes."
+    },
+    {
+      "q": "What is DOT Hazard Class 1?",
+      "a": "Explosives — substances and articles that have a mass explosion hazard, projection hazard, fire hazard, or minor blast hazard."
+    },
+    {
+      "q": "What is DOT Hazard Class 2?",
+      "a": "Gases — including flammable gases (2.1), non-flammable compressed gases (2.2), and poisonous/toxic gases (2.3)."
+    },
+    {
+      "q": "What is DOT Hazard Class 3?",
+      "a": "Flammable liquids — liquids with a flash point of not more than 60 degrees Celsius (140 degrees Fahrenheit)."
+    },
+    {
+      "q": "What is DOT Hazard Class 4?",
+      "a": "Flammable solids (4.1), spontaneously combustible materials (4.2), and materials dangerous when wet (4.3)."
+    },
+    {
+      "q": "What is DOT Hazard Class 5?",
+      "a": "Oxidizers (5.1) and organic peroxides (5.2)."
+    },
+    {
+      "q": "What is DOT Hazard Class 6?",
+      "a": "Toxic/poisonous substances (6.1) and infectious substances (6.2)."
+    },
+    {
+      "q": "What is DOT Hazard Class 7?",
+      "a": "Radioactive materials."
+    },
+    {
+      "q": "What is DOT Hazard Class 8?",
+      "a": "Corrosive materials — substances that cause visible destruction or irreversible damage to living tissue or metal."
+    },
+    {
+      "q": "What is DOT Hazard Class 9?",
+      "a": "Miscellaneous hazardous materials — materials that present a hazard during transport but do not fit into any other hazard class (e.g., dry ice, magnetized materials, elevated temperature materials)."
+    },
+    {
+      "q": "What is a placard?",
+      "a": "A diamond-shaped sign displayed on all four sides of a transport vehicle or railcar to communicate the hazard class of the materials being transported to first responders."
+    },
+    {
+      "q": "Where must placards be displayed on a transport vehicle?",
+      "a": "On all four sides — front, back, and both sides of the vehicle or railcar."
+    },
+    {
+      "q": "Can more than one placard be displayed on a vehicle?",
+      "a": "Yes, more than one placard can be displayed if the vehicle contains materials from different hazard classes."
+    },
+    {
+      "q": "What is the purpose of shipping papers?",
+      "a": "To provide a basic description identifying the material's hazard class, proper shipping name, UN/NA identification number, and quantity being transported."
+    },
+    {
+      "q": "What is DD Form 2890?",
+      "a": "DOD Multimodal Dangerous Goods Declaration — the shipping paper used by the military for transporting hazardous materials by military or commercial vehicles."
+    },
+    {
+      "q": "What four elements make up the basic description on hazmat shipping papers?",
+      "a": "Identification number (UN/NA), proper shipping name, hazard class and division, and packing group."
+    },
+    {
+      "q": "What is the Emergency Response Guidebook (ERG)?",
+      "a": "A DOT publication that advises first responders (firefighters, police, EMS) on appropriate initial emergency response procedures for hazardous materials incidents."
+    },
+    {
+      "q": "What do the yellow-bordered pages in the ERG contain?",
+      "a": "A numerical index of four-digit UN/NA identification numbers cross-referenced to guide numbers."
+    },
+    {
+      "q": "What do the blue-bordered pages in the ERG contain?",
+      "a": "An alphabetical index of materials by proper shipping name, cross-referenced to guide numbers."
+    },
+    {
+      "q": "What do the orange-bordered pages in the ERG contain?",
+      "a": "Safety recommendations for fire, explosion, and health exposure, organized by guide number."
+    },
+    {
+      "q": "What do the green-bordered pages in the ERG contain?",
+      "a": "Initial isolation and protective action distances for materials that are highlighted in the yellow and blue pages."
+    },
+    {
+      "q": "What do the white pages in the ERG contain?",
+      "a": "Directions for using the ERG, general information on hazardous materials, and emergency response procedures."
+    },
+    {
+      "q": "What does the marking 'RQ' on a package indicate?",
+      "a": "Reportable Quantity — the material is a hazardous substance at or above the quantity that must be reported if released into the environment."
+    },
+    {
+      "q": "What is DD Form 626 used for?",
+      "a": "Motor Vehicle Inspection (Transporting Hazardous Materials) — used by QASAS or vehicle inspectors to verify driver documentation and inspect vehicles before and after loading with HAZMAT."
+    },
+    {
+      "q": "When is a vehicle inspected during hazmat transport operations?",
+      "a": "Three times: before loading, after loading, and before unloading."
+    },
+    {
+      "q": "What is a proper shipping name (PSN)?",
+      "a": "The standardized name listed in the Hazardous Materials Table (49 CFR 172.101) used to describe a hazardous material on shipping documents."
+    },
+    {
+      "q": "What are UN/NA identification numbers?",
+      "a": "Four-digit numbers assigned to hazardous materials: UN numbers are internationally recognized, NA numbers are used only in North America. They appear on shipping papers, packages, and placards."
+    },
+    {
+      "q": "What is a Safety Data Sheet (SDS)?",
+      "a": "A document that provides detailed information about a hazardous material's properties, health hazards, protective measures, safety precautions, and emergency procedures."
+    },
+    {
+      "q": "What is the Joint Hazard Classification System (JHCS)?",
+      "a": "A DOD system that provides hazard classification data sheets for military ammunition and explosives items."
+    },
+    {
+      "q": "What documents must accompany a hazmat shipment?",
+      "a": "DD Form 626, shipping papers (DD Form 2890), SDS or JHCS data sheet, a copy of the applicable ERG guide page, and 49 CFR Section 397.3 (Driving and Parking Rules)."
+    },
+    {
+      "q": "What are compatibility groups in hazmat transport?",
+      "a": "Letter designations (A through S) that identify which ammunition and explosive items can be safely transported together."
+    },
+    {
+      "q": "What label indicates a mass explosion hazard?",
+      "a": "Hazard Division 1.1 label — an orange diamond with an exploding bomb symbol and the number 1."
+    },
+    {
+      "q": "What are the four types of required HAZMAT training per 49 CFR 172.704?",
+      "a": "General awareness/familiarization, function-specific, safety, and security awareness training."
+    },
+    {
+      "q": "What is the purpose of 49 CFR Section 397.3?",
+      "a": "It establishes driving and parking rules for vehicles transporting hazardous materials, including requirements for attended vehicles, safe havens, and routing."
+    },
+    {
+      "q": "What is a 'HAZMAT employee' according to 49 CFR?",
+      "a": "Any person who directly affects hazardous materials transportation safety, including those who load, unload, handle, prepare for transport, manufacture, test, recondition, or transport hazardous materials."
+    },
+    {
+      "q": "How often must HAZMAT employees receive refresher training?",
+      "a": "At least once every three years, per 49 CFR 172.704(c)(2)."
+    },
+    {
+      "q": "What are packing groups and what do they indicate?",
+      "a": "Packing Groups I, II, and III indicate the degree of danger: PG I = great danger, PG II = medium danger, PG III = minor danger."
+    },
+    {
+      "q": "What is the placard for Class 9 miscellaneous hazardous materials?",
+      "a": "A white diamond with black vertical stripes on the upper half and the number 9 on the lower portion."
+    },
+    {
+      "q": "What markings are required on packages containing hazardous materials per MIL-STD-129?",
+      "a": "Proper shipping name, UN/NA identification number, hazard class labels, weight, consignee and consignor information, and any special handling instructions."
+    },
+    {
+      "q": "What is the Hazardous Materials Table?",
+      "a": "A table in 49 CFR 172.101 that lists hazardous materials along with their proper shipping names, hazard classes, identification numbers, packing groups, labels, and special provisions."
+    }
+  ]
+}

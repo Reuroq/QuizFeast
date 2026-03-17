@@ -1,0 +1,151 @@
+{
+  "category": "Acquisition Ethics (CLM 003 / ACQ 0030)",
+  "description": "DAU Overview of Acquisition Ethics covering the Procurement Integrity Act, conflicts of interest, gift rules, post-employment restrictions, and contractor ethics",
+  "icon": "scale",
+  "questions": [
+    {
+      "q": "What is the main goal of ethics for government acquisition professionals?",
+      "a": "The main goals are to maintain the confidence and support of the American people and to avoid even the appearance of impropriety in government acquisition activities."
+    },
+    {
+      "q": "What is the Procurement Integrity Act (PIA)?",
+      "a": "The Procurement Integrity Act (41 U.S.C. §2101-2107) prohibits the release of contractor bid or proposal information or source selection information to unauthorized persons, and restricts employment contacts with competing contractors during certain acquisitions."
+    },
+    {
+      "q": "Under the gift rules, what is the maximum value of an unsolicited gift a government employee may accept from a single outside source on a single occasion?",
+      "a": "A government employee may accept an unsolicited gift valued at $20 or less per source per occasion, provided the total value of gifts from that single source does not exceed $50 in a calendar year (per 5 CFR 2635)."
+    },
+    {
+      "q": "You are a government contracting officer and a contractor offers you a pen worth $8 and a coffee mug worth $10 at the same meeting. Can you accept both?",
+      "a": "Yes. The combined value is $18, which is under the $20 per-occasion limit. However, you must track the cumulative total from this source, which cannot exceed $50 for the calendar year."
+    },
+    {
+      "q": "A contractor invites you to a holiday party with food and refreshments. Under what exception might you attend?",
+      "a": "You may attend under the 'widely attended gathering' exception if your agency designee determines your attendance is in the agency's interest, the event is open to a broad group (not just government employees), and the sponsor has a legitimate interest in your attendance."
+    },
+    {
+      "q": "What must you do if a competing contractor contacts you about employment while you are involved in a procurement?",
+      "a": "You must immediately report the contact in writing to your supervisor and the designated agency ethics official. Failure to disclose an employment contact is a violation of the Procurement Integrity Act."
+    },
+    {
+      "q": "What are the post-employment restrictions under the Procurement Integrity Act?",
+      "a": "Former government officials who served as contracting officers, source selection authority, or evaluators on contracts over $10 million are prohibited from accepting compensation from the contractor for one year after leaving government service (sometimes called the 'revolving door' restriction)."
+    },
+    {
+      "q": "What is the lifetime ban under post-government employment restrictions?",
+      "a": "Under 18 U.S.C. §207(a)(1), former government employees are permanently banned from representing anyone before the government on the same particular matter in which they personally and substantially participated while in government service."
+    },
+    {
+      "q": "What is the two-year 'cooling off' restriction for former senior officials?",
+      "a": "Under 18 U.S.C. §207(c), former senior employees are prohibited for two years from making communications to or appearances before their former agency on any matter with the intent to influence, regardless of their prior involvement."
+    },
+    {
+      "q": "What is an Organizational Conflict of Interest (OCI)?",
+      "a": "An OCI exists when a contractor's work on one contract could give it an unfair competitive advantage in competing for another contract, or when its objectivity in performing work could be impaired by its relationships or financial interests."
+    },
+    {
+      "q": "What are the three types of Organizational Conflicts of Interest?",
+      "a": "The three types are: (1) Unequal access to information — a contractor has access to nonpublic information; (2) Biased ground rules — a contractor sets the requirements for a future competition it may enter; (3) Impaired objectivity — a contractor evaluates its own work or that of a competitor."
+    },
+    {
+      "q": "A government Program Manager suspects that a contractor's test results are inaccurate. What should the PM do?",
+      "a": "The PM should report the concern up the chain of command to the Contracting Officer. The PM should not confront the contractor directly or attempt to independently verify the data outside proper channels."
+    },
+    {
+      "q": "What is the Anti-Kickback Act?",
+      "a": "The Anti-Kickback Act (41 U.S.C. Chapter 87) prohibits any person from providing or accepting kickbacks — money, fees, gifts, or anything of value — for the purpose of improperly obtaining or rewarding favorable treatment in connection with a government prime contract or subcontract."
+    },
+    {
+      "q": "What are the penalties for violating the Anti-Kickback Act?",
+      "a": "Penalties include criminal prosecution with up to 10 years imprisonment and fines up to $250,000 (or twice the kickback amount), civil penalties of twice the amount of each kickback, contract rescission, suspension, and debarment."
+    },
+    {
+      "q": "What ethical value requires you to report progress accurately, even if the news is unfavorable?",
+      "a": "Candor. Government acquisition professionals have an obligation to be truthful and forthcoming in their dealings, including reporting accurate progress information even when it reflects poorly on the program."
+    },
+    {
+      "q": "What regulation governs the Standards of Ethical Conduct for Employees of the Executive Branch?",
+      "a": "5 CFR Part 2635 (Standards of Ethical Conduct for Employees of the Executive Branch) establishes the ethics rules for all executive branch employees, including gift rules, conflicting financial interests, impartiality, misuse of position, and outside activities."
+    },
+    {
+      "q": "You are writing a report on program progress and know the program is behind schedule. Your supervisor wants you to make it look better. What should you do?",
+      "a": "You must report the status accurately and honestly. The ethical value of candor requires truthful reporting. Misrepresenting program status could constitute fraud and violates the duty of honest reporting to Congress and the public."
+    },
+    {
+      "q": "Can a government employee accept a gift from a contractor who is a personal friend?",
+      "a": "Possibly. Under the personal relationship exception, a gift may be accepted if it is clear the gift is motivated by the personal relationship rather than the official position, based on factors like the history of the relationship, whether the friend paid personally, and whether similar gifts have been exchanged."
+    },
+    {
+      "q": "What is 'source selection information' under the Procurement Integrity Act?",
+      "a": "Source selection information includes bid prices, proposed costs or prices, source selection plans, technical evaluation plans, evaluator rankings, reports, and any information marked as source selection sensitive. Unauthorized disclosure is a criminal offense."
+    },
+    {
+      "q": "What is 'contractor bid or proposal information' under the Procurement Integrity Act?",
+      "a": "It includes cost or pricing data, indirect costs and direct labor rates, proprietary information marked by the contractor, and information marked as contractor bid or proposal information. Unauthorized disclosure is prohibited."
+    },
+    {
+      "q": "A retired military colonel joins a defense contractor 6 months after retirement. What restrictions apply?",
+      "a": "The colonel is subject to: (1) a lifetime ban on representing anyone on matters he personally and substantially participated in; (2) a two-year ban on representing anyone on matters pending under his responsibility in his last year; and (3) if a senior official, a one- or two-year cooling-off period from contacting his former agency."
+    },
+    {
+      "q": "What is a 'covered DoD official' under procurement integrity rules?",
+      "a": "A covered DoD official includes any person who personally made a decision to award, extend, modify, or administer a contract, or served on a source selection board, and was involved in a contract valued over $10 million. These officials face additional post-employment restrictions."
+    },
+    {
+      "q": "If a government employee discovers a contractor providing gifts to influence a contract award, what should they report?",
+      "a": "The employee should report the suspected bribery or gratuity violation to the Inspector General, the Contracting Officer, and their supervisor. Acceptance of bribes or gratuities by government personnel is a criminal offense under 18 U.S.C. §201."
+    },
+    {
+      "q": "What does the principle of 'impartiality' require of government acquisition employees?",
+      "a": "Impartiality requires that employees act without giving preferential treatment to any private organization or individual. Employees must not participate in matters where their impartiality could reasonably be questioned due to personal relationships or financial interests."
+    },
+    {
+      "q": "Can a government acquisition professional accept free training from a contractor?",
+      "a": "Generally no, as it would constitute a gift from a prohibited source. However, exceptions may apply if the training qualifies under the widely attended gathering exception, is approved by the agency ethics official, or falls under specific statutory training authorities."
+    },
+    {
+      "q": "What should a Contracting Officer do if they learn a contractor employee has access to source selection information?",
+      "a": "The Contracting Officer should immediately report the unauthorized access to the agency head, assess whether the procurement has been compromised, consider whether to cancel the procurement, and refer the matter to the Inspector General for investigation."
+    },
+    {
+      "q": "What is the government-wide ethics regulation that covers misuse of position?",
+      "a": "5 CFR 2635 Subpart G prohibits government employees from using their official position for private gain, endorsing products or organizations, using nonpublic information for personal benefit, or using government property or time for unauthorized purposes."
+    },
+    {
+      "q": "A government employee wins a door prize at a conference sponsored by a contractor. May they keep it?",
+      "a": "Generally yes, if the prize was offered to all attendees through a random drawing and is not targeted specifically at the government employee. However, if the prize has significant value, the employee should consult their ethics official."
+    },
+    {
+      "q": "What is the purpose of a mitigation plan for Organizational Conflicts of Interest?",
+      "a": "A mitigation plan establishes firewalls, restrictions, and safeguards to prevent a contractor from gaining unfair advantages or having impaired objectivity. It may include information barriers, personnel screening, and independent oversight to manage identified conflicts."
+    },
+    {
+      "q": "Under what circumstances can a contracting officer waive an Organizational Conflict of Interest?",
+      "a": "An OCI waiver may be granted by the agency head or designee when the conflict is unavoidable, mitigation is not feasible, and the waiver is in the best interest of the government. The waiver must be documented in the contract file with a full explanation of the circumstances."
+    },
+    {
+      "q": "What ethical obligation do contractor employees working alongside government employees have?",
+      "a": "Contractor employees must follow their company's code of ethics, avoid conflicts of interest, protect government information, report suspected fraud or abuse, and avoid even the appearance of impropriety. They are also subject to the False Claims Act and Anti-Kickback Act."
+    },
+    {
+      "q": "A government employee is offered a $15 lunch by a contractor during a business meeting. Can they accept?",
+      "a": "Yes, a $15 lunch falls under the $20 de minimis gift exception. However, the employee must ensure the cumulative gifts from that source do not exceed $50 in the calendar year, and that accepting does not create an appearance of impropriety."
+    },
+    {
+      "q": "What is the Federal Acquisition Regulation (FAR) subpart that addresses contractor ethics?",
+      "a": "FAR Subpart 3.10 requires contractors with contracts over $5.5 million and performance periods over 120 days to have a written code of business ethics and conduct, an internal control system, and to make employees aware of the ethics program."
+    },
+    {
+      "q": "What is the Contractor Code of Business Ethics and Conduct requirement?",
+      "a": "Under FAR 52.203-13, contractors must have a written code of ethics, establish an ongoing business ethics awareness and compliance program, create an internal control system to detect improper conduct, and timely disclose violations to the Inspector General."
+    },
+    {
+      "q": "What happens if a government employee fails to report an employment contact from a contractor during a procurement?",
+      "a": "Failure to report is a violation of the Procurement Integrity Act and can result in criminal penalties (up to 5 years imprisonment and fines), civil penalties (up to $100,000 per violation), administrative actions, and cancellation of the procurement."
+    },
+    {
+      "q": "What are the 14 General Principles of Ethical Conduct for government employees?",
+      "a": "Key principles include: public service is a public trust; employees shall not hold financial interests that conflict with duty; shall not engage in financial transactions using nonpublic information; shall act impartially; shall not use position for private gain; shall protect government property; and shall disclose fraud, waste, and abuse."
+    }
+  ]
+}

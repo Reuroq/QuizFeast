@@ -1,0 +1,147 @@
+{
+  "category": "Marking Classified Information (IF105.16)",
+  "description": "CDSE Marking Special Categories of Classified Information covering portion markings, banner markings, classification authority blocks, CUI, working papers, and transmittal documents",
+  "icon": "stamp",
+  "questions": [
+    {
+      "q": "What is the purpose of marking classified information?",
+      "a": "Marking serves to: (1) Alert the holder to the presence of classified information, (2) Identify the specific information that needs protection, (3) Identify the level of classification, (4) Indicate who classified the document and why, and (5) Provide guidance for downgrading or declassification."
+    },
+    {
+      "q": "What are portion markings?",
+      "a": "Portion markings identify the classification level of individual sections (paragraphs, subparagraphs, titles, subjects, graphics, etc.) of a document. They are placed at the beginning of each portion using abbreviations: (TS) for Top Secret, (S) for Secret, (C) for Confidential, and (U) for Unclassified."
+    },
+    {
+      "q": "What are banner markings?",
+      "a": "Banner markings (also called overall markings) appear at the top and bottom of each page. They reflect the highest classification level of any portion on that page and must be conspicuous enough to alert anyone handling the document to the presence of classified information."
+    },
+    {
+      "q": "How should banner markings be formatted?",
+      "a": "Banner markings must be in all capital letters, in English only, with no abbreviations of the classification level. They should be centered at the top and bottom of each page. For example: TOP SECRET, SECRET, or CONFIDENTIAL."
+    },
+    {
+      "q": "What is the Classification Authority Block?",
+      "a": "The Classification Authority Block is a set of markings that identifies: (1) Who classified the information ('Classified by' or 'Derived from' line), (2) The reason for classification ('Reason' line, for original classification only), and (3) How long the information must remain classified ('Declassify on' line)."
+    },
+    {
+      "q": "What is the difference between original classification and derivative classification?",
+      "a": "Original classification is the initial determination that information requires protection against unauthorized disclosure. Derivative classification is the incorporating, paraphrasing, restating, or generating information in a new form based on existing classified source material or a security classification guide (SCG)."
+    },
+    {
+      "q": "What appears on the 'Classified by' line?",
+      "a": "For originally classified documents, the 'Classified by' line shows the name and position (or personal identifier) of the Original Classification Authority (OCA) who made the classification decision."
+    },
+    {
+      "q": "What appears on the 'Derived from' line?",
+      "a": "For derivatively classified documents, the 'Derived from' line identifies the source document(s) or security classification guide used. If multiple sources were used, the line reads 'Multiple Sources' and a source list must be maintained with the record copy."
+    },
+    {
+      "q": "What appears on the 'Declassify on' line?",
+      "a": "The 'Declassify on' line indicates when the information will be declassified. Options include a specific date, a specific event, or an exemption marking (such as '25X1' through '25X9'). The maximum duration for original classification is 25 years from the date of the original decision unless an exemption applies."
+    },
+    {
+      "q": "What is the 'Reason' line in the Classification Authority Block?",
+      "a": "The 'Reason' line is required only for originally classified documents. It identifies the specific reason(s) for classification as listed in Section 1.4 of Executive Order 13526, such as 'military plans' or 'intelligence activities.'"
+    },
+    {
+      "q": "When deriving classification from multiple sources, what declassification instruction should be used?",
+      "a": "When deriving classification from multiple sources with different declassification instructions, use the MOST RESTRICTIVE declassification instruction. This means the latest declassification date or the most restrictive exemption among all source materials."
+    },
+    {
+      "q": "How should a transmittal document be marked if it does not contain classified information itself?",
+      "a": "If the transmittal letter itself does not contain classified information, no portion markings or Classification Authority Block are required. However, banner markings ARE required and must reflect the highest classification level of the attachment(s). Include the statement: 'UNCLASSIFIED WHEN SEPARATED FROM CLASSIFIED ENCLOSURES.'"
+    },
+    {
+      "q": "How should a transmittal document be marked if it contains classified information?",
+      "a": "If the transmittal document contains classified information, it must be fully marked with banner markings, portion markings, and a Classification Authority Block, just like any other classified document. The banner marking reflects the highest level of either the transmittal or its enclosures."
+    },
+    {
+      "q": "What are the marking requirements for working papers?",
+      "a": "Working papers must be: (1) Dated when created, (2) Marked with banner markings at the top and bottom, (3) Annotated 'WORKING PAPER' in the classification authority block, and (4) Marked with portion markings if practicable. When taking notes at a classified meeting, include the date, banner markings, and the 'Working Paper' annotation."
+    },
+    {
+      "q": "When must working papers be finalized or destroyed?",
+      "a": "Working papers must be finalized (given full and proper markings as a finished document) or destroyed when no longer needed, when they are shared outside the originating activity, or within 180 days of creation."
+    },
+    {
+      "q": "What is CUI and how does it differ from classified information?",
+      "a": "CUI (Controlled Unclassified Information) is information that requires safeguarding but does not meet the standards for classification. CUI markings use 'CUI' banners (not classification levels), have different handling requirements, and are governed by 32 CFR Part 2002 rather than EO 13526."
+    },
+    {
+      "q": "What markings are required on the front cover of a classified document?",
+      "a": "The front cover requires: the overall classification level (banner marking) at the top and bottom, any applicable control markings or caveats, and the Classification Authority Block. If there is a title, it should also have a portion marking."
+    },
+    {
+      "q": "What markings are required on interior pages of a classified document?",
+      "a": "Interior pages require: banner markings at the top and bottom reflecting the highest classification of any portion on that page, portion markings on each paragraph/section, and page numbers."
+    },
+    {
+      "q": "How should subject/title lines be marked?",
+      "a": "Subject and title lines must be portion-marked to reflect the classification of the title itself. The portion marking appears before the subject or title text, for example: '(S) Operation Eagle Strike.'"
+    },
+    {
+      "q": "What is downgrading and how is it marked?",
+      "a": "Downgrading is reducing the classification level of information (e.g., from Top Secret to Secret). When downgrading is authorized, the Classification Authority Block must include downgrade instructions, such as 'Downgrade to SECRET on [date].' The document must then be remarked accordingly when the downgrade takes effect."
+    },
+    {
+      "q": "What is the process for regrading classified information?",
+      "a": "Regrading involves changing the classification level of information (up or down). It can only be done by the Original Classification Authority or a successor. When regraded, all markings must be updated and all holders of the document must be notified of the change."
+    },
+    {
+      "q": "How should classified email be marked?",
+      "a": "Classified email must include: banner markings in the subject line and body (top and bottom), portion markings on each paragraph, a Classification Authority Block, and the overall classification level. The subject line itself must be portion-marked."
+    },
+    {
+      "q": "What are dissemination control markings?",
+      "a": "Dissemination control markings restrict distribution of classified information beyond standard classification. Examples include NOFORN (not releasable to foreign nationals), REL TO (releasable to specified countries), and ORCON (dissemination controlled by originator). These appear in the banner line after the classification level."
+    },
+    {
+      "q": "How should classified briefing slides or presentations be marked?",
+      "a": "Each slide must have banner markings at the top and bottom, and each text block, bullet point, or graphic must be portion-marked. The overall classification of the presentation must appear on the first and last slides, along with the Classification Authority Block."
+    },
+    {
+      "q": "What happens when technology that was originally classified becomes obsolete?",
+      "a": "When classified technology becomes obsolete and no longer threatens national security, the Original Classification Authority should declassify the information. The OCA reviews the classification to determine if it still meets the standards for classification."
+    },
+    {
+      "q": "What are the three levels of classification?",
+      "a": "The three levels are: (1) Top Secret - unauthorized disclosure could cause exceptionally grave damage to national security, (2) Secret - unauthorized disclosure could cause serious damage, and (3) Confidential - unauthorized disclosure could cause damage to national security."
+    },
+    {
+      "q": "Who can be an Original Classification Authority (OCA)?",
+      "a": "Only officials specifically designated in writing by the President, Vice President, or agency heads can serve as OCAs. This authority cannot be delegated to contractors. OCAs must receive training before originally classifying information and annually thereafter."
+    },
+    {
+      "q": "What is a Security Classification Guide (SCG)?",
+      "a": "An SCG is a document issued by an OCA that identifies the elements of information regarding a specific program, plan, weapon system, or project that must be classified. It is the primary source document for derivative classifiers to determine proper markings."
+    },
+    {
+      "q": "How should classified documents be marked when they contain Restricted Data (RD) or Formerly Restricted Data (FRD)?",
+      "a": "Documents containing RD or FRD require additional markings per the Atomic Energy Act. The banner must include 'RESTRICTED DATA' or 'FORMERLY RESTRICTED DATA.' If a Declassify On date appears but the document contains RD/FRD, add: 'Not applicable to RD/FRD portions.'"
+    },
+    {
+      "q": "What are the marking requirements for classified photographs or images?",
+      "a": "Classified photographs must have the overall classification marked on the front or back. If multiple images are in a series, each must be individually marked. When a photograph is an attachment to a document, the document's markings should reflect the classification of the photograph."
+    },
+    {
+      "q": "How should classified information in a database or information system be marked?",
+      "a": "Classified data in information systems must have portion markings applied to individual data fields where feasible, and the system must display banner-equivalent markings when data is retrieved or displayed. The system's overall classification level must be clearly posted."
+    },
+    {
+      "q": "What is the responsibility of a derivative classifier?",
+      "a": "A derivative classifier must: determine the source material is properly marked, apply current classification markings based on source documents or SCGs, carry forward the most restrictive markings from all sources, and complete the Classification Authority Block with a 'Derived from' line."
+    },
+    {
+      "q": "How should unmarked classified material be handled?",
+      "a": "If you encounter classified information that is not properly marked, protect it at the highest level you believe it could be, notify the originator or your security manager immediately, and do not attempt to mark it yourself unless you are an authorized derivative classifier with access to the source material."
+    },
+    {
+      "q": "What are the consequences of improperly marking classified information?",
+      "a": "Improper marking can lead to unauthorized disclosure (spills), failure to protect sensitive information, loss of classified material, security violations, administrative actions, or criminal penalties depending on the severity and circumstances."
+    },
+    {
+      "q": "How often must derivative classifiers receive training?",
+      "a": "Derivative classifiers must receive training prior to derivatively classifying information and at least once every two years thereafter. Training covers proper marking, the use of SCGs, and the responsibilities of derivative classifiers."
+    }
+  ]
+}

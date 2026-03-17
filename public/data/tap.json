@@ -1,0 +1,175 @@
+{
+  "category": "Transition Assistance Program (TAP)",
+  "description": "SFL-TAP / TGPS training covering pre-separation counseling, Individual Transition Plans, VA benefits, resume writing, financial planning, GI Bill, and Career Readiness Standards",
+  "icon": "briefcase",
+  "questions": [
+    {
+      "q": "What Army regulation covers the Soldier for Life - Transition Assistance Program (SFL-TAP)?",
+      "a": "AR 600-81 governs the Soldier for Life - Transition Assistance Program (SFL-TAP)."
+    },
+    {
+      "q": "What does the acronym TGPS stand for in the context of military transition?",
+      "a": "Transition GPS stands for Goals, Plans, Success. It was the former name of the TAP curriculum before DoD stopped using the TGPS designation in September 2019."
+    },
+    {
+      "q": "What is the DD Form 2648?",
+      "a": "DD Form 2648 is the Pre-Separation/Transition Counseling and Career Readiness Standards eForm. It documents that a service member has received pre-separation counseling and tracks completion of Career Readiness Standards."
+    },
+    {
+      "q": "What law mandated that all separating service members must participate in TAP?",
+      "a": "The VOW to Hire Heroes Act of 2011 mandated that all eligible transitioning service members participate in pre-separation counseling, a DOL employment workshop, and VA benefits briefings."
+    },
+    {
+      "q": "How early should a service member begin the TAP process, and what is the latest they can start?",
+      "a": "Service members should begin the TAP process between 24 and 12 months prior to separation, but no later than 90 days before separation or retirement."
+    },
+    {
+      "q": "What is the Individual Transition Plan (ITP)?",
+      "a": "The ITP is a step-by-step plan that outlines a service member's post-military personal and professional goals and objectives. It is a living document that can be modified at any time and helps organize the transition into manageable tasks with a timeline."
+    },
+    {
+      "q": "What is the Capstone event in the TAP process?",
+      "a": "Capstone is the culminating event where commanders verify a service member's TAP compliance, achievement of Career Readiness Standards (CRS), and ensures the member has a viable Individual Transition Plan. It should be completed no earlier than 12 months and no later than 90 days before separation."
+    },
+    {
+      "q": "What is a 'warm handover' in the TAP process?",
+      "a": "A warm handover is a referral provided to service members who do not meet Career Readiness Standards. A transition counselor or commander connects the service member directly to a non-DoD agency (such as the VA) or a local/state resource to ensure continued support after separation."
+    },
+    {
+      "q": "What are Career Readiness Standards (CRS)?",
+      "a": "Career Readiness Standards are specific benchmarks that service members must meet before separation, including having a completed ITP, a 12-month post-separation financial plan, a job, acceptance to an education or training program, or an active eBenefits/VA.gov account. Members who cannot meet CRS receive a warm handover."
+    },
+    {
+      "q": "What is the VMET document and where can service members obtain it?",
+      "a": "VMET stands for Verification of Military Experience and Training. It documents a service member's military experience and training in civilian terms. Service members can obtain it through the DoD TAP website (dodtap.mil)."
+    },
+    {
+      "q": "What is the Joint Services Transcript (JST)?",
+      "a": "The JST is an academically accepted document approved by the American Council on Education (ACE) that translates military training, experience, and MOS into equivalent college credit recommendations. It replaced the former AARTS and SMART transcripts."
+    },
+    {
+      "q": "What are the mandatory components of the TAP curriculum?",
+      "a": "The mandatory components include: (1) Pre-separation/transition counseling, (2) Department of Labor Employment Workshop (DOLEW), (3) VA Benefits Briefings I and II, (4) Financial planning seminar, and (5) Capstone verification event."
+    },
+    {
+      "q": "What optional 2-day tracks are available as part of TAP?",
+      "a": "Three optional 2-day tracks are available: (1) Accessing Higher Education track for those pursuing college, (2) Career Technical Training track for vocational/trade paths, and (3) Entrepreneurship track (Boots to Business) for starting a business."
+    },
+    {
+      "q": "What is the Boots to Business (B2B) program?",
+      "a": "Boots to Business is the entrepreneurship track within TAP, offered by the Small Business Administration (SBA). It provides an introduction to business ownership and teaches participants how to develop a business plan, including a Revenue Readiness course."
+    },
+    {
+      "q": "What does the Department of Labor Employment Workshop (DOLEW) cover?",
+      "a": "The DOLEW is a 3-day mandatory workshop covering resume preparation, job search techniques, interview skills, salary negotiation, and understanding labor market information. It teaches service members how to translate military skills into civilian employment terms."
+    },
+    {
+      "q": "What is the purpose of the pre-separation counseling checklist?",
+      "a": "The pre-separation counseling checklist (DD Form 2648) provides an overview of all programs and services available during transition. It ensures service members are informed about education, employment, financial management, health and wellbeing, relocation, housing, VA benefits, and legal affairs."
+    },
+    {
+      "q": "Who is responsible for ensuring a service member meets Career Readiness Standards?",
+      "a": "The service member's commander (or commander's designee) is responsible for verifying that the service member meets Career Readiness Standards during the Capstone event. If standards are not met, the commander ensures a warm handover is executed."
+    },
+    {
+      "q": "What GI Bill benefit allows service members to transfer education benefits to dependents?",
+      "a": "The Post-9/11 GI Bill (Chapter 33) allows service members with at least 6 years of service to transfer unused education benefits to their spouse or dependent children, provided they commit to an additional 4 years of service."
+    },
+    {
+      "q": "What is the difference between the Post-9/11 GI Bill and the Montgomery GI Bill?",
+      "a": "The Post-9/11 GI Bill (Chapter 33) provides tuition and fees paid directly to the school, a monthly housing allowance, and a books/supplies stipend. The Montgomery GI Bill (Chapter 30) provides a flat monthly payment to the veteran. Post-9/11 benefits are generally more generous and cover up to 36 months of education."
+    },
+    {
+      "q": "What VA benefit should a service member file for before separating?",
+      "a": "Service members should file a Benefits Delivery at Discharge (BDD) claim with the VA for disability compensation between 180 and 90 days before separation. Filing before separation can speed up the claims process significantly."
+    },
+    {
+      "q": "What is the purpose of the VA Benefits Briefing I?",
+      "a": "VA Benefits Briefing I covers VA disability compensation, how to file claims, the rating process, available healthcare through the VA, and how to enroll in VA healthcare. It ensures service members understand the benefits they have earned."
+    },
+    {
+      "q": "What is the purpose of the VA Benefits Briefing II?",
+      "a": "VA Benefits Briefing II covers education benefits (GI Bill options), VA home loan guaranty, vocational rehabilitation and employment (VR&E/Chapter 31), life insurance options (SGLI to VGLI conversion), and other VA programs and resources."
+    },
+    {
+      "q": "What is the financial planning seminar in TAP designed to accomplish?",
+      "a": "The financial planning seminar helps service members develop a 12-month post-separation budget, understand their financial situation, manage debt, plan for healthcare costs, and build an emergency fund. Creating a viable financial plan is one of the Career Readiness Standards."
+    },
+    {
+      "q": "What was the former name of SFL-TAP before it was rebranded?",
+      "a": "SFL-TAP was formerly known as ACAP (Army Career and Alumni Program). It was rebranded to emphasize the 'Soldier for Life' concept and align with the comprehensive transition support mandated by the VOW to Hire Heroes Act."
+    },
+    {
+      "q": "What is eBenefits and why is it important for transitioning service members?",
+      "a": "eBenefits (now transitioning to VA.gov) is the online portal where veterans and service members can manage VA benefits, file disability claims, check claim status, apply for education benefits, and access other VA services. Having an active account is one of the Career Readiness Standards."
+    },
+    {
+      "q": "When should a service member register on eBenefits/VA.gov?",
+      "a": "Service members should register on eBenefits/VA.gov as early as possible in the transition process, ideally during the initial pre-separation counseling. An active registration is one of the Career Readiness Standards verified at Capstone."
+    },
+    {
+      "q": "What is the TRICARE Transitional Health Coverage for separating service members?",
+      "a": "Transitional health coverage provides 180 days of continued TRICARE coverage after separation for service members and their families. Service members must register within the proper timeframe to avoid a gap in healthcare coverage."
+    },
+    {
+      "q": "What does a resume Gap Analysis identify during the DOL Employment Workshop?",
+      "a": "A Gap Analysis identifies the difference between a service member's current skills, education, and experience versus what civilian employers require. It helps identify additional training, certifications, or education needed to be competitive in the civilian job market."
+    },
+    {
+      "q": "What is the Military Lifecycle Transition Model?",
+      "a": "The Military Lifecycle Transition Model integrates transition preparation throughout a service member's career rather than waiting until the end. It includes touchpoints at initial entry, first permanent duty station, and annually thereafter, building career readiness over time."
+    },
+    {
+      "q": "What is a federal resume and how does it differ from a civilian resume?",
+      "a": "A federal resume is a detailed document used when applying for government positions through USAJobs.gov. Unlike a civilian resume (1-2 pages), a federal resume is typically 3-5 pages and must include specific details like supervisor names, hours worked per week, salary, and detailed descriptions of duties with KSAs (Knowledge, Skills, and Abilities)."
+    },
+    {
+      "q": "What service does the Transition Assistance Advisor (TAA) provide?",
+      "a": "Transition Assistance Advisors provide one-on-one guidance to service members and their families throughout the transition process. They help with ITP development, identify resources, track CRS completion, and provide warm handovers when needed."
+    },
+    {
+      "q": "What is SGLI and what happens to it after separation?",
+      "a": "Servicemembers' Group Life Insurance (SGLI) provides up to $500,000 in life insurance coverage. After separation, SGLI coverage continues for 120 days at no cost. Service members can then convert to Veterans' Group Life Insurance (VGLI) without a medical exam if they apply within 240 days of separation."
+    },
+    {
+      "q": "What is the VOW Act and how does it affect transition?",
+      "a": "The VOW (Veterans Opportunity to Work) to Hire Heroes Act of 2011 made TAP attendance mandatory for all eligible separating service members, established Career Readiness Standards, and created the requirement for commanders to verify compliance at Capstone."
+    },
+    {
+      "q": "What is the Transition Assistance Program's relationship to the Department of Labor?",
+      "a": "The Department of Labor provides the Employment Workshop (DOLEW), which is a mandatory 3-day component of TAP. DOL also provides career exploration tools, labor market information, and the American Job Center network to help veterans find employment."
+    },
+    {
+      "q": "What are American Job Centers (formerly One-Stop Career Centers)?",
+      "a": "American Job Centers are community-based locations that provide free employment services to veterans and other job seekers. Services include job search assistance, resume help, career counseling, training referrals, and priority of service for veterans."
+    },
+    {
+      "q": "What priority of service do veterans receive at American Job Centers?",
+      "a": "Veterans and eligible spouses receive priority of service at American Job Centers under the Jobs for Veterans Act. This means they are given priority access to employment, training, and placement services over non-veteran applicants."
+    },
+    {
+      "q": "What is the Higher Education track in TAP designed to help with?",
+      "a": "The 2-day Higher Education track helps service members develop a plan for college or university education, research schools, understand the admissions process, navigate GI Bill funding options, and evaluate whether programs meet accreditation and quality standards."
+    },
+    {
+      "q": "What is the Veterans Employment and Training Service (VETS)?",
+      "a": "VETS is the Department of Labor agency that administers employment and training programs for veterans. VETS oversees the DOLEW component of TAP and funds Disabled Veterans' Outreach Program (DVOP) specialists and Local Veterans' Employment Representatives (LVERs)."
+    },
+    {
+      "q": "What is a Disabled Veterans' Outreach Program (DVOP) specialist?",
+      "a": "DVOP specialists are Department of Labor staff located at American Job Centers who provide intensive employment services specifically to veterans with significant barriers to employment, including those with service-connected disabilities."
+    },
+    {
+      "q": "How does TAP help service members translate military skills to civilian terms?",
+      "a": "TAP uses tools like the VMET document, Joint Services Transcript (JST), O*NET military crosswalk, and the DOL Employment Workshop resume-building exercises to help service members translate their military occupational specialties, training, and experience into civilian-equivalent language."
+    },
+    {
+      "q": "What is the Capstone commander's checklist used for?",
+      "a": "The Capstone commander's checklist verifies that a service member has completed all mandatory TAP components, met Career Readiness Standards, has a viable ITP, and is prepared for transition. If standards are not met, the checklist documents warm handover referrals to appropriate agencies."
+    },
+    {
+      "q": "What is the Transition Assistance Program's 'My Transition' online course?",
+      "a": "My Transition is a self-paced online course available through Joint Knowledge Online (JKO) that covers transition planning fundamentals. It includes a post-course quiz and can be completed as part of the pre-separation preparation, particularly useful for service members at remote locations."
+    }
+  ]
+}

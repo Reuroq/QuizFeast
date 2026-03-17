@@ -1,0 +1,147 @@
+{
+  "category": "Concussion/TBI Training",
+  "description": "Military concussion and traumatic brain injury training covering TBI classification, MACE 2 assessment, progressive return to activity, symptoms, and reporting requirements",
+  "icon": "brain",
+  "questions": [
+    {
+      "q": "What is a concussion (mild Traumatic Brain Injury)?",
+      "a": "A concussion is a brain injury caused by a blow, bump, or jolt to the head, or by a hit to the body that causes the head and brain to move rapidly back and forth. It is classified as a mild TBI and may occur with or without loss of consciousness."
+    },
+    {
+      "q": "What are the three classifications of Traumatic Brain Injury?",
+      "a": "TBI is classified as: (1) Mild (concussion) - alteration of consciousness less than 24 hours, loss of consciousness less than 30 minutes, post-traumatic amnesia less than 24 hours; (2) Moderate - loss of consciousness 30 minutes to 24 hours, PTA 1-7 days; (3) Severe - loss of consciousness greater than 24 hours, PTA greater than 7 days."
+    },
+    {
+      "q": "What does MACE 2 stand for and what is its purpose?",
+      "a": "MACE 2 stands for Military Acute Concussion Evaluation Version 2. It is a multimodal assessment tool that assists medical providers in the evaluation and diagnosis of concussion. It should be administered as close to the time of injury as possible."
+    },
+    {
+      "q": "Who can administer the MACE 2?",
+      "a": "The MACE 2 is designed for use by all medically trained personnel who treat Service Members with a suspected concussion, including physicians, physician assistants, nurse practitioners, and combat medics."
+    },
+    {
+      "q": "True or False: All blows to the head result in a concussion.",
+      "a": "False. Not all blows to the head result in a concussion. A concussion occurs only when the force is sufficient to cause the brain to move within the skull, resulting in an alteration of brain function."
+    },
+    {
+      "q": "What are common symptoms of a concussion?",
+      "a": "Common symptoms include headache, dizziness, confusion, blurred vision, sensitivity to light or noise, ringing in the ears, balance difficulty, nausea, difficulty concentrating, memory problems, irritability, and fatigue."
+    },
+    {
+      "q": "True or False: A concussion may occur with or without loss of consciousness.",
+      "a": "True. A concussion may occur with or without loss of consciousness. In fact, the majority of concussions do not involve loss of consciousness."
+    },
+    {
+      "q": "What are observable signs that someone may have a concussion?",
+      "a": "Observable signs include: blank or vacant stare, lying motionless on the ground, slow to get up after a blow to the head, disorientation, confusion, heavy or unsteady breathing, inability to respond to questions, and unequal pupil size."
+    },
+    {
+      "q": "In a deployed setting, who requires immediate evaluation and at least 24 hours of rest?",
+      "a": "Service members who were within 50 meters of a blast, sustained a direct blow to the head, were involved in a vehicle crash or rollover, or who exhibit any symptoms of concussion require immediate evaluation and a minimum 24-hour rest period."
+    },
+    {
+      "q": "When should a Service Member return to full duty after a concussion?",
+      "a": "A Service Member should return to full duty only when their medical provider clears them. The provider uses the Progressive Return to Activity (PRA) protocol to make this determination."
+    },
+    {
+      "q": "What is the Progressive Return to Activity (PRA)?",
+      "a": "The PRA is a six-step protocol that guides the gradual return to full duty after a concussion. Each step must be completed without worsening symptoms before advancing to the next. The earliest a Service Member can return to full duty is seven days post-injury."
+    },
+    {
+      "q": "What happens if symptoms worsen during a PRA step?",
+      "a": "If symptoms worsen during an activity or there are new symptoms, the Service Member should stop the activity and return to relative rest. They remain at the current PRA stage for an additional 24 hours before reattempting. If symptoms persist, medical reevaluation is needed."
+    },
+    {
+      "q": "What are the criteria for advancing through PRA stages?",
+      "a": "To advance to the next PRA stage, symptoms must be the same as or better than the previous day AND there must be no new symptoms. If either condition is not met, the Service Member stays at the current stage."
+    },
+    {
+      "q": "What are red flag symptoms requiring immediate medical evacuation?",
+      "a": "Red flag symptoms include: worsening headache, repeated vomiting, seizures, weakness or numbness in limbs, slurred speech, inability to recognize people or places, increasing confusion, loss of consciousness, unequal pupils, and clear fluid draining from nose or ears."
+    },
+    {
+      "q": "What are the risks of sustaining multiple concussions?",
+      "a": "Recovery may take longer for subsequent concussions. You are at greater risk of sustaining another concussion after the first. Symptoms may be more severe with multiple concussions. Repeated concussions may lead to long-term neurological problems including Chronic Traumatic Encephalopathy (CTE)."
+    },
+    {
+      "q": "What is second-impact syndrome?",
+      "a": "Second-impact syndrome occurs when a person sustains a second concussion before fully recovering from the first. This can cause rapid and severe brain swelling that can be fatal. It is the primary reason why return-to-activity protocols must be followed carefully."
+    },
+    {
+      "q": "What activities should be avoided during the first 24 hours after a concussion?",
+      "a": "Avoid drinking alcohol, vigorous physical activity (running, sports, skiing), cognitively demanding tasks (crossword puzzles, detailed reports), screen time, and operating vehicles or heavy equipment. Focus on rest, hydration, and adequate sleep (8+ hours)."
+    },
+    {
+      "q": "How can concussion impact a Service Member's performance?",
+      "a": "Concussion can cause unusual mistakes, increased falling or tripping, irritability and mood changes, slowed reaction time, difficulty following orders, impaired decision-making, and poor coordination -- all of which compromise mission effectiveness and safety."
+    },
+    {
+      "q": "What should you do if a peer refuses medical evaluation after a head impact?",
+      "a": "Encourage them to seek immediate medical evaluation. Explain the risks of untreated concussion including prolonged recovery and second-impact syndrome. If they still refuse, notify your chain of command or a medic. Leaders have the authority to direct medical evaluation."
+    },
+    {
+      "q": "What is the leader's responsibility when a Service Member sustains a head injury during training?",
+      "a": "The leader should immediately remove the Service Member from activity, have them assessed by a medic or medical provider, ensure they are not left alone, document the incident, and follow the medical provider's recommendations for return to duty."
+    },
+    {
+      "q": "Where should you go for information and resources about concussion management?",
+      "a": "Visit the DVBIC (Defense and Veterans Brain Injury Center), now known as the TBI Center of Excellence (TBICoE) website, for information, resources, and clinical tools related to concussion management."
+    },
+    {
+      "q": "What causes concussions in the military?",
+      "a": "Common causes include blast exposure from IEDs or explosions, vehicle crashes and rollovers, falls, direct blows to the head during training or combat, and sports or recreational activities. Blast exposure is the leading cause in deployed environments."
+    },
+    {
+      "q": "How is the Orientation section of the MACE 2 scored?",
+      "a": "The Orientation section awards one point for each correctly answered question, with a maximum possible score of 5 points. Questions assess the Service Member's awareness of month, date, day of week, time, and year."
+    },
+    {
+      "q": "How is the Delayed Recall section of the MACE 2 scored?",
+      "a": "To earn a score of 5/5 on Delayed Recall, the Service Member must remember all of the presented words in any order. One point is awarded for each correctly recalled word."
+    },
+    {
+      "q": "What is the VOMS component of the MACE 2?",
+      "a": "VOMS stands for Vestibular/Ocular-Motor Screening. It assesses eye movements and balance. During VOMS, headache, dizziness, nausea, and fogginess (HDNF) are recorded as one aggregate score, not individually."
+    },
+    {
+      "q": "What historical factors are assessed in the MACE 2?",
+      "a": "History assessments include: history of migraines, history of anxiety, previous concussions during the past 12 months, and medications currently being taken. These factors may affect symptom presentation and recovery timeline."
+    },
+    {
+      "q": "True or False: Gender of the Service Member should be considered in the results of the MACE 2.",
+      "a": "False. Gender should NOT be considered in interpreting the results of the MACE 2. The assessment is scored and interpreted the same way regardless of the Service Member's gender."
+    },
+    {
+      "q": "What is the typical recovery timeline for most concussions?",
+      "a": "Most Service Members fully recover from a concussion within 2-4 weeks with proper care. During this time, they are treated primarily by their primary care manager. With early diagnosis and treatment, most can return to duty quickly."
+    },
+    {
+      "q": "Why is early diagnosis and treatment of concussion important?",
+      "a": "Early diagnosis and treatment can shorten recovery time, prevent complications like second-impact syndrome, reduce risk of prolonged symptoms, and allow the Service Member to return to duty more quickly. Delays in treatment can lead to chronic symptom development and extended healing."
+    },
+    {
+      "q": "What symptoms are NOT typically associated with concussion?",
+      "a": "Cough, increased appetite, and fever are NOT typical concussion symptoms. These symptoms may indicate other conditions and should still be evaluated by medical personnel."
+    },
+    {
+      "q": "What is an uncommon cause of concussion?",
+      "a": "Swimming is NOT a common cause of concussion. Common causes include blasts, vehicle crashes, falls, and direct blows to the head."
+    },
+    {
+      "q": "What should happen if an untreated concussion persists?",
+      "a": "Untreated concussions can compromise mission effectiveness, lead to extended healing times, and result in chronic symptom development including persistent headaches, cognitive difficulties, mood disorders, and sleep disturbances."
+    },
+    {
+      "q": "True or False: All concussed individuals will show symptoms immediately.",
+      "a": "False. Symptoms may be delayed hours or even days after the injury. This is why it is important to monitor anyone who has sustained a potential concussive event, even if they initially appear fine."
+    },
+    {
+      "q": "What are the reporting requirements for concussion in the military?",
+      "a": "All suspected concussions must be reported to the chain of command and documented in the Service Member's medical record. In deployed settings, the event must be reported in the post-deployment health assessment (PDHA). Commanders must track all concussive events within their units."
+    },
+    {
+      "q": "What long-term effects can result from repeated concussions?",
+      "a": "Long-term effects include Chronic Traumatic Encephalopathy (CTE), chronic headaches, depression, memory and cognitive impairment, sleep disorders, personality changes, increased risk of neurodegenerative diseases, and difficulty with emotional regulation."
+    }
+  ]
+}

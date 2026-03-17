@@ -1,0 +1,167 @@
+{
+  "category": "Derivative Classification (IF103.16)",
+  "description": "CDSE Derivative Classification training covering the process and methods for derivatively classifying information, Security Classification Guides, portion marking, and classification management",
+  "icon": "lock",
+  "questions": [
+    {
+      "q": "What is derivative classification?",
+      "a": "Derivative classification is the incorporating, paraphrasing, restating, or generating in new form information that is already classified, and marking the newly developed material consistent with the classification markings that apply to the source information."
+    },
+    {
+      "q": "When derivatively classifying information, where can you find a listing of specific information elements that identify their classification, reason for classification, downgrading, and declassification information?",
+      "a": "The Security Classification Guide (SCG). An SCG is a collection of precise, comprehensive guidance about specific program, system, operation, or weapon system elements of information to be classified."
+    },
+    {
+      "q": "What are the authorized sources for derivative classification?",
+      "a": "There are three authorized sources: Security Classification Guides (SCGs), properly marked source documents, and DD Form 254 (Contract Security Classification Specification)."
+    },
+    {
+      "q": "All of the following are steps in derivative classification EXCEPT:",
+      "a": "Making recommendations for others to mark the new document is NOT a step in derivative classification. The actual steps are: identify the source, determine the classification level, apply the appropriate markings, and carry forward declassification instructions."
+    },
+    {
+      "q": "What is the difference between original classification and derivative classification?",
+      "a": "Original classification is an initial determination that information requires protection in the interest of national security, made only by individuals with Original Classification Authority (OCA). Derivative classification uses existing classified information to create new documents — anyone with proper clearance, access, and training can perform derivative classification."
+    },
+    {
+      "q": "What is the 'contained in' concept?",
+      "a": "The 'contained in' concept applies when classified information is extracted directly (word-for-word or in substance) from an authorized source and placed into a new document. No additional interpretation or analysis is needed to determine the classification."
+    },
+    {
+      "q": "What is the 'revealed by' concept?",
+      "a": "The 'revealed by' concept applies when a reader can deduce or infer classified information by performing additional interpretation or analysis of the new document, even though the classified information was not directly stated."
+    },
+    {
+      "q": "What is compilation?",
+      "a": "Compilation is the concept that individually unclassified items of information, when combined or associated together, may reveal an additional association or relationship that warrants classification. The compiled information may be classified at a higher level than the individual pieces."
+    },
+    {
+      "q": "What information must appear on the 'Classified by' line of a derivatively classified document?",
+      "a": "The name and position, or personal identifier, of the derivative classifier. This identifies who performed the derivative classification action."
+    },
+    {
+      "q": "What information must appear on the 'Derived from' line?",
+      "a": "The source(s) of classification — either the Security Classification Guide, the specific source document(s), or 'Multiple Sources' if using more than one source. If using multiple sources, a source list must be maintained with the file or record copy."
+    },
+    {
+      "q": "What are the three classification levels?",
+      "a": "Confidential (unauthorized disclosure could cause damage to national security), Secret (unauthorized disclosure could cause serious damage to national security), and Top Secret (unauthorized disclosure could cause exceptionally grave damage to national security)."
+    },
+    {
+      "q": "What is portion marking?",
+      "a": "Portion marking is the practice of marking each portion (paragraph, section, title, subject line, etc.) of a classified document with the appropriate classification level abbreviation: (TS) for Top Secret, (S) for Secret, (C) for Confidential, and (U) for Unclassified."
+    },
+    {
+      "q": "How often must derivative classifiers receive training?",
+      "a": "Derivative classifiers must receive training at least every two years. Training must address the proper safeguarding of classified information, classification management, and the principles of derivative classification."
+    },
+    {
+      "q": "What should you do if you find a conflict between two classification sources?",
+      "a": "Apply the more restrictive classification marking and consult your security manager or the Original Classification Authority (OCA) to resolve the conflict. Do not downgrade the classification on your own."
+    },
+    {
+      "q": "What is the overall (banner) classification marking?",
+      "a": "The highest classification level of any portion within the document. It is placed at the top and bottom of each page. For example, if a document contains both Secret and Unclassified portions, the banner marking is SECRET."
+    },
+    {
+      "q": "What is a classification challenge?",
+      "a": "The right of any authorized holder of classified information to formally challenge the classification of that information if they believe it is improperly classified (over-classified or under-classified). Individuals may not be penalized for making a classification challenge."
+    },
+    {
+      "q": "What are the declassification instructions that must appear on derivatively classified documents?",
+      "a": "The 'Declassify on' line must carry forward the declassification date or event from the source. If multiple sources have different dates, use the longest duration. If the source is marked with a 25-year date (25X), carry that forward."
+    },
+    {
+      "q": "What is 'generating' in derivative classification?",
+      "a": "Generating is producing classified information in a new form or medium, such as converting a classified document into a video, DVD, CD, or other format. The new material must be marked consistent with the source classification."
+    },
+    {
+      "q": "Who has Original Classification Authority (OCA)?",
+      "a": "Only officials specifically designated in writing by the President, Vice President, or agency heads and officials delegated this authority. OCA must be held by a U.S. Government official occupying a position with the authority to make original classification decisions."
+    },
+    {
+      "q": "What is a Security Classification Guide (SCG)?",
+      "a": "A document issued by an Original Classification Authority that provides derivative classifiers with specific guidance on the classification of a system, plan, program, project, or mission. It identifies the elements of information regarding the subject that must be classified."
+    },
+    {
+      "q": "What is the DD Form 254?",
+      "a": "The Contract Security Classification Specification, which is the primary means for communicating security classification guidance to contractors. It identifies the classified access requirements for a classified contract."
+    },
+    {
+      "q": "All of the following are responsibilities of derivative classifiers EXCEPT:",
+      "a": "Having original classification authority is NOT a responsibility of derivative classifiers. Their responsibilities include: observing and respecting original classification decisions, carrying forward classification markings, applying proper markings, and using authorized sources."
+    },
+    {
+      "q": "What must you do before creating a derivatively classified document?",
+      "a": "Ensure you have proper security clearance at or above the level of the information, a need-to-know for the information, access to authorized classification guidance (SCG, source documents, or DD Form 254), and current derivative classification training."
+    },
+    {
+      "q": "What are the consequences of improperly classifying information?",
+      "a": "Over-classification wastes resources and impedes information sharing. Under-classification may expose national security information to unauthorized disclosure. Both can result in sanctions including reprimand, suspension, or loss of classification authority."
+    },
+    {
+      "q": "When multiple sources are used for derivative classification, what should the 'Derived from' line state?",
+      "a": "'Multiple Sources.' When citing multiple sources, a listing of all sources must be included on or attached to the document, or maintained with the file or record copy."
+    },
+    {
+      "q": "What is the 'Declassify on' line used for?",
+      "a": "To indicate when the classified information can be declassified. It carries forward the declassification date or event from the source material. Only OCAs can establish original declassification dates."
+    },
+    {
+      "q": "What is the purpose of the 'Reason' line on a classified document?",
+      "a": "The 'Reason' line identifies the reason for the original classification as specified in Section 1.4 of Executive Order 13526. Derivative classifiers do NOT include a 'Reason' line — it appears only on originally classified documents."
+    },
+    {
+      "q": "True or False: Derivative classifiers can upgrade the classification of information beyond what is stated in the source.",
+      "a": "False. Derivative classifiers must carry forward the classification as determined by the OCA. Only an OCA can change the classification level of information. If you believe information should be classified differently, use the classification challenge process."
+    },
+    {
+      "q": "What marking is used for unclassified portions within a classified document?",
+      "a": "(U) is used to mark unclassified portions within a classified document. This allows readers to quickly identify which portions contain classified information and which do not."
+    },
+    {
+      "q": "What is the purpose of Executive Order 13526?",
+      "a": "Executive Order 13526, signed December 29, 2009, establishes the framework for the classification, safeguarding, and declassification of national security information. It defines classification levels, principles, authorities, and procedures."
+    },
+    {
+      "q": "What are the marking requirements for emails containing classified information?",
+      "a": "The subject line must include the highest classification level in parentheses, e.g., (S). Each portion of the email body must be portion-marked. The overall classification banner must appear at the top and bottom. The 'Classified by' and 'Derived from' lines must be included."
+    },
+    {
+      "q": "What is 'tentative classification'?",
+      "a": "When a derivative classifier is uncertain about the classification of information and cannot resolve it through available guidance, they should apply the more restrictive classification tentatively and seek clarification from the OCA or security manager as soon as possible."
+    },
+    {
+      "q": "What action should you take if you discover classified information in an unclassified document?",
+      "a": "Immediately protect the document as classified at the appropriate level, notify your security manager, and do not further distribute the document until proper classification review is completed."
+    },
+    {
+      "q": "How should classified information from a Foreign Government be handled?",
+      "a": "Foreign Government Information (FGI) must be classified at least at the Confidential level and may not be declassified without the originating government's consent. FGI markings must be carried forward in derivative classification."
+    },
+    {
+      "q": "What is the 'Date of Origin' on a classified document?",
+      "a": "The date the document was created. It is used in conjunction with the declassification instructions to determine when information may be declassified. The date of origin is a required marking on all classified documents."
+    },
+    {
+      "q": "What is the role of the Information Security Oversight Office (ISOO)?",
+      "a": "ISOO oversees the government-wide security classification system, monitors agency compliance with classification policies, reports to the President, and issues implementing directives for Executive Order 13526."
+    },
+    {
+      "q": "What is the significance of '25X' in declassification markings?",
+      "a": "25X indicates that the information is exempt from automatic declassification at 25 years per one of the exemption categories in Section 3.3(b) of Executive Order 13526. It must include the specific exemption number, such as 25X1 for human intelligence sources."
+    },
+    {
+      "q": "Can classified information be transmitted via unclassified email?",
+      "a": "No. Classified information must never be transmitted via unclassified email systems. It must only be sent through information systems approved for the appropriate classification level, such as SIPRNet for Secret or JWICS for Top Secret."
+    },
+    {
+      "q": "What is a 'classified addendum'?",
+      "a": "A supplemental section attached to an otherwise unclassified document that contains classified information. The addendum is marked and handled at the classified level, while the base document remains unclassified when separated from the addendum."
+    },
+    {
+      "q": "What passing score is required on the IF103.16 exam?",
+      "a": "A passing score of 75% on the final exam is required. Successful completion satisfies the requirement for derivative classification training, which must be renewed every two years."
+    }
+  ]
+}

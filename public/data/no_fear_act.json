@@ -1,0 +1,183 @@
+{
+  "category": "No FEAR Act Training (JS-US012)",
+  "description": "Joint Staff No FEAR Act training covering antidiscrimination, whistleblower protections, EEO complaint process, prohibited personnel practices, and agency accountability",
+  "icon": "scale",
+  "questions": [
+    {
+      "q": "May complaints filed with the Office of Special Counsel be submitted by mail?",
+      "a": "True. Complaints of prohibited personnel practices may be filed with the Office of Special Counsel by mail, as well as online or by fax."
+    },
+    {
+      "q": "What is reprisal according to the Civil Service Reform Act?",
+      "a": "Retaliation against an individual who has engaged in activity protected under federal antidiscrimination and whistleblower protection laws."
+    },
+    {
+      "q": "Must appeals be filed with the MSPB within 30 days of the effective date of the personnel action?",
+      "a": "True. Appeals to the Merit Systems Protection Board must be filed within 30 days of the effective date of the personnel action being challenged."
+    },
+    {
+      "q": "Which of the following is NOT a prohibited personnel practice?",
+      "a": "Considering employment recommendations based on personal knowledge in a hiring action. All other options — such as nepotism, retaliation, and discrimination — are prohibited personnel practices."
+    },
+    {
+      "q": "What proactive actions can leadership, management, and supervisors take to prevent unlawful discrimination?",
+      "a": "All are correct: take appropriate action to resolve issues and document them; take complaints seriously and investigate thoroughly; contact the EEO office for guidance; and ensure all workplace policies, practices, and behaviors are fair."
+    },
+    {
+      "q": "Is the Office of Special Counsel an independent federal agency that investigates complaints of prohibited personnel practices under the Civil Service Reform Act of 1978?",
+      "a": "True. The OSC is an independent federal agency whose basic mission is to guard against prohibited personnel practices in the federal workplace, with special emphasis on protecting government whistleblowers."
+    },
+    {
+      "q": "What is the purpose of the Merit Systems Protection Board (MSPB)?",
+      "a": "To protect federal merit systems against partisan political and other prohibited personnel practices and to ensure adequate protection for employees against abuses by agency management."
+    },
+    {
+      "q": "What is a benefit of a model EEO program?",
+      "a": "All of the answers are correct — a model EEO program increases workplace fairness, builds employee trust and morale, reduces complaints, and improves organizational effectiveness."
+    },
+    {
+      "q": "What does Management Directive 715 provide to Federal agencies?",
+      "a": "MD-715 provides guidance and standards for establishing and maintaining effective affirmative programs of equal employment opportunity and eliminating barriers to equality in the workplace."
+    },
+    {
+      "q": "What is the No FEAR Act?",
+      "a": "The Notification and Federal Employee Antidiscrimination and Retaliation Act of 2002, which became effective October 1, 2003. It imposes duties on federal agencies to provide work environments free of discrimination and retaliation."
+    },
+    {
+      "q": "Under the No FEAR Act, each Federal agency is required to submit its antidiscrimination data how often?",
+      "a": "Annually. Federal agencies must submit annual reports to Congress containing data about discrimination and whistleblower cases within 180 days of the end of each fiscal year."
+    },
+    {
+      "q": "Title VII of the Civil Rights Act of 1964 prohibits employment discrimination on the basis of what?",
+      "a": "Race, color, national origin, sex, or religion, and in reprisal for prior protected activity."
+    },
+    {
+      "q": "How often must employees receive No FEAR Act training?",
+      "a": "At least every two years. New employees must receive training within 90 days of their entry on duty."
+    },
+    {
+      "q": "Within how many calendar days must an individual contact the EEO office to file an EEO complaint?",
+      "a": "45 calendar days from the date the individual knew or should have known about the alleged discriminatory act, or within 45 days of the effective date of a personnel action."
+    },
+    {
+      "q": "What are the five main obligations the No FEAR Act places on federal agencies?",
+      "a": "1) Reimburse the Judgment Fund for discrimination/retaliation payments; 2) Provide annual notice to employees about rights and remedies; 3) Conduct training every two years; 4) Submit annual reports to Congress; 5) Post quarterly statistical data on public websites."
+    },
+    {
+      "q": "What information must agencies post on their public websites under the No FEAR Act?",
+      "a": "Complaint numbers, number of filers, bases and issues, processing timelines, findings of discrimination, pending complaints, and data on untimely investigations — both current and five-year historical data, updated quarterly."
+    },
+    {
+      "q": "Which of the following describes the purpose of the Equal Employment Opportunity Commission (EEOC)?",
+      "a": "The EEOC enforces all federal laws prohibiting employment discrimination, reprisal, or retaliation, and provides oversight and coordination of all federal equal employment opportunity regulations, practices, and policies."
+    },
+    {
+      "q": "Under the No FEAR Act, if a federal agency loses or settles a discrimination case, who pays?",
+      "a": "The agency must reimburse the Judgment Fund from its own budget. This holds agencies financially accountable for discrimination and retaliation and encourages proactive prevention."
+    },
+    {
+      "q": "What is the Age Discrimination in Employment Act (ADEA)?",
+      "a": "The ADEA prohibits employment discrimination against persons 40 years of age or older. It protects both employees and job applicants in federal employment."
+    },
+    {
+      "q": "What protections does the Rehabilitation Act of 1973 provide?",
+      "a": "The Rehabilitation Act prohibits discrimination against qualified individuals with disabilities in federal employment and requires agencies to provide reasonable accommodations unless doing so would cause undue hardship."
+    },
+    {
+      "q": "What is the Whistleblower Protection Act (WPA)?",
+      "a": "The WPA prohibits federal agency retaliation against employees or applicants who disclose violations of law, rule, or regulation; gross mismanagement; gross waste of funds; abuse of authority; or substantial and specific danger to public health or safety."
+    },
+    {
+      "q": "What role does the Office of Special Counsel (OSC) play in whistleblower protections?",
+      "a": "The OSC receives and investigates allegations of prohibited personnel practices, especially retaliation against whistleblowers. It can seek corrective and disciplinary action before the MSPB."
+    },
+    {
+      "q": "What are prohibited personnel practices?",
+      "a": "Actions by federal employees with authority over personnel decisions that violate merit system principles, including discrimination, nepotism, reprisal for whistleblowing, obstruction of competition, and violations of veterans' preference."
+    },
+    {
+      "q": "How many prohibited personnel practices are identified in the Civil Service Reform Act?",
+      "a": "There are 14 prohibited personnel practices defined in 5 U.S.C. 2302(b), including discrimination, retaliation for whistleblowing, nepotism, obstruction of competition, and violations of merit system principles."
+    },
+    {
+      "q": "Can a federal employee file a complaint with both the EEO office and the Office of Special Counsel?",
+      "a": "Yes. Federal employees may file with the agency EEO office for discrimination complaints and with the OSC for prohibited personnel practices, including whistleblower retaliation, though they cover different types of violations."
+    },
+    {
+      "q": "What is an adverse personnel action?",
+      "a": "An action that negatively affects employment, including removal, suspension, demotion, reduction in grade or pay, furlough of 30 days or less, or other significant changes in duties or working conditions."
+    },
+    {
+      "q": "What should you do if you believe you are being retaliated against for whistleblowing?",
+      "a": "File a complaint with the Office of Special Counsel (OSC). You may also file an Individual Right of Action (IRA) appeal with the MSPB if the OSC does not seek corrective action within 120 days."
+    },
+    {
+      "q": "What does the term 'reprisal' mean in the context of federal employment?",
+      "a": "Reprisal is taking or threatening to take an adverse personnel action against an employee because of their protected activity, such as filing an EEO complaint, participating in an EEO process, or engaging in whistleblowing."
+    },
+    {
+      "q": "What is the difference between formal and informal EEO complaints?",
+      "a": "The informal stage involves pre-complaint counseling within 45 days of the discriminatory act, lasting up to 30 days (extendable to 90 with ADR). The formal stage begins when a written complaint is filed within 15 days of receiving the counselor's notice."
+    },
+    {
+      "q": "What is Alternative Dispute Resolution (ADR) in the EEO process?",
+      "a": "ADR includes processes such as mediation that allow parties to resolve disputes without a formal investigation or hearing. Agencies must offer ADR during the pre-complaint (informal) stage."
+    },
+    {
+      "q": "What protections exist under the Equal Pay Act?",
+      "a": "The Equal Pay Act requires that men and women in the same workplace receive equal pay for equal work. The jobs need not be identical, but must be substantially equal in skill, effort, responsibility, and working conditions."
+    },
+    {
+      "q": "What is the Genetic Information Nondiscrimination Act (GINA)?",
+      "a": "GINA prohibits employment discrimination based on genetic information, including family medical history, genetic test results, and requests for or receipt of genetic services."
+    },
+    {
+      "q": "What is a hostile work environment?",
+      "a": "A hostile work environment exists when unwelcome conduct based on a protected category is sufficiently severe or pervasive to alter the conditions of employment and create an abusive working environment."
+    },
+    {
+      "q": "What constitutes sexual harassment under federal law?",
+      "a": "Unwelcome sexual advances, requests for sexual favors, and other verbal or physical conduct of a sexual nature when: submission is made a condition of employment (quid pro quo), submission or rejection affects employment decisions, or the conduct creates a hostile work environment."
+    },
+    {
+      "q": "What responsibility do supervisors have under the No FEAR Act?",
+      "a": "Supervisors must model appropriate behavior, take complaints seriously, address harassment and discrimination promptly, cooperate with EEO investigations, prevent retaliation against complainants, and ensure a fair and equitable workplace."
+    },
+    {
+      "q": "Can a federal employee be disciplined for engaging in discriminatory conduct?",
+      "a": "Yes. Federal agencies must take appropriate disciplinary action against employees who engage in discrimination or retaliation, which may include reprimand, suspension, demotion, or removal."
+    },
+    {
+      "q": "What happens if a supervisor fails to act on a report of harassment?",
+      "a": "The supervisor and the agency may be held liable. Agencies can be held strictly liable for harassment by supervisors that results in a tangible employment action, and for creating or tolerating a hostile work environment."
+    },
+    {
+      "q": "What is the role of the EEOC in the federal complaint process?",
+      "a": "The EEOC provides oversight of federal sector EEO programs, adjudicates appeals of agency final decisions, conducts hearings through administrative judges, and issues guidance on antidiscrimination laws."
+    },
+    {
+      "q": "What does the No FEAR Act require agencies to report to Congress?",
+      "a": "Annual reports including: the number and status of discrimination cases; amounts paid from the Judgment Fund; number of employees disciplined for discrimination or retaliation; descriptions of policies to prevent violations; and analysis of trends."
+    },
+    {
+      "q": "What is the purpose of posting No FEAR Act data on agency websites?",
+      "a": "To ensure transparency and public accountability. The data allows employees, applicants, and the public to see how an agency handles discrimination and whistleblower complaints, encouraging agencies to proactively address problems."
+    },
+    {
+      "q": "True or False: The No FEAR Act only protects current federal employees.",
+      "a": "False. The No FEAR Act protects current employees, former employees, and applicants for federal employment from discrimination and retaliation."
+    },
+    {
+      "q": "What is the Pregnant Workers Fairness Act (PWFA) and how does it relate to federal employment protections?",
+      "a": "The PWFA requires covered employers, including federal agencies, to provide reasonable accommodations for qualified employees with known limitations related to pregnancy, childbirth, or related medical conditions, unless the accommodation causes undue hardship."
+    },
+    {
+      "q": "What are the merit system principles?",
+      "a": "Principles in 5 U.S.C. 2301 including: recruit from all segments of society; fair and equitable treatment; equal pay for equal work; high standards of integrity and conduct; efficient use of the workforce; retain or separate based on performance; educate and train employees; protect from arbitrary action; and protect whistleblowers."
+    },
+    {
+      "q": "What is the timeline for filing an appeal with the MSPB?",
+      "a": "An appeal must be filed within 30 days of the effective date of the personnel action, or 30 days after the date of receipt of the agency's decision, whichever is later."
+    }
+  ]
+}

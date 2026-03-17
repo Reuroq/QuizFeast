@@ -1,0 +1,151 @@
+{
+  "category": "Environmental Awareness / RCRA Training",
+  "description": "Environmental compliance training covering RCRA hazardous waste management, generator categories, waste labeling, storage rules, spill reporting, CERCLA, EPCRA, and pollution prevention",
+  "icon": "leaf",
+  "questions": [
+    {
+      "q": "What does RCRA stand for and what is its purpose?",
+      "a": "RCRA stands for the Resource Conservation and Recovery Act. It is the federal law that creates the framework for proper management of hazardous and non-hazardous solid waste. RCRA gives the EPA authority to control hazardous waste from generation to final disposal ('cradle to grave')."
+    },
+    {
+      "q": "What are the four characteristics used to identify hazardous waste?",
+      "a": "The four characteristics are: (1) Ignitability — flash point below 140°F, (2) Corrosivity — pH less than or equal to 2, or greater than or equal to 12.5, (3) Reactivity — unstable, explosive, or reacts violently with water, (4) Toxicity — contains specific contaminants above regulatory levels as determined by the TCLP test."
+    },
+    {
+      "q": "What are the three categories of hazardous waste generators under RCRA?",
+      "a": "The three categories are: (1) Very Small Quantity Generator (VSQG) — generates 100 kg or less per month, (2) Small Quantity Generator (SQG) — generates more than 100 kg but less than 1,000 kg per month, (3) Large Quantity Generator (LQG) — generates 1,000 kg or more per month."
+    },
+    {
+      "q": "What is the '90-day rule' for Large Quantity Generators?",
+      "a": "Large Quantity Generators (LQGs) may accumulate hazardous waste on-site for up to 90 days without a RCRA storage permit. After 90 days, the waste must be shipped to a permitted treatment, storage, or disposal facility (TSDF). A 30-day extension may be granted for unforeseen circumstances."
+    },
+    {
+      "q": "How long can a Small Quantity Generator store hazardous waste on-site?",
+      "a": "SQGs may accumulate hazardous waste on-site for up to 180 days (or 270 days if the waste must be shipped more than 200 miles to a TSDF). The total quantity on-site must never exceed 6,000 kilograms."
+    },
+    {
+      "q": "What information must appear on a hazardous waste container label?",
+      "a": "Labels must include: the words 'HAZARDOUS WASTE,' the generator's name and address, the EPA waste code(s), the accumulation start date, the composition/physical state of the waste, and the hazard(s) of the waste (e.g., ignitable, corrosive, reactive, toxic)."
+    },
+    {
+      "q": "When does the accumulation start date begin on a hazardous waste container?",
+      "a": "The accumulation start date begins when the first drop of waste is placed into the container. This date must be clearly marked on the label and is used to calculate compliance with the 90-day (LQG), 180-day (SQG), or applicable storage time limit."
+    },
+    {
+      "q": "What is satellite accumulation?",
+      "a": "Satellite accumulation allows generators to accumulate up to 55 gallons of hazardous waste (or 1 quart of acutely hazardous waste) at or near the point of generation under the control of the operator. Once the limit is reached, the waste must be moved to the main accumulation area within 3 days and the 90/180-day clock begins."
+    },
+    {
+      "q": "What is an EPA Identification Number and who needs one?",
+      "a": "An EPA ID number is a unique 12-character identifier assigned to each hazardous waste generator, transporter, and treatment/storage/disposal facility. All generators (except VSQGs in some states) must obtain an EPA ID number before treating, storing, transporting, or disposing of hazardous waste."
+    },
+    {
+      "q": "What is a hazardous waste manifest?",
+      "a": "The Uniform Hazardous Waste Manifest (EPA Form 8700-22) is a shipping document that accompanies hazardous waste from the generator to the TSDF. It tracks the waste from cradle to grave, requires signatures at each point of transfer, and the generator must receive a signed copy back from the TSDF within 35 days."
+    },
+    {
+      "q": "What should you do if you do not receive a signed manifest back from the TSDF within 35 days?",
+      "a": "If a signed manifest is not received within 35 days, the generator must contact the transporter and/or TSDF to determine the status. If still not received within 45 days, the generator must submit an Exception Report to the EPA Regional Administrator or authorized state agency."
+    },
+    {
+      "q": "What does CERCLA stand for and what does it cover?",
+      "a": "CERCLA stands for the Comprehensive Environmental Response, Compensation, and Liability Act (also known as Superfund). It addresses releases of hazardous substances into the environment and the cleanup of contaminated sites. It also establishes reporting requirements for hazardous substance releases."
+    },
+    {
+      "q": "What is a Reportable Quantity (RQ) under CERCLA?",
+      "a": "A Reportable Quantity is the amount of a hazardous substance that, when released to the environment, must be immediately reported to the National Response Center. RQs range from 1 to 5,000 pounds depending on the substance and are listed in 40 CFR 302.4."
+    },
+    {
+      "q": "What is the phone number for the National Response Center and when must you call it?",
+      "a": "The National Response Center number is 1-800-424-8802. You must call immediately when a release of a hazardous substance meets or exceeds the Reportable Quantity. This applies 24 hours a day, 7 days a week."
+    },
+    {
+      "q": "What does EPCRA stand for and what is its purpose?",
+      "a": "EPCRA stands for the Emergency Planning and Community Right-to-Know Act. It requires facilities to report the storage, use, and release of hazardous substances to state and local agencies. It gives communities access to information about chemical hazards in their area."
+    },
+    {
+      "q": "What are the four major provisions of EPCRA?",
+      "a": "The four sections are: (1) Emergency planning (Sections 301-303), (2) Emergency release notification (Section 304), (3) Hazardous chemical storage reporting — community right-to-know (Sections 311-312), and (4) Toxic chemical release inventory — TRI reporting (Section 313)."
+    },
+    {
+      "q": "What is a LEPC and what role does it play under EPCRA?",
+      "a": "A LEPC is a Local Emergency Planning Committee. LEPCs are required under EPCRA to prepare chemical emergency response plans, review them at least annually, and coordinate with facilities that store extremely hazardous substances above threshold planning quantities."
+    },
+    {
+      "q": "What is the TCLP test?",
+      "a": "TCLP stands for the Toxicity Characteristic Leaching Procedure. It is a laboratory test used to determine if a waste exhibits the toxicity characteristic by simulating leaching in a landfill. If contaminant concentrations in the extract exceed regulatory levels, the waste is classified as hazardous."
+    },
+    {
+      "q": "What are 'listed wastes' under RCRA?",
+      "a": "Listed wastes are wastes that appear on one of four EPA lists: F-list (wastes from non-specific sources), K-list (wastes from specific industries), P-list (acutely hazardous discarded commercial chemical products), and U-list (other hazardous discarded commercial chemical products)."
+    },
+    {
+      "q": "What is the 'mixture rule' in RCRA?",
+      "a": "The mixture rule states that any mixture of a listed hazardous waste with a non-hazardous solid waste is itself a hazardous waste, regardless of the concentration. The entire mixture must be managed as hazardous waste unless it qualifies for an exclusion."
+    },
+    {
+      "q": "What is the 'derived-from rule' in RCRA?",
+      "a": "The derived-from rule states that any waste generated from the treatment, storage, or disposal of a listed hazardous waste is also a hazardous waste. For example, ash from incinerating a listed hazardous waste is still considered hazardous."
+    },
+    {
+      "q": "What training is required for personnel who handle hazardous waste?",
+      "a": "LQGs must provide hazardous waste management training to all personnel who handle waste within 6 months of employment or assignment, with annual refresher training thereafter. Training must cover emergency procedures, waste handling, and relevant regulations. Records must be kept until facility closure."
+    },
+    {
+      "q": "What is a contingency plan and who must have one?",
+      "a": "A contingency plan is a document that describes actions to take in response to fires, explosions, or unplanned releases of hazardous waste. LQGs are required to have a contingency plan that includes emergency procedures, coordinator contact information, and evacuation plans. It must be submitted to local emergency responders."
+    },
+    {
+      "q": "What secondary containment is required for hazardous waste storage?",
+      "a": "Containers storing hazardous waste must have secondary containment capable of holding 10% of the total volume of all containers or 100% of the volume of the largest container, whichever is greater. The containment must be free of cracks and impervious to the stored materials."
+    },
+    {
+      "q": "What is pollution prevention (P2)?",
+      "a": "Pollution prevention is reducing or eliminating waste at the source before it is generated, rather than treating or disposing of it after creation. P2 is the highest priority in the EPA's waste management hierarchy and includes process modifications, material substitutions, and improved housekeeping."
+    },
+    {
+      "q": "What is the EPA's waste management hierarchy (from most to least preferred)?",
+      "a": "From most to least preferred: (1) Source Reduction/Prevention, (2) Recycling/Reuse, (3) Treatment, (4) Disposal. Source reduction is the most preferred because it eliminates waste before it is created."
+    },
+    {
+      "q": "What is a TSDF?",
+      "a": "TSDF stands for Treatment, Storage, and Disposal Facility. These are permitted facilities authorized to receive hazardous waste for treatment (to reduce toxicity), storage (temporary holding), or disposal (permanent placement in a landfill or other unit)."
+    },
+    {
+      "q": "What is the 'land disposal restrictions' (LDR) program?",
+      "a": "The Land Disposal Restrictions program prohibits the disposal of hazardous waste on land unless it has been treated to meet specific treatment standards. LDR ensures that hazardous constituents are destroyed or immobilized before land disposal to protect groundwater."
+    },
+    {
+      "q": "What are the requirements for closing a hazardous waste container storage area?",
+      "a": "Closure requires removing all hazardous waste and residues, decontaminating all equipment and structures, sampling soil and groundwater to verify no contamination, and certifying closure to the EPA or authorized state agency. If contamination is found, corrective action is required."
+    },
+    {
+      "q": "What are the inspection requirements for hazardous waste storage areas?",
+      "a": "LQGs must inspect hazardous waste storage areas at least weekly, looking for leaking containers, deterioration, proper labeling, adequate aisle space, and functioning containment systems. Inspection logs must be maintained for at least 3 years."
+    },
+    {
+      "q": "What is an acutely hazardous waste and why is it significant?",
+      "a": "Acutely hazardous wastes are P-listed wastes that are extremely dangerous in small quantities. A generator of more than 1 kg of acutely hazardous waste per month is classified as an LQG regardless of total waste volume. The satellite accumulation limit for acute waste is only 1 quart."
+    },
+    {
+      "q": "What must a generator do before shipping hazardous waste off-site?",
+      "a": "The generator must: (1) obtain an EPA ID number, (2) properly characterize and identify the waste, (3) package, label, mark, and placard the waste per DOT regulations, (4) prepare a Uniform Hazardous Waste Manifest, and (5) use only permitted/licensed transporters."
+    },
+    {
+      "q": "What is the difference between a characteristic waste and a listed waste?",
+      "a": "A characteristic waste is hazardous because it exhibits one or more of the four characteristics (ignitability, corrosivity, reactivity, toxicity). A listed waste is hazardous because it appears on one of the EPA's four lists (F, K, P, U), regardless of whether it exhibits any characteristic."
+    },
+    {
+      "q": "What is 'cradle to grave' management of hazardous waste?",
+      "a": "Cradle to grave is the RCRA concept that tracks hazardous waste from the point of generation (cradle) through transportation and treatment to final disposal (grave). The manifest system, EPA ID numbers, and recordkeeping requirements ensure accountability at every step."
+    },
+    {
+      "q": "What are universal wastes and how are they managed differently?",
+      "a": "Universal wastes include batteries, pesticides, mercury-containing equipment, and lamps (fluorescent bulbs). They are common hazardous wastes with streamlined collection and management requirements to encourage recycling and reduce the amount sent to landfills."
+    },
+    {
+      "q": "Under DoD environmental policy, what is an Environmental Management System (EMS)?",
+      "a": "An EMS is a systematic framework (based on ISO 14001) for managing environmental responsibilities. DoD installations use EMS to set environmental objectives, implement programs, monitor performance, and ensure compliance with environmental laws including RCRA, CERCLA, and EPCRA."
+    }
+  ]
+}

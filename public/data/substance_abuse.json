@@ -1,0 +1,171 @@
+{
+  "category": "Substance Abuse Prevention (ASAP/ADAPT)",
+  "description": "Military substance abuse prevention training covering ASAP (Army), ADAPT (Air Force), testing procedures, treatment, rehabilitation, and impact on career",
+  "icon": "shield-alert",
+  "questions": [
+    {
+      "q": "What does ASAP stand for?",
+      "a": "Army Substance Abuse Program. Its mission is to strengthen the overall fitness and effectiveness of the Army's total workforce, conserve manpower, and enhance the combat readiness of Soldiers."
+    },
+    {
+      "q": "What Army Regulation governs the Army Substance Abuse Program?",
+      "a": "AR 600-85, 'The Army Substance Abuse Program.' It establishes the Army's policy for the prevention of substance abuse and the rehabilitation of substance-impaired personnel."
+    },
+    {
+      "q": "What does ADAPT stand for and what branch uses it?",
+      "a": "ADAPT stands for Alcohol and Drug Abuse Prevention and Treatment. It is the Air Force's substance abuse program, providing prevention education, outpatient treatment, and aftercare services."
+    },
+    {
+      "q": "What are the five methods of identifying a Soldier with a substance abuse problem?",
+      "a": "The five methods are: (1) Voluntary/self-identification, (2) Commander or supervisor identification, (3) Biochemical identification (urinalysis), (4) Medical identification, and (5) Investigation and/or apprehension."
+    },
+    {
+      "q": "What are the objectives of biochemical testing (urinalysis)?",
+      "a": "The objectives are to: (1) Deter Soldiers from abusing drugs, (2) Facilitate early identification of alcohol and/or drug abuse, (3) Enable commanders to assess unit security, fitness, good order and discipline, (4) Monitor rehabilitation of those enrolled for substance abuse, and (5) Collect data on drug abuse prevalence."
+    },
+    {
+      "q": "What form is used for ASAP referrals?",
+      "a": "DA Form 8003 (Referral Form). All ASAP referrals are accomplished by the Commander or First Sergeant using this form."
+    },
+    {
+      "q": "Within how many duty days must a Soldier be referred to ASAP after a positive urinalysis?",
+      "a": "Soldiers must be referred to ASAP for evaluation within 5 duty days of notification of a positive urinalysis for illicit drug use or involvement in alcohol-related misconduct."
+    },
+    {
+      "q": "Is ASAP participation mandatory for command-referred Soldiers?",
+      "a": "Yes. ASAP participation is mandatory for all Soldiers who are command referred. Failure to attend a mandatory counseling session may constitute a violation of Article 86 of the UCMJ (failure to repair)."
+    },
+    {
+      "q": "Can a Soldier currently enrolled in ASAP rehabilitation reenlist?",
+      "a": "No. Soldiers currently enrolled in the ASAP rehabilitation program are not allowed to reenlist. However, they may be extended to complete enrollment if needed."
+    },
+    {
+      "q": "What happens to Soldiers who fail to respond to rehabilitation?",
+      "a": "Soldiers who fail to participate in or fail to respond successfully to rehabilitation will be processed for administrative separation and not be provided another opportunity for rehabilitation except under the most extraordinary circumstances."
+    },
+    {
+      "q": "What is the 'deglamorization of alcohol' policy?",
+      "a": "Personnel will not promote any function that glamorizes the use of alcohol through drinking contests, games, initiations, or the awarding of alcoholic beverages as prizes in any military-affiliated activity."
+    },
+    {
+      "q": "What are the four fundamental operating elements of ASAP rehabilitation?",
+      "a": "The four elements are: (1) Identification and referral, (2) Individual comprehensive biopsychosocial assessments and command consultation, (3) Rehabilitation and follow-up, and (4) Mandatory monthly rehabilitation reviews."
+    },
+    {
+      "q": "Under what conditions may commanders direct drug testing?",
+      "a": "Commanders may direct testing for: unit inspections, probable cause, competence for duty evaluations, rehabilitation monitoring, mishap/safety investigations, voluntary consent, new entrant screening, and medical purposes."
+    },
+    {
+      "q": "Will a command-referred Soldier be flagged?",
+      "a": "Yes. A command-referred Soldier will be flagged IAW AR 600-8-2 (Suspension of Favorable Personnel Action). The flag suspends favorable personnel actions during enrollment in ASAP."
+    },
+    {
+      "q": "What is the definition of binge drinking in the military context?",
+      "a": "Binge drinking is defined as consuming 5 or more drinks within 2 hours for men, or 4 or more drinks within 2 hours for women, which leads to a blood alcohol concentration (BAC) of 0.08 g/dL or higher."
+    },
+    {
+      "q": "What percentage of service members engage in binge drinking according to DoD surveys?",
+      "a": "According to the DoD Health Related Behaviors Survey, approximately 34% of service members engaged in binge drinking, 9.8% drank heavily, and 6.2% experienced one or more serious consequences from drinking."
+    },
+    {
+      "q": "What is the military's policy on illegal drug use?",
+      "a": "The military maintains a zero-tolerance policy for illegal drug use. Any service member found using illicit substances may face administrative action, dishonorable discharge, or criminal prosecution under the Uniform Code of Military Justice (UCMJ)."
+    },
+    {
+      "q": "What is the relationship between alcohol abuse and harmful behaviors in the military?",
+      "a": "Untreated alcohol problems are linked to up to 50% of suicides, sexual assaults, and intimate partner violence incidents. Service members who abuse alcohol have higher rates of misconduct and illness, affecting unit readiness."
+    },
+    {
+      "q": "What are the rehabilitation objectives of ASAP?",
+      "a": "The objectives are to: return Soldiers to full duty as quickly as possible, identify those who cannot be rehabilitated, refer them to appropriate treatment facilities, and resolve associated family issues."
+    },
+    {
+      "q": "What are the physical signs of substance abuse a leader should watch for?",
+      "a": "Physical signs include: bloodshot or glassy eyes, dilated or constricted pupils, sudden weight changes, deterioration of physical appearance and hygiene, unusual smells on breath/body/clothing, tremors, slurred speech, and impaired coordination."
+    },
+    {
+      "q": "What are behavioral signs of substance abuse?",
+      "a": "Behavioral signs include: drop in performance, increased absenteeism, unexplained financial problems, secretive or suspicious behavior, sudden changes in friends or social activities, mood swings, irritability, and loss of motivation."
+    },
+    {
+      "q": "What is the Army's Employee Assistance Program (EAP) for civilian employees?",
+      "a": "The EAP provides confidential assessment, short-term counseling, and referral services for civilian employees with substance abuse problems. Civilian employees may self-refer or be referred by supervisors."
+    },
+    {
+      "q": "How does substance abuse affect a security clearance?",
+      "a": "Substance abuse is a disqualifying factor for security clearance eligibility. A history of drug abuse, alcohol-related incidents, or failed drug tests can result in denial or revocation of a security clearance under Adjudicative Guidelines H (Drug Involvement) and G (Alcohol Consumption)."
+    },
+    {
+      "q": "What is the difference between substance abuse and substance dependence?",
+      "a": "Substance abuse is a pattern of use that leads to significant impairment or distress (e.g., failure to fulfill obligations, legal problems). Substance dependence involves tolerance, withdrawal symptoms, compulsive use, and inability to control or stop use despite harmful consequences."
+    },
+    {
+      "q": "What are the effects of alcohol on the body?",
+      "a": "Alcohol impairs judgment, slows reaction time, reduces coordination, causes slurred speech, and impairs vision. Long-term effects include liver disease, cardiovascular problems, neurological damage, weakened immune system, and increased cancer risk."
+    },
+    {
+      "q": "What is the legal BAC limit for military members operating a motor vehicle on a military installation?",
+      "a": "The legal BAC limit is 0.08 g/dL, consistent with most state laws. However, commanders may impose lower limits and any alcohol-related incident may result in administrative or UCMJ action regardless of BAC."
+    },
+    {
+      "q": "What are common effects of marijuana (THC) use?",
+      "a": "Effects include euphoria, altered perception of time, impaired memory and concentration, increased appetite, bloodshot eyes, dry mouth, impaired coordination, and anxiety or paranoia. It can be detected in urine for up to 30 days or more."
+    },
+    {
+      "q": "What are the dangers of synthetic drugs (such as Spice/K2)?",
+      "a": "Synthetic drugs can cause rapid heart rate, vomiting, agitation, confusion, hallucinations, seizures, and in some cases death. They are banned under military regulations and federal law, and their unpredictable chemical composition makes them especially dangerous."
+    },
+    {
+      "q": "What is the purpose of the Unit Prevention Leader (UPL)?",
+      "a": "The UPL is a trained individual appointed by the commander to manage the unit urinalysis program, provide substance abuse prevention education, and serve as the liaison between the unit and the installation ASAP office."
+    },
+    {
+      "q": "What resources are available to service members struggling with substance abuse?",
+      "a": "Resources include ASAP/ADAPT counselors, Military OneSource (confidential counseling), TRICARE-covered treatment, chaplains, the Veterans Crisis Line (988 then press 1), peer support programs, and the Substance Abuse and Mental Health Services Administration (SAMHSA) helpline."
+    },
+    {
+      "q": "True or False: Self-referral to ASAP protects a Soldier from UCMJ action for drug use.",
+      "a": "True, with limitations. Self-referral before being identified by other means provides limited protection from UCMJ action. However, it does not protect against actions based on separately discovered evidence, and a Soldier must self-refer before being notified of a positive urinalysis or pending investigation."
+    },
+    {
+      "q": "What are the effects of MDMA (Ecstasy/Molly)?",
+      "a": "MDMA causes euphoria, increased energy, emotional warmth, and distorted perception of time. Dangerous effects include hyperthermia, dehydration, serotonin syndrome, jaw clenching, nausea, muscle cramping, and in severe cases, organ failure or death."
+    },
+    {
+      "q": "What is the impact of prescription drug misuse in the military?",
+      "a": "Prescription drug misuse includes taking medication not prescribed to you, taking more than prescribed, or using it for non-medical purposes. It can result in UCMJ action, administrative separation, overdose, and loss of security clearance. Opioids, benzodiazepines, and stimulants are the most commonly misused categories."
+    },
+    {
+      "q": "How does the ADAPT program differ from ASAP?",
+      "a": "ADAPT is the Air Force program while ASAP is the Army program. ADAPT provides a full continuum of care including prevention, education, outpatient treatment, and aftercare. Both programs share the goals of restoring readiness and returning service members to duty, but operate under their respective service regulations."
+    },
+    {
+      "q": "What are the consequences of a positive urinalysis in the military?",
+      "a": "Consequences may include: UCMJ action (Article 112a), administrative separation, reduction in grade, loss of security clearance, mandatory ASAP/ADAPT enrollment, career-ending effects including bars to reenlistment, and a federal drug conviction on the service member's record."
+    },
+    {
+      "q": "Who can be served by the Army Substance Abuse Program?",
+      "a": "ASAP services are available to active duty military personnel, their dependents, civilian employees, retired military personnel, and their family members."
+    },
+    {
+      "q": "What role does the commander play in the ASAP program?",
+      "a": "The commander is responsible for identifying substance abuse problems, making referrals, ensuring Soldiers attend treatment, conducting unit prevention activities, maintaining the urinalysis program, and making disposition decisions for Soldiers who fail rehabilitation."
+    },
+    {
+      "q": "What are the stages of change in substance abuse recovery?",
+      "a": "The stages are: (1) Pre-contemplation (not yet recognizing the problem), (2) Contemplation (recognizing the problem exists), (3) Preparation (preparing to take action), (4) Action (actively modifying behavior), and (5) Maintenance (sustaining the change long-term)."
+    },
+    {
+      "q": "What is a random urinalysis inspection and who can authorize it?",
+      "a": "A random urinalysis inspection is an unannounced drug test of randomly selected service members within a unit. It can be authorized by a commander at any level. The selection must be truly random and cannot be used to target specific individuals."
+    },
+    {
+      "q": "How long can common drugs be detected in a standard military urinalysis?",
+      "a": "Detection windows vary: marijuana (3-30+ days), cocaine (2-4 days), amphetamines (1-3 days), opioids (1-3 days), PCP (3-7 days), and MDMA (1-3 days). Factors include frequency of use, metabolism, body mass, and hydration levels."
+    },
+    {
+      "q": "What is the purpose of aftercare in substance abuse treatment?",
+      "a": "Aftercare provides ongoing support after initial treatment to prevent relapse. It typically includes continued counseling, support group attendance, regular check-ins with a counselor, and commander monitoring. Aftercare usually lasts 12 months following completion of primary treatment."
+    }
+  ]
+}

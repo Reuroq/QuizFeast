@@ -1,0 +1,187 @@
+{
+  "category": "Marine Corps Leadership",
+  "description": "Corporals and Sergeants Course covering the 14 leadership traits (JJ DID TIE BUCKLE), 11 leadership principles, BAMCIS, OODA loop, SMEAC, counseling, and Marine Corps values",
+  "icon": "anchor",
+  "questions": [
+    {
+      "q": "What mnemonic is used to remember the 14 Marine Corps leadership traits?",
+      "a": "JJ DID TIE BUCKLE — Justice, Judgment, Dependability, Initiative, Decisiveness, Tact, Integrity, Enthusiasm, Bearing, Unselfishness, Courage, Knowledge, Loyalty, Endurance."
+    },
+    {
+      "q": "The Marine Corps recently added a 15th leadership trait. What is it and what is the new mnemonic?",
+      "a": "Empathy was added as the 15th leadership trait, changing the mnemonic to JJ DID TIE BUCKLEE. Empathy is the ability to understand and share the feelings of others, enabling leaders to better connect with and support their Marines."
+    },
+    {
+      "q": "Define the leadership trait 'Justice.'",
+      "a": "Justice is giving reward and punishment according to the merits of the case in question. It is the practice of being fair and consistent, giving consideration to all sides of a situation and ensuring rewards and punishments are based on merit."
+    },
+    {
+      "q": "Define the leadership trait 'Judgment.'",
+      "a": "Judgment is the ability to weigh facts and possible solutions on which to base sound decisions. It involves thinking things through in a clear and orderly fashion to arrive at the right course of action."
+    },
+    {
+      "q": "Define the leadership trait 'Dependability.'",
+      "a": "Dependability is the certainty of proper performance of duty. It means being relied upon to perform duties properly and complete a job, always putting in best effort to achieve the highest standards of performance."
+    },
+    {
+      "q": "Define the leadership trait 'Initiative.'",
+      "a": "Initiative is taking action in the absence of orders. It means seeing what needs to be done and commencing a course of action even when direct orders have not been given, using resourcefulness to solve problems."
+    },
+    {
+      "q": "Define the leadership trait 'Decisiveness.'",
+      "a": "Decisiveness is the ability to make decisions promptly and to announce them in a clear, forceful manner. It involves considering all relevant factors, weighing them quickly, and committing to a course of action."
+    },
+    {
+      "q": "Define the leadership trait 'Tact.'",
+      "a": "Tact is the ability to deal with others without creating offense. It involves understanding human nature, considering others' feelings, and communicating in a manner that maintains good relations while still accomplishing the mission."
+    },
+    {
+      "q": "Define the leadership trait 'Integrity.'",
+      "a": "Integrity is the uprightness of character and soundness of moral principles. It includes the quality of truthfulness and honesty, doing the right thing even when no one is watching."
+    },
+    {
+      "q": "Define the leadership trait 'Enthusiasm.'",
+      "a": "Enthusiasm is the display of sincere interest and exuberance in the performance of duty. A leader's genuine enthusiasm inspires and motivates subordinates and builds esprit de corps."
+    },
+    {
+      "q": "Define the leadership trait 'Bearing.'",
+      "a": "Bearing is creating a favorable impression in carriage, appearance, and personal conduct at all times. It involves maintaining composure and projecting confidence through professional demeanor."
+    },
+    {
+      "q": "Define the leadership trait 'Unselfishness.'",
+      "a": "Unselfishness is the avoidance of providing for one's own comfort and personal advancement at the expense of others. It means placing the welfare of subordinates and the mission above personal interests."
+    },
+    {
+      "q": "Define the leadership trait 'Courage.'",
+      "a": "Courage includes both physical courage (overcoming fear of bodily harm to do what is right) and moral courage (the ability to stand firm on values, principles, and convictions even when threatened)."
+    },
+    {
+      "q": "Define the leadership trait 'Knowledge.'",
+      "a": "Knowledge is the understanding of a science or art, including the range of one's information, proficiency, and technical competence. Leaders must be technically and tactically proficient in their field."
+    },
+    {
+      "q": "Define the leadership trait 'Loyalty.'",
+      "a": "Loyalty is the quality of faithfulness to country, the Corps, the unit, seniors, subordinates, and peers. It is a two-way responsibility that flows up and down the chain of command."
+    },
+    {
+      "q": "Define the leadership trait 'Endurance.'",
+      "a": "Endurance is the mental and physical stamina measured by the ability to withstand pain, fatigue, stress, and hardship. Leaders must maintain their effectiveness under prolonged stress and adverse conditions."
+    },
+    {
+      "q": "List all 11 Marine Corps Leadership Principles.",
+      "a": "1) Know yourself and seek self-improvement, 2) Be technically and tactically proficient, 3) Know your people and look out for their welfare, 4) Keep your personnel informed, 5) Set the example, 6) Ensure the task is understood, supervised, and accomplished, 7) Train your Marines and Sailors as a team, 8) Make sound and timely decisions, 9) Develop a sense of responsibility among subordinates, 10) Employ your command within its capabilities, 11) Seek responsibilities and take responsibility for your actions."
+    },
+    {
+      "q": "What leadership principle states 'Know yourself and seek self-improvement'?",
+      "a": "This is the first of the 11 Marine Corps leadership principles. It means evaluating your own strengths and weaknesses honestly, continually working to strengthen your weaknesses, and seeking professional and personal development opportunities."
+    },
+    {
+      "q": "What does the leadership principle 'Set the example' mean?",
+      "a": "Leaders must be the model for their Marines in appearance, attitude, physical fitness, and dedication. Marines will observe and follow the leader's example. A leader who sets high standards and lives by them earns the respect and confidence of subordinates."
+    },
+    {
+      "q": "What does BAMCIS stand for?",
+      "a": "BAMCIS stands for the six troop leading steps: Begin planning, Arrange for reconnaissance and coordination, Make reconnaissance, Complete the plan, Issue the order, and Supervise."
+    },
+    {
+      "q": "What is the purpose of BAMCIS?",
+      "a": "BAMCIS provides a logical and orderly process for making the best use of time, facilities, and personnel in preparing for and executing an assigned mission. It ensures leaders follow a systematic approach to tactical planning."
+    },
+    {
+      "q": "In BAMCIS, what occurs during 'Begin Planning'?",
+      "a": "During Begin Planning, the leader conducts a mission analysis using the '5 Ws' (Who, What, When, Where, Why), issues a warning order to subordinates, and begins developing a tentative plan based on the situation."
+    },
+    {
+      "q": "In BAMCIS, what happens during 'Issue the Order'?",
+      "a": "During Issue the Order, the leader delivers the five paragraph order (SMEAC format) to subordinates. The order should be clear, concise, and ensure all Marines understand the mission, their tasks, and the commander's intent."
+    },
+    {
+      "q": "What does SMEAC stand for?",
+      "a": "SMEAC stands for the five paragraphs of a combat order: Situation, Mission, Execution, Administration and Logistics, and Command and Signal."
+    },
+    {
+      "q": "What information is contained in the 'Situation' paragraph of a five paragraph order?",
+      "a": "The Situation paragraph covers enemy forces (size, activity, location, unit, time, equipment), friendly forces (mission of next higher unit, adjacent units), and attachments/detachments. It provides the context for the mission."
+    },
+    {
+      "q": "What information is in the 'Execution' paragraph of SMEAC?",
+      "a": "The Execution paragraph contains the commander's intent, concept of operations, tasks to subordinate units, and coordinating instructions. It is the heart of the order and describes how the mission will be accomplished."
+    },
+    {
+      "q": "What does OODA Loop stand for?",
+      "a": "OODA Loop stands for Observe, Orient, Decide, Act. It is a decision-making cycle developed by Colonel John Boyd (USAF) that emphasizes rapid decision-making to gain a tactical advantage over the enemy."
+    },
+    {
+      "q": "How does the OODA Loop apply to combat leadership?",
+      "a": "By cycling through Observe-Orient-Decide-Act faster than the enemy, a leader can disrupt the enemy's decision cycle, create confusion, and seize the initiative. The goal is to operate inside the enemy's OODA loop."
+    },
+    {
+      "q": "What are the three core values of the Marine Corps?",
+      "a": "Honor, Courage, and Commitment. Honor guides Marines to act responsibly and ethically. Courage is the mental, moral, and physical strength to do what is right. Commitment is the dedication to the Corps, mission, and fellow Marines."
+    },
+    {
+      "q": "What is the Marine Corps definition of leadership?",
+      "a": "The Marine Corps defines leadership as the ability to influence people by providing purpose, direction, and motivation while operating to accomplish the mission and improve the organization."
+    },
+    {
+      "q": "What is the Marine Corps' vision of leading?",
+      "a": "The Marine Corps' vision of leading is less concerned with rank and privilege than with the individual Marine and perseverance. It requires leaders devoted to leading, capable of independent action, willing to assume responsibilities, and willing to take selfless risks."
+    },
+    {
+      "q": "What are the three leadership styles recognized by the Marine Corps?",
+      "a": "Directing (telling subordinates what to do, closely supervising), Participating (involving subordinates in planning, sharing decision-making), and Delegating (giving subordinates authority and responsibility to act on their own with minimal supervision)."
+    },
+    {
+      "q": "What is the difference between coaching, counseling, and mentoring in Marine Corps leadership?",
+      "a": "Coaching is daily observation and informal feedback for professional growth. Counseling is a formal, directed process that occurs at specific intervals (initial within 30 days, then periodically). Mentoring is a long-term voluntary relationship focused on professional and personal development."
+    },
+    {
+      "q": "How often should lance corporals and below be counseled according to Marine Corps policy?",
+      "a": "Lance corporals and below should receive an initial counseling within 30 days of joining a unit, then be counseled every 30 days thereafter."
+    },
+    {
+      "q": "What is coaching in the context of Marine Corps leadership?",
+      "a": "Coaching is a process of ongoing observation and encouragement for a Marine's personal and professional growth that occurs daily. It provides informal feedback and communicates goals focused on the Marine's development."
+    },
+    {
+      "q": "What makes followership important in the Marine Corps?",
+      "a": "Followership is considered the secret to building great leadership. Effective followers actively support their leaders, demonstrate initiative, provide honest feedback, and develop the skills necessary to become effective leaders themselves."
+    },
+    {
+      "q": "What are the indicators of good morale in a unit?",
+      "a": "Indicators include high esprit de corps, discipline, proficiency, low rates of absence and misconduct, enthusiasm for training, unit cohesion, willingness to go beyond minimum requirements, and mutual trust between leaders and subordinates."
+    },
+    {
+      "q": "What is the 'rule of three' in Marine Corps organization?",
+      "a": "The rule of three is an organizational principle where each leader has three subordinate elements. For example, a fire team has three riflemen, a squad has three fire teams, and a platoon has three squads. This structure enables span of control and rapid decision-making."
+    },
+    {
+      "q": "What is the purpose of a warning order (WARNORD)?",
+      "a": "A warning order provides subordinates advance notice of an upcoming order or mission. It gives them maximum time to prepare, includes the who, what, when, where of the situation, and is issued during the 'Begin Planning' step of BAMCIS."
+    },
+    {
+      "q": "What is the 'Commander's Intent' and why is it important?",
+      "a": "The Commander's Intent is a clear, concise statement of what the force must do and the conditions that must exist to succeed. It allows subordinate leaders to exercise initiative and make decisions aligned with the overall mission when the plan changes or communications break down."
+    },
+    {
+      "q": "What leadership principle relates to 'Employ your command within its capabilities'?",
+      "a": "This is the 10th leadership principle. Leaders must know the capabilities and limitations of their Marines and equipment. Assigning tasks beyond their capabilities leads to failure and destroys morale; assigning tasks too far below their capabilities leads to boredom and loss of confidence."
+    },
+    {
+      "q": "What is the significance of 'Semper Fidelis' to Marine Corps leadership?",
+      "a": "Semper Fidelis ('Always Faithful') is the Marine Corps motto reflecting the commitment Marines have to the Corps, their country, and each other. It embodies the loyalty trait and underscores that Marines never abandon their responsibilities or each other."
+    },
+    {
+      "q": "What publication is the primary reference for Marine Corps leadership doctrine?",
+      "a": "MCDP 6 (Marine Corps Doctrinal Publication 6), 'Command and Control,' and the 'Leading Marines' warfighting publication (MCWP 6-10/6-11) are the primary doctrinal references for Marine Corps leadership, covering philosophy, traits, principles, and application."
+    },
+    {
+      "q": "What is the relationship between authority, responsibility, and accountability in Marine Corps leadership?",
+      "a": "Authority is the right to direct subordinates. Responsibility is the obligation to accomplish the mission. Accountability is the obligation to accept consequences for actions. A leader can delegate authority but can never delegate responsibility or accountability for the outcome."
+    },
+    {
+      "q": "How does the leadership principle 'Train your Marines and Sailors as a team' apply?",
+      "a": "This principle requires leaders to develop teamwork through shared training experiences. Training should be realistic, challenging, and conducted as a unit. It builds mutual confidence, esprit de corps, and ensures the team can function effectively in combat."
+    }
+  ]
+}

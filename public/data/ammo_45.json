@@ -1,0 +1,191 @@
+{
+  "category": "AMMO-45 Introduction to Ammunition",
+  "description": "AMMO-45-DL Introduction to Ammunition certification course covering ammunition classifications, hazard divisions, compatibility groups, storage requirements, safety procedures, explosive safety distances, and DOD 6055.09-M standards.",
+  "icon": "💣",
+  "questions": [
+    {
+      "q": "What is the Cardinal Rule of explosives safety?",
+      "a": "Expose the minimum number of people, for the minimum amount of time, to the minimum amount of explosives consistent with safe and efficient operations."
+    },
+    {
+      "q": "What differentiates bombs from rockets, missiles, and artillery ammunition?",
+      "a": "Bombs are not fired from a weapon; they are dropped from aircraft."
+    },
+    {
+      "q": "What categories of ammunition are classified as small arms ammunition?",
+      "a": "Cartridges for shotguns and all cartridges .50 caliber and smaller."
+    },
+    {
+      "q": "What materials may ammunition pallets be made from?",
+      "a": "Wood, metal, or steel."
+    },
+    {
+      "q": "What indicates a small arms ammunition item is a dummy round?",
+      "a": "A hole drilled in the cartridge case, used for practicing loading and simulating firing."
+    },
+    {
+      "q": "Why is color coding on ammunition and packaging important?",
+      "a": "To identify the hazard type and the use of the ammunition item."
+    },
+    {
+      "q": "What does an olive drab body with yellow markings indicate on ammunition?",
+      "a": "The ammunition contains high explosives and is a service (live) round."
+    },
+    {
+      "q": "What does a blue body color indicate on ammunition?",
+      "a": "The ammunition is used for training or practice purposes."
+    },
+    {
+      "q": "What does the purpose of operational safety encompass?",
+      "a": "To create and maintain the safest work environment possible by reducing injuries, preventing damage, and saving lives."
+    },
+    {
+      "q": "What do markings on ammunition always identify?",
+      "a": "Markings always identify the ammunition type."
+    },
+    {
+      "q": "What is the purpose of banding on ammunition pallets?",
+      "a": "Banding holds the contents of the pallets in place so they do not fall or become loose during handling and transport."
+    },
+    {
+      "q": "What is the purpose of an inner pack?",
+      "a": "To provide another layer of protection for the ammunition item inside the outer container."
+    },
+    {
+      "q": "What does an outer pack seal identify?",
+      "a": "Whether a container has been opened or compromised."
+    },
+    {
+      "q": "What are common packaging problems found during ammunition inspection?",
+      "a": "No markings present, items not packed correctly, and items not secured correctly."
+    },
+    {
+      "q": "What does the 'Nose End' marking on rocket and missile outer packs indicate?",
+      "a": "Which end of the container should be pointed in the direction of least hazard."
+    },
+    {
+      "q": "What are placards in the context of ammunition and explosives?",
+      "a": "Hazardous signs and symbols placed on vehicles and storage facilities to communicate the type and level of hazard."
+    },
+    {
+      "q": "What Hazard Division (HD) 1.1 represents?",
+      "a": "Mass explosion hazard — the entire quantity of explosives detonates virtually instantaneously."
+    },
+    {
+      "q": "What does Hazard Division (HD) 1.2 represent?",
+      "a": "Projection hazard but not a mass explosion hazard — items that fragment or project when they function."
+    },
+    {
+      "q": "What does Hazard Division (HD) 1.3 represent?",
+      "a": "Predominantly a fire hazard with minor blast or projection hazard, or both, but not a mass explosion hazard (e.g., propellants and flares)."
+    },
+    {
+      "q": "What does Hazard Division (HD) 1.4 represent?",
+      "a": "Moderate fire hazard — no significant blast or projection hazard. Effects are largely confined to the package."
+    },
+    {
+      "q": "What does Hazard Division (HD) 1.5 represent?",
+      "a": "Very insensitive explosives with a mass explosion hazard. These are substances that have such low probability of initiation that there is very little chance of transition from burning to detonation under normal transport conditions."
+    },
+    {
+      "q": "What does Hazard Division (HD) 1.6 represent?",
+      "a": "Extremely insensitive articles with no mass explosion hazard. Articles that contain only extremely insensitive detonating substances and demonstrate negligible probability of accidental initiation or propagation."
+    },
+    {
+      "q": "What is the correct placard for a truck transporting ammunition with hazard classification 1.4?",
+      "a": "A diamond-shaped placard with '1.4' displayed on it, using the orange background with a '4' fire division symbol."
+    },
+    {
+      "q": "What do fire division symbols indicate on explosive storage facilities?",
+      "a": "The severity of the explosive hazard, designated in decreasing order from Fire Division 1 (most severe) to Fire Division 4 (least severe)."
+    },
+    {
+      "q": "What do chemical hazard symbols on ammunition storage signs indicate?",
+      "a": "The personal protective equipment (PPE) that must be worn by emergency responders."
+    },
+    {
+      "q": "What is the purpose of compatibility groups?",
+      "a": "To identify which ammunition and explosive items can be safely stored and transported together."
+    },
+    {
+      "q": "What does Compatibility Group A contain?",
+      "a": "Primary explosive substances (detonators, blasting caps) — items extremely sensitive to heat, shock, or friction."
+    },
+    {
+      "q": "What is Compatibility Group B?",
+      "a": "Articles containing a primary explosive substance and having fewer than two effective protective features (e.g., certain detonators and similar initiating devices)."
+    },
+    {
+      "q": "What is Compatibility Group D?",
+      "a": "Secondary detonating explosive substances or black powder, or articles containing a secondary detonating explosive substance without its own means of initiation (e.g., TNT, dynamite, composition explosives)."
+    },
+    {
+      "q": "What is Compatibility Group S?",
+      "a": "Substances or articles so packed or designed that any hazardous effects from accidental functioning are confined to the package. Items in Group S can be stored with any other compatibility group."
+    },
+    {
+      "q": "What does DOD 6055.09-M establish?",
+      "a": "DOD Ammunition and Explosives Safety Standards, including quantity-distance (QD) requirements, storage standards, and safety criteria for all DOD ammunition and explosives operations."
+    },
+    {
+      "q": "What is Quantity-Distance (QD)?",
+      "a": "The minimum distance required between an explosives location and an exposed site, based on the quantity and type of explosives present, to provide a defined level of protection."
+    },
+    {
+      "q": "What is Net Explosive Weight (NEW)?",
+      "a": "The total weight of all explosive substances contained in an item, used to determine quantity-distance requirements for storage and transportation."
+    },
+    {
+      "q": "What does a red or brown body color indicate on ammunition?",
+      "a": "The item contains a rocket motor, propellant, or illuminating composition."
+    },
+    {
+      "q": "What does a gray body color indicate on ammunition?",
+      "a": "The item contains a chemical agent (toxic, smoke, or incendiary)."
+    },
+    {
+      "q": "What does a white body with red markings indicate on ammunition?",
+      "a": "The item contains an incendiary filler."
+    },
+    {
+      "q": "What does a light green body color indicate on ammunition?",
+      "a": "The item contains a smoke-producing agent."
+    },
+    {
+      "q": "What is the purpose of lot numbers on ammunition?",
+      "a": "To trace the ammunition back to the manufacturer, production date, and specific production batch for quality control and recall purposes."
+    },
+    {
+      "q": "What is the Federal Supply Classification (FSC) for ammunition?",
+      "a": "The FSC is a four-digit code used to categorize ammunition and explosives by type for supply management purposes (e.g., 1305 for ammunition through 30mm, 1310 for ammunition over 30mm)."
+    },
+    {
+      "q": "What is the Department of Defense Identification Code (DODIC)?",
+      "a": "A four-character alphanumeric code assigned to each specific ammunition item to uniquely identify it for supply and logistics purposes."
+    },
+    {
+      "q": "What are the four elements of the ammunition color-coding system?",
+      "a": "Body color (overall use/type), marking color (identifies specific characteristics), banding (identifies additional hazards), and lettering/stenciling (nomenclature and lot data)."
+    },
+    {
+      "q": "What does 'DODAC' stand for in ammunition management?",
+      "a": "Department of Defense Ammunition Code — used to identify specific ammunition items in the supply system."
+    },
+    {
+      "q": "What safety precaution must be followed when handling damaged ammunition?",
+      "a": "Do not handle damaged ammunition unless specifically trained and authorized. Report it immediately, evacuate the area, and establish a safety cordon."
+    },
+    {
+      "q": "What is the two-person rule in explosives operations?",
+      "a": "A minimum of two qualified persons must be present during any explosives operation, ensuring one can provide emergency assistance or summon help."
+    },
+    {
+      "q": "What type of ammunition has a black body with light green markings?",
+      "a": "Toxic chemical ammunition."
+    },
+    {
+      "q": "What is the primary purpose of ammunition surveillance?",
+      "a": "To evaluate and determine the reliability, safety, and performance of ammunition through its lifecycle, from manufacture through storage and use."
+    }
+  ]
+}

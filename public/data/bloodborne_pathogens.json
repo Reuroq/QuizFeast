@@ -1,0 +1,147 @@
+{
+  "category": "Bloodborne Pathogens Training",
+  "description": "Bloodborne Pathogens (BBP) training covering OSHA 29 CFR 1910.1030, Hepatitis B, Hepatitis C, HIV, universal precautions, engineering controls, PPE requirements, exposure incident procedures, and post-exposure evaluation.",
+  "icon": "🩸",
+  "questions": [
+    {
+      "q": "What are bloodborne pathogens?",
+      "a": "Pathogenic microorganisms (viruses, bacteria, parasites) present in human blood and other potentially infectious materials (OPIM) that can cause disease in humans."
+    },
+    {
+      "q": "What are the three bloodborne pathogens of greatest concern?",
+      "a": "Hepatitis B virus (HBV), Hepatitis C virus (HCV), and Human Immunodeficiency Virus (HIV)."
+    },
+    {
+      "q": "What OSHA standard covers bloodborne pathogens?",
+      "a": "29 CFR 1910.1030 — the OSHA Bloodborne Pathogens Standard."
+    },
+    {
+      "q": "Is blood the only bodily fluid that can contain bloodborne pathogens?",
+      "a": "No. Pathogens can also be transmitted through semen, vaginal secretions, cerebrospinal fluid, synovial fluid, pleural fluid, amniotic fluid, saliva in dental procedures, and breast milk."
+    },
+    {
+      "q": "Which bloodborne pathogen is NOT transmitted through blood: Hepatitis B, HIV, or Influenza?",
+      "a": "Influenza — it is transmitted via respiratory droplets, not through blood or bodily fluids."
+    },
+    {
+      "q": "What are universal precautions?",
+      "a": "An approach to infection control where all human blood and certain body fluids are treated as if known to be infectious for HIV, HBV, and other bloodborne pathogens."
+    },
+    {
+      "q": "What is the primary purpose of PPE in the context of bloodborne pathogens?",
+      "a": "To create a barrier between the worker and potentially infectious materials, protecting the worker from infection."
+    },
+    {
+      "q": "What types of PPE are used for bloodborne pathogen protection?",
+      "a": "Gloves, gowns, face shields, masks, eye protection (goggles or safety glasses with side shields), and mouthpieces/resuscitation bags."
+    },
+    {
+      "q": "Is it safe to recap needles after use if done carefully?",
+      "a": "No. Recapping needles is one of the leading causes of accidental needlestick injuries and is prohibited unless using a mechanical device or one-handed technique."
+    },
+    {
+      "q": "How often must bloodborne pathogens training be provided to employees?",
+      "a": "At the time of initial assignment and at least annually thereafter."
+    },
+    {
+      "q": "Is a vaccination available for Hepatitis B?",
+      "a": "Yes. The Hepatitis B vaccine is highly effective and must be offered free of charge to employees with occupational exposure within 10 working days of initial assignment."
+    },
+    {
+      "q": "Is there a vaccine for Hepatitis C or HIV?",
+      "a": "No. There is currently no vaccine available for Hepatitis C or HIV."
+    },
+    {
+      "q": "What is a common symptom of Hepatitis B infection?",
+      "a": "Jaundice (yellowing of the skin and eyes), along with fatigue, abdominal pain, loss of appetite, nausea, and dark urine."
+    },
+    {
+      "q": "Do protective gloves eliminate the need for handwashing after blood exposure?",
+      "a": "No. Hands must be washed with soap and water immediately after removing gloves, regardless of whether glove integrity was maintained."
+    },
+    {
+      "q": "What is NOT recommended after a needlestick injury?",
+      "a": "Squeezing the wound — this can increase the risk of infection by forcing pathogens deeper into tissue."
+    },
+    {
+      "q": "What is the correct procedure for cleaning up a blood spill?",
+      "a": "Contain the spill, apply an EPA-registered disinfectant (such as a 10% bleach solution), clean with absorbent material, dispose of waste in a biohazard bag, and wash hands."
+    },
+    {
+      "q": "Can bloodborne pathogens only be transmitted through visible blood?",
+      "a": "No. Pathogens can be present in body fluids even without visible blood contamination."
+    },
+    {
+      "q": "How often must an Exposure Control Plan be updated?",
+      "a": "At least annually, to reflect changes in tasks, procedures, and technology that eliminate or reduce occupational exposure."
+    },
+    {
+      "q": "Do only direct-contact healthcare workers need bloodborne pathogen training?",
+      "a": "No. All employees who have reasonably anticipated occupational exposure to blood or OPIM require training, regardless of their specific role."
+    },
+    {
+      "q": "Approximately how many known bloodborne pathogens exist?",
+      "a": "At least 20 known bloodborne pathogens, though HBV, HCV, and HIV are the three of greatest concern."
+    },
+    {
+      "q": "What is NOT a transmission route for bloodborne pathogens in the workplace?",
+      "a": "Sneezing — bloodborne pathogens are transmitted through contact with infected blood or body fluids, not through respiratory droplets."
+    },
+    {
+      "q": "What is secondary transmission?",
+      "a": "When a healthcare provider or worker infected with a bloodborne pathogen subsequently passes the infection to another person."
+    },
+    {
+      "q": "What type of exposure incident is most likely to result in transmission of a bloodborne pathogen?",
+      "a": "A needlestick (percutaneous) injury."
+    },
+    {
+      "q": "How long can Hepatitis B virus survive in dried blood on surfaces?",
+      "a": "Up to one week (7 days) at room temperature."
+    },
+    {
+      "q": "What percentage of needlestick injuries can result in Hepatitis B transmission if the person is not vaccinated?",
+      "a": "6-30%, depending on the source patient's HBeAg status."
+    },
+    {
+      "q": "What is the risk of HCV infection following percutaneous exposure?",
+      "a": "Approximately 1.8% (less than 2%)."
+    },
+    {
+      "q": "What is an Exposure Control Plan (ECP)?",
+      "a": "A written plan required by OSHA that describes the employer's strategy for eliminating or minimizing employee exposure to bloodborne pathogens, including exposure determination, methods of compliance, and post-exposure procedures."
+    },
+    {
+      "q": "What are engineering controls in the context of bloodborne pathogens?",
+      "a": "Devices that isolate or remove the bloodborne pathogen hazard from the workplace, such as self-sheathing needles, sharps disposal containers, needleless IV systems, and splash guards."
+    },
+    {
+      "q": "Are disposable gloves considered an engineering control?",
+      "a": "No. Disposable gloves are personal protective equipment (PPE), not an engineering control. Engineering controls are devices that physically isolate or remove the hazard."
+    },
+    {
+      "q": "When should sharps containers be replaced?",
+      "a": "When they are three-quarters (3/4) full — never overfill a sharps container."
+    },
+    {
+      "q": "What should you do if blood splashes into your eyes?",
+      "a": "Immediately flush the eyes with clean water or saline for at least 15 minutes, then report the incident and seek medical evaluation."
+    },
+    {
+      "q": "What is the best type of glove to use if you are allergic to latex?",
+      "a": "Nitrile gloves."
+    },
+    {
+      "q": "What must healthcare providers do immediately after removing and discarding used PPE?",
+      "a": "Wash hands thoroughly with soap and water."
+    },
+    {
+      "q": "What are personal eyeglasses considered as in the context of BBP protection?",
+      "a": "Personal eyeglasses are NOT acceptable as personal protective equipment for bloodborne pathogen protection. Dedicated safety goggles or face shields must be used."
+    },
+    {
+      "q": "What is the first step if you are accidentally exposed to bloodborne pathogens through a cut?",
+      "a": "Immediately wash the affected area with soap and water, report the incident to your supervisor, and seek medical evaluation."
+    }
+  ]
+}

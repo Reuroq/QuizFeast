@@ -1,0 +1,171 @@
+{
+  "category": "Counterintelligence Awareness & Reporting (CI116.16)",
+  "description": "CDSE Counterintelligence Awareness and Reporting for DoD covering FIE threats, elicitation, espionage indicators, insider threats, and reporting requirements per DoDD 5240.06",
+  "icon": "spy",
+  "questions": [
+    {
+      "q": "What is a Foreign Intelligence Entity (FIE)?",
+      "a": "Any known or suspected foreign organization, person, or group (public, private, or governmental) that conducts intelligence activities to acquire U.S. information, block or impair U.S. intelligence collection, influence U.S. policy, or disrupt U.S. systems and programs. The term includes foreign intelligence and security services and international terrorists."
+    },
+    {
+      "q": "What does DoD Directive 5240.06 require of all DoD personnel?",
+      "a": "DoDD 5240.06 requires all DoD personnel to report certain contacts, activities, indicators, and behaviors to their counterintelligence (CI) or security office. It establishes the CI awareness and reporting program for the Department of Defense."
+    },
+    {
+      "q": "What is elicitation?",
+      "a": "Elicitation is a form of social engineering — the process of subtly drawing forth and collecting information from people through seemingly innocent conversation. Foreign intelligence entities frequently use elicitation to extract information from people who have access to classified or sensitive information."
+    },
+    {
+      "q": "What are Potential Espionage Indicators (PEIs)?",
+      "a": "Activities, behaviors, or circumstances that may be indicative of potential espionage activities by an individual who may have volunteered or been recruited by a foreign entity as a witting espionage agent."
+    },
+    {
+      "q": "Which of the following is a possible indicator of an insider threat?",
+      "a": "All of the following are indicators: working unusual hours without authorization, requesting access to material unrelated to current projects, unreported foreign travel, unexplained affluence, substance abuse, mental health issues, criminal conduct, and financial irregularities."
+    },
+    {
+      "q": "If you suspect a coworker of possible espionage, what should you do?",
+      "a": "Report directly to your counterintelligence (CI) office or security office. Do not attempt to investigate on your own or confront the individual."
+    },
+    {
+      "q": "What are the consequences for DoD personnel who fail to report Potential Espionage Indicators?",
+      "a": "They may be subject to judicial or administrative action, or both. Military members may face punitive action under Article 92, UCMJ. Civilian employees and contractors may face appropriate disciplinary action under applicable regulations."
+    },
+    {
+      "q": "What methods do Foreign Intelligence Entities use to collect information?",
+      "a": "FIEs use multiple methods including: HUMINT (human intelligence/elicitation), SIGINT (signals intelligence), CYBER (computer network exploitation), OSINT (open source intelligence), and technical surveillance. They also use solicitation of services, marketing of services, and targeting at conferences and trade shows."
+    },
+    {
+      "q": "What is the primary purpose of the CI Awareness and Reporting course?",
+      "a": "To explain the role each individual has in counterintelligence, summarize potential threats and collection methods used by FIEs, identify Potential Espionage Indicators and warning signs of terrorism, and outline reporting responsibilities."
+    },
+    {
+      "q": "Which of the following are FIE collection methods that use human interaction?",
+      "a": "Elicitation, solicitation and marketing of services, academic solicitation, targeting at conferences and trade shows, requests for information, and recruitment of insiders."
+    },
+    {
+      "q": "What should you report to your CI or security office?",
+      "a": "Any known or suspected foreign intelligence contacts, any attempts by anyone to obtain unauthorized access to classified or sensitive information, any potential espionage indicators, and any anomalous health incidents (AHIs)."
+    },
+    {
+      "q": "What is an Anomalous Health Incident (AHI)?",
+      "a": "An AHI is an unexplained health incident involving anomalous sensory experiences such as sound, pressure, or heat, possibly associated with directed energy attacks. DoD personnel must report AHIs to their CI or security office."
+    },
+    {
+      "q": "How do FIEs use social media for intelligence collection?",
+      "a": "FIEs use social media to identify and target individuals with access to sensitive information, create fake profiles for elicitation, monitor public postings for useful information, map relationships and networks, and recruit assets."
+    },
+    {
+      "q": "What are indicators that someone may be attempting elicitation?",
+      "a": "Indicators include: steering conversations toward sensitive topics, asking questions outside normal social boundaries, excessive flattery, offering gifts or favors, claiming shared background or interests to build rapport, and persistently returning to certain topics."
+    },
+    {
+      "q": "What is a cyber CI threat?",
+      "a": "Foreign intelligence entities using cyber means to penetrate DoD networks and systems to steal classified or sensitive information, conduct espionage, or disrupt operations through computer network exploitation, spear phishing, malware, and other cyber attack methods."
+    },
+    {
+      "q": "What travel-related activities should be reported?",
+      "a": "Unreported foreign travel, suspicious contacts during foreign travel, attempts by foreign nationals to establish continuing relationships, requests for information during travel, and any unusual or suspicious incidents while traveling abroad."
+    },
+    {
+      "q": "What is the difference between CI and security?",
+      "a": "Security focuses on protecting classified information through physical, personnel, and information security measures. Counterintelligence focuses on identifying, assessing, and neutralizing foreign intelligence threats and espionage activities directed against the U.S."
+    },
+    {
+      "q": "Who should DoD civilian employees and contractors report suspicious activity to?",
+      "a": "Their Facility Security Officer (FSO), supervisor, or local CI office. The report should be made without delay."
+    },
+    {
+      "q": "What types of targeting occur at international conferences and trade shows?",
+      "a": "FIEs may send representatives posing as attendees to collect information, photograph displays, elicit technical details from presenters, attempt to recruit sources, and gather business cards and contact information for future targeting."
+    },
+    {
+      "q": "What are behavioral indicators of a potential insider threat?",
+      "a": "Working unusual hours without direction, attempting to access areas or information beyond their need-to-know, unexplained copying or removal of classified material, disgruntlement with the organization, and unusual interest in sensitive programs not related to their duties."
+    },
+    {
+      "q": "What are financial indicators of a potential insider threat?",
+      "a": "Unexplained affluence or sudden wealth, living beyond one's means, gambling or excessive debt, requests for advances on pay, and financial difficulties that could make someone vulnerable to recruitment by foreign intelligence services."
+    },
+    {
+      "q": "What is academic solicitation as an FIE collection method?",
+      "a": "Foreign intelligence entities use academic programs, research partnerships, and educational exchanges to gain access to sensitive research, technology, and cleared personnel. They may fund research, sponsor students, or establish visiting scholar programs to collect information."
+    },
+    {
+      "q": "What should you do if a foreign national asks you about your work involving classified information?",
+      "a": "Do not disclose any classified information. Politely deflect the question and report the contact to your CI or security office as soon as possible."
+    },
+    {
+      "q": "What is the role of DCSA in counterintelligence?",
+      "a": "The Defense Counterintelligence and Security Agency (DCSA) provides CI support to cleared defense contractors, conducts CI investigations, and oversees the CI awareness and reporting program for the industrial security community."
+    },
+    {
+      "q": "What are warning signs of potential terrorism?",
+      "a": "Surveillance activities, acquiring supplies or materials for attack, acquiring expertise through training, suspicious individuals or vehicles near key facilities, trial runs or dry runs, and deploying assets or people in position for an attack."
+    },
+    {
+      "q": "What is the significance of 'need-to-know' in counterintelligence?",
+      "a": "Need-to-know ensures that classified information is only shared with individuals who require it for their official duties. Someone requesting access to information outside their need-to-know is a potential espionage indicator."
+    },
+    {
+      "q": "How can personal vulnerabilities be exploited by FIEs?",
+      "a": "FIEs target individuals with financial problems, substance abuse, relationship issues, ideological sympathies, ego/disgruntlement, or coercive leverage. These vulnerabilities can be exploited through blackmail, bribery, or manipulation to recruit individuals as intelligence sources."
+    },
+    {
+      "q": "What is a honeypot or honey trap in counterintelligence?",
+      "a": "A recruitment technique where a foreign intelligence service uses an attractive person to develop a romantic or sexual relationship with a target to extract information or create leverage for blackmail and coercion."
+    },
+    {
+      "q": "What are indicators of unauthorized disclosure of classified information?",
+      "a": "Classified information appearing in open sources, evidence of classified material in unsecured locations, unauthorized transmission of classified data, classified documents found in personal possession, and classified information discussed in unsecured settings."
+    },
+    {
+      "q": "What is the 'MICE' acronym in counterintelligence?",
+      "a": "MICE stands for Money, Ideology, Compromise/Coercion, and Ego — the four primary motivations that lead individuals to commit espionage. Understanding MICE helps identify potential espionage indicators."
+    },
+    {
+      "q": "What should you do before traveling to a foreign country?",
+      "a": "Receive a pre-travel threat briefing from your security office, be aware of the threat environment, minimize the electronic devices you carry, know reporting requirements, and understand the CI threats specific to your destination."
+    },
+    {
+      "q": "How do FIEs exploit open source information?",
+      "a": "FIEs collect and analyze publicly available information from social media, professional networking sites, published research, government websites, news articles, and public records to identify targets, map organizations, and build intelligence pictures."
+    },
+    {
+      "q": "What is a dead drop in espionage tradecraft?",
+      "a": "A dead drop is a secret location where materials or information can be left by one person and retrieved by another without the two meeting directly. It is used to minimize the risk of detection during espionage operations."
+    },
+    {
+      "q": "What is the difference between espionage and a security violation?",
+      "a": "Espionage is the deliberate collection or transmission of classified information to an unauthorized recipient, typically a foreign intelligence entity. A security violation is an unintentional failure to properly safeguard classified information."
+    },
+    {
+      "q": "What activities must be reported under DoDD 5240.06?",
+      "a": "Contact with known or suspected foreign intelligence officers, attempts to obtain classified information by unauthorized persons, any CI-related information including potential espionage indicators, anomalous health incidents, and suspicious contacts with foreign nationals."
+    },
+    {
+      "q": "What is a Foreign Intelligence Service (FIS)?",
+      "a": "An organization of a foreign government that engages in intelligence collection activities, covert action, or counterintelligence operations directed against the United States, its allies, or their interests."
+    },
+    {
+      "q": "True or False: Only military personnel are required to report suspicious contacts with foreign nationals.",
+      "a": "False. All DoD personnel — military, civilian employees, and contractors — are required to report suspicious contacts, indicators, and activities to their CI or security office under DoDD 5240.06."
+    },
+    {
+      "q": "What is the goal of foreign intelligence collection against DoD?",
+      "a": "To acquire U.S. classified or sensitive information, technologies, plans, and capabilities; block or impair U.S. intelligence collection; influence U.S. policy; and disrupt U.S. systems and programs."
+    },
+    {
+      "q": "What is a supply chain attack in the context of CI?",
+      "a": "A method where foreign intelligence entities insert vulnerabilities, malware, or compromised components into hardware or software during the manufacturing or distribution process to gain access to DoD systems and networks."
+    },
+    {
+      "q": "What should you do if you receive an unsolicited request for information from a foreign entity?",
+      "a": "Do not provide the requested information. Report the request to your CI or security office immediately. Document the details of the request including who contacted you, what they asked for, and how they made contact."
+    },
+    {
+      "q": "What passing score is required on the CI116.16 final exam?",
+      "a": "A passing score of 75% on the final exam is required. Successful completion allows students to print a certificate of completion, fulfilling the annual CI awareness and reporting requirement."
+    }
+  ]
+}

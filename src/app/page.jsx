@@ -14,18 +14,27 @@ const cbtSections = [
       { slug: 'suicide_prevention', title: 'Suicide Prevention', desc: 'ACE model, warning signs, risk factors, Military Crisis Line, QPR', questions: 43, color: 'from-violet-500 to-purple-500' },
       { slug: 'ctip', title: 'Combating Trafficking in Persons', desc: 'Trafficking indicators, DoD zero-tolerance policy, reporting procedures', questions: 50, color: 'from-pink-400 to-rose-600' },
       { slug: 'equal_opportunity', title: 'Equal Opportunity', desc: 'Protected categories, harassment, hostile work environment, MEO vs EEO', questions: 41, color: 'from-sky-500 to-blue-500' },
+      { slug: 'no_fear_act', title: 'No FEAR Act', desc: 'Whistleblower protections, EEO complaints, prohibited personnel practices', questions: 44, color: 'from-indigo-400 to-violet-500' },
       { slug: 'ethics', title: 'DoD Ethics', desc: 'Gift rules ($20/$50), Hatch Act, financial disclosure, government resources', questions: 40, color: 'from-amber-500 to-yellow-600' },
       { slug: 'dod_annual_security', title: 'Annual Security Awareness', desc: 'Insider threat, counterintelligence, suspicious contacts, social media risks', questions: 39, color: 'from-gray-400 to-slate-500' },
+      { slug: 'active_shooter', title: 'Active Shooter', desc: 'Run/Hide/Fight, warning signs, Stop the Bleed, law enforcement response', questions: 46, color: 'from-red-600 to-rose-700' },
+      { slug: 'workplace_violence', title: 'Workplace Violence Prevention', desc: 'Types I-IV, warning signs, threat assessment, de-escalation, EAP', questions: 36, color: 'from-orange-400 to-red-500' },
+      { slug: 'substance_abuse', title: 'Substance Abuse Prevention', desc: 'ASAP/ADAPT, urinalysis, signs and symptoms, self-referral, treatment', questions: 41, color: 'from-teal-400 to-emerald-500' },
+      { slug: 'concussion_tbi', title: 'Concussion / TBI', desc: 'TBI classification, MACE assessment, return to duty, red flags', questions: 35, color: 'from-blue-400 to-cyan-400' },
     ],
   },
   {
     title: 'Security & Intelligence',
-    desc: 'Cybersecurity, information security, and counterintelligence',
+    desc: 'Cybersecurity, classification, and counterintelligence',
     courses: [
       { slug: 'information_security', title: 'Information Security', desc: 'Classification levels, derivative classification, SF-86, need-to-know, markings', questions: 42, color: 'from-slate-400 to-zinc-500' },
+      { slug: 'derivative_classification', title: 'Derivative Classification', desc: 'IF103 — SCGs, portion marking, classification authority block, EO 13526', questions: 40, color: 'from-slate-500 to-gray-600' },
+      { slug: 'marking_classified', title: 'Marking Classified Information', desc: 'IF105 — portion marks, banner markings, dissemination controls, NOFORN', questions: 35, color: 'from-zinc-400 to-slate-500' },
       { slug: 'cui', title: 'Controlled Unclassified Information', desc: 'CUI categories, marking, safeguarding, NARA registry, NIST 800-171', questions: 41, color: 'from-blue-400 to-indigo-500' },
       { slug: 'dod_cyber_fundamentals', title: 'Cyber Fundamentals', desc: 'PKI, CAC, STIG, RMF, ATO process, FISMA, incident response', questions: 41, color: 'from-cyan-500 to-blue-600' },
+      { slug: 'counterintelligence', title: 'Counterintelligence Awareness', desc: 'Foreign intelligence threats, elicitation, MICE motivations, CI reporting', questions: 41, color: 'from-red-400 to-orange-500' },
       { slug: 'tarp', title: 'TARP', desc: 'Foreign intelligence threats, elicitation, suspicious contacts, CI reporting', questions: 44, color: 'from-indigo-500 to-blue-600' },
+      { slug: 'intelligence_oversight', title: 'Intelligence Oversight', desc: 'EO 12333, DoD 5240.01, questionable activities, US person collection', questions: 36, color: 'from-purple-500 to-indigo-500' },
       { slug: 'pii_training', title: 'PII Training', desc: 'PII/PHI definitions, breach reporting, safeguarding, encryption, disposal', questions: 40, color: 'from-purple-400 to-violet-500' },
       { slug: 'force_protection', title: 'Force Protection', desc: 'Physical security, access control, bomb threats, RAM, evacuation', questions: 39, color: 'from-teal-500 to-cyan-600' },
     ],
@@ -35,6 +44,7 @@ const cbtSections = [
     desc: 'Joint Knowledge Online mandatory and elective courses',
     courses: [
       { slug: 'sejpme', title: 'SEJPME I', desc: 'Joint operations, unified command, combatant commands, joint planning process', questions: 48, color: 'from-emerald-500 to-teal-500' },
+      { slug: 'ejpme', title: 'EJPME / SEJPME II', desc: 'JOPP, JIPOE, joint fires/targeting, joint logistics, multinational ops', questions: 44, color: 'from-teal-500 to-emerald-600' },
       { slug: 'law_of_war', title: 'Law of War', desc: 'Geneva Conventions, ROE, targeting principles, war crimes reporting', questions: 56, color: 'from-slate-400 to-zinc-500' },
       { slug: 'sere', title: 'SERE 100.2', desc: 'Code of Conduct, survival, evasion, resistance, escape, captivity', questions: 50, color: 'from-lime-500 to-emerald-600' },
       { slug: 'cbrn', title: 'CBRN Awareness', desc: 'MOPP levels, chemical/bio/rad/nuclear agents, decontamination', questions: 50, color: 'from-orange-500 to-red-600' },
@@ -49,9 +59,20 @@ const cbtSections = [
     courses: [
       { slug: 'hipaa_privacy', title: 'HIPAA & Privacy Act', desc: 'PHI, breach notification, patient rights, minimum necessary, penalties', questions: 58, color: 'from-purple-500 to-violet-500' },
       { slug: 'first_aid', title: 'TCCC / Military First Aid', desc: 'MARCH algorithm, tourniquet, wound packing, 9-line MEDEVAC, chest seals', questions: 54, color: 'from-red-400 to-rose-500' },
+      { slug: 'bloodborne_pathogens', title: 'Bloodborne Pathogens', desc: 'OSHA BBP standard, HBV/HCV/HIV, universal precautions, exposure response', questions: 35, color: 'from-red-500 to-pink-500' },
       { slug: 'hazmat', title: 'HAZMAT / HAZCOM', desc: 'GHS labels, SDS sections, PPE, chemical storage, spill response', questions: 41, color: 'from-yellow-500 to-orange-500' },
       { slug: 'risk_management', title: 'Composite Risk Management', desc: '5-step CRM, risk matrix, hazard ID, controls, residual risk, AAR', questions: 41, color: 'from-amber-400 to-orange-500' },
       { slug: 'domestic_violence', title: 'Domestic Violence / FAP', desc: 'Warning signs, safety planning, FAP referral, military protective orders', questions: 36, color: 'from-rose-400 to-pink-500' },
+      { slug: 'environmental_awareness', title: 'Environmental / RCRA', desc: 'Hazardous waste, generator categories, 90-day rule, spill reporting, CERCLA', questions: 36, color: 'from-green-400 to-lime-500' },
+      { slug: 'accident_avoidance', title: 'Accident Avoidance Course', desc: 'Smith System 5 Keys, defensive driving, skid control, PMCS, night driving', questions: 35, color: 'from-yellow-400 to-amber-500' },
+    ],
+  },
+  {
+    title: 'Ammunition & Ordnance',
+    desc: 'AMMO courses for ammunition and explosives handling',
+    courses: [
+      { slug: 'ammo_45', title: 'AMMO-45 Intro to Ammunition', desc: 'Ammunition classification, hazard divisions 1.1-1.6, color coding, storage', questions: 46, color: 'from-orange-600 to-red-600' },
+      { slug: 'ammo_67', title: 'AMMO-67 HAZMAT Transport', desc: 'DOT hazard classes, UN numbers, placarding, shipping papers, 49 CFR', questions: 43, color: 'from-orange-500 to-amber-600' },
     ],
   },
   {
@@ -62,15 +83,18 @@ const cbtSections = [
       { slug: 'sharp', title: 'Army SHARP', desc: 'Reporting options, 3 Ds intervention, AR 600-20, victim rights', questions: 51, color: 'from-yellow-500 to-green-600' },
       { slug: 'air_force_pme', title: 'Air Force PME / PDG', desc: 'Enlisted force, EPR, promotion, core values, AFI 36-2618, history', questions: 52, color: 'from-blue-600 to-sky-500' },
       { slug: 'navy_bmt', title: 'Navy GMT / BMR', desc: 'Ranks/rates, core values, watch standing, damage control, naval customs', questions: 50, color: 'from-blue-800 to-indigo-600' },
+      { slug: 'marine_leadership', title: 'Marine Corps Leadership', desc: '14 traits (JJ DID TIE BUCKLE), 11 principles, BAMCIS, SMEAC, OODA', questions: 45, color: 'from-red-700 to-rose-800' },
       { slug: 'ucmj', title: 'UCMJ Basics', desc: 'Punitive articles, Article 15/NJP, courts-martial, Article 31 rights', questions: 50, color: 'from-gray-500 to-slate-600' },
     ],
   },
   {
     title: 'Professional Development',
-    desc: 'Records, finance, and career readiness',
+    desc: 'Career, finance, transition, and acquisition',
     courses: [
       { slug: 'records_management', title: 'Records Management', desc: 'Federal Records Act, lifecycle, disposition, FOIA, Privacy Act', questions: 40, color: 'from-stone-400 to-zinc-500' },
       { slug: 'financial_readiness', title: 'Financial Readiness', desc: 'TSP, BAS/BAH, SCRA, predatory lending, SBP, emergency savings', questions: 36, color: 'from-green-400 to-emerald-500' },
+      { slug: 'tap', title: 'TAP / Transition Assistance', desc: 'Pre-separation, GI Bill, VA benefits, ITP, Career Readiness Standards', questions: 42, color: 'from-blue-400 to-indigo-400' },
+      { slug: 'acquisition_ethics', title: 'Acquisition Ethics (CLM 003)', desc: 'Procurement Integrity Act, OCI, gift rules, post-employment restrictions', questions: 36, color: 'from-amber-400 to-yellow-500' },
     ],
   },
 ];
@@ -126,7 +150,7 @@ export default function Home() {
 
           <p className="text-xl text-dark-400 max-w-2xl mx-auto mb-10">
             {totalQuestions.toLocaleString()}+ questions and answers across {totalCourses} military CBTs.
-            Cyber Awareness, OPSEC, SEJPME, JKO, and more. Free forever.
+            JKO, CDSE, ALMS, NKO, MarineNet, and more. Free forever.
           </p>
 
           <CBTSearch className="mb-8" />
@@ -181,7 +205,7 @@ export default function Home() {
               <span className="gradient-text">Answer Library</span>
             </h2>
             <p className="text-lg text-dark-400 max-w-2xl mx-auto">
-              Every major DoD, JKO, and service-specific CBT. Click any course to see all questions and answers.
+              Every major DoD, JKO, CDSE, and service-specific CBT. Click any course to see all questions and answers.
             </p>
           </div>
 
@@ -193,33 +217,21 @@ export default function Home() {
               </div>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {section.courses.map((cbt) => (
-                  <Link
-                    key={cbt.slug}
-                    href={`/cbt/${cbt.slug}`}
-                    className="group relative card-hover overflow-hidden"
-                  >
+                  <Link key={cbt.slug} href={`/cbt/${cbt.slug}`} className="group relative card-hover overflow-hidden">
                     <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${cbt.color} opacity-60 group-hover:opacity-100 transition-opacity`} />
-
                     {cbt.badge && (
                       <div className="absolute top-4 right-4 px-2.5 py-1 rounded-full bg-blue-500/20 border border-blue-500/30 text-blue-300 text-xs font-semibold">
                         {cbt.badge}
                       </div>
                     )}
-
                     <div className="pt-5">
                       <h4 className="text-base font-bold text-white mb-1.5 group-hover:text-brand-300 transition-colors pr-20">
                         {cbt.title}
                       </h4>
-                      <p className="text-dark-400 text-sm leading-relaxed mb-3">
-                        {cbt.desc}
-                      </p>
+                      <p className="text-dark-400 text-sm leading-relaxed mb-3">{cbt.desc}</p>
                       <div className="flex items-center justify-between">
-                        <span className="text-dark-500 text-xs font-medium">
-                          {cbt.questions} questions
-                        </span>
-                        <span className="text-brand-400 text-xs font-semibold group-hover:translate-x-1 transition-transform">
-                          Study now &rarr;
-                        </span>
+                        <span className="text-dark-500 text-xs font-medium">{cbt.questions} questions</span>
+                        <span className="text-brand-400 text-xs font-semibold group-hover:translate-x-1 transition-transform">Study now &rarr;</span>
                       </div>
                     </div>
                   </Link>
@@ -229,9 +241,7 @@ export default function Home() {
           ))}
 
           <div className="text-center mt-14">
-            <Link href="/search" className="btn-secondary inline-block">
-              Search 2M+ Study Materials
-            </Link>
+            <Link href="/search" className="btn-secondary inline-block">Search 2M+ Study Materials</Link>
           </div>
         </div>
       </section>
@@ -243,18 +253,13 @@ export default function Home() {
             Built for students who are{' '}
             <span className="gradient-text">tired of the BS</span>
           </h2>
-          <p className="text-lg text-dark-400">
-            Other apps put features behind paywalls. We put everything in your hands.
-          </p>
+          <p className="text-lg text-dark-400">Other apps put features behind paywalls. We put everything in your hands.</p>
         </div>
-
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6">
           {features.map((f, i) => (
             <div key={i} className="card-hover group">
               <div className="text-3xl mb-4">{f.icon}</div>
-              <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-brand-300 transition-colors">
-                {f.title}
-              </h3>
+              <h3 className="text-lg font-semibold text-white mb-2 group-hover:text-brand-300 transition-colors">{f.title}</h3>
               <p className="text-dark-400 text-sm leading-relaxed">{f.desc}</p>
             </div>
           ))}
@@ -265,12 +270,9 @@ export default function Home() {
       <section className="py-24 relative">
         <div className="max-w-3xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              QuizFeast vs The Rest
-            </h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">QuizFeast vs The Rest</h2>
             <p className="text-dark-400">See what you&apos;re actually getting</p>
           </div>
-
           <div className="card overflow-hidden p-0">
             <div className="grid grid-cols-3 bg-dark-800 px-6 py-4 border-b border-dark-700">
               <div className="text-sm font-semibold text-dark-400">Feature</div>
@@ -281,20 +283,10 @@ export default function Home() {
               <div key={i} className={`grid grid-cols-3 px-6 py-4 ${i % 2 === 0 ? 'bg-dark-900/50' : ''} border-b border-dark-800/50`}>
                 <div className="text-sm text-dark-200">{row.feature}</div>
                 <div className="text-center">
-                  {row.us === true ? (
-                    <span className="text-green-400 font-semibold">Free</span>
-                  ) : (
-                    <span className="text-dark-500">{row.us}</span>
-                  )}
+                  {row.us === true ? <span className="text-green-400 font-semibold">Free</span> : <span className="text-dark-500">{row.us}</span>}
                 </div>
                 <div className="text-center">
-                  {row.them === true ? (
-                    <span className="text-green-400">Yes</span>
-                  ) : row.them === false ? (
-                    <span className="text-red-400">No</span>
-                  ) : (
-                    <span className="text-yellow-400 text-sm">{row.them}</span>
-                  )}
+                  {row.them === true ? <span className="text-green-400">Yes</span> : row.them === false ? <span className="text-red-400">No</span> : <span className="text-yellow-400 text-sm">{row.them}</span>}
                 </div>
               </div>
             ))}
@@ -305,11 +297,8 @@ export default function Home() {
       {/* How it works */}
       <section className="py-24 relative">
         <div className="max-w-4xl mx-auto px-4 text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Three ways to study
-          </h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Three ways to study</h2>
         </div>
-
         <div className="max-w-5xl mx-auto px-4 grid md:grid-cols-3 gap-8">
           <div className="text-center">
             <div className="w-16 h-16 bg-brand-500/20 rounded-2xl flex items-center justify-center mx-auto mb-6 text-2xl">1</div>
@@ -333,15 +322,9 @@ export default function Home() {
       <section className="py-24 relative">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <div className="card bg-gradient-to-br from-brand-900/50 to-dark-900 border-brand-700/30 py-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              Ready to actually learn?
-            </h2>
-            <p className="text-dark-400 mb-8 text-lg">
-              No credit card. No ads. No catch. Just better studying.
-            </p>
-            <Link href="/create" className="btn-primary text-lg px-10 py-4 inline-block">
-              Create Your First Study Set
-            </Link>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Ready to actually learn?</h2>
+            <p className="text-dark-400 mb-8 text-lg">No credit card. No ads. No catch. Just better studying.</p>
+            <Link href="/create" className="btn-primary text-lg px-10 py-4 inline-block">Create Your First Study Set</Link>
           </div>
         </div>
       </section>
@@ -350,9 +333,7 @@ export default function Home() {
       <footer className="border-t border-dark-800 py-12">
         <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 bg-gradient-to-br from-brand-400 to-brand-600 rounded-md flex items-center justify-center font-bold text-white text-xs">
-              Q
-            </div>
+            <div className="w-6 h-6 bg-gradient-to-br from-brand-400 to-brand-600 rounded-md flex items-center justify-center font-bold text-white text-xs">Q</div>
             <span className="text-sm text-dark-500">QuizFeast — Free forever</span>
           </div>
           <div className="flex items-center gap-6 text-sm text-dark-500">

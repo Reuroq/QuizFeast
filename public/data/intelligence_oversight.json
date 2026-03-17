@@ -1,0 +1,151 @@
+{
+  "category": "Intelligence Oversight (DS099.06)",
+  "description": "CDSE Intelligence Oversight Awareness training covering EO 12333, DoD 5240.01, questionable intelligence activities, US person protections, and reporting requirements",
+  "icon": "eye",
+  "questions": [
+    {
+      "q": "What is Intelligence Oversight?",
+      "a": "Intelligence Oversight is the process of ensuring that all DoD intelligence, counterintelligence, and intelligence-related activities are conducted in accordance with applicable U.S. law, Presidential Executive Orders, and DoD issuances."
+    },
+    {
+      "q": "What Executive Order governs United States Intelligence Activities?",
+      "a": "Executive Order 12333, signed by President Ronald Reagan in December 1981. Every president since Reagan has endorsed this same Executive Order."
+    },
+    {
+      "q": "What is the primary purpose of Executive Order 12333?",
+      "a": "To provide the President and the National Security Council (NSC) with the necessary information to develop foreign, defense, and economic policy, and to protect U.S. national interests from foreign security threats, while ensuring the protection of constitutional rights of U.S. persons."
+    },
+    {
+      "q": "What DoD regulation implements the Intelligence Oversight program?",
+      "a": "DoD Directive 5148.13, entitled 'Intelligence Oversight,' implements the Intelligence Oversight program as authorized by EO 12333."
+    },
+    {
+      "q": "What is the purpose of DoD Manual 5240.01 (formerly DoD 5240.1-R)?",
+      "a": "DoD Manual 5240.01 establishes the procedures governing the conduct of DoD intelligence activities, including rules and procedures for collecting, retaining, and disseminating information concerning U.S. persons."
+    },
+    {
+      "q": "What is a 'U.S. Person' under EO 12333?",
+      "a": "A U.S. person includes U.S. citizens, permanent resident aliens, an unincorporated association substantially composed of U.S. citizens or permanent resident aliens, or a corporation incorporated in the United States (except those directed and controlled by a foreign government)."
+    },
+    {
+      "q": "What is a Questionable Intelligence Activity (QIA)?",
+      "a": "A Questionable Intelligence Activity is any intelligence or intelligence-related activity that may violate the law, any Executive Order or Presidential directive, or any applicable DoD policy, including DoD Manual 5240.01."
+    },
+    {
+      "q": "Who should you report a Questionable Intelligence Activity to?",
+      "a": "Report QIAs to the Intelligence Oversight Officer (IOO), your chain of command, the DoD Inspector General, or the Inspector General of the Intelligence Community. All DoD personnel have a duty to report."
+    },
+    {
+      "q": "What is the difference between a Questionable Intelligence Activity and a Significant/Highly Sensitive Matter (S/HSM)?",
+      "a": "A QIA is any activity that may violate law, EO, or policy. A Significant/Highly Sensitive Matter (S/HSM) is a QIA of such significance that Congressional oversight committees must be notified, or one that could impugn the reputation or integrity of the Intelligence Community."
+    },
+    {
+      "q": "What is Procedure 2 under DoD Manual 5240.01?",
+      "a": "Procedure 2 governs the collection of U.S. Person Information (USPI). It establishes that DoD intelligence components may only collect USPI when it falls within one of the specifically authorized categories and is collected by the least intrusive means feasible."
+    },
+    {
+      "q": "What is Procedure 3 under DoD Manual 5240.01?",
+      "a": "Procedure 3 governs the retention of U.S. Person Information. USPI that has been collected must be evaluated promptly to determine if it may be permanently retained. Information not meeting retention criteria must be deleted or destroyed."
+    },
+    {
+      "q": "What is Procedure 4 under DoD Manual 5240.01?",
+      "a": "Procedure 4 governs the dissemination of U.S. Person Information. USPI may only be disseminated if the recipient has a valid need to know, the information falls within an authorized category, and it is the minimum necessary to fulfill the purpose."
+    },
+    {
+      "q": "What is 'incidental collection' of U.S. Person Information?",
+      "a": "Incidental collection occurs when USPI is acquired during the collection of foreign intelligence information that was not specifically targeted at the U.S. person. Even incidentally collected USPI is subject to the retention and dissemination rules of Procedures 3 and 4."
+    },
+    {
+      "q": "What are the two goals of the DoD Intelligence Oversight program?",
+      "a": "The two goals are: (1) Ensure that DoD can conduct its foreign intelligence and counterintelligence missions effectively, and (2) Protect the statutory and constitutional rights of U.S. persons."
+    },
+    {
+      "q": "Who is the Senior Intelligence Oversight Official (SIOO) in DoD?",
+      "a": "The Under Secretary of Defense for Intelligence and Security (USD(I&S)) serves as the Senior Intelligence Oversight Official for the Department of Defense."
+    },
+    {
+      "q": "What is the role of the Intelligence Oversight Officer (IOO)?",
+      "a": "The IOO is responsible for implementing the Intelligence Oversight program within their organization, providing training and guidance, receiving and investigating reports of QIAs, and reporting significant matters through the chain of command."
+    },
+    {
+      "q": "True or False: Only intelligence professionals are required to report Questionable Intelligence Activities.",
+      "a": "False. All DoD personnel, including military, civilian, and contractor employees who become aware of a QIA, have a duty to report it regardless of their position or role."
+    },
+    {
+      "q": "What role does the Inspector General play in Intelligence Oversight?",
+      "a": "The DoD Inspector General and service Inspectors General conduct inspections and investigations of intelligence activities, receive reports of QIAs, and provide independent oversight to ensure compliance with laws, executive orders, and DoD policies."
+    },
+    {
+      "q": "Under what authorized categories may DoD collect U.S. Person Information?",
+      "a": "Authorized categories include: information necessary to the function of the collecting component, counterintelligence, potential sources of assistance, persons in contact with foreign intelligence targets, physical security of DoD installations, personnel security investigations, and information obtained with consent."
+    },
+    {
+      "q": "What is the 'least intrusive means' principle in intelligence collection?",
+      "a": "When collecting USPI under an authorized category, DoD components must use the least intrusive collection technique feasible. This means choosing methods that minimize the impact on the privacy and civil liberties of U.S. persons."
+    },
+    {
+      "q": "What happens if U.S. Person Information is collected incidentally and does not meet retention criteria?",
+      "a": "If USPI does not meet one of the authorized retention categories, it must be deleted or destroyed as soon as practicable, typically within 90 days of the determination."
+    },
+    {
+      "q": "Can DoD intelligence components conduct electronic surveillance of U.S. persons?",
+      "a": "Electronic surveillance of U.S. persons requires authorization from the Foreign Intelligence Surveillance Court (FISC) under the Foreign Intelligence Surveillance Act (FISA), except in limited circumstances such as consent or when authorized by the Attorney General."
+    },
+    {
+      "q": "What is a 'Proper Use Memorandum' in the context of Intelligence Oversight?",
+      "a": "A Proper Use Memorandum documents the purpose and legal authority for collecting, retaining, or disseminating USPI. It provides an audit trail showing that intelligence activities comply with applicable laws and procedures."
+    },
+    {
+      "q": "What are the consequences for failing to report a Questionable Intelligence Activity?",
+      "a": "Failure to report a QIA may result in appropriate disciplinary action, including adverse administrative action, non-judicial punishment under the UCMJ, or criminal prosecution depending on the severity of the failure."
+    },
+    {
+      "q": "Which congressional committees provide oversight of intelligence activities?",
+      "a": "The Senate Select Committee on Intelligence (SSCI) and the House Permanent Select Committee on Intelligence (HPSCI) are the primary congressional committees providing oversight of intelligence activities."
+    },
+    {
+      "q": "What does Procedure 1 of DoD Manual 5240.01 address?",
+      "a": "Procedure 1 establishes general provisions for the conduct of DoD intelligence activities, including the requirement that activities be conducted in a manner that protects fully the legal rights of all U.S. persons."
+    },
+    {
+      "q": "True or False: A contractor working for a DoD intelligence component has the same obligation to report QIAs as a military member.",
+      "a": "True. All personnel supporting DoD intelligence activities, including contractors, have the same duty to report Questionable Intelligence Activities."
+    },
+    {
+      "q": "How frequently is Intelligence Oversight training required for DoD personnel?",
+      "a": "Intelligence Oversight training is required annually for all personnel assigned to or supporting DoD intelligence and counterintelligence organizations."
+    },
+    {
+      "q": "What is the relationship between EO 12333 and the Foreign Intelligence Surveillance Act (FISA)?",
+      "a": "EO 12333 provides the overall framework for U.S. intelligence activities, while FISA provides the legal authority and procedures for electronic surveillance and physical searches conducted for foreign intelligence purposes within the United States, particularly involving U.S. persons."
+    },
+    {
+      "q": "What is the role of the Attorney General in Intelligence Oversight?",
+      "a": "The Attorney General provides legal guidance to intelligence agencies, approves certain intelligence collection techniques, and ensures that intelligence activities comply with the Constitution and federal laws. The AG also approves FISA applications."
+    },
+    {
+      "q": "What types of activities does EO 12333 specifically prohibit?",
+      "a": "EO 12333 prohibits assassination, human experimentation on unknowing subjects, indirect participation in activities prohibited by the Order, and collection of information concerning U.S. persons' domestic activities unless authorized by applicable procedures."
+    },
+    {
+      "q": "What should you do if you are unsure whether an activity constitutes a Questionable Intelligence Activity?",
+      "a": "When in doubt, report it. Contact your Intelligence Oversight Officer or chain of command for guidance. It is always better to report a potential QIA and have it reviewed than to not report an actual violation."
+    },
+    {
+      "q": "What are the elements of the Intelligence Oversight program within DoD?",
+      "a": "The program includes: (1) Leadership commitment, (2) Training and education, (3) Self-inspections and compliance assessments, (4) Reporting of QIAs and S/HSMs, and (5) IG inspections and investigations."
+    },
+    {
+      "q": "What is Procedure 5 under DoD Manual 5240.01?",
+      "a": "Procedure 5 governs electronic surveillance. It establishes rules for when and how DoD components may conduct electronic surveillance, with enhanced protections when the surveillance involves U.S. persons."
+    },
+    {
+      "q": "Under EO 12333, which agencies are part of the Intelligence Community (IC)?",
+      "a": "The IC includes the Office of the Director of National Intelligence, CIA, NSA, DIA, NGA, NRO, FBI intelligence elements, DEA intelligence, Department of Energy intelligence, Treasury intelligence, Coast Guard intelligence, State Department's INR, and the intelligence components of the military services."
+    },
+    {
+      "q": "What is the primary distinction between foreign intelligence and counterintelligence?",
+      "a": "Foreign intelligence is information relating to the capabilities, intentions, or activities of foreign governments, organizations, or persons. Counterintelligence is information gathered and activities conducted to identify, deceive, exploit, disrupt, or protect against espionage, sabotage, or assassinations conducted by or on behalf of foreign powers."
+    }
+  ]
+}
