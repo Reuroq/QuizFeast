@@ -52,3 +52,77 @@ export function containsBanned(s) {
   if (typeof s !== 'string') return false;
   return BANNED.some(re => { re.lastIndex = 0; return re.test(s); });
 }
+
+// === Vendor / certification name stripping (separate from banned terms) ===
+// Used for UI chip labels so we don't surface third-party vendor trademarks
+// directly as branded badges. The underlying page can still mention the vendor
+// (nominative fair use for course identification), but in compact chip-style
+// UI we generalize to avoid the implication of affiliation.
+const VENDOR_PATTERNS = [
+  /\bcomptia\b/gi,
+  /\bcisco\b/gi,
+  /\baws\b/gi,
+  /\bamazon[\s-]?web[\s-]?services\b/gi,
+  /\bmicrosoft\b/gi,
+  /\bazure\b/gi,
+  /\bgoogle[\s-]?cloud\b/gi,
+  /\bgcp\b/gi,
+  /\boracle\b/gi,
+  /\bred[\s-]?hat\b|\bredhat\b/gi,
+  /\bec[\s-]?council\b/gi,
+  /\bisaca\b/gi,
+  /\bisc[²2]\b|\(isc\)[²2]?\b/gi,
+  // Cert/product names that uniquely identify the vendor
+  /\bcissp\b/gi,
+  /\bcism\b/gi,
+  /\bcisa\b/gi,
+  /\bceh\b/gi,
+  /\boscp\b/gi,
+  /\bccna\b/gi,
+  /\bccnp\b/gi,
+  /\bsecurity\+/gi,
+  /\bsecurity[\s-]plus\b/gi,
+  /\bnetwork\+/gi,
+  /\bnetwork[\s-]plus\b/gi,
+  /\ba\+ /gi,
+  /\bserver\+/gi,
+  /\blinux\+/gi,
+  /\bproject\+/gi,
+  /\bpentest\+/gi,
+  /\bsysadmin\+/gi,
+];
+
+const BUCKET_FALLBACK = {
+  cert_it: 'IT Cert Practice',
+  cbt_annual: 'DoD Annual Training',
+  cbt_security: 'Security Training',
+  cbt_jko: 'JKO Course',
+  cbt_health: 'Health Training',
+  cbt_army: 'Army Material',
+  cbt_af: 'Air Force Material',
+  cbt_navy: 'Navy Material',
+  cbt_marine: 'Marine Material',
+  cbt_prof: 'Professional Development',
+  cbt_ammo: 'Ammunition Training',
+};
+
+// Returns a chip-safe label. Strips vendor/trademark names from the title;
+// if the result is too short to be meaningful, falls back to a generic
+// bucket-level label.
+export function safeChipLabel(title, bucket) {
+  if (!title) return BUCKET_FALLBACK[bucket] || 'Study Material';
+  let stripped = title;
+  for (const re of VENDOR_PATTERNS) stripped = stripped.replace(re, '');
+  stripped = stripped
+    .replace(/[\s\-_]+/g, ' ')
+    .replace(/^[\s\-_,]+|[\s\-_,]+$/g, '')
+    .trim();
+  if (stripped.length < 4) return BUCKET_FALLBACK[bucket] || 'Study Material';
+  return stripped;
+}
+
+// Returns true if any vendor trademark is still present (test helper).
+export function containsVendor(s) {
+  if (typeof s !== 'string') return false;
+  return VENDOR_PATTERNS.some(re => { re.lastIndex = 0; return re.test(s); });
+}

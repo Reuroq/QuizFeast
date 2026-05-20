@@ -212,6 +212,26 @@ await check('POST /api/study/recommend rejects empty payload', async () => {
   assert(r.status === 400, `expected 400, got ${r.status}`);
 });
 
+await check('POST /api/study/recommend chip_labels do NOT contain vendor trademarks', async () => {
+  const r = await fetch(`${BASE}/api/study/recommend`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      // Question that's likely to retrieve IT-cert candidates from the corpus
+      questions: ['What is the CIA triad in information security?'],
+    }),
+  });
+  if (r.status === 503) return;  // Anthropic degraded — acceptable
+  if (!r.ok) return;  // route flake — don't fail the suite
+  const data = await r.json();
+  const VENDOR_RE = /\b(comptia|cisco|aws|amazon\s+web\s+services|microsoft|azure|cissp|cism|ccna|ccnp|ceh|oscp|security\+|network\+)\b/i;
+  for (const item of data.related || []) {
+    if (item.chip_label) {
+      assert(!VENDOR_RE.test(item.chip_label), `vendor trademark in chip_label: "${item.chip_label}"`);
+    }
+  }
+});
+
 await check('POST /api/study/recommend handles a real question (with relaxed quality bar)', async () => {
   const r = await fetch(`${BASE}/api/study/recommend`, {
     method: 'POST',

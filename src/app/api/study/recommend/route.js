@@ -3,7 +3,7 @@ import Anthropic from '@anthropic-ai/sdk';
 import fs from 'node:fs';
 import path from 'node:path';
 import { searchPinecone } from '@/lib/pinecone';
-import { sanitizeDeep } from '@/lib/sanitize';
+import { sanitizeDeep, safeChipLabel } from '@/lib/sanitize';
 
 let _anthropic;
 function getAnthropic() {
@@ -146,11 +146,20 @@ ${candidateSnippets.map((c) => `[${c.idx}] ${c.text}`).join('\n\n')}`;
     const related = selectedIndices.map(i => {
       const c = candidateSnippets[i];
       const slug = findSlugInIndex(c);
-      const title = slug ? slugMap.get(slug).title : null;
+      const slugMeta = slug ? slugMap.get(slug) : null;
+      const title = slugMeta ? slugMeta.title : null;
+      const bucket = slugMeta ? slugMeta.bucket : null;
+      // chip_label hides third-party vendor trademarks (CompTIA, Cisco, AWS,
+      // etc.) from the UI badge. Underlying page link still goes to /answers
+      // where the full title can appear (nominative fair use), but in
+      // compact UI we avoid surfacing trademarks as branded chips.
+      const chip_label = safeChipLabel(title, bucket);
       return {
         text: c.text,
         slug,
         title,
+        chip_label,
+        bucket,
         relevance_score: c.score,
       };
     });

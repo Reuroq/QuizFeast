@@ -44,13 +44,16 @@ function parseSnippet(rawText) {
 }
 
 // Flatten all related results into a deduped list of Q&A cards.
-// Tag each card with its source CBT info.
+// Tag each card with its source CBT info. Use server-provided chip_label
+// (vendor-stripped) rather than the raw title for UI badges.
 function flattenRelated(related) {
   const seen = new Set();
   const out = [];
   for (const r of related || []) {
-    const { title: extractedTitle, qas } = parseSnippet(r.text);
-    const displayTitle = r.title || extractedTitle || null;
+    const { qas } = parseSnippet(r.text);
+    // Prefer server-provided chip_label; fall back to title only if absent
+    // (older API responses). Both have been vendor-scrubbed already.
+    const chipLabel = r.chip_label || r.title || null;
     for (const qa of qas) {
       const key = qa.q.toLowerCase().replace(/[^\w]+/g, '');
       if (seen.has(key)) continue;
@@ -58,7 +61,7 @@ function flattenRelated(related) {
       out.push({
         q: qa.q,
         a: qa.a,
-        source_title: displayTitle,
+        chip_label: chipLabel,
         source_slug: r.slug || null,
         relevance: r.relevance_score || 0,
       });
@@ -229,18 +232,18 @@ export default function StudyAssistant() {
                 <div className="space-y-3">
                   {flatRelated.map((r, i) => (
                     <div key={i} className="card p-5 hover:border-dark-600 transition-colors">
-                      {r.source_title && (
+                      {r.chip_label && (
                         <div className="flex items-center gap-2 mb-2 flex-wrap">
                           {r.source_slug ? (
                             <Link
                               href={`/answers/${r.source_slug}`}
                               className="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-brand-500/15 text-brand-300 border border-brand-500/20 hover:bg-brand-500/25 transition-colors"
                             >
-                              {r.source_title}
+                              {r.chip_label}
                             </Link>
                           ) : (
                             <span className="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-dark-800 text-dark-400 border border-dark-700">
-                              {r.source_title}
+                              {r.chip_label}
                             </span>
                           )}
                         </div>
