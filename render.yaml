@@ -4,6 +4,10 @@ services:
     runtime: node
     buildCommand: npm install && npm run build
     startCommand: node .next/standalone/server.js
+    disk:
+      name: forms-data
+      mountPath: /app/data
+      sizeGB: 1
     envVars:
       - key: OPENAI_API_KEY
         sync: false
@@ -12,6 +16,8 @@ services:
       - key: PINECONE_HOST
         sync: false
       - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: ADMIN_TOKEN
         sync: false
       - key: NODE_ENV
         value: production
