@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo, useRef, useEffect } from 'react';
+import { pushRecentSlug, pushRecentSection } from '@/lib/session-context';
 
 export default function AnswerSearch({ qas: initialQas, sections, slug }) {
   const [qas, setQas] = useState(initialQas);
@@ -9,9 +10,10 @@ export default function AnswerSearch({ qas: initialQas, sections, slug }) {
   const [reportingIdx, setReportingIdx] = useState(null);
   const inputRef = useRef(null);
 
-  // On mount: read ?q= URL param to prefill + scroll to #q-N anchor.
+  // On mount: read ?q= URL param to prefill + scroll to #q-N anchor + track slug.
   useEffect(() => {
     if (typeof window === 'undefined') return;
+    if (slug) pushRecentSlug(slug);
     const params = new URLSearchParams(window.location.search);
     const qParam = params.get('q');
     if (qParam) setQuery(qParam);
@@ -21,7 +23,7 @@ export default function AnswerSearch({ qas: initialQas, sections, slug }) {
         if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }, 50);
     }
-  }, []);
+  }, [slug]);
 
   // On mount: fetch community-corrected answers for this slug and patch into qas.
   useEffect(() => {
@@ -159,7 +161,10 @@ export default function AnswerSearch({ qas: initialQas, sections, slug }) {
               return (
                 <button
                   key={key}
-                  onClick={() => setActiveSection(active ? null : key)}
+                  onClick={() => {
+                    if (!active) pushRecentSection(s.name);
+                    setActiveSection(active ? null : key);
+                  }}
                   className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
                     active
                       ? 'bg-brand-500/30 text-brand-200 border border-brand-500/40'

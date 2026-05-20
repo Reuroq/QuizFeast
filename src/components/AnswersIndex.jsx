@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useRef, useEffect } from 'react';
 import Link from 'next/link';
+import { getRecentSlugs, getRecentSections } from '@/lib/session-context';
 
 const BUCKET_LABELS = {
   cbt_annual: 'DoD Annual Training',
@@ -86,7 +87,12 @@ export default function AnswersIndex({ entries }) {
     setSearching(true);
     debounceRef.current = setTimeout(async () => {
       try {
-        const res = await fetch(`/api/answers/global-search?q=${encodeURIComponent(trimmed)}`);
+        const recentSlugs = getRecentSlugs();
+        const recentSections = getRecentSections();
+        const params = new URLSearchParams({ q: trimmed });
+        if (recentSlugs.length) params.set('context_slugs', recentSlugs.join(','));
+        if (recentSections.length) params.set('context_sections', recentSections.join(','));
+        const res = await fetch(`/api/answers/global-search?${params.toString()}`);
         const data = await res.json();
         setGlobalResults(data);
       } catch (err) {
