@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="text-xs text-dark-500 leading-relaxed">
             <strong className="text-dark-400">QuizFeast</strong> is a free community-driven study reference for
             CBT and certification exams. Operated by Nightshift Labs LLC. Not affiliated with the U.S. Department
-            of Defense, JKO, CompTIA, Quizlet, or any other organization referenced on the site. All trademarks
+            of Defense, JKO, CompTIA, or any other organization referenced on the site. All trademarks
             are property of their respective owners. Answers are community-sourced and may be wrong &mdash; always
             verify with your official training portal.
           </div>

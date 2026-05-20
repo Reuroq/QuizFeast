@@ -52,7 +52,7 @@ export default function TermsPage() {
               of Defense, Joint Knowledge Online (JKO), Defense Counterintelligence and Security Agency (CDSE),
               Army Learning Management System (ALMS), Navy e-Learning (NKO), MarineNet, the Air Force, the Army,
               the Navy, the Marine Corps, the Coast Guard, the Space Force, CompTIA, (ISC)², ISACA, EC-Council,
-              Amazon Web Services, Microsoft, Cisco, Quizlet, Chegg, Course Hero, or any other organization
+              Amazon Web Services, Microsoft, Cisco, or any other organization
               referenced on the Service. All trademarks and exam names are the property of their respective
               owners and are used here under nominative fair use solely to identify the subject of study material.
             </p>

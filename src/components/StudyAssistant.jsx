@@ -1,7 +1,72 @@
 'use client';
 
-import { useState, useRef } from 'react';
+import { useState, useMemo, useRef } from 'react';
 import Link from 'next/link';
+
+// Defensive: strip mentions of third-party study sites from retrieved snippets
+// so they never surface to end users, even if old corpus data has them.
+function sanitize(s) {
+  if (!s) return '';
+  return s
+    .replace(/\bquizlet\.?(com)?\b/gi, '')
+    .replace(/\bchegg\.?(com)?\b/gi, '')
+    .replace(/\bcourse[\s-]?hero\.?(com)?\b/gi, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+// Parse a Pinecone-retrieved chunk into { title, qas: [{q, a}] }
+// Source format: "<Title> Question: ... Answer: ... ====== Question: ... Answer: ... ======"
+function parseSnippet(rawText) {
+  const text = sanitize(rawText || '');
+  if (!text) return { title: null, qas: [] };
+
+  const firstQIdx = text.search(/Question\s*\d*\s*:/i);
+  const title = firstQIdx > 0 ? text.slice(0, firstQIdx).trim() : null;
+  const body = firstQIdx >= 0 ? text.slice(firstQIdx) : text;
+
+  // Split on the equals separator (4+ equals chars handles 50-long lines)
+  const chunks = body.split(/={4,}/).map(c => c.trim()).filter(Boolean);
+
+  const qas = [];
+  for (const chunk of chunks) {
+    // Each chunk: "Question[N]: <q> Answer: <a>" possibly followed by junk
+    const m = chunk.match(/Question\s*\d*\s*:\s*([\s\S]*?)\s+Answer\s*:\s*([\s\S]*?)$/i);
+    if (m) {
+      const q = m[1].replace(/\s+/g, ' ').trim();
+      const a = m[2].replace(/\s+/g, ' ').trim();
+      if (q.length >= 5 && a.length >= 1 && q.length <= 600 && a.length <= 800) {
+        qas.push({ q, a });
+      }
+    }
+  }
+  return { title: sanitize(title), qas };
+}
+
+// Flatten all related results into a deduped list of Q&A cards.
+// Tag each card with its source CBT info.
+function flattenRelated(related) {
+  const seen = new Set();
+  const out = [];
+  for (const r of related || []) {
+    const { title: extractedTitle, qas } = parseSnippet(r.text);
+    const displayTitle = r.title || extractedTitle || null;
+    for (const qa of qas) {
+      const key = qa.q.toLowerCase().replace(/[^\w]+/g, '');
+      if (seen.has(key)) continue;
+      seen.add(key);
+      out.push({
+        q: qa.q,
+        a: qa.a,
+        source_title: displayTitle,
+        source_slug: r.slug || null,
+        relevance: r.relevance_score || 0,
+      });
+      if (out.length >= 15) return out;
+    }
+  }
+  return out;
+}
 
 const PLACEHOLDER = `Paste 2-3 questions from your CBT here, one per line. Example:
 
@@ -61,6 +126,7 @@ export default function StudyAssistant() {
   }
 
   const parsedCount = parseInput(input).length;
+  const flatRelated = useMemo(() => flattenRelated(result?.related), [result]);
 
   return (
     <div className="relative">
@@ -153,19 +219,37 @@ export default function StudyAssistant() {
               )}
             </div>
 
-            {/* Related questions */}
-            {result.related?.length > 0 ? (
+            {/* Related practice — clean Q&A cards parsed from retrieval */}
+            {flatRelated.length > 0 ? (
               <div>
-                <h2 className="text-base font-bold text-white mb-3">Related practice from the corpus</h2>
+                <div className="flex items-baseline justify-between mb-4">
+                  <h2 className="text-base font-bold text-white">Related practice</h2>
+                  <span className="text-dark-500 text-xs">{flatRelated.length} {flatRelated.length === 1 ? 'question' : 'questions'}</span>
+                </div>
                 <div className="space-y-3">
-                  {result.related.map((r, i) => (
-                    <div key={i} className="card p-4">
-                      <p className="text-dark-200 text-sm whitespace-pre-wrap mb-3 leading-relaxed">{r.text}</p>
-                      {r.slug && r.title && (
-                        <Link href={`/answers/${r.slug}`} className="text-xs text-brand-400 hover:text-brand-300">
-                          From: {r.title} &rarr;
-                        </Link>
+                  {flatRelated.map((r, i) => (
+                    <div key={i} className="card p-5 hover:border-dark-600 transition-colors">
+                      {r.source_title && (
+                        <div className="flex items-center gap-2 mb-2 flex-wrap">
+                          {r.source_slug ? (
+                            <Link
+                              href={`/answers/${r.source_slug}`}
+                              className="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-brand-500/15 text-brand-300 border border-brand-500/20 hover:bg-brand-500/25 transition-colors"
+                            >
+                              {r.source_title}
+                            </Link>
+                          ) : (
+                            <span className="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-dark-800 text-dark-400 border border-dark-700">
+                              {r.source_title}
+                            </span>
+                          )}
+                        </div>
                       )}
+                      <p className="text-white font-medium text-sm mb-3 leading-snug">{r.q}</p>
+                      <div className="border-l-2 border-brand-500/40 pl-3">
+                        <div className="text-brand-300 text-[10px] font-semibold uppercase tracking-wider mb-1">Answer</div>
+                        <p className="text-dark-200 text-sm leading-relaxed whitespace-pre-wrap">{r.a}</p>
+                      </div>
                     </div>
                   ))}
                 </div>
