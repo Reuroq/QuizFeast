@@ -8,7 +8,7 @@ quizfeast-extension.zip
 .DS_Store
 
 # Local forms DB (production data lives on Render persistent disk at /app/data)
-data/
+/data/
 *.db
 *.db-journal
 *.db-wal
