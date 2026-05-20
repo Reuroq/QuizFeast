@@ -115,17 +115,37 @@ ${candidateSnippets.map((c) => `[${c.idx}] ${c.text}`).join('\n\n')}`;
       ? aiResult.related_indices.filter(i => Number.isInteger(i) && i >= 0 && i < candidateSnippets.length).slice(0, 10)
       : [];
 
+    // Slug resolution strategy: extract a title-looking first line from the
+    // retrieved text and slugify it to find a matching /answers/<slug>.
+    // Pinecone metadata.source doesn't match our slug format reliably.
+    function slugifyText(s) {
+      return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 80);
+    }
+    function findSlugInIndex(candidate) {
+      // 1. Direct source field
+      const s1 = slugifyText(candidate.source || '');
+      if (s1 && slugMap.has(s1)) return s1;
+      // 2. Filename field
+      const s2 = slugifyText((candidate.filename || '').replace(/\.docx$/i, ''));
+      if (s2 && slugMap.has(s2)) return s2;
+      // 3. Extract first line of text as title — text format is often
+      // "<Title> Question: ..." so chop at the first "Question:" word
+      const firstChunk = (candidate.text || '').split(/Question\s*\d*\s*:/i)[0].trim();
+      if (firstChunk) {
+        const s3 = slugifyText(firstChunk);
+        if (s3 && slugMap.has(s3)) return s3;
+        // 4. Try a shorter prefix (first 5 words) — handles titles followed by junk
+        const short = firstChunk.split(/\s+/).slice(0, 8).join(' ');
+        const s4 = slugifyText(short);
+        if (s4 && slugMap.has(s4)) return s4;
+      }
+      return null;
+    }
+
     const related = selectedIndices.map(i => {
       const c = candidateSnippets[i];
-      // Try to attach a /answers/<slug> URL by parsing source/filename
-      let slug = null;
-      let title = null;
-      // First try direct slug match against our answer pages index
-      const fromSource = (c.source || '').toLowerCase().replace(/[^a-z0-9-]/g, '');
-      if (fromSource && slugMap.has(fromSource)) {
-        slug = fromSource;
-        title = slugMap.get(slug).title;
-      }
+      const slug = findSlugInIndex(c);
+      const title = slug ? slugMap.get(slug).title : null;
       return {
         text: c.text,
         slug,
