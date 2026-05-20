@@ -26,6 +26,44 @@ function getSlugIndex() {
   return _slugIndex;
 }
 
+// Lazy-load the flat question index (76K Q's across 1,329 slugs) so we can
+// bridge Pinecone-retrieved snippets back to a real /answers/<slug> page
+// by finding which slug contains the same question text.
+let _qIndex = null;
+function getQuestionIndex() {
+  if (_qIndex) return _qIndex;
+  try {
+    const file = path.join(process.cwd(), 'scripts', 'answers_question_index.json');
+    const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+    // Build a map: first ~80 chars of normalized question -> slug
+    // Multiple Q's may share a slug; we keep the first match per key.
+    _qIndex = new Map();
+    for (const item of data.questions || []) {
+      const key = normalizeForMatch(item.q_text).slice(0, 80);
+      if (key.length >= 12 && !_qIndex.has(key)) {
+        _qIndex.set(key, item.slug);
+      }
+    }
+  } catch (e) {
+    console.error('study/recommend: failed to load question_index', e);
+    _qIndex = new Map();
+  }
+  return _qIndex;
+}
+
+function normalizeForMatch(s) {
+  return (s || '').toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, ' ').trim();
+}
+
+// Extract the first individual question fragment from a Pinecone-retrieved
+// multi-Q&A text chunk. Returns null if no clear "Question:" found.
+function extractFirstQuestion(text) {
+  if (!text) return null;
+  const m = text.match(/Question\s*\d*\s*:\s*([\s\S]{10,400}?)(?:\s+Answer\s*:|={4,}|$)/i);
+  if (!m) return null;
+  return m[1].replace(/\s+/g, ' ').trim();
+}
+
 export async function POST(request) {
   try {
     const { questions } = await request.json();
@@ -116,26 +154,37 @@ ${candidateSnippets.map((c) => `[${c.idx}] ${c.text}`).join('\n\n')}`;
       ? aiResult.related_indices.filter(i => Number.isInteger(i) && i >= 0 && i < candidateSnippets.length).slice(0, 10)
       : [];
 
-    // Slug resolution strategy: extract a title-looking first line from the
-    // retrieved text and slugify it to find a matching /answers/<slug>.
-    // Pinecone metadata.source doesn't match our slug format reliably.
+    // Slug resolution strategy. Pinecone records were loaded with a
+    // different naming scheme than our /answers slugs, so direct metadata
+    // lookup rarely matches. We bridge by question-text identity.
+    const qIndex = getQuestionIndex();
+
     function slugifyText(s) {
       return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 80);
     }
     function findSlugInIndex(candidate) {
-      // 1. Direct source field
+      // 1. Cross-reference question text against our local question_index.
+      // This is the highest-yield path because Pinecone retrieves by
+      // semantic similarity and our index has every Q-text in the corpus.
+      const firstQ = extractFirstQuestion(candidate.text);
+      if (firstQ) {
+        const key = normalizeForMatch(firstQ).slice(0, 80);
+        if (key.length >= 12 && qIndex.has(key)) {
+          return qIndex.get(key);
+        }
+      }
+      // 2. Direct source field slugified
       const s1 = slugifyText(candidate.source || '');
       if (s1 && slugMap.has(s1)) return s1;
-      // 2. Filename field
+      // 3. Filename field
       const s2 = slugifyText((candidate.filename || '').replace(/\.docx$/i, ''));
       if (s2 && slugMap.has(s2)) return s2;
-      // 3. Extract first line of text as title — text format is often
+      // 4. Extract first line of text as title — text format is often
       // "<Title> Question: ..." so chop at the first "Question:" word
       const firstChunk = (candidate.text || '').split(/Question\s*\d*\s*:/i)[0].trim();
       if (firstChunk) {
         const s3 = slugifyText(firstChunk);
         if (s3 && slugMap.has(s3)) return s3;
-        // 4. Try a shorter prefix (first 5 words) — handles titles followed by junk
         const short = firstChunk.split(/\s+/).slice(0, 8).join(' ');
         const s4 = slugifyText(short);
         if (s4 && slugMap.has(s4)) return s4;
