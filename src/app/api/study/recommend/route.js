@@ -212,11 +212,11 @@ ${candidateSnippets.map((c) => `[${c.idx}] ${c.text}`).join('\n\n')}`;
       const slugMeta = slug ? slugMap.get(slug) : null;
       const title = slugMeta ? slugMeta.title : null;
       const bucket = slugMeta ? slugMeta.bucket : null;
-      // chip_label hides third-party vendor trademarks (CompTIA, Cisco, AWS,
-      // etc.) from the UI badge. Underlying page link still goes to /answers
-      // where the full title can appear (nominative fair use), but in
-      // compact UI we avoid surfacing trademarks as branded chips.
-      const chip_label = safeChipLabel(title, bucket);
+      // Only show a chip when we can resolve the candidate to a real /answers
+      // page. Otherwise the result still displays its Q&A content but without
+      // a misleading "Study Material" generic badge — cleaner UX than the
+      // alternative of pretending we know the source.
+      const chip_label = slug ? safeChipLabel(title, bucket) : null;
       return {
         text: c.text,
         slug,
