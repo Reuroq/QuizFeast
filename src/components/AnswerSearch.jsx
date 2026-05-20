@@ -62,7 +62,10 @@ export default function AnswerSearch({ qas: initialQas, sections, slug }) {
       const qa = qas[i];
       if (activeSection && sectionKeyForQa(qa) !== activeSection) continue;
       if (trimmed) {
-        if (!qa.q.toLowerCase().includes(trimmed) && !qa.a.toLowerCase().includes(trimmed)) continue;
+        const inQ = qa.q.toLowerCase().includes(trimmed);
+        const inA = qa.a.toLowerCase().includes(trimmed);
+        const inSection = qa.section?.toLowerCase().includes(trimmed);
+        if (!inQ && !inA && !inSection) continue;
       }
       out.push({ qa, originalIndex: i });
     }
