@@ -9,6 +9,7 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const links = [
+    { href: '/study', label: 'AI Study' },
     { href: '/answers', label: 'Answer Keys' },
     { href: '/dashboard', label: 'My Sets' },
     { href: '/create', label: 'Create' },

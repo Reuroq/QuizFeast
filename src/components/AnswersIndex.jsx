@@ -140,6 +140,13 @@ export default function AnswersIndex({ entries }) {
           Every version of every CBT. Search by CBT name or paste the question you&apos;re stuck on.
           Free, ad-free, no login.
         </p>
+
+        <div className="flex flex-col sm:flex-row gap-3 justify-center mb-2">
+          <Link href="/study" className="btn-primary text-sm py-2.5 px-5 inline-flex items-center gap-2">
+            <span>Try the AI study assistant</span>
+            <span className="text-xs opacity-70">beta</span>
+          </Link>
+        </div>
       </section>
 
       <div className="sticky top-16 z-30 bg-dark-950/90 backdrop-blur-md border-b border-dark-800/60">

@@ -18,6 +18,7 @@ export default function Footer() {
               <span className="text-sm text-dark-500">&copy; {new Date().getFullYear()} Nightshift Labs LLC</span>
             </div>
             <div className="flex items-center flex-wrap gap-x-5 gap-y-1 text-sm text-dark-500">
+              <Link href="/study" className="hover:text-dark-300">AI Study</Link>
               <Link href="/answers" className="hover:text-dark-300">Answer Keys</Link>
               <Link href="/search" className="hover:text-dark-300">Search</Link>
               <Link href="/disclaimer" className="hover:text-dark-300">Disclaimer</Link>

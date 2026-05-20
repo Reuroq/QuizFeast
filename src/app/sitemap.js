@@ -8,6 +8,7 @@ export default function sitemap() {
   const routes = [
     { url: '/', priority: 1.0, changeFrequency: 'weekly' },
     { url: '/answers', priority: 0.9, changeFrequency: 'weekly' },
+    { url: '/study', priority: 0.85, changeFrequency: 'monthly' },
     { url: '/search', priority: 0.7, changeFrequency: 'monthly' },
     { url: '/create', priority: 0.5, changeFrequency: 'monthly' },
     { url: '/disclaimer', priority: 0.3, changeFrequency: 'yearly' },

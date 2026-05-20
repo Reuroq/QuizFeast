@@ -149,6 +149,42 @@ await check('Footer has Terms / Privacy / DMCA / Disclaimer links', async () => 
   }
 });
 
+// ----- /study page + API surface -----
+await check('GET /study renders form + AI study label', async () => {
+  const html = await fetchOk(`${BASE}/study`, 'text');
+  assert(/Stuck on a few questions/i.test(html), 'study page heading missing');
+  assert(/Paste 2/i.test(html), 'placeholder copy missing');
+});
+
+await check('POST /api/study/recommend rejects empty payload', async () => {
+  const r = await fetch(`${BASE}/api/study/recommend`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ questions: [] }),
+  });
+  assert(r.status === 400, `expected 400, got ${r.status}`);
+});
+
+await check('POST /api/study/recommend handles a real question (with relaxed quality bar)', async () => {
+  const r = await fetch(`${BASE}/api/study/recommend`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      questions: [
+        'What is the best response if you find classified government data on the internet?',
+      ],
+    }),
+  });
+  // The API may return 503 if Anthropic key isn't set on Render or service is slow.
+  // We accept 200 (real success) or 503 (degraded but expected) — anything else is a bug.
+  if (r.status === 503) return;  // tolerated
+  assert(r.ok, `unexpected status ${r.status}`);
+  const data = await r.json();
+  assert('identified_topic' in data, 'missing identified_topic in response');
+  assert('related' in data, 'missing related array');
+  assert(Array.isArray(data.related), 'related is not an array');
+});
+
 await check('Correction modal copy does not leak the vote threshold to visitors', async () => {
   const html = await fetchOk(`${BASE}/answers/army-cyber-awareness-challenge-2023`, 'text');
   // The old copy "After 5 people submit..." was an abuse vector
