@@ -6,7 +6,7 @@ const INDEX_FILE = path.join(process.cwd(), 'scripts', 'ihatecbts_pass2_index.js
 
 export const metadata = {
   title: 'Military CBT Answer Keys — All Courses | QuizFeast',
-  description: 'Free verified answer keys for every major military CBT, JKO course, and DoD training requirement. Cyber Awareness, OPSEC, SERE, SAPR, and 1,300+ more.',
+  description: 'Free community-sourced answer keys for every major military CBT, JKO course, and DoD training requirement. Cyber Awareness, OPSEC, SERE, SAPR, and 1,300+ more.',
   alternates: { canonical: '/answers' },
 };
 

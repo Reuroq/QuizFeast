@@ -89,15 +89,15 @@ export async function POST(request) {
       },
     }]);
 
+    // Response is intentionally opaque about vote counts + threshold so users
+    // can't game the flip mechanism by coordinating exact counts.
     return NextResponse.json({
       voted: true,
       flipped,
       correctedAnswer: flipped ? newAnswer : null,
-      currentVotes: topVote?.count || 1,
-      threshold: VOTE_THRESHOLD,
       message: flipped
-        ? `Answer updated! ${VOTE_THRESHOLD} users confirmed the correction.`
-        : `Vote recorded (${topVote?.count || 1}/${VOTE_THRESHOLD}). Need ${VOTE_THRESHOLD - (topVote?.count || 1)} more to update.`,
+        ? 'Thanks — your correction has been verified and applied.'
+        : 'Thanks — your correction has been logged for review.',
     });
   } catch (error) {
     console.error('CBT correction error:', error);

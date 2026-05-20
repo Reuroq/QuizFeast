@@ -110,6 +110,52 @@ await check('GET /cbt/cyber_awareness (existing pre-/answers route)', async () =
   assert(r.ok, `status ${r.status}`);
 });
 
+// ----- Legal pages -----
+await check('GET /terms has NightshiftLabs LLC + arbitration clause', async () => {
+  const html = await fetchOk(`${BASE}/terms`, 'text');
+  assert(/NightshiftLabs LLC/i.test(html), 'entity name missing');
+  assert(/arbitration/i.test(html), 'arbitration clause missing');
+  assert(/Nevada/i.test(html), 'governing law missing');
+});
+
+await check('GET /dmca has takedown procedure + designated agent', async () => {
+  const html = await fetchOk(`${BASE}/dmca`, 'text');
+  assert(/DMCA/i.test(html), 'DMCA reference missing');
+  assert(/Designated/i.test(html), 'designated agent section missing');
+  assert(/dwaynemorise007@gmail\.com/i.test(html), 'DMCA email missing');
+});
+
+await check('GET /privacy reflects no-account / sessionStorage policy', async () => {
+  const html = await fetchOk(`${BASE}/privacy`, 'text');
+  assert(/sessionStorage/i.test(html), 'sessionStorage disclosure missing');
+  assert(/No accounts|don.t require an account/i.test(html), 'no-account claim missing');
+});
+
+await check('GET /disclaimer has not-affiliated + may-be-wrong statements', async () => {
+  const html = await fetchOk(`${BASE}/disclaimer`, 'text');
+  assert(/not affiliated/i.test(html), 'no-affiliation claim missing');
+  assert(/may be wrong/i.test(html), 'accuracy disclaimer missing');
+});
+
+await check('/answers/[slug] shows community-sourced disclaimer banner', async () => {
+  const html = await fetchOk(`${BASE}/answers/army-cyber-awareness-challenge-2023`, 'text');
+  assert(/Community-sourced/i.test(html), 'in-page disclaimer banner missing');
+});
+
+await check('Footer has Terms / Privacy / DMCA / Disclaimer links', async () => {
+  const html = await fetchOk(`${BASE}/`, 'text');
+  for (const link of ['/terms', '/privacy', '/dmca', '/disclaimer']) {
+    assert(html.includes(`href="${link}"`), `footer missing ${link} link`);
+  }
+});
+
+await check('Correction modal copy does not leak the vote threshold to visitors', async () => {
+  const html = await fetchOk(`${BASE}/answers/army-cyber-awareness-challenge-2023`, 'text');
+  // The old copy "After 5 people submit..." was an abuse vector
+  assert(!/After \d+ people submit/i.test(html), 'old threshold-leak copy still present');
+  assert(!/\d+\/\d+\s+votes/i.test(html), 'vote count UI still visible');
+});
+
 console.log(`\n${checks.length - failed}/${checks.length} passed`);
 if (failed > 0) {
   console.log('\nFAILURES:');

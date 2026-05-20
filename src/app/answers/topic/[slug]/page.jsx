@@ -3,6 +3,7 @@ import path from 'node:path';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import AnswerSearch from '@/components/AnswerSearch';
+import AnswerDisclaimer from '@/components/AnswerDisclaimer';
 
 const DATA_DIR = path.join(process.cwd(), 'public', 'data', 'topics');
 
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const data = loadTopic(slug);
   if (!data) return { title: 'Not found' };
-  const description = `${data.question_count} verified questions and answers about ${data.name}, aggregated from ${data.source_cbt_count} military CBTs. Free study guide, no login.`;
+  const description = `${data.question_count} community-sourced questions and answers about ${data.name}, aggregated from ${data.source_cbt_count} military CBTs. Free study guide, no login.`;
   return {
     title: `${data.name} — Answers & Study Guide | QuizFeast`,
     description,
@@ -92,9 +93,11 @@ export default async function TopicPage({ params }) {
           {data.name}
         </h1>
 
-        <p className="text-dark-400 mb-8">
-          {data.question_count} verified questions and answers about {data.name}, aggregated from every CBT we&apos;ve indexed that covers this topic.
+        <p className="text-dark-400 mb-6">
+          {data.question_count} community-sourced questions and answers about {data.name}, aggregated from every CBT we&apos;ve indexed that covers this topic.
         </p>
+
+        <AnswerDisclaimer />
 
         <AnswerSearch qas={qas} sections={null} />
 

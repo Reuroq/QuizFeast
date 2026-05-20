@@ -298,7 +298,7 @@ function CorrectionModal({ question, currentAnswer, questionIndex, slug, onClose
         </button>
 
         <h3 className="text-lg font-bold text-white mb-1">Report Wrong Answer</h3>
-        <p className="text-dark-500 text-sm mb-4">After 5 people submit the same correction, the answer updates automatically.</p>
+        <p className="text-dark-500 text-sm mb-4">Your correction will be reviewed and applied if other studiers confirm it.</p>
 
         <div className="bg-dark-800 rounded-xl p-3 mb-4">
           <p className="text-dark-400 text-xs font-medium mb-1">QUESTION {questionIndex + 1}</p>

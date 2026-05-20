@@ -10,7 +10,10 @@ export default function sitemap() {
     { url: '/answers', priority: 0.9, changeFrequency: 'weekly' },
     { url: '/search', priority: 0.7, changeFrequency: 'monthly' },
     { url: '/create', priority: 0.5, changeFrequency: 'monthly' },
-    { url: '/privacy', priority: 0.2, changeFrequency: 'yearly' },
+    { url: '/disclaimer', priority: 0.3, changeFrequency: 'yearly' },
+    { url: '/terms', priority: 0.3, changeFrequency: 'yearly' },
+    { url: '/privacy', priority: 0.3, changeFrequency: 'yearly' },
+    { url: '/dmca', priority: 0.3, changeFrequency: 'yearly' },
   ];
 
   // Existing /cbt/[slug] static set

@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import AnswerDisclaimer from '@/components/AnswerDisclaimer';
 
 const DATA_DIR = path.join(process.cwd(), 'public', 'data', 'canonical');
 
@@ -96,16 +97,18 @@ export default async function CanonicalQPage({ params }) {
 
         <div className="flex items-center gap-2 mb-4 flex-wrap">
           <span className="inline-flex items-center px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-300 text-xs font-medium">
-            Verified Question
+            Community Question
           </span>
           <span className="inline-flex items-center px-3 py-1 rounded-full bg-dark-800 border border-dark-700 text-dark-300 text-xs font-medium">
-            Tested on {data.appears_in_count} CBTs
+            Seen on {data.appears_in_count} CBTs
           </span>
         </div>
 
-        <h1 className="text-2xl sm:text-3xl font-extrabold text-white mb-6 leading-snug">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-white mb-4 leading-snug">
           {data.question}
         </h1>
+
+        <AnswerDisclaimer />
 
         <div className="card p-6 border-brand-500/30">
           <div className="text-brand-300 text-xs font-semibold mb-2 uppercase tracking-wider">Answer</div>

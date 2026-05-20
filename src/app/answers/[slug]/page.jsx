@@ -3,6 +3,7 @@ import path from 'node:path';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import AnswerSearch from '@/components/AnswerSearch';
+import AnswerDisclaimer from '@/components/AnswerDisclaimer';
 
 const DATA_DIR = path.join(process.cwd(), 'public', 'data', 'answers');
 
@@ -41,7 +42,7 @@ export async function generateMetadata({ params }) {
   const bucket = BUCKET_LABELS[data.bucket] || 'Study';
   const qCount = data.question_count || 0;
   const descPrefix = qCount > 0
-    ? `${qCount} verified questions and answers for ${data.title}.`
+    ? `${qCount} community-sourced questions and answers for ${data.title}.`
     : `${data.title} — study notes and overview.`;
   const description = `${descPrefix} Free military CBT and certification answer key. No login required.`;
 
@@ -115,12 +116,14 @@ export default async function AnswerPage({ params }) {
         </h1>
 
         {data.kind === 'qa' && (
-          <p className="text-dark-400 mb-8">
+          <p className="text-dark-400 mb-6">
             {isComprehensive
               ? <>{data.question_count} questions across {data.sections?.length || 0} topics. Use the find bar or section chips to jump to what you need.</>
-              : <>{data.question_count} verified questions and answers. Free — no login.</>}
+              : <>{data.question_count} community-sourced questions and answers. Free — no login.</>}
           </p>
         )}
+
+        <AnswerDisclaimer />
 
         {data.kind === 'qa' && <AnswerSearch qas={data.qas} sections={data.sections} slug={data.slug} />}
 

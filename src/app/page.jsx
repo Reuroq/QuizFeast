@@ -329,20 +329,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="border-t border-dark-800 py-12">
-        <div className="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <div className="w-6 h-6 bg-gradient-to-br from-brand-400 to-brand-600 rounded-md flex items-center justify-center font-bold text-white text-xs">Q</div>
-            <span className="text-sm text-dark-500">QuizFeast — Free forever</span>
-          </div>
-          <div className="flex items-center gap-6 text-sm text-dark-500">
-            <Link href="/dashboard" className="hover:text-dark-300">My Sets</Link>
-            <Link href="/create" className="hover:text-dark-300">Create</Link>
-            <Link href="/search" className="hover:text-dark-300">Search</Link>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
