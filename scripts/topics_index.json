@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-05-20T07:14:16.231Z",
+  "topics": [
+    {
+      "slug": "insider-threat",
+      "name": "Insider Threat",
+      "question_count": 22,
+      "source_cbt_count": 3
+    },
+    {
+      "slug": "classified-data",
+      "name": "Classified Data",
+      "question_count": 18,
+      "source_cbt_count": 3
+    },
+    {
+      "slug": "sensitive-compartmented-information",
+      "name": "Sensitive Compartmented Information",
+      "question_count": 16,
+      "source_cbt_count": 4
+    },
+    {
+      "slug": "social-networking",
+      "name": "Social Networking",
+      "question_count": 15,
+      "source_cbt_count": 4
+    },
+    {
+      "slug": "spillage",
+      "name": "Spillage",
+      "question_count": 14,
+      "source_cbt_count": 3
+    },
+    {
+      "slug": "social-engineering",
+      "name": "Social Engineering",
+      "question_count": 14,
+      "source_cbt_count": 4
+    },
+    {
+      "slug": "identity-management",
+      "name": "Identity Management",
+      "question_count": 11,
+      "source_cbt_count": 4
+    },
+    {
+      "slug": "controlled-unclassified-information",
+      "name": "Controlled Unclassified Information",
+      "question_count": 9,
+      "source_cbt_count": 2
+    },
+    {
+      "slug": "mobile-devices",
+      "name": "Mobile Devices",
+      "question_count": 8,
+      "source_cbt_count": 4
+    },
+    {
+      "slug": "physical-security",
+      "name": "Physical Security",
+      "question_count": 6,
+      "source_cbt_count": 3
+    },
+    {
+      "slug": "removable-media-in-a-scif",
+      "name": "Removable Media in a SCIF",
+      "question_count": 5,
+      "source_cbt_count": 3
+    },
+    {
+      "slug": "malicious-code",
+      "name": "Malicious Code",
+      "question_count": 5,
+      "source_cbt_count": 4
+    },
+    {
+      "slug": "use-of-gfe",
+      "name": "Use of GFE",
+      "question_count": 5,
+      "source_cbt_count": 4
+    },
+    {
+      "slug": "home-computer-security",
+      "name": "Home Computer Security",
+      "question_count": 5,
+      "source_cbt_count": 3
+    },
+    {
+      "slug": "sensitive-information",
+      "name": "Sensitive Information",
+      "question_count": 5,
+      "source_cbt_count": 1
+    },
+    {
+      "slug": "website-use",
+      "name": "Website Use",
+      "question_count": 4,
+      "source_cbt_count": 2
+    },
+    {
+      "slug": "travel",
+      "name": "Travel",
+      "question_count": 4,
+      "source_cbt_count": 3
+    }
+  ]
+}
