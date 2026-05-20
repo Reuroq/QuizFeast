@@ -149,6 +149,53 @@ await check('Footer has Terms / Privacy / DMCA / Disclaimer links', async () => 
   }
 });
 
+// ----- Banned-term scrub verification -----
+// Probe every dynamic surface that returns retrieved content. None of them
+// should leak references to third-party study sites we don't want to be
+// associated with.
+const BANNED_RE = /\b(quizlet|chegg|course[\s-]?hero|studocu|brainly)\b/i;
+
+await check('Banned terms not present on /answers/[slug] (live page)', async () => {
+  const html = await fetchOk(`${BASE}/answers/army-cyber-awareness-challenge-2023`, 'text');
+  assert(!BANNED_RE.test(html), `banned term leaked on /answers/army-cyber-awareness-challenge-2023`);
+});
+
+await check('Banned terms not present on /answers index', async () => {
+  const html = await fetchOk(`${BASE}/answers`, 'text');
+  assert(!BANNED_RE.test(html), 'banned term leaked on /answers');
+});
+
+await check('Banned terms not present in /api/answers/global-search response', async () => {
+  const data = await fetchOk(`${BASE}/api/answers/global-search?q=cyber`, 'json');
+  const serialized = JSON.stringify(data);
+  assert(!BANNED_RE.test(serialized), 'banned term leaked in global-search response');
+});
+
+await check('Banned terms not present in /api/cbt/search response', async () => {
+  const data = await fetchOk(`${BASE}/api/cbt/search?q=phishing`, 'json');
+  const serialized = JSON.stringify(data);
+  assert(!BANNED_RE.test(serialized), 'banned term leaked in cbt search response');
+});
+
+await check('Banned terms not present in /api/search response', async () => {
+  const res = await fetch(`${BASE}/api/search`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ query: 'phishing', topK: 10 }),
+  });
+  if (!res.ok) return;  // route may be deprecated, don't fail
+  const data = await res.json();
+  const serialized = JSON.stringify(data);
+  assert(!BANNED_RE.test(serialized), 'banned term leaked in /api/search response');
+});
+
+await check('Banned terms not in legal pages or footer', async () => {
+  for (const p of ['/terms', '/privacy', '/disclaimer', '/dmca', '/']) {
+    const html = await fetchOk(`${BASE}${p}`, 'text');
+    assert(!BANNED_RE.test(html), `banned term leaked on ${p}`);
+  }
+});
+
 // ----- /study page + API surface -----
 await check('GET /study renders form + AI study label', async () => {
   const html = await fetchOk(`${BASE}/study`, 'text');

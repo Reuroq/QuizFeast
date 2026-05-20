@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { searchPinecone } from '@/lib/pinecone';
+import { sanitizeDeep } from '@/lib/sanitize';
 
 export async function POST(request) {
   try {
@@ -10,7 +11,8 @@ export async function POST(request) {
     }
 
     const results = await searchPinecone(query.trim(), topK);
-    return NextResponse.json({ results });
+    // Strip third-party study-site mentions from every retrieved field.
+    return NextResponse.json({ results: sanitizeDeep(results) });
   } catch (error) {
     console.error('Search error:', error);
     return NextResponse.json({ error: 'Search failed' }, { status: 500 });

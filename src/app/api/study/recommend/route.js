@@ -3,6 +3,7 @@ import Anthropic from '@anthropic-ai/sdk';
 import fs from 'node:fs';
 import path from 'node:path';
 import { searchPinecone } from '@/lib/pinecone';
+import { sanitizeDeep } from '@/lib/sanitize';
 
 let _anthropic;
 function getAnthropic() {
@@ -154,14 +155,14 @@ ${candidateSnippets.map((c) => `[${c.idx}] ${c.text}`).join('\n\n')}`;
       };
     });
 
-    return NextResponse.json({
+    return NextResponse.json(sanitizeDeep({
       input_question_count: cleaned.length,
       identified_topic: String(aiResult.identified_topic || 'Unidentified topic'),
       identified_exam: String(aiResult.identified_exam || ''),
       confidence: ['low', 'medium', 'high'].includes(aiResult.confidence) ? aiResult.confidence : 'low',
       study_brief: String(aiResult.study_brief || ''),
       related,
-    });
+    }));
 
   } catch (error) {
     console.error('study/recommend error:', error);

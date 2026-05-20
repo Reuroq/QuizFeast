@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import fs from 'node:fs';
 import path from 'node:path';
+import { sanitizeDeep } from '@/lib/sanitize';
 
 // Lazy-loaded module-scope cache.
 let _index = null;
@@ -95,7 +96,7 @@ export async function GET(request) {
   }
   qMatches.sort((a, b) => b.score - a.score);
 
-  return NextResponse.json({
+  return NextResponse.json(sanitizeDeep({
     cbts: cbtScored.slice(0, 12).map(m => ({
       slug: m.cbt.slug,
       title: m.cbt.title,
@@ -115,5 +116,5 @@ export async function GET(request) {
     total_cbts: cbtScored.length,
     total_questions: qMatches.length,
     context_applied: hasContext,
-  });
+  }));
 }

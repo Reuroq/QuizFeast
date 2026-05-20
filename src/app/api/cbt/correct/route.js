@@ -1,13 +1,18 @@
 import { NextResponse } from 'next/server';
 import { getEmbedding, upsertVectors } from '@/lib/pinecone';
 import { Pinecone } from '@pinecone-database/pinecone';
+import { sanitizeString, containsBanned } from '@/lib/sanitize';
 import crypto from 'crypto';
 
 const VOTE_THRESHOLD = 5;
 
 export async function POST(request) {
   try {
-    const { slug, questionIndex, question, currentAnswer, suggestedAnswer } = await request.json();
+    const body = await request.json();
+    const { slug, questionIndex, question, currentAnswer } = body;
+    // Defensive: scrub any banned third-party study-site mentions from
+    // visitor-submitted corrections before they hit the vote pool.
+    const suggestedAnswer = sanitizeString(body.suggestedAnswer || '');
 
     if (!slug || questionIndex === undefined || !question || !suggestedAnswer) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
@@ -15,6 +20,13 @@ export async function POST(request) {
 
     if (suggestedAnswer.trim().length < 2) {
       return NextResponse.json({ error: 'Suggested answer too short' }, { status: 400 });
+    }
+
+    // If the entire suggestion was just banned terms, sanitize might leave
+    // it empty/short — already caught by the length check above.
+    if (containsBanned(suggestedAnswer)) {
+      // sanitizeString already stripped, but double-check
+      return NextResponse.json({ error: 'Suggested answer rejected' }, { status: 400 });
     }
 
     // Create a deterministic ID for this specific question's correction votes

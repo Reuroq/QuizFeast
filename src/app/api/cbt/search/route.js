@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { searchPinecone } from '@/lib/pinecone';
+import { sanitizeDeep } from '@/lib/sanitize';
 import fs from 'fs';
 import path from 'path';
 
@@ -84,11 +85,11 @@ export async function GET(request) {
         }
       }
 
-      return NextResponse.json({
+      return NextResponse.json(sanitizeDeep({
         results: localResults.slice(0, 10),
         categories,
         source: 'local',
-      });
+      }));
     }
 
     // Long query → also do semantic search
@@ -125,10 +126,10 @@ export async function GET(request) {
       }
     }
 
-    return NextResponse.json({
+    return NextResponse.json(sanitizeDeep({
       results: unique.slice(0, 10),
       source: 'mixed',
-    });
+    }));
   } catch (error) {
     console.error('CBT search error:', error);
     return NextResponse.json({ results: [], error: error.message }, { status: 500 });
