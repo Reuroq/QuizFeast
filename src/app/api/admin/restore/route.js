@@ -26,7 +26,18 @@ const DATA_DIR = existsSync(PERSISTENT_ROOT) ? PERSISTENT_ROOT : join(process.cw
 
 function tarExtract(tarPath, destDir) {
   return new Promise((resolve, reject) => {
-    const p = spawn('tar', ['-xzf', tarPath, '-C', destDir], { stdio: ['ignore', 'pipe', 'pipe'] });
+    // --no-same-permissions / --no-same-owner / --no-overwrite-dir / --touch
+    // are needed because Render's persistent disk mount doesn't let us
+    // chmod or utime the mount-point directory itself.
+    const args = [
+      '-xzf', tarPath,
+      '-C', destDir,
+      '--no-same-permissions',
+      '--no-same-owner',
+      '--no-overwrite-dir',
+      '--touch',
+    ];
+    const p = spawn('tar', args, { stdio: ['ignore', 'pipe', 'pipe'] });
     let err = '';
     p.stderr.on('data', d => { err += d.toString(); });
     p.on('error', reject);
