@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import AnswerSearch from '@/components/AnswerSearch';
 
 const DATA_DIR = path.join(process.cwd(), 'public', 'data', 'answers');
 
@@ -110,20 +111,7 @@ export default async function AnswerPage({ params }) {
           </p>
         )}
 
-        {data.kind === 'qa' && (
-          <div className="space-y-4">
-            {data.qas.map((qa, i) => (
-              <div key={i} className="card p-5">
-                <div className="text-dark-500 text-xs font-semibold mb-2">QUESTION {i + 1}</div>
-                <p className="text-white font-medium mb-4 whitespace-pre-wrap">{qa.q}</p>
-                <div className="border-l-2 border-brand-500/40 pl-4">
-                  <div className="text-brand-300 text-xs font-semibold mb-1">ANSWER</div>
-                  <p className="text-dark-200 whitespace-pre-wrap">{qa.a}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
+        {data.kind === 'qa' && <AnswerSearch qas={data.qas} />}
 
         {data.kind === 'prose' && data.prose && (
           <div className="card p-6">
