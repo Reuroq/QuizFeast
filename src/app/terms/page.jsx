@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Terms of Service | QuizFeast',
-  description: 'Terms of Service for QuizFeast — a study and answer-key reference site operated by NightshiftLabs LLC.',
+  description: 'Terms of Service for QuizFeast — a study and answer-key reference site operated by Nightshift Labs LLC.',
   alternates: { canonical: '/terms' },
 };
 
@@ -11,7 +11,7 @@ export default function TermsPage() {
     <div className="min-h-screen bg-dark-900 py-20 px-4">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold text-white mb-2">Terms of Service</h1>
-        <p className="text-dark-500 text-sm mb-8">Effective May 20, 2026 · Operator: NightshiftLabs LLC, Nevada</p>
+        <p className="text-dark-500 text-sm mb-8">Effective May 20, 2026 · Operator: Nightshift Labs LLC, Nevada</p>
 
         <div className="space-y-8 text-dark-300 leading-relaxed">
           <section>
@@ -24,7 +24,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">1. Who We Are</h2>
             <p>
-              QuizFeast is operated by <strong>NightshiftLabs LLC</strong>, a limited liability company organized
+              QuizFeast is operated by <strong>Nightshift Labs LLC</strong>, a limited liability company organized
               under the laws of the State of Nevada (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;). The
               Service is available at quizfeast.onrender.com and any related subdomains.
             </p>
@@ -76,7 +76,7 @@ export default function TermsPage() {
             <h2 className="text-xl font-semibold text-white mb-3">5. Your Submissions</h2>
             <p>
               When you submit a correction or any other content to QuizFeast (a &ldquo;Submission&rdquo;), you
-              grant NightshiftLabs LLC a worldwide, royalty-free, perpetual, irrevocable, sublicensable license
+              grant Nightshift Labs LLC a worldwide, royalty-free, perpetual, irrevocable, sublicensable license
               to use, reproduce, modify, display, and distribute the Submission as part of the Service. You
               represent that your Submission does not infringe any third party&apos;s rights and that you have
               the legal right to submit it.
@@ -127,7 +127,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">9. Indemnification</h2>
             <p>
-              You agree to defend, indemnify, and hold harmless NightshiftLabs LLC and its officers, members,
+              You agree to defend, indemnify, and hold harmless Nightshift Labs LLC and its officers, members,
               employees, and agents from and against any claims, damages, costs, and expenses (including
               reasonable attorneys&apos; fees) arising out of your use of the Service, your Submissions, or
               your violation of these Terms.

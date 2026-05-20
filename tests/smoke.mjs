@@ -111,9 +111,9 @@ await check('GET /cbt/cyber_awareness (existing pre-/answers route)', async () =
 });
 
 // ----- Legal pages -----
-await check('GET /terms has NightshiftLabs LLC + arbitration clause', async () => {
+await check('GET /terms has Nightshift Labs LLC + arbitration clause', async () => {
   const html = await fetchOk(`${BASE}/terms`, 'text');
-  assert(/NightshiftLabs LLC/i.test(html), 'entity name missing');
+  assert(/Nightshift Labs LLC/i.test(html), 'entity name missing');
   assert(/arbitration/i.test(html), 'arbitration clause missing');
   assert(/Nevada/i.test(html), 'governing law missing');
 });

@@ -11,7 +11,7 @@ export default function DisclaimerPage() {
     <div className="min-h-screen bg-dark-900 py-20 px-4">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold text-white mb-2">Disclaimer</h1>
-        <p className="text-dark-500 text-sm mb-8">Effective May 20, 2026 · NightshiftLabs LLC</p>
+        <p className="text-dark-500 text-sm mb-8">Effective May 20, 2026 · Nightshift Labs LLC</p>
 
         <div className="space-y-8 text-dark-300 leading-relaxed">
 
@@ -27,7 +27,7 @@ export default function DisclaimerPage() {
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">No Affiliation</h2>
             <p>
-              NightshiftLabs LLC, the operator of QuizFeast, is not affiliated with, sponsored by, or endorsed by
+              Nightshift Labs LLC, the operator of QuizFeast, is not affiliated with, sponsored by, or endorsed by
               the U.S. Department of Defense, any branch of the U.S. military, JKO, CDSE, ALMS, NKO, MarineNet,
               CompTIA, (ISC)², ISACA, EC-Council, AWS, Microsoft, Cisco, Quizlet, Chegg, Course Hero, or any
               other organization whose course names or trademarks appear on the Service. Trademarks are property

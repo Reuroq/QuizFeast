@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Privacy Policy | QuizFeast',
-  description: 'Privacy Policy for QuizFeast. No accounts, no tracking cookies, no personal data collection. Operated by NightshiftLabs LLC.',
+  description: 'Privacy Policy for QuizFeast. No accounts, no tracking cookies, no personal data collection. Operated by Nightshift Labs LLC.',
   alternates: { canonical: '/privacy' },
 };
 
@@ -11,7 +11,7 @@ export default function PrivacyPage() {
     <div className="min-h-screen bg-dark-900 py-20 px-4">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold text-white mb-2">Privacy Policy</h1>
-        <p className="text-dark-500 text-sm mb-8">Effective May 20, 2026 · NightshiftLabs LLC</p>
+        <p className="text-dark-500 text-sm mb-8">Effective May 20, 2026 · Nightshift Labs LLC</p>
 
         <div className="space-y-8 text-dark-300 leading-relaxed">
           <section className="card p-5 bg-dark-800/40">

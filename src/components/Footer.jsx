@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col gap-6">
           <div className="text-xs text-dark-500 leading-relaxed">
             <strong className="text-dark-400">QuizFeast</strong> is a free community-driven study reference for
-            CBT and certification exams. Operated by NightshiftLabs LLC. Not affiliated with the U.S. Department
+            CBT and certification exams. Operated by Nightshift Labs LLC. Not affiliated with the U.S. Department
             of Defense, JKO, CompTIA, Quizlet, or any other organization referenced on the site. All trademarks
             are property of their respective owners. Answers are community-sourced and may be wrong &mdash; always
             verify with your official training portal.
@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-dark-800/60">
             <div className="flex items-center gap-2">
               <div className="w-6 h-6 bg-gradient-to-br from-brand-400 to-brand-600 rounded-md flex items-center justify-center font-bold text-white text-xs">Q</div>
-              <span className="text-sm text-dark-500">&copy; {new Date().getFullYear()} NightshiftLabs LLC</span>
+              <span className="text-sm text-dark-500">&copy; {new Date().getFullYear()} Nightshift Labs LLC</span>
             </div>
             <div className="flex items-center flex-wrap gap-x-5 gap-y-1 text-sm text-dark-500">
               <Link href="/answers" className="hover:text-dark-300">Answer Keys</Link>

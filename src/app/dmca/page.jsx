@@ -11,12 +11,12 @@ export default function DmcaPage() {
     <div className="min-h-screen bg-dark-900 py-20 px-4">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold text-white mb-2">DMCA Copyright Policy</h1>
-        <p className="text-dark-500 text-sm mb-8">Effective May 20, 2026 · NightshiftLabs LLC</p>
+        <p className="text-dark-500 text-sm mb-8">Effective May 20, 2026 · Nightshift Labs LLC</p>
 
         <div className="space-y-8 text-dark-300 leading-relaxed">
           <section>
             <p className="text-amber-300/80 text-sm border-l-2 border-amber-500/40 pl-4 italic">
-              NightshiftLabs LLC respects intellectual property rights and complies with the Digital Millennium
+              Nightshift Labs LLC respects intellectual property rights and complies with the Digital Millennium
               Copyright Act (DMCA). If you believe content on QuizFeast infringes your copyright, follow the
               procedure below.
             </p>
@@ -48,11 +48,11 @@ export default function DmcaPage() {
           <section>
             <h2 className="text-xl font-semibold text-white mb-3">Designated DMCA Agent</h2>
             <div className="card p-5 bg-dark-800/50">
-              <p className="mb-1"><strong>Agent:</strong> NightshiftLabs LLC, DMCA Designated Agent</p>
+              <p className="mb-1"><strong>Agent:</strong> Nightshift Labs LLC, DMCA Designated Agent</p>
               <p className="mb-1"><strong>Email:</strong> <a href="mailto:dwaynemorise007@gmail.com" className="text-brand-400 hover:text-brand-300 underline">dwaynemorise007@gmail.com</a></p>
               <p className="mb-1"><strong>Subject line:</strong> &ldquo;DMCA Takedown Notice&rdquo;</p>
               <p className="text-sm text-dark-500 mt-2">
-                Mailing address available on request. NightshiftLabs LLC&apos;s DMCA designated agent is on file
+                Mailing address available on request. Nightshift Labs LLC&apos;s DMCA designated agent is on file
                 with the U.S. Copyright Office Directory.
               </p>
             </div>
