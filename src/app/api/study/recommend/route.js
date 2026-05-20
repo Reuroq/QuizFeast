@@ -26,42 +26,58 @@ function getSlugIndex() {
   return _slugIndex;
 }
 
+function normalizeForMatch(s) {
+  return (s || '').toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, ' ').trim();
+}
+
+// Key for bridging: first N words of normalized question text. Word-prefix
+// is more stable than char-prefix because trailing punctuation, capitalization,
+// and slight rewording variations all collapse to the same key.
+function questionKey(s, wordCount = 8) {
+  const norm = normalizeForMatch(s);
+  if (!norm) return '';
+  return norm.split(' ').slice(0, wordCount).join(' ');
+}
+
 // Lazy-load the flat question index (76K Q's across 1,329 slugs) so we can
-// bridge Pinecone-retrieved snippets back to a real /answers/<slug> page
-// by finding which slug contains the same question text.
+// bridge Pinecone-retrieved snippets back to a real /answers/<slug> page.
+// We build TWO maps: an 8-word-key map and a 4-word-key map. We try the
+// longer (more specific) one first, then fall back to the shorter one.
 let _qIndex = null;
 function getQuestionIndex() {
   if (_qIndex) return _qIndex;
   try {
     const file = path.join(process.cwd(), 'scripts', 'answers_question_index.json');
     const data = JSON.parse(fs.readFileSync(file, 'utf8'));
-    // Build a map: first ~80 chars of normalized question -> slug
-    // Multiple Q's may share a slug; we keep the first match per key.
-    _qIndex = new Map();
+    const long = new Map();   // 8-word key
+    const short = new Map();  // 4-word key
     for (const item of data.questions || []) {
-      const key = normalizeForMatch(item.q_text).slice(0, 80);
-      if (key.length >= 12 && !_qIndex.has(key)) {
-        _qIndex.set(key, item.slug);
-      }
+      const k8 = questionKey(item.q_text, 8);
+      const k4 = questionKey(item.q_text, 4);
+      if (k8 && !long.has(k8)) long.set(k8, item.slug);
+      if (k4 && !short.has(k4)) short.set(k4, item.slug);
     }
+    _qIndex = { long, short };
   } catch (e) {
     console.error('study/recommend: failed to load question_index', e);
-    _qIndex = new Map();
+    _qIndex = { long: new Map(), short: new Map() };
   }
   return _qIndex;
 }
 
-function normalizeForMatch(s) {
-  return (s || '').toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, ' ').trim();
-}
-
 // Extract the first individual question fragment from a Pinecone-retrieved
-// multi-Q&A text chunk. Returns null if no clear "Question:" found.
+// multi-Q&A text chunk. Handles a few format quirks ("Question 1: Question: X").
 function extractFirstQuestion(text) {
   if (!text) return null;
-  const m = text.match(/Question\s*\d*\s*:\s*([\s\S]{10,400}?)(?:\s+Answer\s*:|={4,}|$)/i);
-  if (!m) return null;
-  return m[1].replace(/\s+/g, ' ').trim();
+  // Strip any leading "Question N:" wrapper before looking for the real Q
+  let body = text.replace(/^\s*Question\s*\d+\s*:\s*/i, '');
+  // Find the first "Question:" marker, capture the text until Answer: or separator
+  const m = body.match(/Question\s*\d*\s*:\s*([\s\S]{5,400}?)(?:\s+Answer\s*:|={4,}|$)/i);
+  if (m) return m[1].replace(/\s+/g, ' ').trim();
+  // No "Question:" prefix — text may BE the question (flashcard-style "WPS\nWireless..."). Take first 200 chars.
+  const candidate = body.split(/Answer\s*:/i)[0].trim();
+  if (candidate.length >= 5) return candidate.slice(0, 400);
+  return null;
 }
 
 export async function POST(request) {
@@ -164,14 +180,13 @@ ${candidateSnippets.map((c) => `[${c.idx}] ${c.text}`).join('\n\n')}`;
     }
     function findSlugInIndex(candidate) {
       // 1. Cross-reference question text against our local question_index.
-      // This is the highest-yield path because Pinecone retrieves by
-      // semantic similarity and our index has every Q-text in the corpus.
+      // Try 8-word key first (specific), then 4-word (more permissive).
       const firstQ = extractFirstQuestion(candidate.text);
       if (firstQ) {
-        const key = normalizeForMatch(firstQ).slice(0, 80);
-        if (key.length >= 12 && qIndex.has(key)) {
-          return qIndex.get(key);
-        }
+        const k8 = questionKey(firstQ, 8);
+        if (k8 && qIndex.long.has(k8)) return qIndex.long.get(k8);
+        const k4 = questionKey(firstQ, 4);
+        if (k4 && qIndex.short.has(k4)) return qIndex.short.get(k4);
       }
       // 2. Direct source field slugified
       const s1 = slugifyText(candidate.source || '');
@@ -179,8 +194,7 @@ ${candidateSnippets.map((c) => `[${c.idx}] ${c.text}`).join('\n\n')}`;
       // 3. Filename field
       const s2 = slugifyText((candidate.filename || '').replace(/\.docx$/i, ''));
       if (s2 && slugMap.has(s2)) return s2;
-      // 4. Extract first line of text as title — text format is often
-      // "<Title> Question: ..." so chop at the first "Question:" word
+      // 4. Extract first line of text as title and slugify it
       const firstChunk = (candidate.text || '').split(/Question\s*\d*\s*:/i)[0].trim();
       if (firstChunk) {
         const s3 = slugifyText(firstChunk);
