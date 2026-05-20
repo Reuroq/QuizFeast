@@ -122,7 +122,7 @@ export default async function AnswerPage({ params }) {
           </p>
         )}
 
-        {data.kind === 'qa' && <AnswerSearch qas={data.qas} sections={data.sections} />}
+        {data.kind === 'qa' && <AnswerSearch qas={data.qas} sections={data.sections} slug={data.slug} />}
 
         {data.kind === 'prose' && data.prose && (
           <div className="card p-6">

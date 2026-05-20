@@ -2,20 +2,20 @@
 
 import { useState, useMemo, useRef, useEffect } from 'react';
 
-export default function AnswerSearch({ qas, sections }) {
+export default function AnswerSearch({ qas: initialQas, sections, slug }) {
+  const [qas, setQas] = useState(initialQas);
   const [query, setQuery] = useState('');
   const [activeSection, setActiveSection] = useState(null);
+  const [reportingIdx, setReportingIdx] = useState(null);
   const inputRef = useRef(null);
 
-  // On mount, read ?q= URL param to prefill (so links from /answers index land
-  // with their search pre-applied). Also scroll to #q-N if the hash is set.
+  // On mount: read ?q= URL param to prefill + scroll to #q-N anchor.
   useEffect(() => {
     if (typeof window === 'undefined') return;
     const params = new URLSearchParams(window.location.search);
     const qParam = params.get('q');
     if (qParam) setQuery(qParam);
     if (window.location.hash.startsWith('#q-')) {
-      // Wait a tick for the filter render, then scroll
       setTimeout(() => {
         const el = document.getElementById(window.location.hash.slice(1));
         if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -23,10 +23,24 @@ export default function AnswerSearch({ qas, sections }) {
     }
   }, []);
 
+  // On mount: fetch community-corrected answers for this slug and patch into qas.
+  useEffect(() => {
+    if (!slug) return;
+    let cancelled = false;
+    fetch(`/api/cbt/correct?slug=${encodeURIComponent(slug)}`)
+      .then(r => r.ok ? r.json() : { corrections: {} })
+      .then(({ corrections }) => {
+        if (cancelled || !corrections || !Object.keys(corrections).length) return;
+        setQas(prev => prev.map((qa, i) =>
+          corrections[String(i)] ? { ...qa, a: corrections[String(i)], _corrected: true } : qa
+        ));
+      })
+      .catch(() => {});
+    return () => { cancelled = true; };
+  }, [slug]);
+
   const trimmed = query.trim().toLowerCase();
 
-  // Normalize section list — case-insensitive merge (e.g. "Identity Management"
-  // and "Identity management" should be one chip). Counts come from rebuild.
   const normalizedSections = useMemo(() => {
     if (!sections?.length) return [];
     const byKey = new Map();
@@ -38,7 +52,6 @@ export default function AnswerSearch({ qas, sections }) {
     return [...byKey.values()];
   }, [sections]);
 
-  // Map each qa to its normalized section key for filtering
   const sectionKeyForQa = (qa) => qa.section ? qa.section.toLowerCase() : null;
 
   const filtered = useMemo(() => {
@@ -60,14 +73,17 @@ export default function AnswerSearch({ qas, sections }) {
       if (e.key === '/' && tag !== 'INPUT' && tag !== 'TEXTAREA') {
         e.preventDefault();
         inputRef.current?.focus();
-      } else if (e.key === 'Escape' && document.activeElement === inputRef.current) {
-        setQuery('');
-        inputRef.current?.blur();
+      } else if (e.key === 'Escape') {
+        if (reportingIdx !== null) { setReportingIdx(null); return; }
+        if (document.activeElement === inputRef.current) {
+          setQuery('');
+          inputRef.current?.blur();
+        }
       }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, []);
+  }, [reportingIdx]);
 
   function highlight(text, q) {
     if (!q) return text;
@@ -89,6 +105,10 @@ export default function AnswerSearch({ qas, sections }) {
   }
 
   const hasSections = normalizedSections.length >= 2;
+
+  function onAnswerCorrected(idx, newAnswer) {
+    setQas(prev => prev.map((qa, i) => i === idx ? { ...qa, a: newAnswer, _corrected: true } : qa));
+  }
 
   return (
     <>
@@ -185,6 +205,11 @@ export default function AnswerSearch({ qas, sections }) {
                   </span>
                 )}
                 <span className="text-dark-500 text-xs font-semibold">QUESTION {originalIndex + 1}</span>
+                {qa._corrected && (
+                  <span className="px-2 py-0.5 rounded text-[10px] font-semibold uppercase tracking-wider bg-green-500/15 text-green-300 border border-green-500/20">
+                    Community-verified
+                  </span>
+                )}
               </div>
               <p className="text-white font-medium mb-4 whitespace-pre-wrap">
                 {highlight(qa.q, trimmed)}
@@ -195,10 +220,111 @@ export default function AnswerSearch({ qas, sections }) {
                   {highlight(qa.a, trimmed)}
                 </p>
               </div>
+              {slug && (
+                <button
+                  onClick={() => setReportingIdx(originalIndex)}
+                  className="mt-3 text-xs text-dark-500 hover:text-amber-400 transition-colors"
+                >
+                  Wrong answer? Report it &rarr;
+                </button>
+              )}
             </div>
           ))}
         </div>
       )}
+
+      {reportingIdx !== null && slug && (
+        <CorrectionModal
+          slug={slug}
+          questionIndex={reportingIdx}
+          question={qas[reportingIdx].q}
+          currentAnswer={qas[reportingIdx].a}
+          onClose={() => setReportingIdx(null)}
+          onCorrected={onAnswerCorrected}
+        />
+      )}
     </>
+  );
+}
+
+function CorrectionModal({ question, currentAnswer, questionIndex, slug, onClose, onCorrected }) {
+  const [suggestedAnswer, setSuggestedAnswer] = useState('');
+  const [submitting, setSubmitting] = useState(false);
+  const [result, setResult] = useState(null);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (!suggestedAnswer.trim()) return;
+    setSubmitting(true);
+    try {
+      const res = await fetch('/api/cbt/correct', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          slug,
+          questionIndex,
+          question,
+          currentAnswer,
+          suggestedAnswer: suggestedAnswer.trim(),
+        }),
+      });
+      const data = await res.json();
+      setResult(data);
+      if (data.flipped) {
+        onCorrected(questionIndex, data.correctedAnswer);
+      }
+    } catch (e) {
+      setResult({ error: 'Failed to submit. Try again.' });
+    }
+    setSubmitting(false);
+  };
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4" onClick={onClose}>
+      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
+      <div className="relative bg-dark-900 border border-dark-700 rounded-2xl max-w-lg w-full p-6" onClick={e => e.stopPropagation()}>
+        <button onClick={onClose} className="absolute top-4 right-4 text-dark-500 hover:text-dark-300">
+          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+        <h3 className="text-lg font-bold text-white mb-1">Report Wrong Answer</h3>
+        <p className="text-dark-500 text-sm mb-4">After 5 people submit the same correction, the answer updates automatically.</p>
+
+        <div className="bg-dark-800 rounded-xl p-3 mb-4">
+          <p className="text-dark-400 text-xs font-medium mb-1">QUESTION {questionIndex + 1}</p>
+          <p className="text-dark-200 text-sm whitespace-pre-wrap">{question}</p>
+          <p className="text-dark-400 text-xs font-medium mt-3 mb-1">CURRENT ANSWER</p>
+          <p className="text-red-400/80 text-sm line-through whitespace-pre-wrap">{currentAnswer}</p>
+        </div>
+
+        {result ? (
+          <div className={`rounded-xl p-4 ${result.flipped ? 'bg-green-500/10 border border-green-500/20' : result.error ? 'bg-red-500/10 border border-red-500/20' : 'bg-brand-500/10 border border-brand-500/20'}`}>
+            <p className={`text-sm ${result.flipped ? 'text-green-300' : result.error ? 'text-red-300' : 'text-brand-300'}`}>
+              {result.message || result.error}
+            </p>
+            <button onClick={onClose} className="btn-secondary mt-3 text-sm py-2">Close</button>
+          </div>
+        ) : (
+          <form onSubmit={handleSubmit}>
+            <label className="text-dark-400 text-xs font-medium block mb-1">CORRECT ANSWER</label>
+            <textarea
+              value={suggestedAnswer}
+              onChange={e => setSuggestedAnswer(e.target.value)}
+              placeholder="Type the correct answer..."
+              className="w-full bg-dark-800 border border-dark-700 rounded-lg p-3 text-white text-sm placeholder:text-dark-500 focus:outline-none focus:ring-2 focus:ring-brand-500/50 mb-4 min-h-[80px] resize-y"
+              autoFocus
+            />
+            <div className="flex gap-3">
+              <button type="submit" disabled={submitting || !suggestedAnswer.trim()} className="btn-primary flex-1 py-2.5 text-sm disabled:opacity-50">
+                {submitting ? 'Submitting...' : 'Submit Correction'}
+              </button>
+              <button type="button" onClick={onClose} className="btn-secondary py-2.5 text-sm">Cancel</button>
+            </div>
+          </form>
+        )}
+      </div>
+    </div>
   );
 }
