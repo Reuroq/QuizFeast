@@ -85,6 +85,8 @@ export default async function AnswerPage({ params }) {
   if (!data) notFound();
 
   const bucketLabel = BUCKET_LABELS[data.bucket] || 'Study';
+  const isComprehensive = data.kind === 'qa' && (data.question_count >= 80 || (data.sections?.length || 0) >= 3);
+  const setKindLabel = isComprehensive ? 'Comprehensive Study Set' : 'Answer Key';
 
   return (
     <div className="relative">
@@ -97,8 +99,15 @@ export default async function AnswerPage({ params }) {
           </Link>
         </div>
 
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-300 text-xs font-medium mb-4">
-          {bucketLabel}
+        <div className="flex items-center gap-2 mb-4 flex-wrap">
+          <span className="inline-flex items-center px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-300 text-xs font-medium">
+            {bucketLabel}
+          </span>
+          {data.kind === 'qa' && (
+            <span className="inline-flex items-center px-3 py-1 rounded-full bg-dark-800 border border-dark-700 text-dark-300 text-xs font-medium">
+              {setKindLabel}
+            </span>
+          )}
         </div>
 
         <h1 className="text-3xl sm:text-4xl font-extrabold text-white mb-3 leading-tight">
@@ -107,11 +116,13 @@ export default async function AnswerPage({ params }) {
 
         {data.kind === 'qa' && (
           <p className="text-dark-400 mb-8">
-            {data.question_count} verified questions and answers. Free — no login.
+            {isComprehensive
+              ? <>{data.question_count} questions across {data.sections?.length || 0} topics. Use the find bar or section chips to jump to what you need.</>
+              : <>{data.question_count} verified questions and answers. Free — no login.</>}
           </p>
         )}
 
-        {data.kind === 'qa' && <AnswerSearch qas={data.qas} />}
+        {data.kind === 'qa' && <AnswerSearch qas={data.qas} sections={data.sections} />}
 
         {data.kind === 'prose' && data.prose && (
           <div className="card p-6">

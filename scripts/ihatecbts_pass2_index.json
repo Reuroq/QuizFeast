@@ -29,6 +29,13 @@
       "files_dropped_after_dedupe": 0,
       "questions_before": 78524,
       "questions_after": 76345
+    },
+    "sections_pass4": {
+      "run_at": "2026-05-20T06:50:42.252Z",
+      "files_processed": 1272,
+      "files_with_sections": 25,
+      "total_questions": 76345,
+      "questions_with_section": 3305
     }
   },
   "entries": [
@@ -1934,7 +1941,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 330,
-      "word_count": 12743
+      "word_count": 12743,
+      "section_count": 18
     },
     {
       "slug": "army-cyber-awareness-challenge-2023",
@@ -1942,7 +1950,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 175,
-      "word_count": 6134
+      "word_count": 6134,
+      "section_count": 18
     },
     {
       "slug": "dod-cyber-awareness-2023",
@@ -1950,7 +1959,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 175,
-      "word_count": 6134
+      "word_count": 6134,
+      "section_count": 18
     },
     {
       "slug": "what-should-the-employee-do-differently-cyber-awareness-2023",
@@ -1958,7 +1968,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 175,
-      "word_count": 6134
+      "word_count": 6134,
+      "section_count": 18
     },
     {
       "slug": "cyber-awareness-cbt-answers",
@@ -1966,7 +1977,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "cyber-awareness-what-is-sensitive-compartmented-information",
@@ -1974,7 +1986,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "good-practice-for-telework-cyber-awareness",
@@ -1982,7 +1995,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "how-can-you-protect-yourself-from-internet-hoaxes-cyber-awareness",
@@ -1990,7 +2004,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "how-many-potential-insider-threat-indicators-cyber-awareness",
@@ -1998,7 +2013,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "how-to-protect-cui-cyber-awareness",
@@ -2006,7 +2022,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "how-to-prevent-spillage-cyber-awareness",
@@ -2014,7 +2031,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "insider-threat-cyber-awareness",
@@ -2022,7 +2040,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "potential-insider-threat-indicators-cyber-awareness",
@@ -2030,7 +2049,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "preventing-spillage-cyber-awareness",
@@ -2038,7 +2058,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "sensitive-compartmented-information-cyber-awareness",
@@ -2046,7 +2067,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "transmitting-sci-cyber-awareness",
@@ -2054,7 +2076,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "which-of-the-following-is-true-of-cui-cyber-awareness",
@@ -2062,7 +2085,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "which-scenario-might-indicate-a-reportable-insider-threat-cyber-awareness",
@@ -2070,7 +2094,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "which-of-the-following-is-true-cyber-awareness-2023",
@@ -2078,7 +2103,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "which-of-the-following-is-true-of-cookies-cyber-awareness",
@@ -2086,7 +2112,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "which-of-the-following-statement-is-true-cyber-awareness",
@@ -2094,7 +2121,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "compressed-url-cyber-awareness",
@@ -2102,7 +2130,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "jko-cyber-awareness-2023",
@@ -2110,7 +2139,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 138,
-      "word_count": 4649
+      "word_count": 4649,
+      "section_count": 17
     },
     {
       "slug": "active-shooter-murrieta",
@@ -2134,7 +2164,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 115,
-      "word_count": 3386
+      "word_count": 3386,
+      "section_count": 17
     },
     {
       "slug": "score-sere",
@@ -2182,7 +2213,8 @@
       "bucket": "cbt_annual",
       "kind": "qa",
       "question_count": 90,
-      "word_count": 2606
+      "word_count": 2606,
+      "section_count": 17
     },
     {
       "slug": "annual-dod-cyber-awareness-training",

@@ -2,26 +2,46 @@
 
 import { useState, useMemo, useRef, useEffect } from 'react';
 
-export default function AnswerSearch({ qas }) {
+export default function AnswerSearch({ qas, sections }) {
   const [query, setQuery] = useState('');
+  const [activeSection, setActiveSection] = useState(null);
   const inputRef = useRef(null);
 
   const trimmed = query.trim().toLowerCase();
 
-  const filtered = useMemo(() => {
-    if (!trimmed) return qas.map((qa, originalIndex) => ({ qa, originalIndex }));
-    return qas
-      .map((qa, originalIndex) => ({ qa, originalIndex }))
-      .filter(({ qa }) =>
-        qa.q.toLowerCase().includes(trimmed) ||
-        qa.a.toLowerCase().includes(trimmed)
-      );
-  }, [trimmed, qas]);
+  // Normalize section list — case-insensitive merge (e.g. "Identity Management"
+  // and "Identity management" should be one chip). Counts come from rebuild.
+  const normalizedSections = useMemo(() => {
+    if (!sections?.length) return [];
+    const byKey = new Map();
+    for (const s of sections) {
+      const key = s.name.toLowerCase();
+      if (!byKey.has(key)) byKey.set(key, { name: s.name, count: 0 });
+      byKey.get(key).count += s.count;
+    }
+    return [...byKey.values()];
+  }, [sections]);
 
-  // Keyboard: focus search on "/" key, like docs sites
+  // Map each qa to its normalized section key for filtering
+  const sectionKeyForQa = (qa) => qa.section ? qa.section.toLowerCase() : null;
+
+  const filtered = useMemo(() => {
+    const out = [];
+    for (let i = 0; i < qas.length; i++) {
+      const qa = qas[i];
+      if (activeSection && sectionKeyForQa(qa) !== activeSection) continue;
+      if (trimmed) {
+        if (!qa.q.toLowerCase().includes(trimmed) && !qa.a.toLowerCase().includes(trimmed)) continue;
+      }
+      out.push({ qa, originalIndex: i });
+    }
+    return out;
+  }, [trimmed, activeSection, qas]);
+
   useEffect(() => {
     const onKey = (e) => {
-      if (e.key === '/' && document.activeElement?.tagName !== 'INPUT' && document.activeElement?.tagName !== 'TEXTAREA') {
+      const tag = document.activeElement?.tagName;
+      if (e.key === '/' && tag !== 'INPUT' && tag !== 'TEXTAREA') {
         e.preventDefault();
         inputRef.current?.focus();
       } else if (e.key === 'Escape' && document.activeElement === inputRef.current) {
@@ -33,7 +53,6 @@ export default function AnswerSearch({ qas }) {
     return () => window.removeEventListener('keydown', onKey);
   }, []);
 
-  // Highlight matches in a string by wrapping with <mark>
   function highlight(text, q) {
     if (!q) return text;
     const lower = text.toLowerCase();
@@ -41,10 +60,7 @@ export default function AnswerSearch({ qas }) {
     let i = 0;
     while (i < text.length) {
       const idx = lower.indexOf(q, i);
-      if (idx === -1) {
-        parts.push(text.slice(i));
-        break;
-      }
+      if (idx === -1) { parts.push(text.slice(i)); break; }
       if (idx > i) parts.push(text.slice(i, idx));
       parts.push(
         <mark key={idx} className="bg-brand-500/40 text-brand-100 rounded px-0.5">
@@ -55,6 +71,8 @@ export default function AnswerSearch({ qas }) {
     }
     return parts;
   }
+
+  const hasSections = normalizedSections.length >= 2;
 
   return (
     <>
@@ -72,10 +90,10 @@ export default function AnswerSearch({ qas }) {
             className="w-full pl-10 pr-24 py-2.5 rounded-lg bg-dark-900 border border-dark-700 text-white placeholder:text-dark-500 focus:outline-none focus:ring-2 focus:ring-brand-500/50 focus:border-brand-500/50"
           />
           <div className="absolute right-3 top-1/2 -translate-y-1/2 flex items-center gap-2">
-            {query && (
+            {(query || activeSection) && (
               <button
                 type="button"
-                onClick={() => { setQuery(''); inputRef.current?.focus(); }}
+                onClick={() => { setQuery(''); setActiveSection(null); inputRef.current?.focus(); }}
                 className="text-dark-400 hover:text-white text-xs"
               >
                 Clear
@@ -86,11 +104,46 @@ export default function AnswerSearch({ qas }) {
             </kbd>
           </div>
         </div>
-        {trimmed && (
+
+        {hasSections && (
+          <div className="mt-3 flex flex-wrap gap-1.5">
+            <button
+              onClick={() => setActiveSection(null)}
+              className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
+                !activeSection
+                  ? 'bg-brand-500/30 text-brand-200 border border-brand-500/40'
+                  : 'bg-dark-800 text-dark-400 border border-dark-700 hover:text-dark-200'
+              }`}
+            >
+              All sections
+            </button>
+            {normalizedSections.map(s => {
+              const key = s.name.toLowerCase();
+              const active = activeSection === key;
+              return (
+                <button
+                  key={key}
+                  onClick={() => setActiveSection(active ? null : key)}
+                  className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
+                    active
+                      ? 'bg-brand-500/30 text-brand-200 border border-brand-500/40'
+                      : 'bg-dark-800 text-dark-400 border border-dark-700 hover:text-dark-200'
+                  }`}
+                >
+                  {s.name} <span className="text-dark-500">·</span> {s.count}
+                </button>
+              );
+            })}
+          </div>
+        )}
+
+        {(trimmed || activeSection) && (
           <div className="mt-2 text-xs text-dark-400">
             {filtered.length === 0
-              ? <span className="text-amber-400">No matches for &ldquo;{query}&rdquo;</span>
-              : <>{filtered.length} of {qas.length} questions match &ldquo;{query}&rdquo;</>}
+              ? <span className="text-amber-400">No matches</span>
+              : <>{filtered.length} of {qas.length} questions</>}
+            {trimmed && <> matching &ldquo;{query}&rdquo;</>}
+            {activeSection && <> in section &ldquo;{normalizedSections.find(s => s.name.toLowerCase() === activeSection)?.name}&rdquo;</>}
           </div>
         )}
       </div>
@@ -99,17 +152,24 @@ export default function AnswerSearch({ qas }) {
         <div className="card p-8 text-center text-dark-400">
           <p className="mb-2">No questions match your search.</p>
           <button
-            onClick={() => { setQuery(''); inputRef.current?.focus(); }}
+            onClick={() => { setQuery(''); setActiveSection(null); inputRef.current?.focus(); }}
             className="text-brand-400 hover:text-brand-300 text-sm font-medium"
           >
-            Clear search
+            Clear filters
           </button>
         </div>
       ) : (
         <div className="space-y-4">
           {filtered.map(({ qa, originalIndex }) => (
             <div key={originalIndex} className="card p-5">
-              <div className="text-dark-500 text-xs font-semibold mb-2">QUESTION {originalIndex + 1}</div>
+              <div className="flex items-center gap-2 mb-2 flex-wrap">
+                {qa.section && (
+                  <span className="px-2 py-0.5 rounded text-[10px] font-semibold uppercase tracking-wider bg-brand-500/15 text-brand-300 border border-brand-500/20">
+                    {qa.section}
+                  </span>
+                )}
+                <span className="text-dark-500 text-xs font-semibold">QUESTION {originalIndex + 1}</span>
+              </div>
               <p className="text-white font-medium mb-4 whitespace-pre-wrap">
                 {highlight(qa.q, trimmed)}
               </p>
