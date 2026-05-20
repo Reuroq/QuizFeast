@@ -7,6 +7,22 @@ export default function AnswerSearch({ qas, sections }) {
   const [activeSection, setActiveSection] = useState(null);
   const inputRef = useRef(null);
 
+  // On mount, read ?q= URL param to prefill (so links from /answers index land
+  // with their search pre-applied). Also scroll to #q-N if the hash is set.
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams(window.location.search);
+    const qParam = params.get('q');
+    if (qParam) setQuery(qParam);
+    if (window.location.hash.startsWith('#q-')) {
+      // Wait a tick for the filter render, then scroll
+      setTimeout(() => {
+        const el = document.getElementById(window.location.hash.slice(1));
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 50);
+    }
+  }, []);
+
   const trimmed = query.trim().toLowerCase();
 
   // Normalize section list — case-insensitive merge (e.g. "Identity Management"
@@ -161,7 +177,7 @@ export default function AnswerSearch({ qas, sections }) {
       ) : (
         <div className="space-y-4">
           {filtered.map(({ qa, originalIndex }) => (
-            <div key={originalIndex} className="card p-5">
+            <div key={originalIndex} id={`q-${originalIndex + 1}`} className="card p-5 scroll-mt-32">
               <div className="flex items-center gap-2 mb-2 flex-wrap">
                 {qa.section && (
                   <span className="px-2 py-0.5 rounded text-[10px] font-semibold uppercase tracking-wider bg-brand-500/15 text-brand-300 border border-brand-500/20">
