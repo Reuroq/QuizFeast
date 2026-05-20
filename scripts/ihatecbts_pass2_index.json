@@ -23,6 +23,12 @@
     "by_kind": {
       "qa": 1272,
       "prose": 57
+    },
+    "dedupe_pass3": {
+      "run_at": "2026-05-20T06:46:24.430Z",
+      "files_dropped_after_dedupe": 0,
+      "questions_before": 78524,
+      "questions_after": 76345
     }
   },
   "entries": [
@@ -31,7 +37,7 @@
       "title": "Afi 90 201",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 404,
+      "question_count": 312,
       "word_count": 10654
     },
     {
@@ -55,7 +61,7 @@
       "title": "Emergency Management Afsc",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 313,
+      "question_count": 271,
       "word_count": 6219
     },
     {
@@ -79,7 +85,7 @@
       "title": "Afh 1 1",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 301,
+      "question_count": 299,
       "word_count": 6892
     },
     {
@@ -87,7 +93,7 @@
       "title": "Afh 1",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 301,
+      "question_count": 299,
       "word_count": 6892
     },
     {
@@ -175,7 +181,7 @@
       "title": "3D0X3 Air Force",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 158,
+      "question_count": 131,
       "word_count": 3827
     },
     {
@@ -215,7 +221,7 @@
       "title": "Afh 23 123",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 136,
+      "question_count": 127,
       "word_count": 2527
     },
     {
@@ -223,7 +229,7 @@
       "title": "Afi 23 101",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 136,
+      "question_count": 127,
       "word_count": 2527
     },
     {
@@ -239,7 +245,7 @@
       "title": "Afi 91 203",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 130,
+      "question_count": 121,
       "word_count": 2429
     },
     {
@@ -247,7 +253,7 @@
       "title": "Afman 91 203",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 130,
+      "question_count": 121,
       "word_count": 2429
     },
     {
@@ -279,7 +285,7 @@
       "title": "Afi 36 2502",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 126,
+      "question_count": 99,
       "word_count": 3043
     },
     {
@@ -287,7 +293,7 @@
       "title": "Afi 36 2710",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 125,
+      "question_count": 124,
       "word_count": 2830
     },
     {
@@ -319,7 +325,7 @@
       "title": "Afi 41 200",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 104,
+      "question_count": 96,
       "word_count": 3058
     },
     {
@@ -327,7 +333,7 @@
       "title": "1W0X1 Air Force",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 102,
+      "question_count": 100,
       "word_count": 2586
     },
     {
@@ -343,7 +349,7 @@
       "title": "Air Transportation Afsc",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 101,
+      "question_count": 100,
       "word_count": 3427
     },
     {
@@ -407,7 +413,7 @@
       "title": "Afman 11 202V3",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 100,
+      "question_count": 98,
       "word_count": 3363
     },
     {
@@ -559,7 +565,7 @@
       "title": "1N1 Air Force",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 81,
+      "question_count": 80,
       "word_count": 773
     },
     {
@@ -623,7 +629,7 @@
       "title": "Air Force Training Program Afi 36 2670",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 74,
+      "question_count": 72,
       "word_count": 1123
     },
     {
@@ -639,7 +645,7 @@
       "title": "Air Force Admin Afsc",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 72,
+      "question_count": 70,
       "word_count": 2668
     },
     {
@@ -655,7 +661,7 @@
       "title": "Afman 10 206",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 66,
+      "question_count": 58,
       "word_count": 1284
     },
     {
@@ -679,7 +685,7 @@
       "title": "Eod Afsc",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 64,
+      "question_count": 61,
       "word_count": 1788
     },
     {
@@ -687,7 +693,7 @@
       "title": "Afi 36 7001",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 63,
+      "question_count": 62,
       "word_count": 3688
     },
     {
@@ -743,7 +749,7 @@
       "title": "Afi36 3003",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 59,
+      "question_count": 58,
       "word_count": 3960
     },
     {
@@ -751,7 +757,7 @@
       "title": "Air Force Leave Afi 36 3003",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 59,
+      "question_count": 58,
       "word_count": 3960
     },
     {
@@ -759,7 +765,7 @@
       "title": "Leave Afi 36 3003",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 59,
+      "question_count": 58,
       "word_count": 3960
     },
     {
@@ -767,7 +773,7 @@
       "title": "Afi 36 3003",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 59,
+      "question_count": 58,
       "word_count": 3960
     },
     {
@@ -823,7 +829,7 @@
       "title": "Afi 36 2670",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 55,
+      "question_count": 52,
       "word_count": 1065
     },
     {
@@ -831,7 +837,7 @@
       "title": "1C3X1 Air Force",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 54,
+      "question_count": 53,
       "word_count": 987
     },
     {
@@ -839,7 +845,7 @@
       "title": "Cyber Security Afsc",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 53,
+      "question_count": 40,
       "word_count": 945
     },
     {
@@ -847,7 +853,7 @@
       "title": "Afi 23 204",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 48,
+      "question_count": 15,
       "word_count": 1839
     },
     {
@@ -863,7 +869,7 @@
       "title": "Afi 23 201",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 48,
+      "question_count": 15,
       "word_count": 1839
     },
     {
@@ -919,7 +925,7 @@
       "title": "1C8 Afsc",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 42,
+      "question_count": 39,
       "word_count": 2145
     },
     {
@@ -927,7 +933,7 @@
       "title": "13M Afsc",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 42,
+      "question_count": 39,
       "word_count": 2145
     },
     {
@@ -991,7 +997,7 @@
       "title": "Afi 91 201",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 38,
+      "question_count": 37,
       "word_count": 1150
     },
     {
@@ -1031,7 +1037,7 @@
       "title": "3D0X2 Air Force",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 36,
+      "question_count": 35,
       "word_count": 827
     },
     {
@@ -1103,7 +1109,7 @@
       "title": "Afi 36 2902",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 35,
+      "question_count": 24,
       "word_count": 913
     },
     {
@@ -1111,7 +1117,7 @@
       "title": "Afi 36 2626",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 35,
+      "question_count": 34,
       "word_count": 599
     },
     {
@@ -1151,7 +1157,7 @@
       "title": "Afi 36 2654",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 32,
+      "question_count": 31,
       "word_count": 275
     },
     {
@@ -1327,7 +1333,7 @@
       "title": "Afi 21 201",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 23,
+      "question_count": 16,
       "word_count": 435
     },
     {
@@ -1335,7 +1341,7 @@
       "title": "Afi 32 1065",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 23,
+      "question_count": 16,
       "word_count": 435
     },
     {
@@ -1367,7 +1373,7 @@
       "title": "Afman 32 1065",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 23,
+      "question_count": 16,
       "word_count": 435
     },
     {
@@ -1447,7 +1453,7 @@
       "title": "2A6X6 Air Force",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 20,
+      "question_count": 18,
       "word_count": 858
     },
     {
@@ -1487,7 +1493,7 @@
       "title": "Afi 36 2201",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 18,
+      "question_count": 13,
       "word_count": 416
     },
     {
@@ -1799,7 +1805,7 @@
       "title": "Afi 48 145",
       "bucket": "cbt_af",
       "kind": "qa",
-      "question_count": 10,
+      "question_count": 9,
       "word_count": 583
     },
     {
@@ -1927,7 +1933,7 @@
       "title": "Navy Cyber Awareness Challenge 2023",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 490,
+      "question_count": 330,
       "word_count": 12743
     },
     {
@@ -1935,7 +1941,7 @@
       "title": "Army Cyber Awareness Challenge 2023",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 226,
+      "question_count": 175,
       "word_count": 6134
     },
     {
@@ -1943,7 +1949,7 @@
       "title": "Dod Cyber Awareness 2023",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 226,
+      "question_count": 175,
       "word_count": 6134
     },
     {
@@ -1951,7 +1957,7 @@
       "title": "What Should The Employee Do Differently Cyber Awareness 2023",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 226,
+      "question_count": 175,
       "word_count": 6134
     },
     {
@@ -1959,7 +1965,7 @@
       "title": "Cyber Awareness Cbt Answers",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -1967,7 +1973,7 @@
       "title": "Cyber Awareness What Is Sensitive Compartmented Information",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -1975,7 +1981,7 @@
       "title": "Good Practice For Telework Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -1983,7 +1989,7 @@
       "title": "How Can You Protect Yourself From Internet Hoaxes Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -1991,7 +1997,7 @@
       "title": "How Many Potential Insider Threat Indicators Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -1999,7 +2005,7 @@
       "title": "How To Protect Cui Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -2007,7 +2013,7 @@
       "title": "How To Prevent Spillage Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -2015,7 +2021,7 @@
       "title": "Insider Threat Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -2023,7 +2029,7 @@
       "title": "Potential Insider Threat Indicators Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -2031,7 +2037,7 @@
       "title": "Preventing Spillage Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -2039,7 +2045,7 @@
       "title": "Sensitive Compartmented Information Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -2047,7 +2053,7 @@
       "title": "Transmitting Sci Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -2055,7 +2061,7 @@
       "title": "Which Of The Following Is True Of Cui Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -2063,7 +2069,7 @@
       "title": "Which Scenario Might Indicate A Reportable Insider Threat Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -2071,7 +2077,7 @@
       "title": "Which Of The Following Is True Cyber Awareness 2023",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -2079,7 +2085,7 @@
       "title": "Which Of The Following Is True Of Cookies Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -2087,7 +2093,7 @@
       "title": "Which Of The Following Statement Is True Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -2095,7 +2101,7 @@
       "title": "Compressed Url Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -2103,7 +2109,7 @@
       "title": "Jko Cyber Awareness 2023",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 145,
+      "question_count": 138,
       "word_count": 4649
     },
     {
@@ -2127,7 +2133,7 @@
       "title": "I Hate Cbts Cyber Awareness 2023",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 122,
+      "question_count": 115,
       "word_count": 3386
     },
     {
@@ -2135,7 +2141,7 @@
       "title": "Score Sere",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 95,
+      "question_count": 86,
       "word_count": 2358
     },
     {
@@ -2175,7 +2181,7 @@
       "title": "What Guidance Is Available For Marking Sci Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 93,
+      "question_count": 90,
       "word_count": 2606
     },
     {
@@ -2207,7 +2213,7 @@
       "title": "Sharp Borders Fallacy",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 85,
+      "question_count": 83,
       "word_count": 7838
     },
     {
@@ -2215,7 +2221,7 @@
       "title": "Digitally Signed Emails Are More Secure Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 81,
+      "question_count": 77,
       "word_count": 1774
     },
     {
@@ -2287,7 +2293,7 @@
       "title": "Any Medical Instrument Can Be Considered A Sharp",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 57,
+      "question_count": 56,
       "word_count": 1159
     },
     {
@@ -2295,7 +2301,7 @@
       "title": "Any Medical Equipment Can Be Considered A Sharp",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 57,
+      "question_count": 56,
       "word_count": 1159
     },
     {
@@ -2311,7 +2317,7 @@
       "title": "Opsec Level 2",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 56,
+      "question_count": 54,
       "word_count": 814
     },
     {
@@ -2351,7 +2357,7 @@
       "title": "2023 Cyber Awareness Knowledge Check",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 49,
+      "question_count": 48,
       "word_count": 1201
     },
     {
@@ -2359,7 +2365,7 @@
       "title": "Which Of The Following Is True Of Phi Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 49,
+      "question_count": 48,
       "word_count": 1201
     },
     {
@@ -2655,7 +2661,7 @@
       "title": "Marty Cyber Awareness",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 35,
+      "question_count": 34,
       "word_count": 870
     },
     {
@@ -2727,7 +2733,7 @@
       "title": "Preconditions For An Insider Threat",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 32,
+      "question_count": 31,
       "word_count": 904
     },
     {
@@ -2743,7 +2749,7 @@
       "title": "Cyber Awareness Challenge 2022 Certificate",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 755
     },
     {
@@ -2751,7 +2757,7 @@
       "title": "Ascending C Sharp Major Scale",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 26,
       "word_count": 600
     },
     {
@@ -2759,7 +2765,7 @@
       "title": "Cyber Awareness Spillage Knowledge Check",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 755
     },
     {
@@ -2767,7 +2773,7 @@
       "title": "Cyber Awareness Test",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 755
     },
     {
@@ -2775,7 +2781,7 @@
       "title": "Dod Cyber Awareness 2022",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 755
     },
     {
@@ -2783,7 +2789,7 @@
       "title": "Jko Cyber Awareness 2022",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 755
     },
     {
@@ -2799,7 +2805,7 @@
       "title": "2022 Cyber Awareness Challenge Answers",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 755
     },
     {
@@ -2807,7 +2813,7 @@
       "title": "Army Opsec Training",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 27,
       "word_count": 629
     },
     {
@@ -2847,7 +2853,7 @@
       "title": "Www.Lms.Army.Mil Opsec",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 27,
       "word_count": 629
     },
     {
@@ -2863,7 +2869,7 @@
       "title": "Opsec Labels",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 27,
       "word_count": 629
     },
     {
@@ -2887,7 +2893,7 @@
       "title": "Acronym Cali Opsec",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 27,
       "word_count": 629
     },
     {
@@ -2895,7 +2901,7 @@
       "title": "C In Cali Opsec",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 27,
       "word_count": 629
     },
     {
@@ -2903,7 +2909,7 @@
       "title": "Cali Army Acronym Opsec",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 27,
       "word_count": 629
     },
     {
@@ -2927,7 +2933,7 @@
       "title": "Opsec Crossword Puzzle Answers",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 27,
       "word_count": 629
     },
     {
@@ -2935,7 +2941,7 @@
       "title": "Opsec Ttp Acronym",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 27,
       "word_count": 629
     },
     {
@@ -2951,7 +2957,7 @@
       "title": "Acronym Ttp Opsec",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 27,
       "word_count": 629
     },
     {
@@ -2975,7 +2981,7 @@
       "title": "Army Opsec Level 1 Crossword Answers",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 27,
       "word_count": 629
     },
     {
@@ -2983,7 +2989,7 @@
       "title": "Army Opsec Level 1 Answers",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 27,
       "word_count": 629
     },
     {
@@ -2999,7 +3005,7 @@
       "title": "Army Opsec Ttp",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 27,
       "word_count": 629
     },
     {
@@ -3015,7 +3021,7 @@
       "title": "Army Opsec Cali",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 27,
       "word_count": 629
     },
     {
@@ -3143,7 +3149,7 @@
       "title": "Not Considered A Potential Insider Threat Indicator",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 24,
+      "question_count": 23,
       "word_count": 611
     },
     {
@@ -3151,7 +3157,7 @@
       "title": "Which Is Not Considered A Potential Insider Threat Indicator",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 24,
+      "question_count": 23,
       "word_count": 611
     },
     {
@@ -3159,7 +3165,7 @@
       "title": "Active Shooter Training Navy",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 24,
+      "question_count": 20,
       "word_count": 1558
     },
     {
@@ -3167,7 +3173,7 @@
       "title": "Dod Insider Threat Training",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 22,
+      "question_count": 21,
       "word_count": 551
     },
     {
@@ -3183,7 +3189,7 @@
       "title": "Elicitation Scenario Insider Threat",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 22,
+      "question_count": 21,
       "word_count": 551
     },
     {
@@ -3191,7 +3197,7 @@
       "title": "Insider Threat Awareness Hotspots",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 22,
+      "question_count": 21,
       "word_count": 551
     },
     {
@@ -3199,7 +3205,7 @@
       "title": "Insider Threat Awareness Phishing Scenario",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 22,
+      "question_count": 21,
       "word_count": 551
     },
     {
@@ -3207,7 +3213,7 @@
       "title": "Insider Threat Awareness Test",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 22,
+      "question_count": 21,
       "word_count": 551
     },
     {
@@ -3215,7 +3221,7 @@
       "title": "An Advantage Of Integrating Opsec Principles",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 22,
+      "question_count": 20,
       "word_count": 446
     },
     {
@@ -3303,7 +3309,7 @@
       "title": "Trafficking In Persons Involves Exploiting People For",
       "bucket": "cbt_annual",
       "kind": "qa",
-      "question_count": 19,
+      "question_count": 17,
       "word_count": 367
     },
     {
@@ -3903,7 +3909,7 @@
       "title": "You May Be Subject To Administrative Ucmj Of Criminal Sanctions",
       "bucket": "cbt_army",
       "kind": "qa",
-      "question_count": 65,
+      "question_count": 45,
       "word_count": 2056
     },
     {
@@ -3927,7 +3933,7 @@
       "title": "70K Army",
       "bucket": "cbt_army",
       "kind": "qa",
-      "question_count": 38,
+      "question_count": 37,
       "word_count": 1442
     },
     {
@@ -3975,7 +3981,7 @@
       "title": "Alms Dlc 1",
       "bucket": "cbt_army",
       "kind": "qa",
-      "question_count": 27,
+      "question_count": 26,
       "word_count": 1489
     },
     {
@@ -3983,7 +3989,7 @@
       "title": "Dlc 1 Army Alms",
       "bucket": "cbt_army",
       "kind": "qa",
-      "question_count": 27,
+      "question_count": 26,
       "word_count": 1489
     },
     {
@@ -3999,7 +4005,7 @@
       "title": "Alms Dlc",
       "bucket": "cbt_army",
       "kind": "qa",
-      "question_count": 27,
+      "question_count": 26,
       "word_count": 1489
     },
     {
@@ -4007,7 +4013,7 @@
       "title": "56M Mos",
       "bucket": "cbt_army",
       "kind": "qa",
-      "question_count": 26,
+      "question_count": 25,
       "word_count": 553
     },
     {
@@ -4015,7 +4021,7 @@
       "title": "71B Mos",
       "bucket": "cbt_army",
       "kind": "qa",
-      "question_count": 26,
+      "question_count": 25,
       "word_count": 553
     },
     {
@@ -4095,7 +4101,7 @@
       "title": "Army Soldier Creed",
       "bucket": "cbt_army",
       "kind": "qa",
-      "question_count": 13,
+      "question_count": 12,
       "word_count": 121
     },
     {
@@ -4583,7 +4589,7 @@
       "title": "Hipaa Authorization Has Which Of The Following Characteristics",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 259,
+      "question_count": 208,
       "word_count": 13950
     },
     {
@@ -4591,7 +4597,7 @@
       "title": "Dot Hazmat Security Awareness Quiz Answers",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 234,
+      "question_count": 231,
       "word_count": 6920
     },
     {
@@ -4599,7 +4605,7 @@
       "title": "Florida Hazmat Test",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 202,
+      "question_count": 199,
       "word_count": 3072
     },
     {
@@ -4607,7 +4613,7 @@
       "title": "Certified Hipaa Professional Chp",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 137,
+      "question_count": 120,
       "word_count": 2510
     },
     {
@@ -4615,7 +4621,7 @@
       "title": "Hipaa Is Designed To Protect",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 123,
+      "question_count": 112,
       "word_count": 2962
     },
     {
@@ -4623,7 +4629,7 @@
       "title": "Amazon Hazmat Test Answers 2022",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 117,
+      "question_count": 106,
       "word_count": 2943
     },
     {
@@ -4727,7 +4733,7 @@
       "title": "Arkansas Hazmat Test",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 107,
+      "question_count": 106,
       "word_count": 2492
     },
     {
@@ -4743,7 +4749,7 @@
       "title": "Hazmat Test En Español",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 98,
+      "question_count": 95,
       "word_count": 4893
     },
     {
@@ -4751,7 +4757,7 @@
       "title": "Que Es Hazmat En Español",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 98,
+      "question_count": 95,
       "word_count": 4893
     },
     {
@@ -4759,7 +4765,7 @@
       "title": "Hazmat Español",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 98,
+      "question_count": 95,
       "word_count": 4893
     },
     {
@@ -4767,7 +4773,7 @@
       "title": "What Legal Agency Is Responsible For Enforcing Hipaa",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 97,
+      "question_count": 77,
       "word_count": 1969
     },
     {
@@ -4775,7 +4781,7 @@
       "title": "Which Government Agency Oversees Hipaa",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 97,
+      "question_count": 77,
       "word_count": 1969
     },
     {
@@ -4783,7 +4789,7 @@
       "title": "How Many Types Of Unique Identifiers Are Defined By Hipaa",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 93,
+      "question_count": 92,
       "word_count": 1900
     },
     {
@@ -4831,7 +4837,7 @@
       "title": "Hazmat Army",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 85,
+      "question_count": 84,
       "word_count": 1094
     },
     {
@@ -4839,7 +4845,7 @@
       "title": "Navy Hazmat Training",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 83,
+      "question_count": 82,
       "word_count": 2785
     },
     {
@@ -4847,7 +4853,7 @@
       "title": "Wisconsin Hazmat Test",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 82,
+      "question_count": 77,
       "word_count": 1968
     },
     {
@@ -4863,7 +4869,7 @@
       "title": "Cdl Hazmat Test",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 80,
+      "question_count": 79,
       "word_count": 1359
     },
     {
@@ -4871,7 +4877,7 @@
       "title": "Troxler Hazmat Certification",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 77,
+      "question_count": 75,
       "word_count": 1192
     },
     {
@@ -4879,7 +4885,7 @@
       "title": "Ucla Hipaa Training",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 77,
+      "question_count": 73,
       "word_count": 2430
     },
     {
@@ -4887,7 +4893,7 @@
       "title": "Citi Hipaa Training",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 77,
+      "question_count": 73,
       "word_count": 2430
     },
     {
@@ -5143,7 +5149,7 @@
       "title": "In Accordance With Hipaa Guidelines The Medical Office Must",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 54,
+      "question_count": 44,
       "word_count": 724
     },
     {
@@ -5343,7 +5349,7 @@
       "title": "Which Of The Following Does Not Apply To Hipaa Requirements",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 50,
+      "question_count": 49,
       "word_count": 1244
     },
     {
@@ -5351,7 +5357,7 @@
       "title": "Bloodborne Pathogens Training Must Be Provided Every 3 Years",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 49,
+      "question_count": 39,
       "word_count": 938
     },
     {
@@ -5383,7 +5389,7 @@
       "title": "Under Hipaa An Individual Has The Right To Request",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 47,
+      "question_count": 41,
       "word_count": 848
     },
     {
@@ -5407,7 +5413,7 @@
       "title": "Bloodborne Pathogens Are Disease Causing Microorganisms That Are Present In",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 45,
+      "question_count": 44,
       "word_count": 1386
     },
     {
@@ -5415,7 +5421,7 @@
       "title": "Which Of The Following Are Considered Bloodborne Pathogens",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 45,
+      "question_count": 44,
       "word_count": 1386
     },
     {
@@ -5423,7 +5429,7 @@
       "title": "Bloodborne Pathogens Are Not Present In Which Of The Following",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 45,
+      "question_count": 44,
       "word_count": 1386
     },
     {
@@ -5447,7 +5453,7 @@
       "title": "Hipaa Security Rule Applies To Data Contained In",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 43,
+      "question_count": 42,
       "word_count": 1247
     },
     {
@@ -5463,7 +5469,7 @@
       "title": "What Is Hipaa Security Rule Meant To Establish",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 43,
+      "question_count": 42,
       "word_count": 1247
     },
     {
@@ -5559,7 +5565,7 @@
       "title": "You Are Carrying A Load Of Hazmat",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 37,
+      "question_count": 36,
       "word_count": 902
     },
     {
@@ -5567,7 +5573,7 @@
       "title": "Fema Hazmat Awareness",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 36,
+      "question_count": 34,
       "word_count": 789
     },
     {
@@ -5575,7 +5581,7 @@
       "title": "Hazmat Awareness Fema",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 36,
+      "question_count": 34,
       "word_count": 789
     },
     {
@@ -5599,7 +5605,7 @@
       "title": "Hazmat Fema",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 36,
+      "question_count": 34,
       "word_count": 789
     },
     {
@@ -5615,7 +5621,7 @@
       "title": "Army Hippa",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 34,
+      "question_count": 32,
       "word_count": 743
     },
     {
@@ -5623,7 +5629,7 @@
       "title": "Hipaa Army",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 34,
+      "question_count": 32,
       "word_count": 743
     },
     {
@@ -5631,7 +5637,7 @@
       "title": "Dha Hipaa Training",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 34,
+      "question_count": 32,
       "word_count": 743
     },
     {
@@ -5639,7 +5645,7 @@
       "title": "Dod Hipaa Training",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 34,
+      "question_count": 32,
       "word_count": 743
     },
     {
@@ -5647,7 +5653,7 @@
       "title": "Hipaa Army Training",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 34,
+      "question_count": 32,
       "word_count": 743
     },
     {
@@ -5655,7 +5661,7 @@
       "title": "Hipaa Certification Army",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 34,
+      "question_count": 32,
       "word_count": 743
     },
     {
@@ -5719,7 +5725,7 @@
       "title": "Army Hippa Training",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 1175
     },
     {
@@ -5727,7 +5733,7 @@
       "title": "Hipaa Privacy Act Training",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 1175
     },
     {
@@ -5759,7 +5765,7 @@
       "title": "Which Of The Following Are Breach Prevention Best Practices Hipaa",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 1175
     },
     {
@@ -5783,7 +5789,7 @@
       "title": "What Type Of Germ Is A Bloodborne Pathogen",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 28,
       "word_count": 417
     },
     {
@@ -5895,7 +5901,7 @@
       "title": "Basic Hipaa Training Course Test Answers",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 25,
+      "question_count": 24,
       "word_count": 333
     },
     {
@@ -5919,7 +5925,7 @@
       "title": "Instacart Quiz Answers Hipaa",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 25,
+      "question_count": 24,
       "word_count": 333
     },
     {
@@ -5927,7 +5933,7 @@
       "title": "Phi Has Been Defined In Hipaa By Which Government Agency",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 25,
+      "question_count": 22,
       "word_count": 484
     },
     {
@@ -5943,7 +5949,7 @@
       "title": "Hipaa Includes The Minimum Necessary Standard",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 24,
+      "question_count": 23,
       "word_count": 927
     },
     {
@@ -5983,7 +5989,7 @@
       "title": "Hipaa Compliance Test",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 23,
+      "question_count": 11,
       "word_count": 420
     },
     {
@@ -5999,7 +6005,7 @@
       "title": "Hipaa Answers",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 23,
+      "question_count": 11,
       "word_count": 420
     },
     {
@@ -6007,7 +6013,7 @@
       "title": "Critique This Statement According To Hipaa Workforce Members Include Students",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 23,
+      "question_count": 19,
       "word_count": 762
     },
     {
@@ -6015,7 +6021,7 @@
       "title": "Hipaa Questions And Answer Test",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 23,
+      "question_count": 11,
       "word_count": 420
     },
     {
@@ -6023,7 +6029,7 @@
       "title": "Hipaa Quiz Questions",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 23,
+      "question_count": 11,
       "word_count": 420
     },
     {
@@ -6031,7 +6037,7 @@
       "title": "Hipaa Practice Test",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 23,
+      "question_count": 11,
       "word_count": 420
     },
     {
@@ -6039,7 +6045,7 @@
       "title": "Hipaa Test Questions",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 23,
+      "question_count": 11,
       "word_count": 420
     },
     {
@@ -6047,7 +6053,7 @@
       "title": "Bloodborne Pathogens Are Found In Which Of The Following",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 22,
+      "question_count": 20,
       "word_count": 678
     },
     {
@@ -6255,7 +6261,7 @@
       "title": "The Purpose Of The Osha Bloodborne Pathogens Standard Is To",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 21,
+      "question_count": 19,
       "word_count": 580
     },
     {
@@ -6439,7 +6445,7 @@
       "title": "The Hipaa Privacy Rule Permits Use Or Disclosure",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 20,
+      "question_count": 19,
       "word_count": 429
     },
     {
@@ -6511,7 +6517,7 @@
       "title": "Which Bloodborne Pathogens Related To Osha Affect The Liver",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 19,
+      "question_count": 18,
       "word_count": 967
     },
     {
@@ -6519,7 +6525,7 @@
       "title": "Which Osha Bloodborne Pathogen S Affect The Liver",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 19,
+      "question_count": 18,
       "word_count": 967
     },
     {
@@ -6527,7 +6533,7 @@
       "title": "Which Of The Following Is True About Hipaa",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 19,
+      "question_count": 18,
       "word_count": 597
     },
     {
@@ -6647,7 +6653,7 @@
       "title": "Hipaa Recruiting Into Research",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 15,
+      "question_count": 9,
       "word_count": 461
     },
     {
@@ -6679,7 +6685,7 @@
       "title": "Missouri Hazmat Testing Locations",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 14,
+      "question_count": 13,
       "word_count": 396
     },
     {
@@ -6783,7 +6789,7 @@
       "title": "Bloodborne Pathogen Exposure Response Sequence",
       "bucket": "cbt_health",
       "kind": "qa",
-      "question_count": 13,
+      "question_count": 12,
       "word_count": 305
     },
     {
@@ -7151,7 +7157,7 @@
       "title": "Jko Air Force",
       "bucket": "cbt_jko",
       "kind": "qa",
-      "question_count": 94,
+      "question_count": 87,
       "word_count": 2756
     },
     {
@@ -7191,7 +7197,7 @@
       "title": "Driving For Life Jko",
       "bucket": "cbt_jko",
       "kind": "qa",
-      "question_count": 41,
+      "question_count": 40,
       "word_count": 1207
     },
     {
@@ -7199,7 +7205,7 @@
       "title": "Navy Driving For Life Course",
       "bucket": "cbt_jko",
       "kind": "qa",
-      "question_count": 41,
+      "question_count": 40,
       "word_count": 1207
     },
     {
@@ -7207,7 +7213,7 @@
       "title": "Nko Driving For Life",
       "bucket": "cbt_jko",
       "kind": "qa",
-      "question_count": 41,
+      "question_count": 40,
       "word_count": 1207
     },
     {
@@ -7215,7 +7221,7 @@
       "title": "Driving For Life Navy E Learning",
       "bucket": "cbt_jko",
       "kind": "qa",
-      "question_count": 41,
+      "question_count": 40,
       "word_count": 1207
     },
     {
@@ -7239,7 +7245,7 @@
       "title": "Hipaa Training Jko",
       "bucket": "cbt_jko",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 1175
     },
     {
@@ -7247,7 +7253,7 @@
       "title": "Hippa Jko",
       "bucket": "cbt_jko",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 1175
     },
     {
@@ -7255,7 +7261,7 @@
       "title": "Jko Hippa Training",
       "bucket": "cbt_jko",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 1175
     },
     {
@@ -7263,7 +7269,7 @@
       "title": "Jko Hipaa And Privacy Act Training",
       "bucket": "cbt_jko",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 1175
     },
     {
@@ -7271,7 +7277,7 @@
       "title": "Jko Hippa",
       "bucket": "cbt_jko",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 1175
     },
     {
@@ -7279,7 +7285,7 @@
       "title": "Hipaa Jko",
       "bucket": "cbt_jko",
       "kind": "qa",
-      "question_count": 30,
+      "question_count": 29,
       "word_count": 1175
     },
     {
@@ -7423,7 +7429,7 @@
       "title": "Which Marine Corps Leadership Principle Is Key To Successful Operations",
       "bucket": "cbt_marine",
       "kind": "qa",
-      "question_count": 160,
+      "question_count": 152,
       "word_count": 4014
     },
     {
@@ -7439,7 +7445,7 @@
       "title": "0631 Mos Usmc",
       "bucket": "cbt_marine",
       "kind": "qa",
-      "question_count": 103,
+      "question_count": 102,
       "word_count": 1512
     },
     {
@@ -7727,7 +7733,7 @@
       "title": "Gtcc Sou",
       "bucket": "cbt_prof",
       "kind": "qa",
-      "question_count": 27,
+      "question_count": 26,
       "word_count": 532
     },
     {
@@ -7735,7 +7741,7 @@
       "title": "Gtcc Customer Service",
       "bucket": "cbt_prof",
       "kind": "qa",
-      "question_count": 27,
+      "question_count": 26,
       "word_count": 532
     },
     {
@@ -7775,7 +7781,7 @@
       "title": "Government Travel Card Training",
       "bucket": "cbt_prof",
       "kind": "qa",
-      "question_count": 15,
+      "question_count": 14,
       "word_count": 567
     },
     {
@@ -7783,7 +7789,7 @@
       "title": "Dhs Government Travel Card Training",
       "bucket": "cbt_prof",
       "kind": "qa",
-      "question_count": 15,
+      "question_count": 14,
       "word_count": 567
     },
     {
@@ -8015,7 +8021,7 @@
       "title": "Derivative Classification Steps",
       "bucket": "cbt_security",
       "kind": "qa",
-      "question_count": 74,
+      "question_count": 69,
       "word_count": 2428
     },
     {
@@ -8023,7 +8029,7 @@
       "title": "What Are The Steps In Derivative Classification",
       "bucket": "cbt_security",
       "kind": "qa",
-      "question_count": 74,
+      "question_count": 69,
       "word_count": 2428
     },
     {
@@ -8031,7 +8037,7 @@
       "title": "Derivative Classification Usmc",
       "bucket": "cbt_security",
       "kind": "qa",
-      "question_count": 64,
+      "question_count": 60,
       "word_count": 2261
     },
     {
@@ -8063,7 +8069,7 @@
       "title": "Xactimate Roof Tarp",
       "bucket": "cbt_security",
       "kind": "qa",
-      "question_count": 52,
+      "question_count": 48,
       "word_count": 416
     },
     {
@@ -8183,7 +8189,7 @@
       "title": "Why Are Privacy And Information Security Necessary",
       "bucket": "cbt_security",
       "kind": "qa",
-      "question_count": 32,
+      "question_count": 31,
       "word_count": 566
     },
     {
@@ -8255,7 +8261,7 @@
       "title": "What Is The Purpose Of The Information Security Management Practice",
       "bucket": "cbt_security",
       "kind": "qa",
-      "question_count": 29,
+      "question_count": 28,
       "word_count": 587
     },
     {
@@ -8271,7 +8277,7 @@
       "title": "Derivative Classification Administrative Sanctions",
       "bucket": "cbt_security",
       "kind": "qa",
-      "question_count": 27,
+      "question_count": 26,
       "word_count": 793
     },
     {
@@ -8279,7 +8285,7 @@
       "title": "Administrative Sanctions For Derivative Classification",
       "bucket": "cbt_security",
       "kind": "qa",
-      "question_count": 27,
+      "question_count": 26,
       "word_count": 793
     },
     {
@@ -8343,7 +8349,7 @@
       "title": "In Information Security What Can Constitute A Loss",
       "bucket": "cbt_security",
       "kind": "qa",
-      "question_count": 20,
+      "question_count": 17,
       "word_count": 653
     },
     {
@@ -8367,7 +8373,7 @@
       "title": "Information Security Awareness Quiz",
       "bucket": "cbt_security",
       "kind": "qa",
-      "question_count": 20,
+      "question_count": 19,
       "word_count": 361
     },
     {
@@ -8527,7 +8533,7 @@
       "title": "Actualtests Cissp",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 1453,
+      "question_count": 917,
       "word_count": 135216
     },
     {
@@ -8535,7 +8541,7 @@
       "title": "Comptia Exam Objectives Security+",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 766,
+      "question_count": 759,
       "word_count": 18557
     },
     {
@@ -8543,7 +8549,7 @@
       "title": "Comptia A+ Free Study Guide",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 765,
+      "question_count": 763,
       "word_count": 18856
     },
     {
@@ -8551,7 +8557,7 @@
       "title": "Comptia A+ Material",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 765,
+      "question_count": 763,
       "word_count": 18856
     },
     {
@@ -8559,7 +8565,7 @@
       "title": "Cism Test Bank",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 627,
+      "question_count": 626,
       "word_count": 14505
     },
     {
@@ -8567,7 +8573,7 @@
       "title": "Mike Meyers Comptia Videos",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 624,
+      "question_count": 609,
       "word_count": 11389
     },
     {
@@ -8575,7 +8581,7 @@
       "title": "Comptia Sec Plus Objectives",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 600,
+      "question_count": 595,
       "word_count": 12805
     },
     {
@@ -8583,7 +8589,7 @@
       "title": "Cissp Flashcards Pdf",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 564,
+      "question_count": 532,
       "word_count": 9159
     },
     {
@@ -8599,7 +8605,7 @@
       "title": "Comptia A+ Course Notes",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 519,
+      "question_count": 501,
       "word_count": 19387
     },
     {
@@ -8607,7 +8613,7 @@
       "title": "Comptia A+ Notes",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 519,
+      "question_count": 501,
       "word_count": 19387
     },
     {
@@ -8615,7 +8621,7 @@
       "title": "Comptia Notes",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 519,
+      "question_count": 501,
       "word_count": 19387
     },
     {
@@ -8631,7 +8637,7 @@
       "title": "Lockdown Enclosure Cissp",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 514,
+      "question_count": 506,
       "word_count": 11140
     },
     {
@@ -8639,7 +8645,7 @@
       "title": "Comptia A Certification Practice Test",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 500,
+      "question_count": 498,
       "word_count": 19232
     },
     {
@@ -8647,7 +8653,7 @@
       "title": "Comptia Certmaster Practice For Security+",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 479,
+      "question_count": 468,
       "word_count": 12081
     },
     {
@@ -8655,7 +8661,7 @@
       "title": "Boson Ceh",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 446,
+      "question_count": 442,
       "word_count": 6967
     },
     {
@@ -8663,7 +8669,7 @@
       "title": "Exam Topics Ccna 200 301",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 438,
+      "question_count": 437,
       "word_count": 10323
     },
     {
@@ -8671,7 +8677,7 @@
       "title": "Ccna 200 301 Exam Answers",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 438,
+      "question_count": 437,
       "word_count": 10323
     },
     {
@@ -8679,7 +8685,7 @@
       "title": "Ccna 200 301 Answers",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 438,
+      "question_count": 437,
       "word_count": 10323
     },
     {
@@ -8687,7 +8693,7 @@
       "title": "Comptia Testout",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 330,
+      "question_count": 325,
       "word_count": 7343
     },
     {
@@ -8759,7 +8765,7 @@
       "title": "Comptia It Fundamentals Practice Exam",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 275,
+      "question_count": 219,
       "word_count": 12022
     },
     {
@@ -8783,7 +8789,7 @@
       "title": "Cissp Exam Answers",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 250,
+      "question_count": 248,
       "word_count": 13280
     },
     {
@@ -8791,7 +8797,7 @@
       "title": "Cissp Sample Test",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 250,
+      "question_count": 248,
       "word_count": 13280
     },
     {
@@ -8799,7 +8805,7 @@
       "title": "Example Cissp Exam Questions",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 250,
+      "question_count": 248,
       "word_count": 13280
     },
     {
@@ -8807,7 +8813,7 @@
       "title": "Cissp Sunflower",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 238,
+      "question_count": 234,
       "word_count": 6385
     },
     {
@@ -8815,7 +8821,7 @@
       "title": "Comptia Security+ Study Guide",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 216,
+      "question_count": 214,
       "word_count": 7174
     },
     {
@@ -8967,7 +8973,7 @@
       "title": "Cissp Acronym",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 191,
+      "question_count": 184,
       "word_count": 6088
     },
     {
@@ -8983,7 +8989,7 @@
       "title": "B.4 Comptia Network+ N10 008 Certification Practice Exam",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 175,
+      "question_count": 174,
       "word_count": 7618
     },
     {
@@ -8991,7 +8997,7 @@
       "title": "Ccna Boson",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 172,
+      "question_count": 171,
       "word_count": 3118
     },
     {
@@ -9047,7 +9053,7 @@
       "title": "Cissp Study Questions",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 146,
+      "question_count": 142,
       "word_count": 9551
     },
     {
@@ -9119,7 +9125,7 @@
       "title": "Comptia Sql",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 107,
+      "question_count": 104,
       "word_count": 3907
     },
     {
@@ -9135,7 +9141,7 @@
       "title": "Gibson Security Plus",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 105,
+      "question_count": 104,
       "word_count": 2477
     },
     {
@@ -9159,7 +9165,7 @@
       "title": "Professor Messer Network Plus",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 100,
+      "question_count": 99,
       "word_count": 1441
     },
     {
@@ -9183,7 +9189,7 @@
       "title": "Comptia Certmaster Practice For Security+ Sy0 601",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 100,
+      "question_count": 99,
       "word_count": 4140
     },
     {
@@ -9191,7 +9197,7 @@
       "title": "Comptia Security+ Practice Exam Sy0 601",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 100,
+      "question_count": 99,
       "word_count": 4140
     },
     {
@@ -9215,7 +9221,7 @@
       "title": "Sunflower Cissp",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 99,
+      "question_count": 93,
       "word_count": 1780
     },
     {
@@ -9335,7 +9341,7 @@
       "title": "Aws Cloud Practitioner Flash Cards",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 93,
+      "question_count": 91,
       "word_count": 1345
     },
     {
@@ -9351,7 +9357,7 @@
       "title": "Cissp Chapters",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 91,
+      "question_count": 90,
       "word_count": 1667
     },
     {
@@ -9487,7 +9493,7 @@
       "title": "Aws Cloud Practitioner Stephane Maarek",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 80,
+      "question_count": 79,
       "word_count": 1364
     },
     {
@@ -9519,7 +9525,7 @@
       "title": "Rmf Steps 1 6",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 77,
+      "question_count": 71,
       "word_count": 6814
     },
     {
@@ -9559,7 +9565,7 @@
       "title": "Brain Dump Comptia A+ 1001",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 74,
+      "question_count": 73,
       "word_count": 4799
     },
     {
@@ -9567,7 +9573,7 @@
       "title": "Security Plus Ports",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 69,
+      "question_count": 68,
       "word_count": 500
     },
     {
@@ -9607,7 +9613,7 @@
       "title": "Aws Cloud Practitioner Acloudguru",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 65,
+      "question_count": 56,
       "word_count": 993
     },
     {
@@ -9615,7 +9621,7 @@
       "title": "A Cloud Guru Aws Cloud Practitioner Practice Exam",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 65,
+      "question_count": 56,
       "word_count": 993
     },
     {
@@ -9623,7 +9629,7 @@
       "title": "Security Plus Certmaster",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 63,
+      "question_count": 62,
       "word_count": 2381
     },
     {
@@ -9719,7 +9725,7 @@
       "title": "The Comptia Security+ Certification Is A Vendor Neutral Credential",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 50,
+      "question_count": 20,
       "word_count": 1725
     },
     {
@@ -9935,7 +9941,7 @@
       "title": "Infosec Cissp Boot Camp Reviews",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 28,
+      "question_count": 27,
       "word_count": 695
     },
     {
@@ -10119,7 +10125,7 @@
       "title": "Dod Pki Tokens",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 24,
+      "question_count": 23,
       "word_count": 611
     },
     {
@@ -10183,7 +10189,7 @@
       "title": "Rmf Step 1",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 22,
+      "question_count": 21,
       "word_count": 607
     },
     {
@@ -10271,7 +10277,7 @@
       "title": "Rmf Step 2",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 20,
+      "question_count": 18,
       "word_count": 562
     },
     {
@@ -10343,7 +10349,7 @@
       "title": "Rmf Step 3",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 17,
+      "question_count": 13,
       "word_count": 510
     },
     {
@@ -10367,7 +10373,7 @@
       "title": "Csr Security Plus",
       "bucket": "cert_it",
       "kind": "qa",
-      "question_count": 15,
+      "question_count": 14,
       "word_count": 395
     },
     {
