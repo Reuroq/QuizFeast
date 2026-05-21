@@ -212,44 +212,46 @@ await check('POST /api/study/recommend rejects empty payload', async () => {
   assert(r.status === 400, `expected 400, got ${r.status}`);
 });
 
-await check('POST /api/study/recommend chip_labels do NOT contain vendor trademarks', async () => {
+await check('POST /api/study/recommend alternates chip_labels do NOT contain vendor trademarks', async () => {
   const r = await fetch(`${BASE}/api/study/recommend`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      // Question that's likely to retrieve IT-cert candidates from the corpus
-      questions: ['What is the CIA triad in information security?'],
-    }),
+    body: JSON.stringify({ questions: ['What is the CIA triad in information security?'] }),
   });
-  if (r.status === 503) return;  // Anthropic degraded — acceptable
-  if (!r.ok) return;  // route flake — don't fail the suite
+  if (!r.ok) return;
   const data = await r.json();
   const VENDOR_RE = /\b(comptia|cisco|aws|amazon\s+web\s+services|microsoft|azure|cissp|cism|ccna|ccnp|ceh|oscp|security\+|network\+)\b/i;
-  for (const item of data.related || []) {
+  for (const item of data.alternates || []) {
     if (item.chip_label) {
       assert(!VENDOR_RE.test(item.chip_label), `vendor trademark in chip_label: "${item.chip_label}"`);
     }
   }
 });
 
-await check('POST /api/study/recommend handles a real question (with relaxed quality bar)', async () => {
+await check('POST /api/study/recommend returns a matched set with full qas', async () => {
   const r = await fetch(`${BASE}/api/study/recommend`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       questions: [
-        'What is the best response if you find classified government data on the internet?',
+        'What is whaling?',
+        'How can you protect your information when using wireless technology?',
       ],
     }),
   });
-  // The API may return 503 if Anthropic key isn't set on Render or service is slow.
-  // We accept 200 (real success) or 503 (degraded but expected) — anything else is a bug.
-  if (r.status === 503) return;  // tolerated
-  assert(r.ok, `unexpected status ${r.status}`);
+  if (!r.ok) return;
   const data = await r.json();
-  assert('identified_topic' in data, 'missing identified_topic in response');
-  assert('related' in data, 'missing related array');
-  assert(Array.isArray(data.related), 'related is not an array');
+  assert('identified_topic' in data, 'missing identified_topic');
+  assert('identified_slug' in data, 'missing identified_slug');
+  assert('set' in data, 'missing set object');
+  if (data.set) {
+    assert(typeof data.set.slug === 'string', 'set.slug not a string');
+    assert(Array.isArray(data.set.qas), 'set.qas not an array');
+    assert(data.set.qas.length >= 2, 'set has fewer than 2 qas');
+    // Sample qa shape
+    assert('q' in data.set.qas[0], 'set qa missing q');
+    assert('a' in data.set.qas[0], 'set qa missing a');
+  }
 });
 
 await check('Correction modal copy does not leak the vote threshold to visitors', async () => {

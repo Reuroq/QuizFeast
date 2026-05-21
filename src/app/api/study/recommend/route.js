@@ -2,7 +2,6 @@ import { NextResponse } from 'next/server';
 import Anthropic from '@anthropic-ai/sdk';
 import fs from 'node:fs';
 import path from 'node:path';
-import { searchPinecone } from '@/lib/pinecone';
 import { sanitizeDeep, safeChipLabel } from '@/lib/sanitize';
 
 let _anthropic;
@@ -11,73 +10,94 @@ function getAnthropic() {
   return _anthropic;
 }
 
-// Lazy-load CBT slug -> title map so we can resolve slugs Claude mentions
-// back to actual landing pages.
-let _slugIndex = null;
-function getSlugIndex() {
-  if (_slugIndex) return _slugIndex;
-  try {
-    const file = path.join(process.cwd(), 'scripts', 'ihatecbts_pass2_index.json');
-    const idx = JSON.parse(fs.readFileSync(file, 'utf8'));
-    _slugIndex = new Map(idx.entries.map(e => [e.slug, { title: e.title, bucket: e.bucket, question_count: e.question_count }]));
-  } catch (e) {
-    _slugIndex = new Map();
-  }
-  return _slugIndex;
-}
-
 function normalizeForMatch(s) {
   return (s || '').toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, ' ').trim();
 }
 
-// Key for bridging: first N words of normalized question text. Word-prefix
-// is more stable than char-prefix because trailing punctuation, capitalization,
-// and slight rewording variations all collapse to the same key.
+// Key on first N words. Word-prefix is stable across punctuation + casing.
 function questionKey(s, wordCount = 8) {
   const norm = normalizeForMatch(s);
   if (!norm) return '';
   return norm.split(' ').slice(0, wordCount).join(' ');
 }
 
-// Lazy-load the flat question index (76K Q's across 1,329 slugs) so we can
-// bridge Pinecone-retrieved snippets back to a real /answers/<slug> page.
-// We build TWO maps: an 8-word-key map and a 4-word-key map. We try the
-// longer (more specific) one first, then fall back to the shorter one.
-let _qIndex = null;
-function getQuestionIndex() {
-  if (_qIndex) return _qIndex;
+// Multi-value index: a single Q text typically appears in many /answers sets
+// (e.g., "What is whaling?" is in ~30 Cyber Awareness pages). To identify
+// the user's specific set, we need the FULL set of slugs each Q appears in,
+// not just the first one we saw during build.
+let _multiIndex = null;
+function getMultiIndex() {
+  if (_multiIndex) return _multiIndex;
   try {
     const file = path.join(process.cwd(), 'scripts', 'answers_question_index.json');
     const data = JSON.parse(fs.readFileSync(file, 'utf8'));
-    const long = new Map();   // 8-word key
-    const short = new Map();  // 4-word key
+    const k8 = new Map();  // 8-word key → Set<slug>
+    const k4 = new Map();  // 4-word key → Set<slug>
     for (const item of data.questions || []) {
-      const k8 = questionKey(item.q_text, 8);
-      const k4 = questionKey(item.q_text, 4);
-      if (k8 && !long.has(k8)) long.set(k8, item.slug);
-      if (k4 && !short.has(k4)) short.set(k4, item.slug);
+      const key8 = questionKey(item.q_text, 8);
+      const key4 = questionKey(item.q_text, 4);
+      if (key8) {
+        if (!k8.has(key8)) k8.set(key8, new Set());
+        k8.get(key8).add(item.slug);
+      }
+      if (key4 && key4 !== key8) {
+        if (!k4.has(key4)) k4.set(key4, new Set());
+        k4.get(key4).add(item.slug);
+      }
     }
-    _qIndex = { long, short };
+    _multiIndex = { k8, k4 };
   } catch (e) {
-    console.error('study/recommend: failed to load question_index', e);
-    _qIndex = { long: new Map(), short: new Map() };
+    console.error('study/recommend: multiIndex load failed', e);
+    _multiIndex = { k8: new Map(), k4: new Map() };
   }
-  return _qIndex;
+  return _multiIndex;
 }
 
-// Extract the first individual question fragment from a Pinecone-retrieved
-// multi-Q&A text chunk. Handles a few format quirks ("Question 1: Question: X").
-function extractFirstQuestion(text) {
-  if (!text) return null;
-  // Strip any leading "Question N:" wrapper before looking for the real Q
-  let body = text.replace(/^\s*Question\s*\d+\s*:\s*/i, '');
-  // Find the first "Question:" marker, capture the text until Answer: or separator
-  const m = body.match(/Question\s*\d*\s*:\s*([\s\S]{5,400}?)(?:\s+Answer\s*:|={4,}|$)/i);
-  if (m) return m[1].replace(/\s+/g, ' ').trim();
-  // No "Question:" prefix — text may BE the question (flashcard-style "WPS\nWireless..."). Take first 200 chars.
-  const candidate = body.split(/Answer\s*:/i)[0].trim();
-  if (candidate.length >= 5) return candidate.slice(0, 400);
-  return null;
+// Slug → { title, bucket } so we can stamp metadata onto the chosen set.
+let _slugMeta = null;
+function getSlugMeta() {
+  if (_slugMeta) return _slugMeta;
+  try {
+    const file = path.join(process.cwd(), 'scripts', 'ihatecbts_pass2_index.json');
+    const idx = JSON.parse(fs.readFileSync(file, 'utf8'));
+    _slugMeta = new Map(idx.entries.map(e => [e.slug, {
+      title: e.title,
+      bucket: e.bucket,
+      question_count: e.question_count,
+    }]));
+  } catch (e) {
+    _slugMeta = new Map();
+  }
+  return _slugMeta;
+}
+
+// Identify the most likely /answers set by intersecting the slug-sets that
+// contain each of the user's input questions.
+function identifySet(userQuestions, mi) {
+  const slugScores = new Map();  // slug → score
+  for (const uq of userQuestions) {
+    const k8 = questionKey(uq, 8);
+    const k4 = questionKey(uq, 4);
+    const slugs8 = (k8 && mi.k8.get(k8)) || new Set();
+    const slugs4 = (k4 && mi.k4.get(k4)) || new Set();
+    // Award 2 points per slug that has the precise 8-word match,
+    // 1 point per slug with the more permissive 4-word match.
+    for (const s of slugs8) slugScores.set(s, (slugScores.get(s) || 0) + 2);
+    for (const s of slugs4) if (!slugs8.has(s)) slugScores.set(s, (slugScores.get(s) || 0) + 1);
+  }
+  return [...slugScores.entries()].sort((a, b) => b[1] - a[1]);
+}
+
+// Load the full Q&A set for the chosen slug.
+function loadSet(slug) {
+  if (!slug) return null;
+  // Path guard — slug came from our own index but defensive against traversal
+  if (!/^[a-z0-9-]+$/i.test(slug)) return null;
+  const file = path.join(process.cwd(), 'public', 'data', 'answers', slug + '.json');
+  if (!fs.existsSync(file)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch { return null; }
 }
 
 export async function POST(request) {
@@ -87,7 +107,6 @@ export async function POST(request) {
       return NextResponse.json({ error: 'Provide at least one question.' }, { status: 400 });
     }
 
-    // Clean + cap input — abuse guard
     const cleaned = questions
       .map(q => String(q || '').trim())
       .filter(q => q.length >= 10 && q.length <= 2000)
@@ -97,143 +116,91 @@ export async function POST(request) {
       return NextResponse.json({ error: 'Questions must be 10-2000 characters each.' }, { status: 400 });
     }
 
-    // Step 1: semantic retrieve from the corpus (Pinecone has ihatecbts Q&A indexed)
-    const retrievalQuery = cleaned.join('\n\n');
-    let retrieved = [];
+    const mi = getMultiIndex();
+    const slugMeta = getSlugMeta();
+
+    // Step 1: identify the user's set by matching against the question_index.
+    const candidateSlugs = identifySet(cleaned, mi);
+    const topSlug = candidateSlugs[0]?.[0] || null;
+    const topScore = candidateSlugs[0]?.[1] || 0;
+
+    // Pick alternates only if their score is meaningfully close to the top.
+    const alternateSlugs = candidateSlugs.slice(1, 6).filter(([, s]) => s >= Math.max(1, topScore / 2));
+
+    // Step 2: load the chosen set's full Q&A library.
+    const setData = topScore >= 1 ? loadSet(topSlug) : null;
+
+    // Step 3: ask Claude for a topic + study brief based on user's input.
+    // No retrieval — Claude just identifies the topic and writes a couple
+    // of orienting sentences. The set itself is the corpus.
+    let aiResult = { identified_topic: 'Identified study set', identified_exam: '', confidence: 'low', study_brief: '' };
     try {
-      retrieved = await searchPinecone(retrievalQuery, 30);
-    } catch (err) {
-      console.error('study/recommend: pinecone failed', err);
-    }
+      const setTitle = setData?.title || (topSlug && slugMeta.get(topSlug)?.title) || 'unknown';
+      const systemPrompt = `You are a study assistant for QuizFeast. The user pasted 1-5 questions they're stuck on. We've already deterministically matched them to a specific study set: "${setTitle}".
 
-    // Step 2: also do a substring match against our flat question index
-    // (cheap, in-memory after first load). Helps when Pinecone has different
-    // chunking than our /answers corpus.
-    const slugMap = getSlugIndex();
-    const candidateSnippets = retrieved.slice(0, 20).map((r, i) => ({
-      idx: i,
-      text: (r.text || '').slice(0, 500),
-      source: r.source || '',
-      filename: r.filename || '',
-      score: r.score,
-    }));
-
-    // Step 3: ask Claude Haiku to identify the topic + select the most relevant
-    // related questions from the retrieved candidates.
-    const systemPrompt = `You are a study assistant for QuizFeast. The user pastes 2-3 questions they're stuck on. You receive their questions plus up to 20 candidate Q&A snippets retrieved from a study corpus. Your job:
-
-1. Identify what exam, CBT, or topic the user is likely studying.
-2. Select the most relevant 8-10 candidates that would help them study (drop irrelevant ones).
-3. Write a short 2-3 sentence study brief that summarizes the topic and helps them think about it.
+Your job: write a short, useful 2-3 sentence study brief that ties the user's specific questions together and frames what they should review. Use the brief to orient them, not to give individual answers (those are in the set).
 
 Output ONLY JSON with this exact shape:
 {
-  "identified_topic": "string — short label of the topic/section, e.g. 'Cyber Awareness — Spillage'",
-  "identified_exam": "string — best guess at the exam/CBT name, e.g. 'Cyber Awareness Challenge 2024'",
+  "identified_topic": "short topic label, e.g. 'Cyber Awareness — Spillage & Wireless'",
   "confidence": "low" | "medium" | "high",
-  "study_brief": "2-3 sentence summary tailored to the user's questions",
-  "related_indices": [array of integer indices into the candidates list, in priority order, 0-19]
+  "study_brief": "2-3 sentence summary"
 }
 
-Rules:
-- If you can't confidently identify the topic, say so in identified_topic + set confidence: "low".
-- Be honest. Don't make up facts. If candidates don't seem to match, return empty related_indices.
-- Output JSON only. No markdown, no commentary.`;
+No markdown, no commentary.`;
 
-    const userPrompt = `User's questions:
-${cleaned.map((q, i) => `Q${i + 1}. ${q}`).join('\n\n')}
+      const userPrompt = `User's pasted questions:\n${cleaned.map((q, i) => `Q${i + 1}. ${q}`).join('\n\n')}\n\nMatched set title: ${setTitle}`;
 
-Candidate snippets retrieved from the corpus:
-${candidateSnippets.map((c) => `[${c.idx}] ${c.text}`).join('\n\n')}`;
-
-    let aiResult;
-    try {
       const response = await getAnthropic().messages.create({
         model: 'claude-haiku-4-5-20251001',
-        max_tokens: 800,
+        max_tokens: 400,
         system: systemPrompt,
         messages: [{ role: 'user', content: userPrompt }],
       });
       const rawText = response.content?.[0]?.text || '{}';
-      // Strip code fences if Claude added them despite instructions
       const stripped = rawText.replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '').trim();
-      aiResult = JSON.parse(stripped);
+      const parsed = JSON.parse(stripped);
+      aiResult.identified_topic = String(parsed.identified_topic || 'Identified study set');
+      aiResult.confidence = ['low', 'medium', 'high'].includes(parsed.confidence) ? parsed.confidence : 'low';
+      aiResult.study_brief = String(parsed.study_brief || '');
+      // Use the matched set's title as the "exam"
+      aiResult.identified_exam = setTitle !== 'unknown' ? setTitle : '';
     } catch (err) {
-      console.error('study/recommend: claude failed', err);
-      return NextResponse.json({
-        error: 'AI service unavailable. Try again in a moment.',
-      }, { status: 503 });
+      console.error('study/recommend: claude brief failed', err);
+      // Continue — brief is nice-to-have but not essential
     }
 
-    // Step 4: stitch the selected candidates back into full result objects
-    const selectedIndices = Array.isArray(aiResult.related_indices)
-      ? aiResult.related_indices.filter(i => Number.isInteger(i) && i >= 0 && i < candidateSnippets.length).slice(0, 10)
-      : [];
+    // Build set payload for the frontend
+    const set = setData ? {
+      slug: setData.slug,
+      title: setData.title,
+      bucket: setData.bucket,
+      question_count: setData.question_count || (setData.qas?.length || 0),
+      qas: setData.qas || [],
+      sections: setData.sections || null,
+    } : null;
 
-    // Slug resolution strategy. Pinecone records were loaded with a
-    // different naming scheme than our /answers slugs, so direct metadata
-    // lookup rarely matches. We bridge by question-text identity.
-    const qIndex = getQuestionIndex();
-
-    function slugifyText(s) {
-      return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 80);
-    }
-    function findSlugInIndex(candidate) {
-      // 1. Cross-reference question text against our local question_index.
-      // Try 8-word key first (specific), then 4-word (more permissive).
-      const firstQ = extractFirstQuestion(candidate.text);
-      if (firstQ) {
-        const k8 = questionKey(firstQ, 8);
-        if (k8 && qIndex.long.has(k8)) return qIndex.long.get(k8);
-        const k4 = questionKey(firstQ, 4);
-        if (k4 && qIndex.short.has(k4)) return qIndex.short.get(k4);
-      }
-      // 2. Direct source field slugified
-      const s1 = slugifyText(candidate.source || '');
-      if (s1 && slugMap.has(s1)) return s1;
-      // 3. Filename field
-      const s2 = slugifyText((candidate.filename || '').replace(/\.docx$/i, ''));
-      if (s2 && slugMap.has(s2)) return s2;
-      // 4. Extract first line of text as title and slugify it
-      const firstChunk = (candidate.text || '').split(/Question\s*\d*\s*:/i)[0].trim();
-      if (firstChunk) {
-        const s3 = slugifyText(firstChunk);
-        if (s3 && slugMap.has(s3)) return s3;
-        const short = firstChunk.split(/\s+/).slice(0, 8).join(' ');
-        const s4 = slugifyText(short);
-        if (s4 && slugMap.has(s4)) return s4;
-      }
-      return null;
-    }
-
-    const related = selectedIndices.map(i => {
-      const c = candidateSnippets[i];
-      const slug = findSlugInIndex(c);
-      const slugMeta = slug ? slugMap.get(slug) : null;
-      const title = slugMeta ? slugMeta.title : null;
-      const bucket = slugMeta ? slugMeta.bucket : null;
-      // Only show a chip when we can resolve the candidate to a real /answers
-      // page. Otherwise the result still displays its Q&A content but without
-      // a misleading "Study Material" generic badge — cleaner UX than the
-      // alternative of pretending we know the source.
-      const chip_label = slug ? safeChipLabel(title, bucket) : null;
+    // Alternates: small list for the user to switch sets if our top guess is wrong.
+    const alternates = alternateSlugs.map(([s]) => {
+      const meta = slugMeta.get(s);
       return {
-        text: c.text,
-        slug,
-        title,
-        chip_label,
-        bucket,
-        relevance_score: c.score,
+        slug: s,
+        title: meta?.title || s,
+        chip_label: safeChipLabel(meta?.title || s, meta?.bucket),
+        question_count: meta?.question_count || 0,
       };
     });
 
     return NextResponse.json(sanitizeDeep({
       input_question_count: cleaned.length,
-      identified_topic: String(aiResult.identified_topic || 'Unidentified topic'),
-      identified_exam: String(aiResult.identified_exam || ''),
-      confidence: ['low', 'medium', 'high'].includes(aiResult.confidence) ? aiResult.confidence : 'low',
-      study_brief: String(aiResult.study_brief || ''),
-      related,
+      identified_topic: aiResult.identified_topic,
+      identified_exam: aiResult.identified_exam,
+      identified_slug: topSlug,
+      confidence: aiResult.confidence,
+      study_brief: aiResult.study_brief,
+      set,
+      alternates,
+      match_score: topScore,
     }));
 
   } catch (error) {

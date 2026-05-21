@@ -1,75 +1,8 @@
 'use client';
 
-import { useState, useMemo, useRef } from 'react';
+import { useState, useRef } from 'react';
 import Link from 'next/link';
-
-// Defensive: strip mentions of third-party study sites from retrieved snippets
-// so they never surface to end users, even if old corpus data has them.
-function sanitize(s) {
-  if (!s) return '';
-  return s
-    .replace(/\bquizlet\.?(com)?\b/gi, '')
-    .replace(/\bchegg\.?(com)?\b/gi, '')
-    .replace(/\bcourse[\s-]?hero\.?(com)?\b/gi, '')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-// Parse a Pinecone-retrieved chunk into { title, qas: [{q, a}] }
-// Source format: "<Title> Question: ... Answer: ... ====== Question: ... Answer: ... ======"
-function parseSnippet(rawText) {
-  const text = sanitize(rawText || '');
-  if (!text) return { title: null, qas: [] };
-
-  const firstQIdx = text.search(/Question\s*\d*\s*:/i);
-  const title = firstQIdx > 0 ? text.slice(0, firstQIdx).trim() : null;
-  const body = firstQIdx >= 0 ? text.slice(firstQIdx) : text;
-
-  // Split on the equals separator (4+ equals chars handles 50-long lines)
-  const chunks = body.split(/={4,}/).map(c => c.trim()).filter(Boolean);
-
-  const qas = [];
-  for (const chunk of chunks) {
-    // Each chunk: "Question[N]: <q> Answer: <a>" possibly followed by junk
-    const m = chunk.match(/Question\s*\d*\s*:\s*([\s\S]*?)\s+Answer\s*:\s*([\s\S]*?)$/i);
-    if (m) {
-      const q = m[1].replace(/\s+/g, ' ').trim();
-      const a = m[2].replace(/\s+/g, ' ').trim();
-      if (q.length >= 5 && a.length >= 1 && q.length <= 600 && a.length <= 800) {
-        qas.push({ q, a });
-      }
-    }
-  }
-  return { title: sanitize(title), qas };
-}
-
-// Flatten all related results into a deduped list of Q&A cards.
-// Tag each card with its source CBT info. Use server-provided chip_label
-// (vendor-stripped) rather than the raw title for UI badges.
-function flattenRelated(related) {
-  const seen = new Set();
-  const out = [];
-  for (const r of related || []) {
-    const { qas } = parseSnippet(r.text);
-    // Prefer server-provided chip_label; fall back to title only if absent
-    // (older API responses). Both have been vendor-scrubbed already.
-    const chipLabel = r.chip_label || r.title || null;
-    for (const qa of qas) {
-      const key = qa.q.toLowerCase().replace(/[^\w]+/g, '');
-      if (seen.has(key)) continue;
-      seen.add(key);
-      out.push({
-        q: qa.q,
-        a: qa.a,
-        chip_label: chipLabel,
-        source_slug: r.slug || null,
-        relevance: r.relevance_score || 0,
-      });
-      if (out.length >= 15) return out;
-    }
-  }
-  return out;
-}
+import AnswerSearch from './AnswerSearch';
 
 const PLACEHOLDER = `Paste 2-3 questions from your CBT here, one per line. Example:
 
@@ -129,7 +62,6 @@ export default function StudyAssistant() {
   }
 
   const parsedCount = parseInput(input).length;
-  const flatRelated = useMemo(() => flattenRelated(result?.related), [result]);
 
   return (
     <div className="relative">
@@ -143,8 +75,8 @@ export default function StudyAssistant() {
             Stuck on a few questions?
           </h1>
           <p className="text-lg text-dark-400 max-w-2xl mx-auto">
-            Paste 2–3 from your CBT. The AI figures out what you&apos;re studying,
-            pulls related practice from across the corpus, and writes a quick study brief.
+            Paste 2&ndash;3 questions from your CBT. We identify the exact set you&apos;re
+            studying and load the full question bank for it.
           </p>
         </div>
 
@@ -176,7 +108,7 @@ export default function StudyAssistant() {
                 disabled={loading || parsedCount === 0}
                 className="btn-primary text-sm py-2 px-5 disabled:opacity-50"
               >
-                {loading ? 'Thinking…' : 'Find related →'}
+                {loading ? 'Identifying set…' : 'Find my set →'}
               </button>
             </div>
           </div>
@@ -192,22 +124,36 @@ export default function StudyAssistant() {
           <div className="mt-8 text-center text-dark-400 text-sm">
             <div className="inline-flex items-center gap-2">
               <div className="w-3 h-3 border-2 border-brand-500 border-t-transparent rounded-full animate-spin" />
-              Searching the corpus, identifying topic, drafting brief…
+              Matching your questions to a set in the corpus…
             </div>
           </div>
         )}
 
-        {result && (
+        {result && !result.set && (
+          <div className="mt-8 card p-6 text-center text-dark-400 text-sm">
+            <p className="mb-2">Couldn&apos;t match your questions to a specific set in our corpus.</p>
+            <p>Try pasting more questions, or browse <Link href="/answers" className="text-brand-400 hover:text-brand-300 underline">all answer keys</Link>.</p>
+          </div>
+        )}
+
+        {result?.set && (
           <div className="mt-10 space-y-6">
-            {/* Identification + confidence */}
             <div className="card p-6 bg-gradient-to-br from-brand-900/30 to-dark-900 border-brand-700/30">
-              <div className="flex items-start justify-between gap-4 flex-wrap">
+              <div className="flex items-start justify-between gap-4 flex-wrap mb-3">
                 <div>
-                  <div className="text-dark-500 text-xs font-semibold uppercase tracking-wider mb-1">Identified</div>
-                  <div className="text-xl font-bold text-white">{result.identified_topic}</div>
-                  {result.identified_exam && (
-                    <div className="text-dark-400 text-sm mt-1">{result.identified_exam}</div>
-                  )}
+                  <div className="text-dark-500 text-xs font-semibold uppercase tracking-wider mb-1">
+                    Matched study set
+                  </div>
+                  <Link
+                    href={`/answers/${result.set.slug}`}
+                    className="text-2xl font-extrabold text-white hover:text-brand-300 transition-colors leading-tight inline-block"
+                  >
+                    {result.set.title}
+                  </Link>
+                  <div className="text-dark-400 text-sm mt-1">
+                    {result.set.question_count} questions
+                    {result.set.sections?.length ? <> &middot; {result.set.sections.length} topics</> : null}
+                  </div>
                 </div>
                 <span className={`px-2.5 py-1 rounded-full text-xs font-semibold ${
                   result.confidence === 'high' ? 'bg-green-500/15 text-green-300 border border-green-500/30' :
@@ -218,54 +164,45 @@ export default function StudyAssistant() {
                 </span>
               </div>
               {result.study_brief && (
-                <p className="text-dark-200 mt-4 leading-relaxed">{result.study_brief}</p>
+                <p className="text-dark-200 leading-relaxed">{result.study_brief}</p>
               )}
             </div>
 
-            {/* Related practice — clean Q&A cards parsed from retrieval */}
-            {flatRelated.length > 0 ? (
-              <div>
-                <div className="flex items-baseline justify-between mb-4">
-                  <h2 className="text-base font-bold text-white">Related practice</h2>
-                  <span className="text-dark-500 text-xs">{flatRelated.length} {flatRelated.length === 1 ? 'question' : 'questions'}</span>
-                </div>
-                <div className="space-y-3">
-                  {flatRelated.map((r, i) => (
-                    <div key={i} className="card p-5 hover:border-dark-600 transition-colors">
-                      {r.chip_label && (
-                        <div className="flex items-center gap-2 mb-2 flex-wrap">
-                          {r.source_slug ? (
-                            <Link
-                              href={`/answers/${r.source_slug}`}
-                              className="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-brand-500/15 text-brand-300 border border-brand-500/20 hover:bg-brand-500/25 transition-colors"
-                            >
-                              {r.chip_label}
-                            </Link>
-                          ) : (
-                            <span className="text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded bg-dark-800 text-dark-400 border border-dark-700">
-                              {r.chip_label}
-                            </span>
-                          )}
-                        </div>
-                      )}
-                      <p className="text-white font-medium text-sm mb-3 leading-snug">{r.q}</p>
-                      <div className="border-l-2 border-brand-500/40 pl-3">
-                        <div className="text-brand-300 text-[10px] font-semibold uppercase tracking-wider mb-1">Answer</div>
-                        <p className="text-dark-200 text-sm leading-relaxed whitespace-pre-wrap">{r.a}</p>
+            {/* The full set rendered with the same find-bar + section-chip UX
+                as the /answers/<slug> page. */}
+            <AnswerSearch
+              qas={result.set.qas}
+              sections={result.set.sections}
+              slug={result.set.slug}
+            />
+
+            {result.alternates?.length > 0 && (
+              <div className="card p-6">
+                <h2 className="text-base font-bold text-white mb-1">Studying a different version?</h2>
+                <p className="text-dark-500 text-xs mb-4">
+                  These sets also cover the topics you asked about.
+                </p>
+                <div className="grid sm:grid-cols-2 gap-2">
+                  {result.alternates.map(a => (
+                    <Link
+                      key={a.slug}
+                      href={`/answers/${a.slug}`}
+                      className="card-hover p-3 group"
+                    >
+                      <div className="text-sm font-semibold text-white group-hover:text-brand-300 transition-colors line-clamp-1">
+                        {a.title}
                       </div>
-                    </div>
+                      <div className="text-dark-500 text-xs mt-0.5">
+                        {a.question_count} questions
+                      </div>
+                    </Link>
                   ))}
                 </div>
-              </div>
-            ) : (
-              <div className="card p-6 text-center text-dark-400 text-sm">
-                No close matches in the corpus. The AI may not have recognized the exam.
-                Try pasting more questions or rewording.
               </div>
             )}
 
             <div className="text-xs text-dark-500 italic px-1">
-              AI-generated. Recommendations may be incomplete. Always verify with your official training portal.{' '}
+              AI-identified set. Match may be wrong — verify with your official training portal.{' '}
               <Link href="/disclaimer" className="underline hover:text-dark-300">Details</Link>.
             </div>
           </div>
