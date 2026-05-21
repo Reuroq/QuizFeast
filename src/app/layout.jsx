@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 export const metadata = {
   title: 'QuizFeast — CBT Answers & Free AI Study Tools',
   description: 'Free CBT answers for Cyber Awareness Challenge, OPSEC, Insider Threat, Antiterrorism Level 1, HIPAA, Law of War, SERE 100.2, and more. 650+ questions and answers. No ads, no paywalls.',
-  keywords: 'CBT answers, cyber awareness challenge answers, OPSEC answers, insider threat awareness answers, antiterrorism level 1 answers, HIPAA training answers, law of war answers, SERE 100.2 answers, JKO answers, DoD training answers, training answers, free study tools, AI study, flashcards',
+  keywords: 'CBT answers, cyber awareness challenge answers, OPSEC answers, insider threat awareness answers, antiterrorism level 1 answers, HIPAA training answers, law of war answers, SERE 100.2 answers, training answers, free study tools, AI study, flashcards',
 };
 
 export default function RootLayout({ children }) {

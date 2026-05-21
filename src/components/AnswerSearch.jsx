@@ -146,49 +146,23 @@ export default function AnswerSearch({ qas: initialQas, sections, slug }) {
           </div>
         </div>
 
-        {hasSections && (
-          <div className="mt-3 flex flex-wrap gap-1.5">
-            <button
-              onClick={() => setActiveSection(null)}
-              className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
-                !activeSection
-                  ? 'bg-brand-500/30 text-brand-200 border border-brand-500/40'
-                  : 'bg-dark-800 text-dark-400 border border-dark-700 hover:text-dark-200'
-              }`}
-            >
-              All sections
-            </button>
-            {normalizedSections.map(s => {
-              const key = s.name.toLowerCase();
-              const active = activeSection === key;
-              return (
-                <button
-                  key={key}
-                  onClick={() => {
-                    if (!active) pushRecentSection(s.name);
-                    setActiveSection(active ? null : key);
-                  }}
-                  className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
-                    active
-                      ? 'bg-brand-500/30 text-brand-200 border border-brand-500/40'
-                      : 'bg-dark-800 text-dark-400 border border-dark-700 hover:text-dark-200'
-                  }`}
-                >
-                  {s.name} <span className="text-dark-500">·</span> {s.count}
-                </button>
-              );
-            })}
-          </div>
-        )}
-
-        {(trimmed || activeSection) && (
+        {trimmed && (
           <div className="mt-2 text-xs text-dark-400">
             {filtered.length === 0
               ? <span className="text-amber-400">No matches</span>
-              : <>{filtered.length} of {qas.length} questions</>}
-            {trimmed && <> matching &ldquo;{query}&rdquo;</>}
-            {activeSection && <> in section &ldquo;{normalizedSections.find(s => s.name.toLowerCase() === activeSection)?.name}&rdquo;</>}
+              : <>{filtered.length} of {qas.length} questions matching &ldquo;{query}&rdquo;</>}
           </div>
+        )}
+
+        {/* Section names rendered as hidden semantic markup so search engines
+            see the topic structure of the page without UI clutter for visitors.
+            Section info is also visible inline as a pill on each Q card below. */}
+        {normalizedSections.length > 0 && (
+          <ul className="sr-only" aria-hidden="true">
+            {normalizedSections.map(s => (
+              <li key={s.name.toLowerCase()}>{s.name} ({s.count} questions)</li>
+            ))}
+          </ul>
         )}
       </div>
 

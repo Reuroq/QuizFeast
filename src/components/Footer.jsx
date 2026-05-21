@@ -7,10 +7,9 @@ export default function Footer() {
         <div className="flex flex-col gap-6">
           <div className="text-xs text-dark-500 leading-relaxed">
             <strong className="text-dark-400">QuizFeast</strong> is a free community-driven study reference for
-            CBT and certification exams. Operated by Nightshift Labs LLC. Not affiliated with the U.S. Department
-            of Defense, JKO, CompTIA, or any other organization referenced on the site. All trademarks
-            are property of their respective owners. Answers are community-sourced and may be wrong &mdash; always
-            verify with your official training portal.
+            CBT and certification exams. Operated by Nightshift Labs LLC. Not affiliated with any organization
+            referenced on the site. All trademarks are property of their respective owners. Answers are
+            community-sourced and may be wrong &mdash; always verify with your official training portal.
           </div>
           <div className="flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-dark-800/60">
             <div className="flex items-center gap-2">

@@ -96,7 +96,7 @@ const BUCKET_FALLBACK = {
   cert_it: 'IT Cert Practice',
   cbt_annual: 'DoD Annual Training',
   cbt_security: 'Security Training',
-  cbt_jko: 'JKO Course',
+  cbt_jko: 'Joint Training',
   cbt_health: 'Health Training',
   cbt_army: 'Army Material',
   cbt_af: 'Air Force Material',

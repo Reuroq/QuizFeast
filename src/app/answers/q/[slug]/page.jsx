@@ -9,7 +9,7 @@ const DATA_DIR = path.join(process.cwd(), 'public', 'data', 'canonical');
 const BUCKET_LABELS = {
   cbt_annual: 'DoD Annual Training',
   cbt_security: 'Security & Intelligence',
-  cbt_jko: 'JKO / Joint',
+  cbt_jko: 'Joint Training',
   cbt_health: 'Health & Safety',
   cbt_ammo: 'Ammunition',
   cbt_army: 'Army',

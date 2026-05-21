@@ -7,7 +7,7 @@ import { getRecentSlugs, getRecentSections } from '@/lib/session-context';
 const BUCKET_LABELS = {
   cbt_annual: 'DoD Annual Training',
   cbt_security: 'Security & Intelligence',
-  cbt_jko: 'JKO / Joint',
+  cbt_jko: 'Joint Training',
   cbt_health: 'Health & Safety',
   cbt_ammo: 'Ammunition',
   cbt_army: 'Army',

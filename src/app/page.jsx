@@ -40,7 +40,7 @@ const cbtSections = [
     ],
   },
   {
-    title: 'JKO Courses',
+    title: 'Joint Training Courses',
     desc: 'Joint Knowledge Online mandatory and elective courses',
     courses: [
       { slug: 'sejpme', title: 'SEJPME I', desc: 'Joint operations, unified command, combatant commands, joint planning process', questions: 48, color: 'from-emerald-500 to-teal-500' },
@@ -150,7 +150,7 @@ export default function Home() {
 
           <p className="text-xl text-dark-400 max-w-2xl mx-auto mb-10">
             {totalQuestions.toLocaleString()}+ questions and answers across {totalCourses} courses.
-            JKO, CDSE, ALMS, NKO, MarineNet, and more. Free forever.
+            Free forever.
           </p>
 
           <CBTSearch className="mb-8" />
@@ -205,7 +205,7 @@ export default function Home() {
               <span className="gradient-text">Answer Library</span>
             </h2>
             <p className="text-lg text-dark-400 max-w-2xl mx-auto">
-              Every major DoD, JKO, CDSE, and service-specific CBT. Click any course to see all questions and answers.
+              Every major training course. Click any course to see all questions and answers.
             </p>
           </div>
 

@@ -28,11 +28,10 @@ export default function DisclaimerPage() {
             <h2 className="text-xl font-semibold text-white mb-3">No Affiliation</h2>
             <p>
               Nightshift Labs LLC, the operator of QuizFeast, is not affiliated with, sponsored by, or endorsed by
-              the U.S. Department of Defense, any branch of the U.S. military, JKO, CDSE, ALMS, NKO, MarineNet,
-              CompTIA, (ISC)², ISACA, EC-Council, AWS, Microsoft, Cisco, or any
-              other organization whose course names or trademarks appear on the Service. Trademarks are property
-              of their respective owners and are used here solely to identify the subject of study material under
-              nominative fair use.
+              any government agency, branch of the U.S. military, certification body, training provider, or other
+              organization whose course names or trademarks appear on the Service. Trademarks are property of their
+              respective owners and are used here solely to identify the subject of study material under nominative
+              fair use.
             </p>
           </section>
 
