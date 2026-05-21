@@ -168,11 +168,12 @@ export default function StudyAssistant() {
               )}
             </div>
 
-            {/* The full set rendered with the same find-bar + section-chip UX
-                as the /answers/<slug> page. */}
+            {/* Full set + find bar. Section chips intentionally suppressed
+                here — they're UX clutter on the interactive /study tool.
+                The same set's /answers/<slug> page keeps them for SEO + browsing. */}
             <AnswerSearch
               qas={result.set.qas}
-              sections={result.set.sections}
+              sections={null}
               slug={result.set.slug}
             />
 
