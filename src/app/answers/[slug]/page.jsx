@@ -44,7 +44,7 @@ export async function generateMetadata({ params }) {
   const descPrefix = qCount > 0
     ? `${qCount} community-sourced questions and answers for ${data.title}.`
     : `${data.title} — study notes and overview.`;
-  const description = `${descPrefix} Free military CBT and certification answer key. No login required.`;
+  const description = `${descPrefix} Free CBT and certification answer key. No login required.`;
 
   return {
     title: `${data.title} — Answers & Study Guide | QuizFeast`,

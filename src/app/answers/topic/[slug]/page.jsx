@@ -24,7 +24,7 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const data = loadTopic(slug);
   if (!data) return { title: 'Not found' };
-  const description = `${data.question_count} community-sourced questions and answers about ${data.name}, aggregated from ${data.source_cbt_count} military CBTs. Free study guide, no login.`;
+  const description = `${data.question_count} community-sourced questions and answers about ${data.name}, aggregated from ${data.source_cbt_count} CBTs. Free study guide, no login.`;
   return {
     title: `${data.name} — Answers & Study Guide | QuizFeast`,
     description,

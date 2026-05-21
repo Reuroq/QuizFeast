@@ -143,13 +143,13 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-6">
-            Military CBT Answers
+            CBT Answers
             <br />
             <span className="gradient-text">& Study Tools</span>
           </h1>
 
           <p className="text-xl text-dark-400 max-w-2xl mx-auto mb-10">
-            {totalQuestions.toLocaleString()}+ questions and answers across {totalCourses} military CBTs.
+            {totalQuestions.toLocaleString()}+ questions and answers across {totalCourses} courses.
             JKO, CDSE, ALMS, NKO, MarineNet, and more. Free forever.
           </p>
 
@@ -187,7 +187,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Military CBT Library */}
+      {/* CBT Library */}
       <section id="cbt-library" className="py-24 relative">
         <div className="absolute inset-0">
           <div className="absolute top-0 left-1/3 w-[600px] h-[600px] bg-blue-500/5 rounded-full blur-3xl" />
@@ -201,7 +201,7 @@ export default function Home() {
               {totalCourses} Courses — {totalQuestions.toLocaleString()}+ Questions & Answers
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              Military CBT{' '}
+              CBT{' '}
               <span className="gradient-text">Answer Library</span>
             </h2>
             <p className="text-lg text-dark-400 max-w-2xl mx-auto">

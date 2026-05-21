@@ -38,7 +38,7 @@ export async function generateMetadata({ params }) {
   const data = loadQ(slug);
   if (!data) return { title: 'Not found' };
   const qTrim = data.question.length > 80 ? data.question.slice(0, 77) + '…' : data.question;
-  const description = `Answer to: "${qTrim}" — verified across ${data.appears_in_count} military CBTs including Cyber Awareness, OPSEC, and more.`;
+  const description = `Answer to: "${qTrim}" — verified across ${data.appears_in_count} CBTs including Cyber Awareness, OPSEC, and more.`;
   return {
     title: `${qTrim} — Answer | QuizFeast`,
     description,

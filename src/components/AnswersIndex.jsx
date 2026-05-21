@@ -132,7 +132,7 @@ export default function AnswersIndex({ entries }) {
         </div>
 
         <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4 leading-tight">
-          Military CBT{' '}
+          CBT{' '}
           <span className="gradient-text">Answer Keys</span>
         </h1>
 
