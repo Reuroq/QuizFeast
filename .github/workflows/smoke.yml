@@ -1,0 +1,33 @@
+name: smoke-tests
+
+# Lightweight curl-level checks. Runs every 30 minutes. Fast (~3s),
+# catches outages + content regressions across all major surfaces.
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [ master ]
+    paths-ignore:
+      - '**.md'
+      - 'memory/**'
+
+concurrency:
+  group: smoke-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  smoke:
+    name: prod smoke (~3s)
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run smoke suite against production
+        env:
+          BASE_URL: https://quizfeast.onrender.com
+        run: node tests/smoke.mjs

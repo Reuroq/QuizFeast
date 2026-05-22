@@ -8,7 +8,9 @@
     "start": "next start",
     "test:e2e": "playwright test",
     "test:e2e:prod": "PLAYWRIGHT_BASE_URL=https://quizfeast.onrender.com playwright test",
-    "test:smoke": "node tests/smoke.mjs"
+    "test:smoke": "node tests/smoke.mjs",
+    "test:journeys": "playwright test --config=playwright.journeys.config.js",
+    "test:journeys:prod": "PLAYWRIGHT_BASE_URL=https://quizfeast.onrender.com playwright test --config=playwright.journeys.config.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.78.0",

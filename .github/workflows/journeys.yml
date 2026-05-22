@@ -1,0 +1,62 @@
+name: synthetic-user-journeys
+
+# 24/7 monitoring of the real user experience.
+# Runs the Playwright journey suite against production every 2 hours and on
+# manual dispatch. Failures email the repo owner via GitHub's default
+# notification path. No external secrets needed.
+
+on:
+  schedule:
+    # Every 2 hours. Cron is UTC.
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+  # Also run after every push to master so we catch any deploy regressions
+  # within minutes instead of waiting for the next cron tick.
+  push:
+    branches: [ master ]
+    paths-ignore:
+      - '**.md'
+      - 'memory/**'
+      - 'scripts/**'
+
+concurrency:
+  group: journeys-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  journeys:
+    name: synthetic journeys (chromium)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install deps (deterministic via package-lock)
+        run: npm ci
+
+      - name: Install Playwright chromium browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Run synthetic user-journey suite against production
+        env:
+          PLAYWRIGHT_BASE_URL: https://quizfeast.onrender.com
+          CI: 'true'
+        run: npm run test:journeys
+
+      - name: Upload Playwright traces + screenshots on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-failure-${{ github.run_id }}
+          path: |
+            test-results/
+            playwright-report/
+          retention-days: 7
+          if-no-files-found: ignore
