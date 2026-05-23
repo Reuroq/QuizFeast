@@ -1,0 +1,272 @@
+[
+  {
+    "id": "9e563f83c98d3d2f",
+    "agent": "set-id",
+    "category": "wrong-top-slug",
+    "severity": "low",
+    "url": "https://quizfeast.onrender.com/answers/3e3x1-air-force",
+    "message": "Sample from 3e3x1-air-force matched 3e3-afsc as top but 3e3x1-air-force is in alternates (medium, deterministic)",
+    "evidence": {
+      "kind": "text",
+      "value": "Source: 3e3x1-air-force (cbt_af)\nMatched: 3e3-afsc\nQ1: Who directs the EOC?\nQ2: When CE's UCC is activated, where do the DATs assemble?"
+    },
+    "suggested_fix": null,
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:04.814Z",
+    "last_seen_at": "2026-05-23T06:30:04.814Z",
+    "fixed_at": null,
+    "occurrences": 1
+  },
+  {
+    "id": "b54377a76bf3c26e",
+    "agent": "set-id",
+    "category": "wrong-top-slug",
+    "severity": "low",
+    "url": "https://quizfeast.onrender.com/answers/afi-41-106",
+    "message": "Sample from afi-41-106 matched afi-10-250 as top but afi-41-106 is in alternates (high, deterministic)",
+    "evidence": {
+      "kind": "text",
+      "value": "Source: afi-41-106 (cbt_af)\nMatched: afi-10-250\nQ1: Air Force Operations Planning & Executions\nQ2: Medical Readiness Program Management"
+    },
+    "suggested_fix": null,
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:08.482Z",
+    "last_seen_at": "2026-05-23T06:30:08.482Z",
+    "fixed_at": null,
+    "occurrences": 1
+  },
+  {
+    "id": "a9b442899ec6606a",
+    "agent": "set-id",
+    "category": "wrong-top-slug",
+    "severity": "low",
+    "url": "https://quizfeast.onrender.com/answers/aws-cloud-practitioner-certification-dumps",
+    "message": "Sample from aws-cloud-practitioner-certification-dumps matched aws-certified-cloud-practitioner-exam-dumps as top but aws-cloud-practitioner-certification-dumps is in alternates (high, deterministic)",
+    "evidence": {
+      "kind": "text",
+      "value": "Source: aws-cloud-practitioner-certification-dumps (cert_it)\nMatched: aws-certified-cloud-practitioner-exam-dumps\nQ1: 3.) Which of the following is a benefit of Amazon Elastic Compute Cloud (Amazon \nQ2: 6.) A Company needs to know which user was responsible for terminating several A"
+    },
+    "suggested_fix": null,
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:10.578Z",
+    "last_seen_at": "2026-05-23T06:30:10.578Z",
+    "fixed_at": null,
+    "occurrences": 1
+  },
+  {
+    "id": "c5bac35aa5846bbf",
+    "agent": "set-id",
+    "category": "wrong-no-alternates",
+    "severity": "medium",
+    "url": "https://quizfeast.onrender.com/answers/comptia-practice-test-1101",
+    "message": "Sample from comptia-practice-test-1101 matched UNRELATED slug comptia-a-1101-practice-exam (high, deterministic, score=4)",
+    "evidence": {
+      "kind": "text",
+      "value": "Source: comptia-practice-test-1101 (cert_it)\nMatched: comptia-a-1101-practice-exam\nQ1: What is the most common memory module form factor type used in laptops?\n\nECC RAM\nQ2: Which of the answers listed below describe the features of Solid-State Drives (S"
+    },
+    "suggested_fix": null,
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:14.541Z",
+    "last_seen_at": "2026-05-23T06:30:14.541Z",
+    "fixed_at": null,
+    "occurrences": 1
+  },
+  {
+    "id": "f2596f52fe2f8a11",
+    "agent": "set-id",
+    "category": "wrong-top-slug",
+    "severity": "low",
+    "url": "https://quizfeast.onrender.com/answers/hazmat-test-california",
+    "message": "Sample from hazmat-test-california matched class-a-hazmat-test as top but hazmat-test-california is in alternates (high, deterministic)",
+    "evidence": {
+      "kind": "text",
+      "value": "Source: hazmat-test-california (cbt_health)\nMatched: class-a-hazmat-test\nQ1: 3. When applying for an original or renewed HazMat endorsement, you must undergo\nQ2: 6. How do you label a package if the hazardous materials label will not fit onto"
+    },
+    "suggested_fix": null,
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:20.559Z",
+    "last_seen_at": "2026-05-23T06:30:20.559Z",
+    "fixed_at": null,
+    "occurrences": 1
+  },
+  {
+    "id": "7b412bbc4597b20e",
+    "agent": "set-id",
+    "category": "wrong-top-slug",
+    "severity": "low",
+    "url": "https://quizfeast.onrender.com/answers/the-hipaa-regulations-provide-a-federal-floor",
+    "message": "Sample from the-hipaa-regulations-provide-a-federal-floor matched an-authorization-is-required-for-which-of-the-following-hipaa as top but the-hipaa-regulations-provide-a-federal-floor is in alternates (high, deterministic)",
+    "evidence": {
+      "kind": "text",
+      "value": "Source: the-hipaa-regulations-provide-a-federal-floor (cbt_health)\nMatched: an-authorization-is-required-for-which-of-the-following-hipaa\nQ1: Authorization is required for which of the following?\nA. Minimum necessary discl\nQ2: What is a key to success for HIPAA compliance?\nA. Managerial expertise\nB. Educat"
+    },
+    "suggested_fix": null,
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:24.645Z",
+    "last_seen_at": "2026-05-23T06:30:24.645Z",
+    "fixed_at": null,
+    "occurrences": 1
+  },
+  {
+    "id": "ec21c8fc18d8cb42",
+    "agent": "a11y",
+    "category": "color-contrast",
+    "severity": "medium",
+    "url": "https://quizfeast.onrender.com/",
+    "message": "Elements must meet minimum color contrast ratio thresholds (67 elements on root page)",
+    "evidence": {
+      "kind": "text",
+      "value": "<p class=\"text-dark-500 text-sm\">Mandatory training every service member completes yearly</p>"
+    },
+    "suggested_fix": "Read axe rule color-contrast — typically applies to the shared component for root",
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:30.025Z",
+    "last_seen_at": "2026-05-23T06:30:30.025Z",
+    "fixed_at": null,
+    "occurrences": 1
+  },
+  {
+    "id": "c7442b972d8a8a82",
+    "agent": "a11y",
+    "category": "color-contrast",
+    "severity": "medium",
+    "url": "https://quizfeast.onrender.com/answers",
+    "message": "Elements must meet minimum color contrast ratio thresholds (1350 elements on answers-index page)",
+    "evidence": {
+      "kind": "text",
+      "value": "<span class=\"text-xs opacity-70\">beta</span>"
+    },
+    "suggested_fix": "Read axe rule color-contrast — typically applies to the shared component for answers-index",
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:33.626Z",
+    "last_seen_at": "2026-05-23T06:30:33.626Z",
+    "fixed_at": null,
+    "occurrences": 1
+  },
+  {
+    "id": "2b9aeb29042d9d0c",
+    "agent": "a11y",
+    "category": "color-contrast",
+    "severity": "medium",
+    "url": "https://quizfeast.onrender.com/study",
+    "message": "Elements must meet minimum color contrast ratio thresholds (10 elements on feature page)",
+    "evidence": {
+      "kind": "text",
+      "value": "<div class=\"text-xs text-dark-500\">Separate questions with a blank line or numbered list.</div>"
+    },
+    "suggested_fix": "Read axe rule color-contrast — typically applies to the shared component for feature",
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:34.355Z",
+    "last_seen_at": "2026-05-23T06:30:34.355Z",
+    "fixed_at": null,
+    "occurrences": 1
+  },
+  {
+    "id": "6e3705adeb5cc8a3",
+    "agent": "a11y",
+    "category": "color-contrast",
+    "severity": "medium",
+    "url": "https://quizfeast.onrender.com/disclaimer",
+    "message": "Elements must meet minimum color contrast ratio thresholds (10 elements on legal page)",
+    "evidence": {
+      "kind": "text",
+      "value": "<p class=\"text-dark-500 text-sm mb-8\">Effective May 20, 2026 · Nightshift Labs LLC</p>"
+    },
+    "suggested_fix": "Read axe rule color-contrast — typically applies to the shared component for legal",
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:35.215Z",
+    "last_seen_at": "2026-05-23T06:30:35.215Z",
+    "fixed_at": null,
+    "occurrences": 1
+  },
+  {
+    "id": "7019e9d88eae917f",
+    "agent": "a11y",
+    "category": "color-contrast",
+    "severity": "medium",
+    "url": "https://quizfeast.onrender.com/cbt/accident_avoidance",
+    "message": "Elements must meet minimum color contrast ratio thresholds (45 elements on cbt-slug page)",
+    "evidence": {
+      "kind": "text",
+      "value": "<span class=\"text-dark-500 text-sm whitespace-nowrap hidden sm:block\">35 of 35</span>"
+    },
+    "suggested_fix": "Read axe rule color-contrast — typically applies to the shared component for cbt-slug",
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:38.091Z",
+    "last_seen_at": "2026-05-23T06:30:38.091Z",
+    "fixed_at": null,
+    "occurrences": 1
+  },
+  {
+    "id": "a9dfcc8d31b848fa",
+    "agent": "a11y",
+    "category": "heading-order",
+    "severity": "low",
+    "url": "https://quizfeast.onrender.com/cbt/accident_avoidance",
+    "message": "Heading levels should only increase by one (1 elements on cbt-slug page)",
+    "evidence": {
+      "kind": "text",
+      "value": "<h3 class=\"text-lg font-bold text-white mb-2\">Know questions we're missing?</h3>"
+    },
+    "suggested_fix": "Read axe rule heading-order — typically applies to the shared component for cbt-slug",
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:38.091Z",
+    "last_seen_at": "2026-05-23T06:30:38.091Z",
+    "fixed_at": null,
+    "occurrences": 1
+  },
+  {
+    "id": "9e99b443693d806d",
+    "agent": "a11y",
+    "category": "color-contrast",
+    "severity": "medium",
+    "url": "https://quizfeast.onrender.com/answers/0231-usmc",
+    "message": "Elements must meet minimum color contrast ratio thresholds (53 elements on answers-slug page)",
+    "evidence": {
+      "kind": "text",
+      "value": "<span class=\"text-dark-500 text-xs font-semibold\">QUESTION <!-- -->1</span>"
+    },
+    "suggested_fix": "Read axe rule color-contrast — typically applies to the shared component for answers-slug",
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:39.423Z",
+    "last_seen_at": "2026-05-23T06:30:39.423Z",
+    "fixed_at": null,
+    "occurrences": 1
+  },
+  {
+    "id": "bc0a6e85d08dcea6",
+    "agent": "a11y",
+    "category": "color-contrast",
+    "severity": "medium",
+    "url": "https://quizfeast.onrender.com/answers/topic/classified-data",
+    "message": "Elements must meet minimum color contrast ratio thresholds (27 elements on answers-topic page)",
+    "evidence": {
+      "kind": "text",
+      "value": "<span class=\"text-dark-500 text-xs font-semibold\">QUESTION <!-- -->1</span>"
+    },
+    "suggested_fix": "Read axe rule color-contrast — typically applies to the shared component for answers-topic",
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:40.329Z",
+    "last_seen_at": "2026-05-23T06:30:40.329Z",
+    "fixed_at": null,
+    "occurrences": 1
+  },
+  {
+    "id": "f35d9177fbe58255",
+    "agent": "a11y",
+    "category": "color-contrast",
+    "severity": "medium",
+    "url": "https://quizfeast.onrender.com/answers/q/01-which-of-the-following-disaster-recovery-sites-would-require-the-mo",
+    "message": "Elements must meet minimum color contrast ratio thresholds (9 elements on answers-canonical page)",
+    "evidence": {
+      "kind": "text",
+      "value": "<div class=\"text-xs text-dark-500 leading-relaxed\">"
+    },
+    "suggested_fix": "Read axe rule color-contrast — typically applies to the shared component for answers-canonical",
+    "auto_fixable": false,
+    "discovered_at": "2026-05-23T06:30:41.289Z",
+    "last_seen_at": "2026-05-23T06:30:41.289Z",
+    "fixed_at": null,
+    "occurrences": 1
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "started_at": "2026-05-23T06:29:58.548Z",
+    "finished_at": "2026-05-23T06:30:41.339Z",
+    "agents": [
+      "functional",
+      "legal",
+      "content",
+      "set-id",
+      "a11y"
+    ],
+    "urls_audited": 2930,
+    "issues_found": 15
+  }
+]

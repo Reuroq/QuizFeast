@@ -10,7 +10,10 @@
     "test:e2e:prod": "PLAYWRIGHT_BASE_URL=https://quizfeast.onrender.com playwright test",
     "test:smoke": "node tests/smoke.mjs",
     "test:journeys": "playwright test --config=playwright.journeys.config.js",
-    "test:journeys:prod": "PLAYWRIGHT_BASE_URL=https://quizfeast.onrender.com playwright test --config=playwright.journeys.config.js"
+    "test:journeys:prod": "PLAYWRIGHT_BASE_URL=https://quizfeast.onrender.com playwright test --config=playwright.journeys.config.js",
+    "audit": "node scripts/audit/run.mjs",
+    "audit:fast": "AUDIT_AGENTS=functional,legal node scripts/audit/run.mjs",
+    "audit:autofix": "AUDIT_AUTO_FIX=1 node scripts/audit/run.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.78.0",
@@ -31,6 +34,7 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.60.0"
+    "@playwright/test": "^1.60.0",
+    "fast-xml-parser": "^5.8.0"
   }
 }
