@@ -24,7 +24,11 @@ module.exports = {
           200: '#e2e8f0',
           300: '#cbd5e1',
           400: '#94a3b8',
-          500: '#64748b',
+          // dark-500 was #64748b — 3.3:1 contrast on dark-900, fails WCAG AA.
+          // Bumped to a value that passes 4.5:1 while preserving the muted
+          // visual hierarchy (slightly lighter than slate-500, still visibly
+          // lower-weight than dark-400 / dark-300 for body text).
+          500: '#8a96a8',
           600: '#475569',
           700: '#334155',
           800: '#1e293b',

@@ -1,0 +1,2329 @@
+{
+  "generated_at": "2026-05-23T07:46:46.607Z",
+  "threshold": 0.7,
+  "total_slugs_scanned": 1229,
+  "duplicate_pairs_found": 1496,
+  "redirects_emitted": 464,
+  "redirects": [
+    {
+      "from": "0241-usmc",
+      "to": "0231-usmc",
+      "similarity": 1
+    },
+    {
+      "from": "0261-usmc",
+      "to": "0231-usmc",
+      "similarity": 1
+    },
+    {
+      "from": "1c8-afsc",
+      "to": "13m-afsc",
+      "similarity": 1
+    },
+    {
+      "from": "1n7-air-force",
+      "to": "1n8-afsc",
+      "similarity": 1
+    },
+    {
+      "from": "2022-cyber-awareness-challenge-answers",
+      "to": "cyber-awareness-test",
+      "similarity": 1
+    },
+    {
+      "from": "2621-usmc",
+      "to": "0231-usmc",
+      "similarity": 1
+    },
+    {
+      "from": "5-basic-steps-in-the-opsec-process",
+      "to": "opsec-5-steps",
+      "similarity": 1
+    },
+    {
+      "from": "5-steps-of-opsec-process",
+      "to": "opsec-5-steps",
+      "similarity": 1
+    },
+    {
+      "from": "68e-mos-requirements",
+      "to": "68e-mos",
+      "similarity": 1
+    },
+    {
+      "from": "71b-mos",
+      "to": "56m-mos",
+      "similarity": 1
+    },
+    {
+      "from": "91b-ait-location",
+      "to": "91b-ait",
+      "similarity": 1
+    },
+    {
+      "from": "92t0-afsc",
+      "to": "13n1-afsc",
+      "similarity": 1
+    },
+    {
+      "from": "92y-mos-ait",
+      "to": "92y-army",
+      "similarity": 1
+    },
+    {
+      "from": "a-cloud-guru-aws-cloud-practitioner-practice-exam",
+      "to": "aws-cloud-practitioner-acloudguru",
+      "similarity": 1
+    },
+    {
+      "from": "a-hazmat-employee-must-receive-the-required-usdot",
+      "to": "hazmat-employees-must-be-trained",
+      "similarity": 1
+    },
+    {
+      "from": "a-tarp-is-the",
+      "to": "tarp-is-the",
+      "similarity": 1
+    },
+    {
+      "from": "according-to-the-hipaa-privacy-rule-protected-health-information-includes",
+      "to": "it-is-required-under-hipaa-that",
+      "similarity": 1
+    },
+    {
+      "from": "acronym-cali-opsec",
+      "to": "opsec-labels",
+      "similarity": 1
+    },
+    {
+      "from": "acronym-ttp-opsec",
+      "to": "opsec-labels",
+      "similarity": 1
+    },
+    {
+      "from": "active-shooter-react-acronym-air-force",
+      "to": "active-shooter-react-acronym",
+      "similarity": 1
+    },
+    {
+      "from": "administrative-sanctions-for-derivative-classification",
+      "to": "derivative-classification-administrative-sanctions",
+      "similarity": 1
+    },
+    {
+      "from": "afh-1-1",
+      "to": "afh-1",
+      "similarity": 1
+    },
+    {
+      "from": "afh-33-337-the-tongue-and-quill",
+      "to": "afh-33-337",
+      "similarity": 1
+    },
+    {
+      "from": "afi-23-101",
+      "to": "afh-23-123",
+      "similarity": 1
+    },
+    {
+      "from": "afi-23-204",
+      "to": "afi-23-201",
+      "similarity": 1
+    },
+    {
+      "from": "afi-24-605",
+      "to": "afi24-605",
+      "similarity": 1
+    },
+    {
+      "from": "afi-32-1065",
+      "to": "afi-21-201",
+      "similarity": 1
+    },
+    {
+      "from": "afi-32-9005",
+      "to": "afi-32-1001",
+      "similarity": 1
+    },
+    {
+      "from": "afi-36-2605",
+      "to": "afi-16-1301",
+      "similarity": 1
+    },
+    {
+      "from": "afi-36-2903-afrotc-supplement",
+      "to": "afi362903",
+      "similarity": 1
+    },
+    {
+      "from": "afi-36-2903-beard-update",
+      "to": "afman-36-2136",
+      "similarity": 1
+    },
+    {
+      "from": "afi-36-2903-beard",
+      "to": "afman-36-2136",
+      "similarity": 1
+    },
+    {
+      "from": "afi-36-2903-beards",
+      "to": "afman-36-2136",
+      "similarity": 1
+    },
+    {
+      "from": "afi-36-2903-boots",
+      "to": "afi-26-2903",
+      "similarity": 1
+    },
+    {
+      "from": "afi-36-2903-dress-and-appearance",
+      "to": "afi-36-2903-blues",
+      "similarity": 1
+    },
+    {
+      "from": "afi-36-2903-shaving-waiver",
+      "to": "afman-36-2136",
+      "similarity": 1
+    },
+    {
+      "from": "afi-36-2903",
+      "to": "afi-2903",
+      "similarity": 1
+    },
+    {
+      "from": "afi-36-3003",
+      "to": "afi36-3003",
+      "similarity": 1
+    },
+    {
+      "from": "afi-362903",
+      "to": "afi-2903",
+      "similarity": 1
+    },
+    {
+      "from": "afi-39-2903",
+      "to": "afi-26-2903",
+      "similarity": 1
+    },
+    {
+      "from": "afi-41-106",
+      "to": "afi-10-250",
+      "similarity": 1
+    },
+    {
+      "from": "afi-41-210",
+      "to": "afi-10-250",
+      "similarity": 1
+    },
+    {
+      "from": "afi36-2903",
+      "to": "afi-2903",
+      "similarity": 1
+    },
+    {
+      "from": "afman-10-2503",
+      "to": "afman-23-220",
+      "similarity": 1
+    },
+    {
+      "from": "afman-11-403",
+      "to": "afi-11-403",
+      "similarity": 1
+    },
+    {
+      "from": "afman-11-421",
+      "to": "afi-36-2651",
+      "similarity": 1
+    },
+    {
+      "from": "afman-32-1065",
+      "to": "afi-21-201",
+      "similarity": 1
+    },
+    {
+      "from": "afman-36-2234",
+      "to": "afman-23-220",
+      "similarity": 1
+    },
+    {
+      "from": "afman-36-2903",
+      "to": "afi-2903",
+      "similarity": 1
+    },
+    {
+      "from": "afman-41-210",
+      "to": "afi-10-250",
+      "similarity": 1
+    },
+    {
+      "from": "afman-91-203",
+      "to": "afi-91-203",
+      "similarity": 1
+    },
+    {
+      "from": "afsc-1b411",
+      "to": "1b411-afsc",
+      "similarity": 1
+    },
+    {
+      "from": "afto-350-tag",
+      "to": "afto-350",
+      "similarity": 1
+    },
+    {
+      "from": "air-force-dress-and-appearance-afi-2022",
+      "to": "afi-2903",
+      "similarity": 1
+    },
+    {
+      "from": "air-force-leave-afi-36-3003",
+      "to": "afi36-3003",
+      "similarity": 1
+    },
+    {
+      "from": "air-force-personnel-afsc",
+      "to": "afsc-personnel",
+      "similarity": 1
+    },
+    {
+      "from": "air-force-personnelist-afsc",
+      "to": "afsc-personnel",
+      "similarity": 1
+    },
+    {
+      "from": "air-force-records-management-cbt-answers",
+      "to": "i-hate-cbts-records-management",
+      "similarity": 1
+    },
+    {
+      "from": "air-force-records-management",
+      "to": "records-management-afi",
+      "similarity": 1
+    },
+    {
+      "from": "all-of-the-following-are-purposes-of-hipaa-except",
+      "to": "five-titles-under-hipaa-two-major-categories",
+      "similarity": 1
+    },
+    {
+      "from": "alms-cheat-codes",
+      "to": "alms-cheat-code",
+      "similarity": 1
+    },
+    {
+      "from": "alms-dlc-1",
+      "to": "alms-dlc",
+      "similarity": 1
+    },
+    {
+      "from": "alms-tarp-training",
+      "to": "alms-tarp",
+      "similarity": 1
+    },
+    {
+      "from": "amazon-aws-cloud-practitioner-practice-exam",
+      "to": "aws-cloud-practitioner-exam-dumps",
+      "similarity": 1
+    },
+    {
+      "from": "american-red-cross-bloodborne-pathogens",
+      "to": "red-cross-bloodborne-pathogens-test",
+      "similarity": 1
+    },
+    {
+      "from": "an-authorization-is-required-for-which-of-the-following-hipaa",
+      "to": "the-hipaa-regulations-provide-a-federal-floor",
+      "similarity": 1
+    },
+    {
+      "from": "annual-cyber-awareness-training-army",
+      "to": "ia-cyber-awareness",
+      "similarity": 1
+    },
+    {
+      "from": "annual-dod-cyber-awareness-training",
+      "to": "ia-cyber-awareness",
+      "similarity": 1
+    },
+    {
+      "from": "annual-information-awareness-training-jko",
+      "to": "ia-cyber-awareness",
+      "similarity": 1
+    },
+    {
+      "from": "annual-information-security-training",
+      "to": "annual-security-awareness-training",
+      "similarity": 1
+    },
+    {
+      "from": "annual-security-awareness-refresher-training",
+      "to": "annual-security-awareness-training",
+      "similarity": 1
+    },
+    {
+      "from": "answers-to-comptia-a-exam",
+      "to": "comptia-a-answers",
+      "similarity": 1
+    },
+    {
+      "from": "answers-to-hazmat-test",
+      "to": "hazmat-exam",
+      "similarity": 1
+    },
+    {
+      "from": "antiterrorism-post-test",
+      "to": "army-at-level-1",
+      "similarity": 1
+    },
+    {
+      "from": "any-medical-instrument-can-be-considered-a-sharp",
+      "to": "any-medical-equipment-can-be-considered-a-sharp",
+      "similarity": 1
+    },
+    {
+      "from": "apc-government-travel-card",
+      "to": "gtcc-101",
+      "similarity": 1
+    },
+    {
+      "from": "apd-hipaa-training",
+      "to": "apd-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "arizona-hazmat-study-guide",
+      "to": "arizona-hazmat-test",
+      "similarity": 1
+    },
+    {
+      "from": "army-derivative-classification-training",
+      "to": "derivative-classification",
+      "similarity": 1
+    },
+    {
+      "from": "army-derivative-classification",
+      "to": "derivative-classification",
+      "similarity": 1
+    },
+    {
+      "from": "army-hippa-training",
+      "to": "hipaa-jko",
+      "similarity": 1
+    },
+    {
+      "from": "army-information-assurance-training-jko",
+      "to": "information-assurance-training-jko",
+      "similarity": 1
+    },
+    {
+      "from": "army-opsec-cali",
+      "to": "opsec-labels",
+      "similarity": 1
+    },
+    {
+      "from": "army-opsec-level-1-answers",
+      "to": "opsec-labels",
+      "similarity": 1
+    },
+    {
+      "from": "army-opsec-level-1-crossword-answers",
+      "to": "opsec-labels",
+      "similarity": 1
+    },
+    {
+      "from": "army-opsec-training",
+      "to": "opsec-labels",
+      "similarity": 1
+    },
+    {
+      "from": "army-opsec-ttp",
+      "to": "opsec-labels",
+      "similarity": 1
+    },
+    {
+      "from": "army-sharp-restricted-vs-unrestricted",
+      "to": "restricted-vs-unrestricted-sharp",
+      "similarity": 1
+    },
+    {
+      "from": "army-tarp-training-answers",
+      "to": "alms-tarp",
+      "similarity": 1
+    },
+    {
+      "from": "army-tarp-training-online",
+      "to": "alms-tarp",
+      "similarity": 1
+    },
+    {
+      "from": "at-level-1-test-answers",
+      "to": "army-at-level-1",
+      "similarity": 1
+    },
+    {
+      "from": "at-level-1-training",
+      "to": "army-at-level-1",
+      "similarity": 1
+    },
+    {
+      "from": "aws-certified-cloud-practitioner-exam-dumps",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-certified-cloud-practitioner-exam-practice",
+      "to": "aws-cloud-practitioner-exam-dumps",
+      "similarity": 1
+    },
+    {
+      "from": "aws-certified-cloud-practitioner-exam-questions",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-certified-cloud-practitioner-official-practice-exam",
+      "to": "aws-cloud-practitioner-exam-dumps",
+      "similarity": 1
+    },
+    {
+      "from": "aws-certified-cloud-practitioner-practice-exam-questions",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-certified-solutions-architect-associate-questions",
+      "to": "aws-saa-exam-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-certified-solutions-architect-associate-sample-questions",
+      "to": "aws-solutions-architect-exam-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-cloud-practitioner-certification-dumps",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-cloud-practitioner-certification-exam-questions",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-cloud-practitioner-certification-practice-questions",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-cloud-practitioner-certification-questions-and-answers",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-cloud-practitioner-certification-questions",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-cloud-practitioner-exam-answers",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-cloud-practitioner-exam-sample-questions",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-cloud-practitioner-flashcards",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-cloud-practitioner-practice-exam-questions",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-solutions-architect-associate-exam-questions",
+      "to": "aws-saa-exam-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-solutions-architect-associate-flashcards",
+      "to": "aws-saa-exam-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-solutions-architect-associate-practice-questions",
+      "to": "aws-solutions-architect-exam-questions",
+      "similarity": 1
+    },
+    {
+      "from": "aws-solutions-architect-practice-questions",
+      "to": "aws-solutions-architect-exam-questions",
+      "similarity": 1
+    },
+    {
+      "from": "b-4-comptia-security-sy0-601-certification-practice-exam",
+      "to": "security-plus-answers",
+      "similarity": 1
+    },
+    {
+      "from": "basic-hipaa-training-course-test-answers",
+      "to": "instacart-quiz-answers-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "bloodborne-pathogens-are-disease-causing-microorganisms-that-are-present-in",
+      "to": "which-of-the-following-are-considered-bloodborne-pathogens",
+      "similarity": 1
+    },
+    {
+      "from": "bloodborne-pathogens-are-not-present-in-which-of-the-following",
+      "to": "which-of-the-following-are-considered-bloodborne-pathogens",
+      "similarity": 1
+    },
+    {
+      "from": "bloodborne-pathogens-questions-and-answers",
+      "to": "bloodborne-pathogen-training-test-answers",
+      "similarity": 1
+    },
+    {
+      "from": "bloodborne-pathogens-training-test-answers",
+      "to": "fdoh-bloodborne-pathogens-section-1",
+      "similarity": 1
+    },
+    {
+      "from": "c-in-cali-opsec",
+      "to": "opsec-labels",
+      "similarity": 1
+    },
+    {
+      "from": "cali-army-acronym-opsec",
+      "to": "opsec-labels",
+      "similarity": 1
+    },
+    {
+      "from": "castlebranch-hipaa-certification",
+      "to": "castlebranch-hipaa-training",
+      "similarity": 1
+    },
+    {
+      "from": "ccna-200-301-exam-answers",
+      "to": "ccna-200-301-answers",
+      "similarity": 1
+    },
+    {
+      "from": "ccna-v7-final-exam",
+      "to": "ccna-final-exam",
+      "similarity": 1
+    },
+    {
+      "from": "cdl-hazmat-practice-test",
+      "to": "hazmat-practice",
+      "similarity": 1
+    },
+    {
+      "from": "cdl-hazmat-practice-tests",
+      "to": "sc-hazmat-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "cdl-hazmat-test-practice",
+      "to": "sc-hazmat-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "cdl-hazmat-test-questions-and-answers",
+      "to": "hazmat-questions-and-answers",
+      "similarity": 1
+    },
+    {
+      "from": "cdl-hazmat-test-texas",
+      "to": "texas-hazmat-test",
+      "similarity": 1
+    },
+    {
+      "from": "cdl-prep-hazmat-test",
+      "to": "hazmat-exam",
+      "similarity": 1
+    },
+    {
+      "from": "ceh-practical-exam-questions-and-answers",
+      "to": "ceh-certification-exam-questions",
+      "similarity": 1
+    },
+    {
+      "from": "cissp-boson",
+      "to": "boson-cissp",
+      "similarity": 1
+    },
+    {
+      "from": "cissp-exam-answers",
+      "to": "cissp-sample-test",
+      "similarity": 1
+    },
+    {
+      "from": "compressed-url-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-1101-flashcards",
+      "to": "comptia-a-220-1101",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-1101-practice-exam",
+      "to": "comptia-a-pbq-1101",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-1101-practice-questions",
+      "to": "comptia-a-pbq-1101",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-1101-test",
+      "to": "comptia-a-pbq-1101",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-220-1101-practice-test",
+      "to": "comptia-a-pbq-1101",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-certification-questions",
+      "to": "comptia-test-questions",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-course-notes",
+      "to": "comptia-notes",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-exam-answers",
+      "to": "comptia-a-answers",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-free-study-guide",
+      "to": "comptia-a-material",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-jason-dion",
+      "to": "dion-comptia",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-notes",
+      "to": "comptia-notes",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-port-numbers",
+      "to": "comptia-ports",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-practice-exam-1101",
+      "to": "comptia-a-pbq-1101",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-practice-test-1101",
+      "to": "comptia-a-pbq-1101",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-practice-test",
+      "to": "comptia-test-questions",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-a-sample-questions",
+      "to": "comptia-test-questions",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-certmaster-ce-security-details",
+      "to": "comptia-certmaster-ce-security",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-certmaster-practice-for-security-sy0-601",
+      "to": "comptia-security-practice-exam-sy0-601",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-cloud-exam-dumps",
+      "to": "comptia-cloud-questions",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-cloud-practice-exam",
+      "to": "comptia-cloud-questions",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-cysa-exam-questions",
+      "to": "comptia-cysa-questions",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-cysa-practice-questions",
+      "to": "comptia-cysa-questions",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-cysa-practice-tests",
+      "to": "comptia-cysa-questions",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-exam-answers",
+      "to": "comptia-a-answers",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-example-questions",
+      "to": "comptia-test-questions",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-it-fundamentals-practice-test",
+      "to": "comptia-fundamentals-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-itf-exam-questions",
+      "to": "comptia-itf-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-itf-study-guide-free",
+      "to": "comptia-itf-study-guide",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-network-n10-007-practice-test",
+      "to": "comptia-network-exam-answers",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-port-numbers",
+      "to": "comptia-ports",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-practice-test-1101",
+      "to": "comptia-a-pbq-1101",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-sec-601-exam-objectives",
+      "to": "comptia-sec-objectives-601",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-security-601-objectives",
+      "to": "comptia-sec-objectives-601",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-security-exam-answers",
+      "to": "security-plus-answers",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-security-objectives-2023",
+      "to": "comptia-sec-objectives-601",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-security-objectives-601",
+      "to": "comptia-sec-objectives-601",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-security-plus-601-objectives",
+      "to": "comptia-sec-objectives-601",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-security-sy0-601-cheat-sheet-pdf",
+      "to": "security-plus-cheat-sheet",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-security-sy0-601-exam-questions",
+      "to": "security-plus-answers",
+      "similarity": 1
+    },
+    {
+      "from": "comptia-sy0-601-exam-actual-questions",
+      "to": "security-plus-answers",
+      "similarity": 1
+    },
+    {
+      "from": "correspondence-courses-army-jko",
+      "to": "jko-correspondence-course",
+      "similarity": 1
+    },
+    {
+      "from": "critical-information-is-opsec",
+      "to": "opsec-is",
+      "similarity": 1
+    },
+    {
+      "from": "ct-dmv-hazmat-practice-test",
+      "to": "ct-hazmat-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "ctip-general-awareness",
+      "to": "ctip-jko",
+      "similarity": 1
+    },
+    {
+      "from": "cyber-awareness-cbt-answers",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "cyber-awareness-challenge-2022-certificate",
+      "to": "cyber-awareness-test",
+      "similarity": 1
+    },
+    {
+      "from": "cyber-awareness-spillage-knowledge-check",
+      "to": "cyber-awareness-test",
+      "similarity": 1
+    },
+    {
+      "from": "cyber-awareness-what-is-sensitive-compartmented-information",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "cyberawareness-army",
+      "to": "ia-cyber-awareness",
+      "similarity": 1
+    },
+    {
+      "from": "david-bombal-ccna",
+      "to": "ccna-david-bombal",
+      "similarity": 1
+    },
+    {
+      "from": "department-of-homeland-security-insider-threat-training",
+      "to": "dhs-insider-threat-training",
+      "similarity": 1
+    },
+    {
+      "from": "derivative-classification-army",
+      "to": "derivative-classification",
+      "similarity": 1
+    },
+    {
+      "from": "derivative-classification-certificate",
+      "to": "derivative-classification",
+      "similarity": 1
+    },
+    {
+      "from": "derivative-classification-training",
+      "to": "derivative-classification",
+      "similarity": 1
+    },
+    {
+      "from": "dha-hipaa-training",
+      "to": "army-hippa",
+      "similarity": 1
+    },
+    {
+      "from": "dhs-government-travel-card-training",
+      "to": "government-travel-card-training",
+      "similarity": 1
+    },
+    {
+      "from": "dion-security-plus-practice-test",
+      "to": "dion-security-plus",
+      "similarity": 1
+    },
+    {
+      "from": "dlc-1-army-alms",
+      "to": "alms-dlc",
+      "similarity": 1
+    },
+    {
+      "from": "dmv-hazmat-practice-test",
+      "to": "sc-hazmat-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "dmv-hazmat-test-answers",
+      "to": "hazmat-exam",
+      "similarity": 1
+    },
+    {
+      "from": "dod-cyber-awareness-2022",
+      "to": "cyber-awareness-test",
+      "similarity": 1
+    },
+    {
+      "from": "dod-derivative-classification-training",
+      "to": "derivative-classification",
+      "similarity": 1
+    },
+    {
+      "from": "dod-hipaa-training",
+      "to": "army-hippa",
+      "similarity": 1
+    },
+    {
+      "from": "does-hipaa-excludes-information-considered-education-records-under-ferpa-law",
+      "to": "hipaa-excludes-information-considered-education-records-under-ferpa",
+      "similarity": 1
+    },
+    {
+      "from": "dot-hazmat-test-answers",
+      "to": "hazmat-exam",
+      "similarity": 1
+    },
+    {
+      "from": "dress-and-appearance-afi-2022",
+      "to": "afi-2903",
+      "similarity": 1
+    },
+    {
+      "from": "driving-for-life-navy-e-learning",
+      "to": "driving-for-life-jko",
+      "similarity": 1
+    },
+    {
+      "from": "elicitation-scenario-insider-threat",
+      "to": "dod-insider-threat-training",
+      "similarity": 1
+    },
+    {
+      "from": "establishing-an-insider-threat-program-for-your-organization",
+      "to": "establishing-an-insider-threat-program",
+      "similarity": 1
+    },
+    {
+      "from": "exam-compass-comptia-a-1101",
+      "to": "comptia-a-pbq-1101",
+      "similarity": 1
+    },
+    {
+      "from": "exam-topics-ccna-200-301",
+      "to": "ccna-200-301-answers",
+      "similarity": 1
+    },
+    {
+      "from": "example-cissp-exam-questions",
+      "to": "cissp-sample-test",
+      "similarity": 1
+    },
+    {
+      "from": "fema-hazmat-awareness",
+      "to": "hazmat-fema",
+      "similarity": 1
+    },
+    {
+      "from": "firefighter-hazmat-test-answers",
+      "to": "hazmat-operations-test-online",
+      "similarity": 1
+    },
+    {
+      "from": "five-titles-of-hipaa",
+      "to": "title-1-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "force-protection-zz133079",
+      "to": "force-protection-cbt",
+      "similarity": 1
+    },
+    {
+      "from": "good-operational-security-opsec-practices-do-not-include",
+      "to": "army-information-security-program-training",
+      "similarity": 1
+    },
+    {
+      "from": "good-practice-for-telework-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "gtcc-apc",
+      "to": "gtcc-101",
+      "similarity": 1
+    },
+    {
+      "from": "gtcc-army",
+      "to": "army-gtcc",
+      "similarity": 1
+    },
+    {
+      "from": "gtcc-customer-service",
+      "to": "gtcc-sou",
+      "similarity": 1
+    },
+    {
+      "from": "gtcc-lpn",
+      "to": "cna-gtcc",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-awareness-fema",
+      "to": "hazmat-fema",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-cdl-practice-test",
+      "to": "sc-hazmat-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-endorsement-nj",
+      "to": "hazmat-test-nj",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-endorsement-test-texas",
+      "to": "texas-hazmat-test",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-fro-class",
+      "to": "hazmat-fro",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-labels-are-used-to-communicate-information-true-or-false",
+      "to": "hazmat-labels-communicate-potential-hazards-true-or-false",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-practice-test-cdl",
+      "to": "sc-hazmat-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-practice-test-dmv",
+      "to": "sc-hazmat-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-practice-test-for-cdl",
+      "to": "sc-hazmat-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-practice-test-maryland",
+      "to": "sc-hazmat-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-practice-test-nj",
+      "to": "hazmat-test-nj",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-practice-tests",
+      "to": "hazmat-practice",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-pratice-test",
+      "to": "hazmat-practice",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-pre-test",
+      "to": "hazmat-practice",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-pretest",
+      "to": "hazmat-exam",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-question-and-answers",
+      "to": "hazmat-exam",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-recertification-test",
+      "to": "hazmat-exam",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-renewal-texas",
+      "to": "texas-hazmat-test",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-study-guide-texas",
+      "to": "texas-hazmat-test",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-test-answers-2021",
+      "to": "hazmat-practice",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-test-answers-2022",
+      "to": "hazmat-exam",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-test-california",
+      "to": "class-a-hazmat-test",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-test-cdl",
+      "to": "hazmat-exam",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-test-en-espa-ol",
+      "to": "hazmat-espa-ol",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-test",
+      "to": "hazmat-exam",
+      "similarity": 1
+    },
+    {
+      "from": "hazmat-training-army",
+      "to": "army-hazmat-course",
+      "similarity": 1
+    },
+    {
+      "from": "healthcare-workers-who-must-comply-with-hipaa",
+      "to": "it-is-required-under-hipaa-that",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-aims-to-protect-american-workers-and-their-families-from",
+      "to": "hipaa-omnibus-rule-was-passed-in",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-army-training",
+      "to": "army-hippa",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-army",
+      "to": "army-hippa",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-certification-army",
+      "to": "army-hippa",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-compliance-test-answers",
+      "to": "hipaa-answer-key",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-compliance-test",
+      "to": "hipaa-answers",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-course-answers",
+      "to": "hipaa-answer-key",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-includes-in-its-definition-of-research",
+      "to": "hipaa-retrospective-research",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-online-test",
+      "to": "hipaa-answer-key",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-practice-test",
+      "to": "hipaa-answers",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-privacy-act-training",
+      "to": "hipaa-jko",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-provides-individuals-with-the-right-to-request",
+      "to": "common-causes-of-breaches-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-provides-individuals-with-which-of-the-following-rights",
+      "to": "common-causes-of-breaches-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-questions-and-answer-test",
+      "to": "hipaa-answers",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-quiz-questions",
+      "to": "hipaa-answers",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-rules-are-divided-into-2-sections",
+      "to": "two-main-sections-of-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-scenarios-worksheet",
+      "to": "hipaa-scenarios",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-security-rule-applies-to-data-contained-in",
+      "to": "what-is-hipaa-security-rule-meant-to-establish",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-test-questions",
+      "to": "hipaa-answers",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-training-jko",
+      "to": "hipaa-jko",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-training-test-answers",
+      "to": "hipaa-answer-key",
+      "similarity": 1
+    },
+    {
+      "from": "hipaa-training-test-questions-and-answers",
+      "to": "hipaa-answer-key",
+      "similarity": 1
+    },
+    {
+      "from": "hippa-jko",
+      "to": "hipaa-jko",
+      "similarity": 1
+    },
+    {
+      "from": "how-can-you-protect-yourself-from-internet-hoaxes-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "how-many-potential-insider-threat-indicators-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "how-to-pass-hazmat-operations-test",
+      "to": "hazmat-operations-test-online",
+      "similarity": 1
+    },
+    {
+      "from": "how-to-prevent-spillage-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "how-to-protect-cui-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "how-would-this-pertain-to-osha-s-bloodborne-pathogens-standards",
+      "to": "the-bloodborne-pathogen-standard-is-a-regulation-of",
+      "similarity": 1
+    },
+    {
+      "from": "https-public-cyber-mil-training-cyber-awareness-challenge",
+      "to": "ia-cyber-awareness",
+      "similarity": 1
+    },
+    {
+      "from": "i-hate-cbts-force-protection",
+      "to": "active-shooter-react-acronym",
+      "similarity": 1
+    },
+    {
+      "from": "information-security-program-training-army",
+      "to": "army-information-security-program-training",
+      "similarity": 1
+    },
+    {
+      "from": "insider-threat-awareness-6-hotspots",
+      "to": "insider-threat-awareness-course",
+      "similarity": 1
+    },
+    {
+      "from": "insider-threat-awareness-hotspots",
+      "to": "dod-insider-threat-training",
+      "similarity": 1
+    },
+    {
+      "from": "insider-threat-awareness-phishing-scenario",
+      "to": "dod-insider-threat-training",
+      "similarity": 1
+    },
+    {
+      "from": "insider-threat-awareness-test-out-hotspots",
+      "to": "insider-threat-awareness-course",
+      "similarity": 1
+    },
+    {
+      "from": "insider-threat-awareness-test",
+      "to": "dod-insider-threat-training",
+      "similarity": 1
+    },
+    {
+      "from": "insider-threat-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "it-fundamentals-comptia-practice-test",
+      "to": "comptia-fundamentals-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "it-is-a-requirement-under-hipaa-that",
+      "to": "it-is-required-under-hipaa-that",
+      "similarity": 1
+    },
+    {
+      "from": "jason-dion-comptia-a",
+      "to": "dion-comptia",
+      "similarity": 1
+    },
+    {
+      "from": "jeremy-s-it-lab-ccna-200-301-course",
+      "to": "jeremy-ccna-lab",
+      "similarity": 1
+    },
+    {
+      "from": "jko-correspondence-courses",
+      "to": "jko-correspondence-course",
+      "similarity": 1
+    },
+    {
+      "from": "jko-cyber-awareness-2022",
+      "to": "cyber-awareness-test",
+      "similarity": 1
+    },
+    {
+      "from": "jko-derivative-classification",
+      "to": "derivative-classification",
+      "similarity": 1
+    },
+    {
+      "from": "jko-hipaa-and-privacy-act-training",
+      "to": "hipaa-jko",
+      "similarity": 1
+    },
+    {
+      "from": "jko-hippa-training",
+      "to": "hipaa-jko",
+      "similarity": 1
+    },
+    {
+      "from": "jko-hippa",
+      "to": "hipaa-jko",
+      "similarity": 1
+    },
+    {
+      "from": "jko-opsec",
+      "to": "opsec-is",
+      "similarity": 1
+    },
+    {
+      "from": "jko-sere-answers",
+      "to": "sere-100-2-jko",
+      "similarity": 1
+    },
+    {
+      "from": "jko-training",
+      "to": "jko-lcms",
+      "similarity": 1
+    },
+    {
+      "from": "leave-afi-36-3003",
+      "to": "afi36-3003",
+      "similarity": 1
+    },
+    {
+      "from": "lion-hazmat-training-answers",
+      "to": "lions-hazmat-training",
+      "similarity": 1
+    },
+    {
+      "from": "loadmaster-afsc",
+      "to": "1a2x1-air-force",
+      "similarity": 1
+    },
+    {
+      "from": "louisiana-hazmat-practice-test",
+      "to": "sc-hazmat-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "lpn-gtcc",
+      "to": "cna-gtcc",
+      "similarity": 1
+    },
+    {
+      "from": "malicious-code-cyber-awareness-challenge",
+      "to": "cyber-awareness-malicious-code",
+      "similarity": 1
+    },
+    {
+      "from": "navy-driving-for-life-course",
+      "to": "driving-for-life-jko",
+      "similarity": 1
+    },
+    {
+      "from": "ncis-counterintelligence-and-insider-threat-awareness-and-reporting-training",
+      "to": "counterintelligence-awareness-training-for-the-homeland-security-enterprise",
+      "similarity": 1
+    },
+    {
+      "from": "nist-800-53-control-families",
+      "to": "nist-800-53-control-family",
+      "similarity": 1
+    },
+    {
+      "from": "nist-800-54",
+      "to": "nist-800-45",
+      "similarity": 1
+    },
+    {
+      "from": "nist-800-59",
+      "to": "nist-800-27",
+      "similarity": 1
+    },
+    {
+      "from": "nist-800-60-system-categorization",
+      "to": "nist-800-60",
+      "similarity": 1
+    },
+    {
+      "from": "nist-800-83",
+      "to": "nist-800-45",
+      "similarity": 1
+    },
+    {
+      "from": "nj-hazmat-practice-test",
+      "to": "hazmat-test-nj",
+      "similarity": 1
+    },
+    {
+      "from": "nj-hazmat-test-answers",
+      "to": "hazmat-test-nj",
+      "similarity": 1
+    },
+    {
+      "from": "nko-driving-for-life",
+      "to": "driving-for-life-jko",
+      "similarity": 1
+    },
+    {
+      "from": "not-considered-a-potential-insider-threat-indicator",
+      "to": "dod-pki-tokens",
+      "similarity": 1
+    },
+    {
+      "from": "opsec-5-step-process",
+      "to": "opsec-5-steps",
+      "similarity": 1
+    },
+    {
+      "from": "opsec-crossword-puzzle-answers",
+      "to": "opsec-labels",
+      "similarity": 1
+    },
+    {
+      "from": "opsec-five-step-process",
+      "to": "opsec-5-steps",
+      "similarity": 1
+    },
+    {
+      "from": "opsec-jko",
+      "to": "opsec-is",
+      "similarity": 1
+    },
+    {
+      "from": "opsec-process-parts",
+      "to": "opsec-5-steps",
+      "similarity": 1
+    },
+    {
+      "from": "opsec-process-steps",
+      "to": "opsec-5-steps",
+      "similarity": 1
+    },
+    {
+      "from": "opsec-training-jko",
+      "to": "opsec-is",
+      "similarity": 1
+    },
+    {
+      "from": "opsec-ttp-acronym",
+      "to": "opsec-labels",
+      "similarity": 1
+    },
+    {
+      "from": "overflow-dam-hazmat",
+      "to": "hazmat-overflow-dam",
+      "similarity": 1
+    },
+    {
+      "from": "periodic-assessments-help-to-evaluate-opsec-effectiveness",
+      "to": "opsec-is-a-cycle-that-involves",
+      "similarity": 1
+    },
+    {
+      "from": "port-numbers-comptia-a",
+      "to": "comptia-ports",
+      "similarity": 1
+    },
+    {
+      "from": "potential-insider-threat-indicators-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "practice-cdl-hazmat-test",
+      "to": "sc-hazmat-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "practice-hazmat-cdl-test",
+      "to": "sc-hazmat-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "practice-test-for-cdl-hazmat",
+      "to": "sc-hazmat-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "practice-test-for-hazmat",
+      "to": "hazmat-practice",
+      "similarity": 1
+    },
+    {
+      "from": "practice-test-hazmat",
+      "to": "hazmat-practice",
+      "similarity": 1
+    },
+    {
+      "from": "preventing-spillage-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "protect-healthcare-workers-from-exposure-to-bloodborne-pathogens",
+      "to": "protect-healthcare-workers-from-bloodborne-pathogens",
+      "similarity": 1
+    },
+    {
+      "from": "protected-health-information-cyber-awareness",
+      "to": "reportable-insider-threat",
+      "similarity": 1
+    },
+    {
+      "from": "protecting-classified-data-cyber-awareness",
+      "to": "reportable-insider-threat",
+      "similarity": 1
+    },
+    {
+      "from": "pwcs-concussion-training",
+      "to": "concussion-training-pwcs",
+      "similarity": 1
+    },
+    {
+      "from": "que-es-hazmat-en-espa-ol",
+      "to": "hazmat-espa-ol",
+      "similarity": 1
+    },
+    {
+      "from": "questions-for-aws-cloud-practitioner-exam",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "records-management-marinenet",
+      "to": "mco-records-management",
+      "similarity": 1
+    },
+    {
+      "from": "records-management-navy-training",
+      "to": "navy-records-management-training",
+      "similarity": 1
+    },
+    {
+      "from": "rmf-security-assessment-plan",
+      "to": "rmf-step-4",
+      "similarity": 1
+    },
+    {
+      "from": "safely-transmit-controlled-unclassified-information",
+      "to": "reportable-insider-threat",
+      "similarity": 1
+    },
+    {
+      "from": "sample-aws-cloud-practitioner-exam",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "sample-questions-comptia-a",
+      "to": "comptia-a-pbq-1101",
+      "similarity": 1
+    },
+    {
+      "from": "sample-questions-for-aws-cloud-practitioner",
+      "to": "aws-cloud-practitioner-questions",
+      "similarity": 1
+    },
+    {
+      "from": "security-plus-601-objectives",
+      "to": "comptia-sec-objectives-601",
+      "similarity": 1
+    },
+    {
+      "from": "security-plus-exam-objectives-601",
+      "to": "comptia-sec-objectives-601",
+      "similarity": 1
+    },
+    {
+      "from": "security-plus-test-answers",
+      "to": "security-plus-answers",
+      "similarity": 1
+    },
+    {
+      "from": "select-three-examples-that-are-considered-records-records-management",
+      "to": "mco-records-management",
+      "similarity": 1
+    },
+    {
+      "from": "sensitive-compartmented-information-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "sere-100-answers",
+      "to": "sere-100-2-jko",
+      "similarity": 1
+    },
+    {
+      "from": "sere-past-test",
+      "to": "sere-100-2-jko",
+      "similarity": 1
+    },
+    {
+      "from": "sfl-tap-courses",
+      "to": "sfl-tap-online",
+      "similarity": 1
+    },
+    {
+      "from": "sharp-costophrenic-sulci",
+      "to": "costophrenic-sulci-sharp",
+      "similarity": 1
+    },
+    {
+      "from": "sharp-restricted-vs-unrestricted",
+      "to": "restricted-vs-unrestricted-sharp",
+      "similarity": 1
+    },
+    {
+      "from": "tarp-alms",
+      "to": "alms-tarp",
+      "similarity": 1
+    },
+    {
+      "from": "tarp-cert-army",
+      "to": "alms-tarp",
+      "similarity": 1
+    },
+    {
+      "from": "tarp-training-alms",
+      "to": "alms-tarp",
+      "similarity": 1
+    },
+    {
+      "from": "test-hazmat",
+      "to": "hazmat-exam",
+      "similarity": 1
+    },
+    {
+      "from": "testout-comptia-a",
+      "to": "comptia-a-testout",
+      "similarity": 1
+    },
+    {
+      "from": "texas-dps-hazmat-test",
+      "to": "texas-cdl-hazmat-test",
+      "similarity": 1
+    },
+    {
+      "from": "texas-hazmat-endorsement-test",
+      "to": "texas-hazmat-test",
+      "similarity": 1
+    },
+    {
+      "from": "texas-hazmat-study-guide",
+      "to": "texas-hazmat-test",
+      "similarity": 1
+    },
+    {
+      "from": "the-bloodborne-pathogens-standard-requires-that",
+      "to": "the-bloodborne-pathogen-standard-requires-that",
+      "similarity": 1
+    },
+    {
+      "from": "the-hipaa-security-rule-s-broader-objectives-were-designed-to",
+      "to": "the-hipaa-security-rules-broader-objectives-were-designed-to",
+      "similarity": 1
+    },
+    {
+      "from": "the-hipaa-security-rule-was-specifically-designed-to",
+      "to": "five-titles-under-hipaa-two-major-categories",
+      "similarity": 1
+    },
+    {
+      "from": "the-privacy-and-security-rules-specified-by-hipaa-are",
+      "to": "five-titles-under-hipaa-two-major-categories",
+      "similarity": 1
+    },
+    {
+      "from": "the-purpose-of-hipaa-title-i-health-insurance-reform-is",
+      "to": "title-1-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "the-three-main-objectives-of-information-security-are",
+      "to": "three-main-objectives-of-information-security",
+      "similarity": 1
+    },
+    {
+      "from": "this-government-office-investigates-hipaa-violations",
+      "to": "hipaa-omnibus-rule-was-passed-in",
+      "similarity": 1
+    },
+    {
+      "from": "title-1-of-hipaa-covers",
+      "to": "title-1-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "title-i-hipaa",
+      "to": "title-1-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "title-i-of-hipaa-covers",
+      "to": "title-1-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "title-i-of-hipaa",
+      "to": "title-1-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "titles-of-hipaa",
+      "to": "title-1-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "transmitting-sci-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "ucla-hipaa-training",
+      "to": "citi-hipaa-training",
+      "similarity": 1
+    },
+    {
+      "from": "uline-hazmat-labels",
+      "to": "uline-hazmat-boxes",
+      "similarity": 1
+    },
+    {
+      "from": "us-army-tarp",
+      "to": "alms-tarp",
+      "similarity": 1
+    },
+    {
+      "from": "usmc-records-management",
+      "to": "mco-records-management",
+      "similarity": 1
+    },
+    {
+      "from": "utah-hazmat-practice-test",
+      "to": "sc-hazmat-practice-test",
+      "similarity": 1
+    },
+    {
+      "from": "what-are-parts-of-the-opsec-process",
+      "to": "opsec-5-steps",
+      "similarity": 1
+    },
+    {
+      "from": "what-are-the-most-likely-indicators-of-espionage-insider-threat",
+      "to": "insider-threat-awareness-course",
+      "similarity": 1
+    },
+    {
+      "from": "what-are-the-steps-in-derivative-classification",
+      "to": "derivative-classification-steps",
+      "similarity": 1
+    },
+    {
+      "from": "what-are-the-three-main-objectives-of-information-security",
+      "to": "three-main-objectives-of-information-security",
+      "similarity": 1
+    },
+    {
+      "from": "what-are-the-three-primary-parts-of-hipaa",
+      "to": "three-primary-parts-of-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "what-best-describes-an-insider-threat-knowbe4",
+      "to": "insider-threat-awareness-course",
+      "similarity": 1
+    },
+    {
+      "from": "what-best-describes-an-insider-threat",
+      "to": "insider-threat-awareness-course",
+      "similarity": 1
+    },
+    {
+      "from": "what-is-a-safe-haven-for-hazmat",
+      "to": "a-safe-haven-is-hazmat",
+      "similarity": 1
+    },
+    {
+      "from": "what-is-considered-workplace-violence",
+      "to": "workplace-violence-is",
+      "similarity": 1
+    },
+    {
+      "from": "what-is-sci-cyber-awareness",
+      "to": "reportable-insider-threat",
+      "similarity": 1
+    },
+    {
+      "from": "what-is-the-first-step-in-information-security",
+      "to": "what-is-first-step-in-information-security",
+      "similarity": 1
+    },
+    {
+      "from": "what-is-the-five-step-opsec-process",
+      "to": "opsec-5-steps",
+      "similarity": 1
+    },
+    {
+      "from": "what-is-the-primary-goal-of-opsec",
+      "to": "navy-opsec-training-2023",
+      "similarity": 1
+    },
+    {
+      "from": "what-legal-agency-is-responsible-for-enforcing-hipaa",
+      "to": "which-government-agency-oversees-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "when-mailing-navy-wide-advancement-exams-the-envelope-should-be",
+      "to": "mailing-navy-wide-advancement-exam-instruction",
+      "similarity": 1
+    },
+    {
+      "from": "when-making-a-tire-check-hazmat",
+      "to": "cdl-hazmat-testing",
+      "similarity": 1
+    },
+    {
+      "from": "which-bloodborne-pathogens-related-to-osha-affect-the-liver",
+      "to": "which-osha-bloodborne-pathogen-s-affect-the-liver",
+      "similarity": 1
+    },
+    {
+      "from": "which-federal-legislation-supports-the-dhs-records-management-mission",
+      "to": "hhs-records-management-training-answers",
+      "similarity": 1
+    },
+    {
+      "from": "which-is-not-considered-a-potential-insider-threat-indicator",
+      "to": "dod-pki-tokens",
+      "similarity": 1
+    },
+    {
+      "from": "which-of-the-following-are-breach-prevention-best-practices-hipaa",
+      "to": "hipaa-jko",
+      "similarity": 1
+    },
+    {
+      "from": "which-of-the-following-are-considered-business-associates-under-hipaa",
+      "to": "five-titles-under-hipaa-two-major-categories",
+      "similarity": 1
+    },
+    {
+      "from": "which-of-the-following-are-considered-hipaa-privacy-administrative-requirements",
+      "to": "castlebranch-hipaa-training",
+      "similarity": 1
+    },
+    {
+      "from": "which-of-the-following-is-a-potential-insider-threat-indicators",
+      "to": "reportable-insider-threat",
+      "similarity": 1
+    },
+    {
+      "from": "which-of-the-following-is-not-cui-cyber-awareness",
+      "to": "reportable-insider-threat",
+      "similarity": 1
+    },
+    {
+      "from": "which-of-the-following-is-not-the-purpose-of-hipaa",
+      "to": "which-of-the-following-is-not-a-purpose-of-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "which-of-the-following-is-true-cyber-awareness-2023",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "which-of-the-following-is-true-of-cookies-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "which-of-the-following-is-true-of-cui-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "which-of-the-following-is-true-of-phi-cyber-awareness",
+      "to": "2023-cyber-awareness-knowledge-check",
+      "similarity": 1
+    },
+    {
+      "from": "which-of-the-following-statement-is-true-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "which-of-the-following-statements-is-true-cyber-awareness-2022",
+      "to": "two-factor-authentication-cyber-awareness",
+      "similarity": 1
+    },
+    {
+      "from": "which-scenario-might-indicate-a-reportable-insider-threat-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 1
+    },
+    {
+      "from": "which-segments-of-our-organization-are-considered-covered-under-hipaa",
+      "to": "five-titles-under-hipaa-two-major-categories",
+      "similarity": 1
+    },
+    {
+      "from": "which-title-of-hipaa-addresses-privacy-and-security",
+      "to": "title-1-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "who-should-hipaa-complaints-be-directed-to",
+      "to": "three-primary-parts-of-hipaa",
+      "similarity": 1
+    },
+    {
+      "from": "why-is-the-success-of-the-insider-threat-program",
+      "to": "dhs-insider-threat-training",
+      "similarity": 1
+    },
+    {
+      "from": "wiley-cissp-test-bank",
+      "to": "cissp-test-bank",
+      "similarity": 1
+    },
+    {
+      "from": "workplace-violence-is-defined-as-threats",
+      "to": "workplace-violence-is",
+      "similarity": 1
+    },
+    {
+      "from": "workplace-violence-is-defined-as",
+      "to": "workplace-violence-is",
+      "similarity": 1
+    },
+    {
+      "from": "wow-sharp-as-flint",
+      "to": "sharp-as-flint-wow",
+      "similarity": 1
+    },
+    {
+      "from": "written-policies-and-procedures-relating-to-the-hipaa-privacy-rule",
+      "to": "when-there-is-an-alleged-violation-to-hipaa-privacy-rule",
+      "similarity": 1
+    },
+    {
+      "from": "www-lms-army-mil-opsec",
+      "to": "opsec-labels",
+      "similarity": 1
+    },
+    {
+      "from": "you-used-your-gtcc-to-pay-for-the-baggage",
+      "to": "you-used-your-gtcc-to-pay-for-your-meals",
+      "similarity": 1
+    },
+    {
+      "from": "12th-general-order-marine-corps",
+      "to": "5th-general-order-usmc",
+      "similarity": 0.917
+    },
+    {
+      "from": "instacart-hipaa-test-answers-2022",
+      "to": "army-hippa",
+      "similarity": 0.882
+    },
+    {
+      "from": "i-hate-cbts-cyber-awareness-2023",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 0.852
+    },
+    {
+      "from": "trax-government-travel-card",
+      "to": "usmc-gtcc",
+      "similarity": 0.846
+    },
+    {
+      "from": "marine-11-general-orders",
+      "to": "5th-general-order-usmc",
+      "similarity": 0.833
+    },
+    {
+      "from": "after-initial-opsec-training-upon-arrival-to-the-command",
+      "to": "navy-opsec-training-2023",
+      "similarity": 0.824
+    },
+    {
+      "from": "antiterrorism-level-1-awareness-pre-test",
+      "to": "force-protection-delta-means",
+      "similarity": 0.767
+    },
+    {
+      "from": "antiterrorism-level-1-jko",
+      "to": "force-protection-delta-means",
+      "similarity": 0.767
+    },
+    {
+      "from": "jko-antiterrorism-level-1",
+      "to": "force-protection-delta-means",
+      "similarity": 0.767
+    },
+    {
+      "from": "jko-army",
+      "to": "force-protection-delta-means",
+      "similarity": 0.767
+    },
+    {
+      "from": "jko-level-1-antiterrorism-awareness-training",
+      "to": "force-protection-delta-means",
+      "similarity": 0.767
+    },
+    {
+      "from": "at-level-1-answers-pretest",
+      "to": "force-protection-delta-means",
+      "similarity": 0.727
+    },
+    {
+      "from": "army-cyber-awareness-challenge-2023",
+      "to": "navy-cyber-awareness-challenge-2023",
+      "similarity": 0.724
+    },
+    {
+      "from": "dod-cyber-awareness-2023",
+      "to": "navy-cyber-awareness-challenge-2023",
+      "similarity": 0.724
+    },
+    {
+      "from": "what-should-the-employee-do-differently-cyber-awareness-2023",
+      "to": "navy-cyber-awareness-challenge-2023",
+      "similarity": 0.724
+    },
+    {
+      "from": "hipaa-includes-the-minimum-necessary-standard",
+      "to": "army-hippa",
+      "similarity": 0.719
+    },
+    {
+      "from": "what-are-some-methods-to-purify-water-sere-100-2",
+      "to": "blood-chit-sere",
+      "similarity": 0.717
+    },
+    {
+      "from": "what-are-some-methods-to-purify-water-sere",
+      "to": "blood-chit-sere",
+      "similarity": 0.717
+    },
+    {
+      "from": "gtcc-log-in",
+      "to": "usmc-gtcc",
+      "similarity": 0.714
+    },
+    {
+      "from": "antiterrorism-awareness-training",
+      "to": "force-protection-delta-means",
+      "similarity": 0.7
+    },
+    {
+      "from": "antiterrorism-level-1-pretest-2022",
+      "to": "force-protection-delta-means",
+      "similarity": 0.7
+    },
+    {
+      "from": "antiterrorism-scenario-training-page-2",
+      "to": "force-protection-delta-means",
+      "similarity": 0.7
+    },
+    {
+      "from": "army-antiterrorism-training",
+      "to": "force-protection-delta-means",
+      "similarity": 0.7
+    },
+    {
+      "from": "army-at-level-1-training",
+      "to": "force-protection-delta-means",
+      "similarity": 0.7
+    },
+    {
+      "from": "army-sere-100-2",
+      "to": "blood-chit-sere",
+      "similarity": 0.7
+    },
+    {
+      "from": "army-sere-100",
+      "to": "blood-chit-sere",
+      "similarity": 0.7
+    },
+    {
+      "from": "code-of-conduct-sere",
+      "to": "blood-chit-sere",
+      "similarity": 0.7
+    },
+    {
+      "from": "jko-antiterrorism-level-1-answers",
+      "to": "force-protection-delta-means",
+      "similarity": 0.7
+    },
+    {
+      "from": "jko-direct",
+      "to": "blood-chit-sere",
+      "similarity": 0.7
+    },
+    {
+      "from": "jko-sere-100-2-pre-test-answers",
+      "to": "blood-chit-sere",
+      "similarity": 0.7
+    },
+    {
+      "from": "jko-sere-training",
+      "to": "blood-chit-sere",
+      "similarity": 0.7
+    },
+    {
+      "from": "jko-sere",
+      "to": "blood-chit-sere",
+      "similarity": 0.7
+    },
+    {
+      "from": "level-1-antiterrorism-awareness-training",
+      "to": "force-protection-delta-means",
+      "similarity": 0.7
+    },
+    {
+      "from": "sere-100-2-level-a-sere-education-and-training",
+      "to": "blood-chit-sere",
+      "similarity": 0.7
+    },
+    {
+      "from": "sere-100-2-military-pretest-answers",
+      "to": "blood-chit-sere",
+      "similarity": 0.7
+    },
+    {
+      "from": "sere-100-training",
+      "to": "blood-chit-sere",
+      "similarity": 0.7
+    },
+    {
+      "from": "sere-code-of-conduct",
+      "to": "blood-chit-sere",
+      "similarity": 0.7
+    },
+    {
+      "from": "sere-jko",
+      "to": "blood-chit-sere",
+      "similarity": 0.7
+    },
+    {
+      "from": "sere-training-jko",
+      "to": "blood-chit-sere",
+      "similarity": 0.7
+    },
+    {
+      "from": "sere-training-online",
+      "to": "blood-chit-sere",
+      "similarity": 0.7
+    },
+    {
+      "from": "the-hipaa-security-rule-applies-to",
+      "to": "army-hippa",
+      "similarity": 0.7
+    },
+    {
+      "from": "the-hippa-privacy-rule-applies-to-which-of-the-following",
+      "to": "army-hippa",
+      "similarity": 0.7
+    },
+    {
+      "from": "what-guidance-is-available-for-marking-sci-cyber-awareness",
+      "to": "jko-cyber-awareness-2023",
+      "similarity": 0.7
+    },
+    {
+      "from": "which-is-not-an-antiterrorism-level-1-theme",
+      "to": "force-protection-delta-means",
+      "similarity": 0.7
+    }
+  ]
+}

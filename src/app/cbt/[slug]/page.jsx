@@ -507,9 +507,9 @@ export default function CBTPage({ params }) {
 
         {/* Submit CTA */}
         <div className="mt-12 card bg-dark-900/60 border-dashed border-dark-700 text-center py-10">
-          <h3 className="text-lg font-bold text-white mb-2">
+          <h2 className="text-lg font-bold text-white mb-2">
             Know questions we&apos;re missing?
-          </h3>
+          </h2>
           <p className="text-dark-400 text-sm mb-4">
             Submit your own Q&A pairs. AI reviews them for quality, then they go live for everyone.
           </p>

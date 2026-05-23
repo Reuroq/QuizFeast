@@ -30,13 +30,27 @@ export default function sitemap() {
     }
   }
 
+  // Load dedupe redirect map so we can skip duplicate slugs in the sitemap
+  // (the duplicates 301 to canonical; including both in sitemap would dilute
+  // SEO and tell Google about pages we deliberately redirect).
+  const redirectSet = new Set();
+  const dedupeFile = path.join(process.cwd(), 'scripts', 'dedupe_redirects.json');
+  if (fs.existsSync(dedupeFile)) {
+    try {
+      const { redirects = [] } = JSON.parse(fs.readFileSync(dedupeFile, 'utf8'));
+      for (const r of redirects) redirectSet.add(r.from);
+    } catch {}
+  }
+
   // /answers/[slug] long-tail set
   const answersDir = path.join(process.cwd(), 'public', 'data', 'answers');
   if (fs.existsSync(answersDir)) {
     for (const f of fs.readdirSync(answersDir)) {
       if (!f.endsWith('.json')) continue;
+      const slug = f.replace(/\.json$/, '');
+      if (redirectSet.has(slug)) continue;  // duplicate — skip
       routes.push({
-        url: `/answers/${f.replace(/\.json$/, '')}`,
+        url: `/answers/${slug}`,
         priority: 0.7,
         changeFrequency: 'monthly',
       });
