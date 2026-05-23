@@ -79,32 +79,58 @@ function extractKeywords(questions) {
   return [...set];
 }
 
-// Fuzzy fallback: score every slug by how many of its Q's contain at least
-// one keyword from the user's input. Catches paraphrased questions where the
-// deterministic 4/8-word key match fails.
-function fuzzyIdentifySet(userQuestions, mi) {
+// Fuzzy fallback. Scoring formula prioritizes (in this order):
+//   1. Title contains user keyword (huge signal — e.g. slug "opsec-process"
+//      matches user word "opsec")
+//   2. Density — what fraction of the slug's Qs touch a keyword. Penalizes
+//      huge corpus-style slugs (626-Q test banks) that have surface-level
+//      matches but aren't focused on the topic.
+//   3. Coverage — how many distinct user keywords this slug hits.
+function fuzzyIdentifySet(userQuestions, mi, slugMeta) {
   const keywords = extractKeywords(userQuestions);
   if (keywords.length === 0) return [];
-  const slugHits = new Map();          // slug -> total keyword hits across its Q's
-  const slugCoverage = new Map();      // slug -> Set<keyword> covered (uniqueness)
+
+  // Stats per slug
+  const stats = new Map();
   for (const item of mi.qList) {
+    if (!stats.has(item.slug)) stats.set(item.slug, { hits: 0, coverage: new Set() });
+    const s = stats.get(item.slug);
     let qHasHit = false;
     for (const kw of keywords) {
       if (item.q_lower.includes(kw)) {
         qHasHit = true;
-        if (!slugCoverage.has(item.slug)) slugCoverage.set(item.slug, new Set());
-        slugCoverage.get(item.slug).add(kw);
+        s.coverage.add(kw);
       }
     }
-    if (qHasHit) slugHits.set(item.slug, (slugHits.get(item.slug) || 0) + 1);
+    if (qHasHit) s.hits++;
   }
-  // Final score: keyword-coverage breadth × Q-hit count.
-  // A slug that has many Qs touching MULTIPLE distinct user keywords ranks
-  // higher than a slug with one keyword appearing many times.
+
+  // Final score combining title bonus + density + coverage
   const scored = [];
-  for (const [slug, hits] of slugHits) {
-    const coverage = slugCoverage.get(slug)?.size || 0;
-    scored.push([slug, hits * coverage]);
+  for (const [slug, s] of stats) {
+    if (s.hits === 0) continue;
+    const meta = slugMeta.get(slug);
+    const total = meta?.question_count || 1;
+    const title = (meta?.title || slug || '').toLowerCase();
+
+    // Title bonus: 500 per keyword present in the slug title.
+    // This is the strongest signal — "opsec" in "opsec-5-step-process" should
+    // beat "opsec" mentioned in passing inside a 600-Q general security set.
+    let titleBonus = 0;
+    for (const kw of keywords) {
+      if (title.includes(kw)) titleBonus += 500;
+    }
+
+    // Coverage bonus: 100 per distinct keyword matched (max ~10 keywords)
+    const coverageBonus = s.coverage.size * 100;
+
+    // Density bonus: fraction of slug's Qs that hit any keyword × 500.
+    // Penalizes large unfocused slugs.
+    const density = s.hits / total;
+    const densityBonus = Math.round(density * 500);
+
+    const score = titleBonus + coverageBonus + densityBonus;
+    scored.push([slug, score]);
   }
   return scored.sort((a, b) => b[1] - a[1]);
 }
@@ -186,7 +212,7 @@ export async function POST(request) {
     // i.e. score < 2), fall back to fuzzy keyword scoring. This catches
     // paraphrased input that doesn't exactly match indexed Q text.
     if (topScore < 2) {
-      const fuzzy = fuzzyIdentifySet(cleaned, mi);
+      const fuzzy = fuzzyIdentifySet(cleaned, mi, slugMeta);
       if (fuzzy.length > 0 && fuzzy[0][1] > 0) {
         candidateSlugs = fuzzy;
         topSlug = fuzzy[0][0];
