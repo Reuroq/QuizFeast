@@ -21,18 +21,33 @@ function questionKey(s, wordCount = 8) {
   return norm.split(' ').slice(0, wordCount).join(' ');
 }
 
-// Multi-value index: a single Q text typically appears in many /answers sets
-// (e.g., "What is whaling?" is in ~30 Cyber Awareness pages). To identify
-// the user's specific set, we need the FULL set of slugs each Q appears in,
-// not just the first one we saw during build.
+// Stopwords excluded from fuzzy keyword extraction. Common English + question
+// scaffolding words that carry no topical signal.
+const STOPWORDS = new Set([
+  'what', 'when', 'where', 'which', 'who', 'how', 'why', 'the', 'a', 'an',
+  'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had',
+  'do', 'does', 'did', 'will', 'would', 'should', 'could', 'may', 'might',
+  'must', 'can', 'this', 'that', 'these', 'those', 'you', 'your', 'they',
+  'them', 'their', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of',
+  'with', 'by', 'as', 'from', 'about', 'into', 'through', 'during', 'before',
+  'after', 'above', 'below', 'between', 'over', 'under', 'all', 'any', 'each',
+  'few', 'more', 'most', 'other', 'some', 'such', 'not', 'only', 'own',
+  'same', 'than', 'too', 'very', 'just', 'considered', 'steps', 'step',
+  'following', 'best', 'every', 'including', 'examples', 'example',
+]);
+
+// Multi-value index + fuzzy keyword index. The k8/k4 maps handle exact-phrase
+// matches (best signal when the user pastes a Q verbatim). The qList stores
+// the full question_index so we can scan for keyword overlap when the user's
+// input is paraphrased (the deterministic match score will be low).
 let _multiIndex = null;
 function getMultiIndex() {
   if (_multiIndex) return _multiIndex;
   try {
     const file = path.join(process.cwd(), 'scripts', 'answers_question_index.json');
     const data = JSON.parse(fs.readFileSync(file, 'utf8'));
-    const k8 = new Map();  // 8-word key → Set<slug>
-    const k4 = new Map();  // 4-word key → Set<slug>
+    const k8 = new Map();
+    const k4 = new Map();
     for (const item of data.questions || []) {
       const key8 = questionKey(item.q_text, 8);
       const key4 = questionKey(item.q_text, 4);
@@ -45,12 +60,53 @@ function getMultiIndex() {
         k4.get(key4).add(item.slug);
       }
     }
-    _multiIndex = { k8, k4 };
+    _multiIndex = { k8, k4, qList: data.questions || [] };
   } catch (e) {
     console.error('study/recommend: multiIndex load failed', e);
-    _multiIndex = { k8: new Map(), k4: new Map() };
+    _multiIndex = { k8: new Map(), k4: new Map(), qList: [] };
   }
   return _multiIndex;
+}
+
+// Extract content keywords from user's input (length >= 4, not in STOPWORDS).
+function extractKeywords(questions) {
+  const set = new Set();
+  for (const q of questions) {
+    for (const w of (q || '').toLowerCase().split(/[^a-z0-9]+/)) {
+      if (w.length >= 4 && !STOPWORDS.has(w)) set.add(w);
+    }
+  }
+  return [...set];
+}
+
+// Fuzzy fallback: score every slug by how many of its Q's contain at least
+// one keyword from the user's input. Catches paraphrased questions where the
+// deterministic 4/8-word key match fails.
+function fuzzyIdentifySet(userQuestions, mi) {
+  const keywords = extractKeywords(userQuestions);
+  if (keywords.length === 0) return [];
+  const slugHits = new Map();          // slug -> total keyword hits across its Q's
+  const slugCoverage = new Map();      // slug -> Set<keyword> covered (uniqueness)
+  for (const item of mi.qList) {
+    let qHasHit = false;
+    for (const kw of keywords) {
+      if (item.q_lower.includes(kw)) {
+        qHasHit = true;
+        if (!slugCoverage.has(item.slug)) slugCoverage.set(item.slug, new Set());
+        slugCoverage.get(item.slug).add(kw);
+      }
+    }
+    if (qHasHit) slugHits.set(item.slug, (slugHits.get(item.slug) || 0) + 1);
+  }
+  // Final score: keyword-coverage breadth × Q-hit count.
+  // A slug that has many Qs touching MULTIPLE distinct user keywords ranks
+  // higher than a slug with one keyword appearing many times.
+  const scored = [];
+  for (const [slug, hits] of slugHits) {
+    const coverage = slugCoverage.get(slug)?.size || 0;
+    scored.push([slug, hits * coverage]);
+  }
+  return scored.sort((a, b) => b[1] - a[1]);
 }
 
 // Slug → { title, bucket } so we can stamp metadata onto the chosen set.
@@ -119,13 +175,28 @@ export async function POST(request) {
     const mi = getMultiIndex();
     const slugMeta = getSlugMeta();
 
-    // Step 1: identify the user's set by matching against the question_index.
-    const candidateSlugs = identifySet(cleaned, mi);
-    const topSlug = candidateSlugs[0]?.[0] || null;
-    const topScore = candidateSlugs[0]?.[1] || 0;
+    // Step 1: try deterministic match first (exact-phrase scoring via 4/8-word keys).
+    // Strong signal when the user pasted Qs verbatim from the source.
+    let candidateSlugs = identifySet(cleaned, mi);
+    let topSlug = candidateSlugs[0]?.[0] || null;
+    let topScore = candidateSlugs[0]?.[1] || 0;
+    let matchMethod = 'deterministic';
 
-    // Pick alternates only if their score is meaningfully close to the top.
-    const alternateSlugs = candidateSlugs.slice(1, 6).filter(([, s]) => s >= Math.max(1, topScore / 2));
+    // Step 1b: if deterministic match is WEAK (no slug got both 8-word Qs hit,
+    // i.e. score < 2), fall back to fuzzy keyword scoring. This catches
+    // paraphrased input that doesn't exactly match indexed Q text.
+    if (topScore < 2) {
+      const fuzzy = fuzzyIdentifySet(cleaned, mi);
+      if (fuzzy.length > 0 && fuzzy[0][1] > 0) {
+        candidateSlugs = fuzzy;
+        topSlug = fuzzy[0][0];
+        topScore = fuzzy[0][1];
+        matchMethod = 'fuzzy';
+      }
+    }
+
+    // Alternates only if score is meaningfully close to the top.
+    const alternateSlugs = candidateSlugs.slice(1, 6).filter(([, s]) => s >= Math.max(1, topScore / 3));
 
     // Step 2: load the chosen set's full Q&A library.
     const setData = topScore >= 1 ? loadSet(topSlug) : null;
@@ -191,16 +262,24 @@ No markdown, no commentary.`;
       };
     });
 
+    // Honesty: if we got here via fuzzy fallback, the confidence is at most
+    // medium regardless of what Claude said — we don't actually have a clean
+    // verbatim match in the corpus.
+    const finalConfidence = matchMethod === 'fuzzy' && aiResult.confidence === 'high'
+      ? 'medium'
+      : aiResult.confidence;
+
     return NextResponse.json(sanitizeDeep({
       input_question_count: cleaned.length,
       identified_topic: aiResult.identified_topic,
       identified_exam: aiResult.identified_exam,
       identified_slug: topSlug,
-      confidence: aiResult.confidence,
+      confidence: finalConfidence,
       study_brief: aiResult.study_brief,
       set,
       alternates,
       match_score: topScore,
+      match_method: matchMethod,
     }));
 
   } catch (error) {
