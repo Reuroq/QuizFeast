@@ -440,7 +440,7 @@ export default function CBTPage({ params }) {
                 className="card hover:border-dark-700 transition-colors"
               >
                 <div className="flex gap-4 cursor-pointer" onClick={() => toggleAnswer(idx)}>
-                  <span className="text-dark-600 text-sm font-mono font-bold mt-0.5 shrink-0">
+                  <span className="text-dark-400 text-sm font-mono font-bold mt-0.5 shrink-0">
                     {String(idx + 1).padStart(2, '0')}
                   </span>
                   <div className="flex-1 min-w-0">

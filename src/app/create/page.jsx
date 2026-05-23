@@ -286,7 +286,7 @@ export default function CreatePage() {
         <div className="space-y-3 mb-8">
           {cards.map((card, i) => (
             <div key={i} className="card flex gap-4 items-start py-4 animate-fade-in">
-              <div className="text-dark-600 text-sm font-mono pt-3 w-8 text-center flex-shrink-0">
+              <div className="text-dark-400 text-sm font-mono pt-3 w-8 text-center flex-shrink-0">
                 {i + 1}
               </div>
               <div className="flex-1 grid sm:grid-cols-2 gap-3">

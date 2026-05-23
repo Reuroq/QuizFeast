@@ -276,7 +276,7 @@ export default function Home() {
           <div className="card overflow-hidden p-0">
             <div className="grid grid-cols-3 bg-dark-800 px-6 py-4 border-b border-dark-700">
               <div className="text-sm font-semibold text-dark-400">Feature</div>
-              <div className="text-sm font-semibold text-brand-400 text-center">QuizFeast</div>
+              <div className="text-sm font-semibold text-brand-300 text-center">QuizFeast</div>
               <div className="text-sm font-semibold text-dark-500 text-center">Others</div>
             </div>
             {comparisons.map((row, i) => (

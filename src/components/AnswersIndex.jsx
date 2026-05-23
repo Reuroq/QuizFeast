@@ -144,7 +144,7 @@ export default function AnswersIndex({ entries }) {
         <div className="flex flex-col sm:flex-row gap-3 justify-center mb-2">
           <Link href="/study" className="btn-primary text-sm py-2.5 px-5 inline-flex items-center gap-2">
             <span>Try the AI study assistant</span>
-            <span className="text-xs opacity-70">beta</span>
+            <span className="text-xs">beta</span>
           </Link>
         </div>
       </section>

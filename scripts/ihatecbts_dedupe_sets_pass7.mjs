@@ -24,7 +24,9 @@ import path from 'node:path';
 const ANSWERS_DIR = 'public/data/answers';
 const OUT_FILE = 'scripts/dedupe_redirects.json';
 
-const JACCARD_THRESHOLD = 0.7;  // 70% question overlap = considered duplicates
+const JACCARD_THRESHOLD = 0.6;  // 60% — empirically the right balance after
+                                // first audit found near-dup misses at 70%
+                                // (e.g. restricted-vs-unrestricted-sharp)
 
 function questionKey(s, wordCount = 8) {
   const norm = (s || '').toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, ' ').trim();

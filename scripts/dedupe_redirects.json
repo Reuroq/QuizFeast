@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-23T07:46:46.607Z",
-  "threshold": 0.7,
+  "generated_at": "2026-05-23T07:54:22.451Z",
+  "threshold": 0.6,
   "total_slugs_scanned": 1229,
-  "duplicate_pairs_found": 1496,
-  "redirects_emitted": 464,
+  "duplicate_pairs_found": 1717,
+  "redirects_emitted": 475,
   "redirects": [
     {
       "from": "0241-usmc",
@@ -371,11 +371,6 @@
       "similarity": 1
     },
     {
-      "from": "antiterrorism-post-test",
-      "to": "army-at-level-1",
-      "similarity": 1
-    },
-    {
       "from": "any-medical-instrument-can-be-considered-a-sharp",
       "to": "any-medical-equipment-can-be-considered-a-sharp",
       "similarity": 1
@@ -453,16 +448,6 @@
     {
       "from": "army-tarp-training-online",
       "to": "alms-tarp",
-      "similarity": 1
-    },
-    {
-      "from": "at-level-1-test-answers",
-      "to": "army-at-level-1",
-      "similarity": 1
-    },
-    {
-      "from": "at-level-1-training",
-      "to": "army-at-level-1",
       "similarity": 1
     },
     {
@@ -623,16 +608,6 @@
     {
       "from": "cdl-hazmat-practice-test",
       "to": "hazmat-practice",
-      "similarity": 1
-    },
-    {
-      "from": "cdl-hazmat-practice-tests",
-      "to": "sc-hazmat-practice-test",
-      "similarity": 1
-    },
-    {
-      "from": "cdl-hazmat-test-practice",
-      "to": "sc-hazmat-practice-test",
       "similarity": 1
     },
     {
@@ -961,11 +936,6 @@
       "similarity": 1
     },
     {
-      "from": "dmv-hazmat-practice-test",
-      "to": "sc-hazmat-practice-test",
-      "similarity": 1
-    },
-    {
       "from": "dmv-hazmat-test-answers",
       "to": "hazmat-exam",
       "similarity": 1
@@ -1086,11 +1056,6 @@
       "similarity": 1
     },
     {
-      "from": "hazmat-cdl-practice-test",
-      "to": "sc-hazmat-practice-test",
-      "similarity": 1
-    },
-    {
       "from": "hazmat-endorsement-nj",
       "to": "hazmat-test-nj",
       "similarity": 1
@@ -1108,26 +1073,6 @@
     {
       "from": "hazmat-labels-are-used-to-communicate-information-true-or-false",
       "to": "hazmat-labels-communicate-potential-hazards-true-or-false",
-      "similarity": 1
-    },
-    {
-      "from": "hazmat-practice-test-cdl",
-      "to": "sc-hazmat-practice-test",
-      "similarity": 1
-    },
-    {
-      "from": "hazmat-practice-test-dmv",
-      "to": "sc-hazmat-practice-test",
-      "similarity": 1
-    },
-    {
-      "from": "hazmat-practice-test-for-cdl",
-      "to": "sc-hazmat-practice-test",
-      "similarity": 1
-    },
-    {
-      "from": "hazmat-practice-test-maryland",
-      "to": "sc-hazmat-practice-test",
       "similarity": 1
     },
     {
@@ -1268,16 +1213,6 @@
     {
       "from": "hipaa-privacy-act-training",
       "to": "hipaa-jko",
-      "similarity": 1
-    },
-    {
-      "from": "hipaa-provides-individuals-with-the-right-to-request",
-      "to": "common-causes-of-breaches-hipaa",
-      "similarity": 1
-    },
-    {
-      "from": "hipaa-provides-individuals-with-which-of-the-following-rights",
-      "to": "common-causes-of-breaches-hipaa",
       "similarity": 1
     },
     {
@@ -1486,11 +1421,6 @@
       "similarity": 1
     },
     {
-      "from": "louisiana-hazmat-practice-test",
-      "to": "sc-hazmat-practice-test",
-      "similarity": 1
-    },
-    {
       "from": "lpn-gtcc",
       "to": "cna-gtcc",
       "similarity": 1
@@ -1613,21 +1543,6 @@
     {
       "from": "potential-insider-threat-indicators-cyber-awareness",
       "to": "jko-cyber-awareness-2023",
-      "similarity": 1
-    },
-    {
-      "from": "practice-cdl-hazmat-test",
-      "to": "sc-hazmat-practice-test",
-      "similarity": 1
-    },
-    {
-      "from": "practice-hazmat-cdl-test",
-      "to": "sc-hazmat-practice-test",
-      "similarity": 1
-    },
-    {
-      "from": "practice-test-for-cdl-hazmat",
-      "to": "sc-hazmat-practice-test",
       "similarity": 1
     },
     {
@@ -1786,11 +1701,6 @@
       "similarity": 1
     },
     {
-      "from": "texas-dps-hazmat-test",
-      "to": "texas-cdl-hazmat-test",
-      "similarity": 1
-    },
-    {
       "from": "texas-hazmat-endorsement-test",
       "to": "texas-hazmat-test",
       "similarity": 1
@@ -1883,11 +1793,6 @@
     {
       "from": "usmc-records-management",
       "to": "mco-records-management",
-      "similarity": 1
-    },
-    {
-      "from": "utah-hazmat-practice-test",
-      "to": "sc-hazmat-practice-test",
       "similarity": 1
     },
     {
@@ -2201,22 +2106,7 @@
       "similarity": 0.714
     },
     {
-      "from": "antiterrorism-awareness-training",
-      "to": "force-protection-delta-means",
-      "similarity": 0.7
-    },
-    {
       "from": "antiterrorism-level-1-pretest-2022",
-      "to": "force-protection-delta-means",
-      "similarity": 0.7
-    },
-    {
-      "from": "antiterrorism-scenario-training-page-2",
-      "to": "force-protection-delta-means",
-      "similarity": 0.7
-    },
-    {
-      "from": "army-antiterrorism-training",
       "to": "force-protection-delta-means",
       "similarity": 0.7
     },
@@ -2251,6 +2141,11 @@
       "similarity": 0.7
     },
     {
+      "from": "jko-hipaa",
+      "to": "army-hippa",
+      "similarity": 0.7
+    },
+    {
       "from": "jko-sere-100-2-pre-test-answers",
       "to": "blood-chit-sere",
       "similarity": 0.7
@@ -2263,11 +2158,6 @@
     {
       "from": "jko-sere",
       "to": "blood-chit-sere",
-      "similarity": 0.7
-    },
-    {
-      "from": "level-1-antiterrorism-awareness-training",
-      "to": "force-protection-delta-means",
       "similarity": 0.7
     },
     {
@@ -2306,24 +2196,189 @@
       "similarity": 0.7
     },
     {
-      "from": "the-hipaa-security-rule-applies-to",
+      "from": "the-hipaa-privacy-rule-permits-use-or-disclosure",
       "to": "army-hippa",
       "similarity": 0.7
     },
     {
-      "from": "the-hippa-privacy-rule-applies-to-which-of-the-following",
-      "to": "army-hippa",
-      "similarity": 0.7
+      "from": "the-law-of-war-principle-of-military-necessity",
+      "to": "what-are-the-law-of-war-principles",
+      "similarity": 0.697
+    },
+    {
+      "from": "comptia-sec-plus-objectives",
+      "to": "comptia-exam-objectives-security",
+      "similarity": 0.685
+    },
+    {
+      "from": "cdl-hazmat-practice-tests",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.679
+    },
+    {
+      "from": "cdl-hazmat-test-practice",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.679
+    },
+    {
+      "from": "dmv-hazmat-practice-test",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.679
+    },
+    {
+      "from": "hazmat-cdl-practice-test",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.679
+    },
+    {
+      "from": "hazmat-practice-test-cdl",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.679
+    },
+    {
+      "from": "hazmat-practice-test-dmv",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.679
+    },
+    {
+      "from": "hazmat-practice-test-for-cdl",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.679
+    },
+    {
+      "from": "hazmat-practice-test-maryland",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.679
+    },
+    {
+      "from": "louisiana-hazmat-practice-test",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.679
+    },
+    {
+      "from": "practice-cdl-hazmat-test",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.679
+    },
+    {
+      "from": "practice-hazmat-cdl-test",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.679
+    },
+    {
+      "from": "practice-test-for-cdl-hazmat",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.679
+    },
+    {
+      "from": "sc-hazmat-practice-test",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.679
+    },
+    {
+      "from": "utah-hazmat-practice-test",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.679
+    },
+    {
+      "from": "antiterrorism-scenario-training-page-2",
+      "to": "force-protection-delta-means",
+      "similarity": 0.675
     },
     {
       "from": "what-guidance-is-available-for-marking-sci-cyber-awareness",
       "to": "jko-cyber-awareness-2023",
-      "similarity": 0.7
+      "similarity": 0.675
+    },
+    {
+      "from": "texas-cdl-hazmat-test",
+      "to": "hazmat-exam",
+      "similarity": 0.672
+    },
+    {
+      "from": "texas-dps-hazmat-test",
+      "to": "hazmat-exam",
+      "similarity": 0.672
+    },
+    {
+      "from": "antiterrorism-post-test",
+      "to": "force-protection-delta-means",
+      "similarity": 0.659
+    },
+    {
+      "from": "army-at-level-1",
+      "to": "force-protection-delta-means",
+      "similarity": 0.659
+    },
+    {
+      "from": "at-level-1-test-answers",
+      "to": "force-protection-delta-means",
+      "similarity": 0.659
+    },
+    {
+      "from": "at-level-1-training",
+      "to": "force-protection-delta-means",
+      "similarity": 0.659
+    },
+    {
+      "from": "you-may-be-subject-to-administrative-ucmj-of-criminal-sanctions",
+      "to": "derivative-classification-steps",
+      "similarity": 0.631
+    },
+    {
+      "from": "the-hipaa-security-rule-applies-to",
+      "to": "army-hippa",
+      "similarity": 0.625
+    },
+    {
+      "from": "the-hippa-privacy-rule-applies-to-which-of-the-following",
+      "to": "army-hippa",
+      "similarity": 0.625
+    },
+    {
+      "from": "no-fear-act",
+      "to": "the-no-fear-act-applies-to-all-federal-agencies",
+      "similarity": 0.619
+    },
+    {
+      "from": "antiterrorism-awareness-training",
+      "to": "force-protection-delta-means",
+      "similarity": 0.617
+    },
+    {
+      "from": "army-antiterrorism-training",
+      "to": "force-protection-delta-means",
+      "similarity": 0.617
+    },
+    {
+      "from": "level-1-antiterrorism-awareness-training",
+      "to": "force-protection-delta-means",
+      "similarity": 0.617
     },
     {
       "from": "which-is-not-an-antiterrorism-level-1-theme",
       "to": "force-protection-delta-means",
-      "similarity": 0.7
+      "similarity": 0.617
+    },
+    {
+      "from": "oklahoma-hazmat-practice-test",
+      "to": "hazmat-practice-test-missouri",
+      "similarity": 0.613
+    },
+    {
+      "from": "common-causes-of-breaches-hipaa",
+      "to": "army-hippa",
+      "similarity": 0.606
+    },
+    {
+      "from": "hipaa-provides-individuals-with-the-right-to-request",
+      "to": "army-hippa",
+      "similarity": 0.606
+    },
+    {
+      "from": "hipaa-provides-individuals-with-which-of-the-following-rights",
+      "to": "army-hippa",
+      "similarity": 0.606
     }
   ]
 }
