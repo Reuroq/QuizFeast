@@ -128,7 +128,7 @@ export default async function CanonicalQPage({ params }) {
               {variants.slice(0, 5).map((v, i) => (
                 <div key={i} className="border-l-2 border-dark-700 pl-3">
                   <p className="text-dark-200 text-sm whitespace-pre-wrap mb-1.5">{v.answer}</p>
-                  <Link href={`/answers/${v.slug}`} className="text-xs text-brand-400 hover:text-brand-300">
+                  <Link href={`/answers/${v.slug}`} className="text-xs text-brand-400 hover:text-brand-300 inline-block py-2">
                     {v.title} &rarr;
                   </Link>
                 </div>
@@ -143,7 +143,7 @@ export default async function CanonicalQPage({ params }) {
           </h2>
           <div className="grid sm:grid-cols-2 gap-x-4 gap-y-2">
             {data.appears_in.map(c => (
-              <Link key={c.slug} href={`/answers/${c.slug}`} className="text-sm text-brand-400 hover:text-brand-300 line-clamp-1">
+              <Link key={c.slug} href={`/answers/${c.slug}`} className="text-sm text-brand-400 hover:text-brand-300 line-clamp-1 inline-block py-2">
                 {c.title} &rarr;
               </Link>
             ))}

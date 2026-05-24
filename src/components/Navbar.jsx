@@ -32,12 +32,15 @@ export default function Navbar() {
             </span>
           </Link>
 
-          {/* Desktop Nav */}
+          {/* Desktop Nav. prefetch=false on heavy routes (/study, /create) to
+              avoid webkit ChunkLoadError that the audit caught — webkit fails
+              the prefetch silently on chromium but throws React #423 in Safari. */}
           <div className="hidden md:flex items-center gap-1">
             {links.map(link => (
               <Link
                 key={link.href}
                 href={link.href}
+                prefetch={link.href === '/study' || link.href === '/create' ? false : undefined}
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
                   pathname === link.href || pathname.startsWith(link.href + '/')
                     ? 'bg-brand-500/20 text-brand-300'

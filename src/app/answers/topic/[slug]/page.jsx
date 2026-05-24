@@ -105,7 +105,7 @@ export default async function TopicPage({ params }) {
           <h2 className="text-base font-bold text-white mb-3">CBTs that cover {data.name}</h2>
           <div className="grid sm:grid-cols-2 gap-2">
             {sourceCbts.map(c => (
-              <Link key={c.slug} href={`/answers/${c.slug}`} className="text-sm text-brand-400 hover:text-brand-300">
+              <Link key={c.slug} href={`/answers/${c.slug}`} className="text-sm text-brand-400 hover:text-brand-300 inline-block py-2">
                 {c.title} &rarr;
               </Link>
             ))}
