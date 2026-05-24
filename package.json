@@ -12,7 +12,8 @@
     "test:journeys": "playwright test --config=playwright.journeys.config.js",
     "test:journeys:prod": "PLAYWRIGHT_BASE_URL=https://quizfeast.onrender.com playwright test --config=playwright.journeys.config.js",
     "audit": "node scripts/audit/run.mjs",
-    "audit:fast": "AUDIT_AGENTS=functional,legal node scripts/audit/run.mjs",
+    "audit:fast": "AUDIT_AGENTS=functional,legal,launch node scripts/audit/run.mjs",
+    "audit:perf": "AUDIT_AGENTS=lighthouse,load node scripts/audit/run.mjs",
     "audit:autofix": "AUDIT_AUTO_FIX=1 node scripts/audit/run.mjs"
   },
   "dependencies": {
@@ -35,6 +36,8 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.60.0",
-    "fast-xml-parser": "^5.8.0"
+    "chrome-launcher": "^1.2.1",
+    "fast-xml-parser": "^5.8.0",
+    "lighthouse": "^13.3.0"
   }
 }

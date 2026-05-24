@@ -17,10 +17,15 @@ import { runLegalAgent } from './agents/legal.mjs';
 import { runContentQualityAgent } from './agents/content-quality.mjs';
 import { runSetIdentificationAgent } from './agents/set-identification.mjs';
 import { runA11yAgent } from './agents/a11y.mjs';
+import { runLighthouseAgent } from './agents/lighthouse.mjs';
+import { runMobileAgent } from './agents/mobile.mjs';
+import { runCrossBrowserAgent } from './agents/cross-browser.mjs';
+import { runLoadAgent } from './agents/load.mjs';
+import { runLaunchChecklistAgent } from './agents/launch-checklist.mjs';
 import { runAutoFix } from './agents/auto-fix.mjs';
 
 const BASE_URL = process.env.AUDIT_BASE || 'https://quizfeast.onrender.com';
-const AGENTS = (process.env.AUDIT_AGENTS || 'functional,legal,content,set-id,a11y').split(',').map(s => s.trim());
+const AGENTS = (process.env.AUDIT_AGENTS || 'functional,legal,content,set-id,a11y,lighthouse,mobile,cross-browser,load,launch').split(',').map(s => s.trim());
 const SET_ID_SAMPLE = parseInt(process.env.AUDIT_SET_ID_SAMPLE || '30', 10);
 const CONTENT_SAMPLE = parseInt(process.env.AUDIT_CONTENT_SAMPLE || '20', 10);
 const FUNCTIONAL_CONCURRENCY = 8;
@@ -123,6 +128,61 @@ if (AGENTS.includes('a11y')) {
     console.log(`[a11y] Done. Found ${store.query({ agent: 'a11y', fixed: false }).length} open issues.`);
   } catch (err) {
     console.log(`[a11y] Failed to run: ${err.message}`);
+  }
+}
+
+// Phase 7a: Lighthouse perf + SEO + a11y + best-practices scores
+if (AGENTS.includes('lighthouse')) {
+  console.log('\n[lighthouse] Running Google Lighthouse mobile audits (one URL per category)...');
+  try {
+    await runLighthouseAgent({ urlsByCategory: byCategory, store });
+    console.log(`[lighthouse] Done. Found ${store.query({ agent: 'lighthouse', fixed: false }).length} open issues.`);
+  } catch (err) {
+    console.log(`[lighthouse] Failed to run: ${err.message}`);
+  }
+}
+
+// Phase 7b: Mobile viewport checks (iPhone 13 emulation)
+if (AGENTS.includes('mobile')) {
+  console.log('\n[mobile] Checking mobile viewport rendering (375px iPhone 13)...');
+  try {
+    await runMobileAgent({ urlsByCategory: byCategory, store });
+    console.log(`[mobile] Done. Found ${store.query({ agent: 'mobile', fixed: false }).length} open issues.`);
+  } catch (err) {
+    console.log(`[mobile] Failed to run: ${err.message}`);
+  }
+}
+
+// Phase 7c: Cross-browser smoke (firefox + webkit)
+if (AGENTS.includes('cross-browser')) {
+  console.log('\n[cross-browser] Running smoke tests on firefox + webkit...');
+  try {
+    await runCrossBrowserAgent({ baseUrl: BASE_URL, store });
+    console.log(`[cross-browser] Done. Found ${store.query({ agent: 'cross-browser', fixed: false }).length} open issues.`);
+  } catch (err) {
+    console.log(`[cross-browser] Failed to run: ${err.message}`);
+  }
+}
+
+// Phase 7d: Load test (synthetic concurrent traffic)
+if (AGENTS.includes('load')) {
+  console.log('\n[load] Running concurrent-request load checks on key endpoints...');
+  try {
+    await runLoadAgent({ baseUrl: BASE_URL, store });
+    console.log(`[load] Done. Found ${store.query({ agent: 'load', fixed: false }).length} open issues.`);
+  } catch (err) {
+    console.log(`[load] Failed to run: ${err.message}`);
+  }
+}
+
+// Phase 7e: Launch readiness checklist
+if (AGENTS.includes('launch')) {
+  console.log('\n[launch] Checking launch readiness (domain, analytics, social meta, robots, 404)...');
+  try {
+    await runLaunchChecklistAgent({ baseUrl: BASE_URL, store });
+    console.log(`[launch] Done. Found ${store.query({ agent: 'launch', fixed: false }).length} open issues.`);
+  } catch (err) {
+    console.log(`[launch] Failed to run: ${err.message}`);
   }
 }
 
