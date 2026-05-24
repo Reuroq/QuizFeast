@@ -90,7 +90,7 @@ export default async function CanonicalQPage({ params }) {
 
       <article className="max-w-3xl mx-auto px-4 pt-28 pb-20">
         <div className="mb-6">
-          <Link href="/answers" className="text-brand-400 text-sm hover:text-brand-300">
+          <Link href="/answers" className="text-brand-400 text-sm hover:text-brand-300 inline-block py-2">
             &larr; All answer keys
           </Link>
         </div>

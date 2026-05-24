@@ -205,7 +205,7 @@ export default function AnswerSearch({ qas: initialQas, sections, slug }) {
               {slug && (
                 <button
                   onClick={() => setReportingIdx(originalIndex)}
-                  className="mt-3 text-xs text-dark-500 hover:text-amber-400 transition-colors"
+                  className="mt-3 inline-block py-2 px-1 text-xs text-dark-500 hover:text-amber-400 transition-colors"
                 >
                   Wrong answer? Report it &rarr;
                 </button>
