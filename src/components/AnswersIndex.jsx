@@ -186,7 +186,7 @@ export default function AnswersIndex({ entries }) {
             <div className="mt-3 flex flex-wrap gap-1.5">
               <button
                 onClick={() => setActiveBucket(null)}
-                className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
+                className={`px-3 py-2 rounded-full text-xs font-medium transition-colors ${
                   !activeBucket
                     ? 'bg-brand-500/30 text-brand-200 border border-brand-500/40'
                     : 'bg-dark-800 text-dark-400 border border-dark-700 hover:text-dark-200'
@@ -200,7 +200,7 @@ export default function AnswersIndex({ entries }) {
                   <button
                     key={b}
                     onClick={() => setActiveBucket(active ? null : b)}
-                    className={`px-2.5 py-1 rounded-full text-xs font-medium transition-colors ${
+                    className={`px-3 py-2 rounded-full text-xs font-medium transition-colors ${
                       active
                         ? 'bg-brand-500/30 text-brand-200 border border-brand-500/40'
                         : 'bg-dark-800 text-dark-400 border border-dark-700 hover:text-dark-200'

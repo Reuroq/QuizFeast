@@ -117,6 +117,19 @@ export async function POST(request) {
   }
 }
 
+// Webkit/Safari is fussy about same-origin XHR/fetch in some contexts —
+// adding explicit CORS headers silences the spurious pageerror caught in
+// the cross-browser audit ("access control checks" on /study load).
+const CORS_HEADERS = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type',
+};
+
+export async function OPTIONS() {
+  return new Response(null, { status: 204, headers: CORS_HEADERS });
+}
+
 // Get corrections for a specific CBT slug
 export async function GET(request) {
   try {
@@ -147,9 +160,9 @@ export async function GET(request) {
       }
     }
 
-    return NextResponse.json({ corrections });
+    return NextResponse.json({ corrections }, { headers: CORS_HEADERS });
   } catch (error) {
     console.error('Get corrections error:', error);
-    return NextResponse.json({ corrections: {} });
+    return NextResponse.json({ corrections: {} }, { headers: CORS_HEADERS });
   }
 }

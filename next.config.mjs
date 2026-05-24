@@ -36,6 +36,40 @@ const nextConfig = {
           { key: 'Access-Control-Allow-Headers', value: 'Content-Type' },
         ],
       },
+      // SSG pages — cache aggressively at the edge + browser. Source data
+      // only changes on deploy, so 1hr edge + 1day stale-while-revalidate
+      // gives Render breathing room under concurrent load (the audit's
+      // load agent flagged 8s p95 on /answers without this).
+      {
+        source: '/answers',
+        headers: [
+          { key: 'Cache-Control', value: 'public, s-maxage=3600, stale-while-revalidate=86400' },
+        ],
+      },
+      {
+        source: '/answers/:slug',
+        headers: [
+          { key: 'Cache-Control', value: 'public, s-maxage=3600, stale-while-revalidate=86400' },
+        ],
+      },
+      {
+        source: '/answers/topic/:slug',
+        headers: [
+          { key: 'Cache-Control', value: 'public, s-maxage=3600, stale-while-revalidate=86400' },
+        ],
+      },
+      {
+        source: '/answers/q/:slug',
+        headers: [
+          { key: 'Cache-Control', value: 'public, s-maxage=3600, stale-while-revalidate=86400' },
+        ],
+      },
+      {
+        source: '/sitemap.xml',
+        headers: [
+          { key: 'Cache-Control', value: 'public, s-maxage=3600, stale-while-revalidate=86400' },
+        ],
+      },
     ];
   },
   async redirects() {
