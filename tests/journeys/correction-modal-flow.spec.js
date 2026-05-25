@@ -8,7 +8,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Correction modal journey: report a wrong answer', () => {
   test('Wrong-answer report button opens modal with question + current answer', async ({ page }) => {
     const t0 = Date.now();
-    await page.goto('/answers/army-cyber-awareness-challenge-2023');
+    await page.goto('/answers/navy-cyber-awareness-challenge-2023');
     await expect(page.getByPlaceholder(/Find a question/i)).toBeVisible({ timeout: 5_000 });
 
     // Click the first "Wrong answer? Report it" link on any Q card
@@ -50,7 +50,7 @@ test.describe('Correction modal journey: report a wrong answer', () => {
       resp.url().includes('/api/cbt/correct?slug=') && resp.status() === 200,
       { timeout: 8_000 }
     );
-    await page.goto('/answers/army-cyber-awareness-challenge-2023');
+    await page.goto('/answers/navy-cyber-awareness-challenge-2023');
     const resp = await corrResponse;
     const data = await resp.json();
     expect(data).toHaveProperty('corrections');

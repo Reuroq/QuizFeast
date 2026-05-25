@@ -48,8 +48,8 @@ await check('GET /answers', async () => {
   assert(html.includes('Find your CBT'), 'find bar placeholder missing');
 });
 
-await check('GET /answers/army-cyber-awareness-challenge-2023', async () => {
-  const r = await fetch(`${BASE}/answers/army-cyber-awareness-challenge-2023`);
+await check('GET /answers/navy-cyber-awareness-challenge-2023', async () => {
+  const r = await fetch(`${BASE}/answers/navy-cyber-awareness-challenge-2023`);
   assert(r.ok, `status ${r.status}`);
   const html = await r.text();
   assert(html.includes('Find a question'), 'find bar missing');
@@ -86,7 +86,7 @@ await check('API /api/answers/global-search returns expected shape', async () =>
 
 // ----- Context boost actually re-ranks -----
 await check('API context_slugs boost re-ranks results', async () => {
-  const SLUG = 'army-cyber-awareness-challenge-2023';
+  const SLUG = 'navy-cyber-awareness-challenge-2023';
   const without = await fetchOk(`${BASE}/api/answers/global-search?q=phishing`, 'json');
   const withCtx = await fetchOk(
     `${BASE}/api/answers/global-search?q=phishing&context_slugs=${SLUG}`,
@@ -138,7 +138,7 @@ await check('GET /disclaimer has not-affiliated + may-be-wrong statements', asyn
 });
 
 await check('/answers/[slug] shows community-sourced disclaimer banner', async () => {
-  const html = await fetchOk(`${BASE}/answers/army-cyber-awareness-challenge-2023`, 'text');
+  const html = await fetchOk(`${BASE}/answers/navy-cyber-awareness-challenge-2023`, 'text');
   assert(/Community-sourced/i.test(html), 'in-page disclaimer banner missing');
 });
 
@@ -156,8 +156,8 @@ await check('Footer has Terms / Privacy / DMCA / Disclaimer links', async () => 
 const BANNED_RE = /\b(quizlet|chegg|course[\s-]?hero|studocu|brainly)\b/i;
 
 await check('Banned terms not present on /answers/[slug] (live page)', async () => {
-  const html = await fetchOk(`${BASE}/answers/army-cyber-awareness-challenge-2023`, 'text');
-  assert(!BANNED_RE.test(html), `banned term leaked on /answers/army-cyber-awareness-challenge-2023`);
+  const html = await fetchOk(`${BASE}/answers/navy-cyber-awareness-challenge-2023`, 'text');
+  assert(!BANNED_RE.test(html), `banned term leaked on /answers/navy-cyber-awareness-challenge-2023`);
 });
 
 await check('Banned terms not present on /answers index', async () => {
@@ -255,7 +255,7 @@ await check('POST /api/study/recommend returns a matched set with full qas', asy
 });
 
 await check('Correction modal copy does not leak the vote threshold to visitors', async () => {
-  const html = await fetchOk(`${BASE}/answers/army-cyber-awareness-challenge-2023`, 'text');
+  const html = await fetchOk(`${BASE}/answers/navy-cyber-awareness-challenge-2023`, 'text');
   // The old copy "After 5 people submit..." was an abuse vector
   assert(!/After \d+ people submit/i.test(html), 'old threshold-leak copy still present');
   assert(!/\d+\/\d+\s+votes/i.test(html), 'vote count UI still visible');

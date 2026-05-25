@@ -24,9 +24,17 @@ import path from 'node:path';
 const ANSWERS_DIR = 'public/data/answers';
 const OUT_FILE = 'scripts/dedupe_redirects.json';
 
-const JACCARD_THRESHOLD = 0.6;  // 60% — empirically the right balance after
-                                // first audit found near-dup misses at 70%
-                                // (e.g. restricted-vs-unrestricted-sharp)
+const JACCARD_THRESHOLD = 0.85;  // 85% — empirically the right floor.
+                                 // - 0.6: merged 1,717 pairs incl. wrong matches
+                                 // - 0.7: merged 1,496 pairs incl. army/navy
+                                 //   cyber awareness (siblings, not dups)
+                                 // - 0.85: only merges truly-identical sets
+                                 //   and 90%+ near-identical pairs (e.g.
+                                 //   "5-basic-steps-in-the-opsec-process" vs
+                                 //   "opsec-5-steps" at 100%). Sibling sets
+                                 //   that share core questions but have
+                                 //   distinct identity stay as separate
+                                 //   pages with cross-links via alternates.
 
 function questionKey(s, wordCount = 8) {
   const norm = (s || '').toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, ' ').trim();

@@ -17,17 +17,19 @@ test.describe('Cold visitor journey: homepage -> CBT -> find answer', () => {
     await expect(page).toHaveURL(/\/answers$/);
     await expect(page.getByPlaceholder(/Find your CBT/i)).toBeVisible({ timeout: 5_000 });
 
-    // Step 3: type a CBT name into the find bar
-    await page.getByPlaceholder(/Find your CBT/i).fill('army cyber awareness');
+    // Step 3: type a CBT name into the find bar. Use "navy" because that's a
+    // stable, non-redirected canonical (army-cyber-awareness-challenge-2023
+    // 100%-redirects to dod-cyber-awareness-2023 via dedupe pass 7).
+    await page.getByPlaceholder(/Find your CBT/i).fill('navy cyber awareness');
     // Local title filter is instant; cross-CBT API search is debounced 220ms
     await page.waitForTimeout(400);
 
     // Step 4: click into the result — when a query is active the href includes
     // ?q=... so use a prefix match
-    const matchLink = page.locator('a[href^="/answers/army-cyber-awareness-challenge-2023"]').first();
+    const matchLink = page.locator('a[href^="/answers/navy-cyber-awareness-challenge-2023"]').first();
     await expect(matchLink).toBeVisible({ timeout: 5_000 });
     await matchLink.click();
-    await expect(page).toHaveURL(/\/answers\/army-cyber-awareness-challenge-2023/);
+    await expect(page).toHaveURL(/\/answers\/navy-cyber-awareness-challenge-2023/);
 
     // Step 5: page's find bar is pre-filled with our index query, which
     // filters out everything (CBT-name queries don't match Q text). Clear it

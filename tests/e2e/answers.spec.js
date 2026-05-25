@@ -4,7 +4,7 @@
 
 import { test, expect } from '@playwright/test';
 
-const SAMPLE_QA_SLUG = 'army-cyber-awareness-challenge-2023';
+const SAMPLE_QA_SLUG = 'navy-cyber-awareness-challenge-2023';
 const SAMPLE_TOPIC = 'spillage';
 
 test.describe('/answers index page', () => {

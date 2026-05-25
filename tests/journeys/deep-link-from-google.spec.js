@@ -7,7 +7,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Deep-link from search engine: ?q + #q-N anchor', () => {
   test('arriving with ?q=spillage#q-1 pre-fills find bar and scrolls to Q1', async ({ page }) => {
     const t0 = Date.now();
-    await page.goto('/answers/army-cyber-awareness-challenge-2023?q=spillage#q-1');
+    await page.goto('/answers/navy-cyber-awareness-challenge-2023?q=spillage#q-1');
 
     // Find bar should be pre-filled with the URL query
     const findBar = page.getByPlaceholder(/Find a question/i);
