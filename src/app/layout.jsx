@@ -3,7 +3,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://quizfeast.onrender.com';
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://quizfeast.com';
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;  // e.g. G-XXXXXXXXXX — leave unset to disable
 
 export const metadata = {

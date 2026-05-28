@@ -26,7 +26,7 @@ export default function TermsPage() {
             <p>
               QuizFeast is operated by <strong>Nightshift Labs LLC</strong>, a limited liability company organized
               under the laws of the State of Nevada (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;). The
-              Service is available at quizfeast.onrender.com and any related subdomains.
+              Service is available at quizfeast.com and any related subdomains.
             </p>
           </section>
 

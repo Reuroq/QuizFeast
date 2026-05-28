@@ -2,11 +2,11 @@
 // Runs against production by default; override with PLAYWRIGHT_BASE_URL.
 //
 // Local: npm run test:journeys (uses dev server)
-// Prod:  npm run test:journeys:prod (hits quizfeast.onrender.com)
+// Prod:  npm run test:journeys:prod (hits quizfeast.com)
 
 import { defineConfig, devices } from '@playwright/test';
 
-const PROD_URL = 'https://quizfeast.onrender.com';
+const PROD_URL = 'https://quizfeast.com';
 
 export default defineConfig({
   testDir: './tests/journeys',

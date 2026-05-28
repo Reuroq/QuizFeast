@@ -24,7 +24,7 @@ import { runLoadAgent } from './agents/load.mjs';
 import { runLaunchChecklistAgent } from './agents/launch-checklist.mjs';
 import { runAutoFix } from './agents/auto-fix.mjs';
 
-const BASE_URL = process.env.AUDIT_BASE || 'https://quizfeast.onrender.com';
+const BASE_URL = process.env.AUDIT_BASE || 'https://quizfeast.com';
 const AGENTS = (process.env.AUDIT_AGENTS || 'functional,legal,content,set-id,a11y,lighthouse,mobile,cross-browser,load,launch').split(',').map(s => s.trim());
 const SET_ID_SAMPLE = parseInt(process.env.AUDIT_SET_ID_SAMPLE || '30', 10);
 const CONTENT_SAMPLE = parseInt(process.env.AUDIT_CONTENT_SAMPLE || '20', 10);

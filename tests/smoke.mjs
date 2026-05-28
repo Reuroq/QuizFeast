@@ -3,7 +3,7 @@
 // the running site to confirm the surface isn't broken.
 //
 // Run: npm run test:smoke
-// Run against prod: BASE_URL=https://quizfeast.onrender.com npm run test:smoke
+// Run against prod: BASE_URL=https://quizfeast.com npm run test:smoke
 
 const BASE = process.env.BASE_URL || 'http://localhost:3000';
 

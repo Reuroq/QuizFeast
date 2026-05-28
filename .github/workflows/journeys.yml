@@ -46,7 +46,7 @@ jobs:
 
       - name: Run synthetic user-journey suite against production
         env:
-          PLAYWRIGHT_BASE_URL: https://quizfeast.onrender.com
+          PLAYWRIGHT_BASE_URL: https://quizfeast.com
           CI: 'true'
         run: npm run test:journeys
 

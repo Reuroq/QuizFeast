@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://quizfeast.onrender.com';
+const BASE = process.env.NEXT_PUBLIC_SITE_URL || 'https://quizfeast.com';
 
 export default function sitemap() {
   const now = new Date().toISOString();

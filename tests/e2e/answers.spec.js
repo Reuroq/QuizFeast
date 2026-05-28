@@ -1,6 +1,6 @@
 // End-to-end tests for the /answers surface.
 // Run: npm run test:e2e
-// Run against prod: PLAYWRIGHT_BASE_URL=https://quizfeast.onrender.com npm run test:e2e
+// Run against prod: PLAYWRIGHT_BASE_URL=https://quizfeast.com npm run test:e2e
 
 import { test, expect } from '@playwright/test';
 

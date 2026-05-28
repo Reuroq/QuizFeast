@@ -1,7 +1,7 @@
 // QuizFeast — 5 Student Simulation (Live Site Test)
-// Tests real endpoints on https://quizfeast.onrender.com
+// Tests real endpoints on https://quizfeast.com
 
-const BASE = process.env.TEST_URL || 'https://quizfeast.onrender.com';
+const BASE = process.env.TEST_URL || 'https://quizfeast.com';
 
 let passed = 0, failed = 0, total = 0;
 

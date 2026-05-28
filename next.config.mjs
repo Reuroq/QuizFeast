@@ -73,7 +73,18 @@ const nextConfig = {
     ];
   },
   async redirects() {
-    return loadDedupeRedirects();
+    return [
+      // Canonical-host redirect: anyone landing on quizfeast.onrender.com gets
+      // 301'd to the branded quizfeast.com. Prevents Google from indexing both
+      // domains and treating them as duplicates. Matches every path.
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'quizfeast.onrender.com' }],
+        destination: 'https://quizfeast.com/:path*',
+        permanent: true,
+      },
+      ...loadDedupeRedirects(),
+    ];
   },
 };
 

@@ -29,5 +29,5 @@ jobs:
           node-version: 20
       - name: Run smoke suite against production
         env:
-          BASE_URL: https://quizfeast.onrender.com
+          BASE_URL: https://quizfeast.com
         run: node tests/smoke.mjs
