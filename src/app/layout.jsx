@@ -4,7 +4,10 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://quizfeast.com';
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID;  // e.g. G-XXXXXXXXXX — leave unset to disable
+// GA4 Measurement ID. Public by nature (loaded by every browser via gtag.js),
+// so safe to bake into the source. Override via NEXT_PUBLIC_GA_ID env var if
+// you need a different property (staging/dev/preview).
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID || 'G-TFR86PLGGV';
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
