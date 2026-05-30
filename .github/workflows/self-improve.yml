@@ -1,0 +1,108 @@
+name: self-improve
+
+# Daily self-maintenance for QuizFeast (Next.js 14 / Node 20).
+#
+# Scope is deliberately NARROW so it does not duplicate the other crons:
+#   - smoke.yml     -> prod smoke checks every 30 min
+#   - journeys.yml  -> synthetic Playwright user journeys every 2 hours
+# This workflow ONLY does: prod health gate + dependency-security audit +
+# build-gated SAFE auto-commit of patch-level dependency fixes.
+#
+# Autonomy: AUTO-FIX SAFE / ALERT RISKY.
+#   - Safe, patch-level `npm audit fix` changes are auto-committed, but ONLY
+#     after `npm run build` passes as a hard gate.
+#   - Anything that needs a breaking/major bump (`npm audit fix --force`) is
+#     NEVER applied automatically; it is written to the job summary so the
+#     owner is alerted and can act manually.
+#   - If the build fails, NOTHING is committed and the job fails, which emails
+#     the repo owner via GitHub's default notification path.
+
+on:
+  schedule:
+    # Daily at 06:00 UTC. Staggered off smoke (*/30) and journeys (0 */2).
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write              # needed to auto-commit safe dependency fixes
+
+concurrency:
+  group: self-improve-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  health:
+    name: prod health check
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Curl production URL(s)
+        run: |
+          fail=0
+          for url in https://quizfeast.com; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" -m 30 "$url" || echo 000)
+            echo "$url -> $code"
+            case "$code" in
+              200|301|308) ;;
+              *) echo "::error::$url returned $code"; fail=1;;
+            esac
+          done
+          exit $fail
+
+  maintain:
+    name: dep-security + safe auto-fix (build-gated)
+    runs-on: ubuntu-latest
+    needs: health
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install deps (deterministic via package-lock)
+        run: npm ci
+
+      # --- Dependency security audit: report findings to the job summary ---
+      - name: npm audit (report to summary)
+        run: |
+          echo "## Dependency security audit" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          npm audit --audit-level=moderate >> "$GITHUB_STEP_SUMMARY" 2>&1 || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      # --- Apply ONLY safe, non-breaking fixes (no --force / no major bumps) ---
+      - name: Apply safe (patch-level) dependency fixes
+        run: |
+          npm audit fix || true
+
+      # --- Alert (do NOT auto-apply) on fixes that need breaking changes ---
+      - name: Detect remaining vulns that require breaking changes
+        run: |
+          echo "## Vulns requiring manual review (breaking / --force)" >> "$GITHUB_STEP_SUMMARY"
+          remaining=$(npm audit --json 2>/dev/null \
+            | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const a=JSON.parse(s).metadata.vulnerabilities;console.log((a.total||0))}catch(e){console.log(0)}})')
+          echo "Remaining advisories after safe fix: ${remaining:-0}" >> "$GITHUB_STEP_SUMMARY"
+          if [ "${remaining:-0}" != "0" ]; then
+            echo "::warning::${remaining} advisory(ies) remain that npm could not fix safely. Review 'npm audit fix --force' manually."
+          fi
+
+      # --- BUILD GATE: if this fails, do NOT commit, fail the job (emails owner) ---
+      - name: Build gate (next build)
+        run: npm run build
+
+      # --- Commit ONLY if the build gate passed AND there are changes ---
+      - name: Commit safe fixes (only if gate passed + changes exist)
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name  "self-improve-bot"
+            git config user.email "self-improve-bot@users.noreply.github.com"
+            git add -A
+            git commit -m "chore(self-improve): dep-security patch-level fixes [skip ci]"
+            git push
+          else
+            echo "nothing to commit"
+          fi
